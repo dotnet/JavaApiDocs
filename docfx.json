@@ -11,7 +11,9 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "version":"aspnet-signalr-java"
+
       },
       {
         "files": [
@@ -22,7 +24,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "version":"aspnet-signalr-java"
       },
       {
         "files": [
@@ -36,7 +39,8 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "docs-ref-autogen"
-        ]
+        ],
+        "version":"aspnet-signalr-java"
       }
     ],
     "resource": [
