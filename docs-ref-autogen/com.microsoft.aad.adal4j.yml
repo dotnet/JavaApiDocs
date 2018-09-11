@@ -1,0 +1,33 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aad.adal4j
+  id: adal4j
+  children:
+  - com.microsoft.aad.adal4j._adal_claims_challenge_exception
+  href: com.microsoft.aad.adal4j.yml
+  langs:
+  - java
+  name: com.microsoft.aad.adal4j
+  nameWithType: com.microsoft.aad.adal4j
+  fullName: com.microsoft.aad.adal4j
+  type: Namespace
+  source:
+    remote:
+      path: src/main/java/com/microsoft/aad/adal4j/AdalAccessTokenResponse.java
+      branch: master
+      repo: https://github.com/AzureAD/azure-activedirectory-library-for-java
+    path: src/main/java/com/microsoft/aad/adal4j/AdalAccessTokenResponse.java
+    startLine: 23
+  syntax:
+    content: package com.microsoft.aad.adal4j
+references:
+- uid: com.microsoft.aad.adal4j._adal_claims_challenge_exception
+  parent: com.microsoft.aad.adal4j
+  href: com.microsoft.aad.adal4j._adal_claims_challenge_exception.yml
+  name: AdalClaimsChallengeException
+  nameWithType: AdalClaimsChallengeException
+  fullName: com.microsoft.aad.adal4j.AdalClaimsChallengeException
+  type: Class
+  summary: <p>The exception type thrown when a claims challenge error occurs during token acquisition. </p>
+  syntax:
+    content: public class AdalClaimsChallengeException extends AuthenticationException

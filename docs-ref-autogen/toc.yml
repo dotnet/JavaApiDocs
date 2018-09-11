@@ -1,0 +1,15 @@
+### YamlMime:TableOfContent
+- uid: com.microsoft.aad.adal4j
+  name: com.microsoft.aad.adal4j
+  href: com.microsoft.aad.adal4j.yml
+  items:
+  - uid: com.microsoft.aad.adal4j._adal_claims_challenge_exception
+    name: AdalClaimsChallengeException
+    href: com.microsoft.aad.adal4j._adal_claims_challenge_exception.yml
+- uid: com.microsoft.applicationinsights
+  name: com.microsoft.applicationinsights
+  href: com.microsoft.applicationinsights.yml
+  items:
+  - uid: com.microsoft.applicationinsights._telemetry_client
+    name: TelemetryClient
+    href: com.microsoft.applicationinsights._telemetry_client.yml
