@@ -12,7 +12,7 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "version": "aspnet-signalr-java"
+        "group": "signalr"
       },
       {
         "files": [
@@ -24,7 +24,7 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "version": "aspnet-signalr-java"
+        "group": "signalr"
       },
       {
         "files": [
@@ -39,12 +39,13 @@
           "ThirdPartyNotices",
           "docs-ref-autogen"
         ],
-        "version": "aspnet-signalr-java"
+        "group": "signalr"
       }
     ],
-    "versions": {
-      "aspnet-signalr-java": {
-        "dest": "aspnet-signalr-java-dest"
+    "groups": {
+      "signalr": {
+        "dest": "random",
+        "moniker_range": "aspnet-signalr-java"
       }
     },
     "resource": [
