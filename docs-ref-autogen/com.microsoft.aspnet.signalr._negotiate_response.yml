@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._negotiate_response
+  id: _negotiate_response
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._negotiate_response.getAccessToken()
+  - com.microsoft.aspnet.signalr._negotiate_response.getAvailableTransports()
+  - com.microsoft.aspnet.signalr._negotiate_response.getConnectionId()
+  - com.microsoft.aspnet.signalr._negotiate_response.getRedirectUrl()
+  - com.microsoft.aspnet.signalr._negotiate_response.NegotiateResponse(String)
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: NegotiateResponse
+  nameWithType: NegotiateResponse
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 12
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class NegotiateResponse
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getAccessToken()
+  id: getAccessToken()
+  parent: com.microsoft.aspnet.signalr._negotiate_response
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: getAccessToken()
+  nameWithType: NegotiateResponse.getAccessToken()
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getAccessToken()
+  overload: com.microsoft.aspnet.signalr._negotiate_response.getAccessToken*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 47
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public String getAccessToken()
+    return:
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getAvailableTransports()
+  id: getAvailableTransports()
+  parent: com.microsoft.aspnet.signalr._negotiate_response
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: getAvailableTransports()
+  nameWithType: NegotiateResponse.getAvailableTransports()
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getAvailableTransports()
+  overload: com.microsoft.aspnet.signalr._negotiate_response.getAvailableTransports*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 39
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Set<String> getAvailableTransports()
+    return:
+      type: df32358c
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getConnectionId()
+  id: getConnectionId()
+  parent: com.microsoft.aspnet.signalr._negotiate_response
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: getConnectionId()
+  nameWithType: NegotiateResponse.getConnectionId()
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getConnectionId()
+  overload: com.microsoft.aspnet.signalr._negotiate_response.getConnectionId*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 35
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public String getConnectionId()
+    return:
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getRedirectUrl()
+  id: getRedirectUrl()
+  parent: com.microsoft.aspnet.signalr._negotiate_response
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: getRedirectUrl()
+  nameWithType: NegotiateResponse.getRedirectUrl()
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getRedirectUrl()
+  overload: com.microsoft.aspnet.signalr._negotiate_response.getRedirectUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 43
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public String getRedirectUrl()
+    return:
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._negotiate_response.NegotiateResponse(String)
+  id: NegotiateResponse(String)
+  parent: com.microsoft.aspnet.signalr._negotiate_response
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  langs:
+  - java
+  name: NegotiateResponse(String negotiatePayload)
+  nameWithType: NegotiateResponse.NegotiateResponse(String negotiatePayload)
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.NegotiateResponse(String negotiatePayload)
+  overload: com.microsoft.aspnet.signalr._negotiate_response.NegotiateResponse*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/NegotiateResponse.java
+    startLine: 19
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public NegotiateResponse(String negotiatePayload)
+    parameters:
+    - id: negotiatePayload
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.aspnet.signalr._negotiate_response.NegotiateResponse*
+  name: NegotiateResponse
+  nameWithType: NegotiateResponse.NegotiateResponse
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.NegotiateResponse
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getConnectionId*
+  name: getConnectionId
+  nameWithType: NegotiateResponse.getConnectionId
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getConnectionId
+  package: com.microsoft.aspnet.signalr
+- uid: df32358c
+  spec.java:
+  - name: Set<String>
+    fullName: Set<String>
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getAvailableTransports*
+  name: getAvailableTransports
+  nameWithType: NegotiateResponse.getAvailableTransports
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getAvailableTransports
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getRedirectUrl*
+  name: getRedirectUrl
+  nameWithType: NegotiateResponse.getRedirectUrl
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getRedirectUrl
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._negotiate_response.getAccessToken*
+  name: getAccessToken
+  nameWithType: NegotiateResponse.getAccessToken
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse.getAccessToken
+  package: com.microsoft.aspnet.signalr

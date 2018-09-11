@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._callback_map
+  id: _callback_map
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._callback_map.containsKey(String)
+  - com.microsoft.aspnet.signalr._callback_map.get(String)
+  - com.microsoft.aspnet.signalr._callback_map.put(String,ActionBase)
+  - com.microsoft.aspnet.signalr._callback_map.remove(String)
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  langs:
+  - java
+  name: CallbackMap
+  nameWithType: CallbackMap
+  fullName: com.microsoft.aspnet.signalr.CallbackMap
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+    startLine: 10
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class CallbackMap
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.aspnet.signalr._callback_map.containsKey(String)
+  id: containsKey(String)
+  parent: com.microsoft.aspnet.signalr._callback_map
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  langs:
+  - java
+  name: containsKey(String key)
+  nameWithType: CallbackMap.containsKey(String key)
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.containsKey(String key)
+  overload: com.microsoft.aspnet.signalr._callback_map.containsKey*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+    startLine: 21
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Boolean containsKey(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+    return:
+      type: 866c2227
+- uid: com.microsoft.aspnet.signalr._callback_map.get(String)
+  id: get(String)
+  parent: com.microsoft.aspnet.signalr._callback_map
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  langs:
+  - java
+  name: get(String key)
+  nameWithType: CallbackMap.get(String key)
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.get(String key)
+  overload: com.microsoft.aspnet.signalr._callback_map.get*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+    startLine: 25
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public List<ActionBase> get(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+    return:
+      type: 5618da2dcom.microsoft.aspnet.signalr._action_basea08ddfce
+- uid: com.microsoft.aspnet.signalr._callback_map.put(String,ActionBase)
+  id: put(String,ActionBase)
+  parent: com.microsoft.aspnet.signalr._callback_map
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  langs:
+  - java
+  name: put(String target, ActionBase action)
+  nameWithType: CallbackMap.put(String target, ActionBase action)
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.put(String target, ActionBase action)
+  overload: com.microsoft.aspnet.signalr._callback_map.put*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+    startLine: 13
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void put(String target, ActionBase action)
+    parameters:
+    - id: target
+      type: "26831127"
+    - id: action
+      type: com.microsoft.aspnet.signalr._action_base
+- uid: com.microsoft.aspnet.signalr._callback_map.remove(String)
+  id: remove(String)
+  parent: com.microsoft.aspnet.signalr._callback_map
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  langs:
+  - java
+  name: remove(String key)
+  nameWithType: CallbackMap.remove(String key)
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.remove(String key)
+  overload: com.microsoft.aspnet.signalr._callback_map.remove*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/CallbackMap.java
+    startLine: 29
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void remove(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.aspnet.signalr._callback_map.put*
+  name: put
+  nameWithType: CallbackMap.put
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.put
+  package: com.microsoft.aspnet.signalr
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.aspnet.signalr._callback_map.containsKey*
+  name: containsKey
+  nameWithType: CallbackMap.containsKey
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.containsKey
+  package: com.microsoft.aspnet.signalr
+- uid: 5618da2dcom.microsoft.aspnet.signalr._action_basea08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.aspnet.signalr._action_base
+    name: ActionBase
+    fullName: com.microsoft.aspnet.signalr.ActionBase
+    href: com.microsoft.aspnet.signalr._action_base.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.aspnet.signalr._callback_map.get*
+  name: get
+  nameWithType: CallbackMap.get
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.get
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._callback_map.remove*
+  name: remove
+  nameWithType: CallbackMap.remove
+  fullName: com.microsoft.aspnet.signalr.CallbackMap.remove
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._action_base
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action_base.yml
+  name: ActionBase
+  nameWithType: ActionBase
+  fullName: com.microsoft.aspnet.signalr.ActionBase
+  type: Interface
+  syntax:
+    content: public interface ActionBase

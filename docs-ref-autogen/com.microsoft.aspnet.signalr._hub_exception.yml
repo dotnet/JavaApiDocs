@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._hub_exception
+  id: _hub_exception
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._hub_exception.HubException()
+  - com.microsoft.aspnet.signalr._hub_exception.HubException(String)
+  - com.microsoft.aspnet.signalr._hub_exception.HubException(String,Exception)
+  href: com.microsoft.aspnet.signalr._hub_exception.yml
+  langs:
+  - java
+  name: HubException
+  nameWithType: HubException
+  fullName: com.microsoft.aspnet.signalr.HubException
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubException.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubException.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class HubException
+  inheritance:
+  - java.lang.Object
+  - Exception
+- uid: com.microsoft.aspnet.signalr._hub_exception.HubException()
+  id: HubException()
+  parent: com.microsoft.aspnet.signalr._hub_exception
+  href: com.microsoft.aspnet.signalr._hub_exception.yml
+  langs:
+  - java
+  name: HubException()
+  nameWithType: HubException.HubException()
+  fullName: com.microsoft.aspnet.signalr.HubException.HubException()
+  overload: com.microsoft.aspnet.signalr._hub_exception.HubException*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubException.java
+    startLine: 6
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubException()
+- uid: com.microsoft.aspnet.signalr._hub_exception.HubException(String)
+  id: HubException(String)
+  parent: com.microsoft.aspnet.signalr._hub_exception
+  href: com.microsoft.aspnet.signalr._hub_exception.yml
+  langs:
+  - java
+  name: HubException(String errorMessage)
+  nameWithType: HubException.HubException(String errorMessage)
+  fullName: com.microsoft.aspnet.signalr.HubException.HubException(String errorMessage)
+  overload: com.microsoft.aspnet.signalr._hub_exception.HubException*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubException.java
+    startLine: 9
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubException(String errorMessage)
+    parameters:
+    - id: errorMessage
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._hub_exception.HubException(String,Exception)
+  id: HubException(String,Exception)
+  parent: com.microsoft.aspnet.signalr._hub_exception
+  href: com.microsoft.aspnet.signalr._hub_exception.yml
+  langs:
+  - java
+  name: HubException(String errorMessage, Exception innerException)
+  nameWithType: HubException.HubException(String errorMessage, Exception innerException)
+  fullName: com.microsoft.aspnet.signalr.HubException.HubException(String errorMessage, Exception innerException)
+  overload: com.microsoft.aspnet.signalr._hub_exception.HubException*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubException.java
+    startLine: 13
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubException(String errorMessage, Exception innerException)
+    parameters:
+    - id: errorMessage
+      type: "26831127"
+    - id: innerException
+      type: 8a99d4b0
+references:
+- uid: com.microsoft.aspnet.signalr._hub_exception.HubException*
+  name: HubException
+  nameWithType: HubException.HubException
+  fullName: com.microsoft.aspnet.signalr.HubException.HubException
+  package: com.microsoft.aspnet.signalr
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception

@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._logger
+  id: _logger
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._logger.log(LogLevel,String,Object ...)
+  - com.microsoft.aspnet.signalr._logger.log(LogLevel,String)
+  href: com.microsoft.aspnet.signalr._logger.yml
+  langs:
+  - java
+  name: Logger
+  nameWithType: Logger
+  fullName: com.microsoft.aspnet.signalr.Logger
+  type: Interface
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Logger.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Logger.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public interface Logger
+- uid: com.microsoft.aspnet.signalr._logger.log(LogLevel,String,Object ...)
+  id: )
+  parent: com.microsoft.aspnet.signalr._logger
+  href: com.microsoft.aspnet.signalr._logger.yml
+  langs:
+  - java
+  name: log(LogLevel logLevel, String formattedMessage, Object ... args)
+  nameWithType: Logger.log(LogLevel logLevel, String formattedMessage, Object ... args)
+  fullName: com.microsoft.aspnet.signalr.Logger.log(LogLevel logLevel, String formattedMessage, Object ... args)
+  overload: com.microsoft.aspnet.signalr._logger.log*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Logger.java
+    startLine: 7
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void log(LogLevel logLevel, String formattedMessage, Object ... args)
+    parameters:
+    - id: logLevel
+      type: com.microsoft.aspnet.signalr._log_level
+    - id: formattedMessage
+      type: "26831127"
+    - id: args
+      type: 6bfbc705
+- uid: com.microsoft.aspnet.signalr._logger.log(LogLevel,String)
+  id: log(LogLevel,String)
+  parent: com.microsoft.aspnet.signalr._logger
+  href: com.microsoft.aspnet.signalr._logger.yml
+  langs:
+  - java
+  name: log(LogLevel logLevel, String message)
+  nameWithType: Logger.log(LogLevel logLevel, String message)
+  fullName: com.microsoft.aspnet.signalr.Logger.log(LogLevel logLevel, String message)
+  overload: com.microsoft.aspnet.signalr._logger.log*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Logger.java
+    startLine: 6
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void log(LogLevel logLevel, String message)
+    parameters:
+    - id: logLevel
+      type: com.microsoft.aspnet.signalr._log_level
+    - id: message
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.aspnet.signalr._logger.log*
+  name: log
+  nameWithType: Logger.log
+  fullName: com.microsoft.aspnet.signalr.Logger.log
+  package: com.microsoft.aspnet.signalr
+- uid: 6bfbc705
+  spec.java:
+  - name: Object ...
+    fullName: Object ...
+- uid: com.microsoft.aspnet.signalr._console_logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._console_logger.yml
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: com.microsoft.aspnet.signalr.ConsoleLogger
+  type: Class
+  syntax:
+    content: public class ConsoleLogger implements Logger
+- uid: com.microsoft.aspnet.signalr._null_logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._null_logger.yml
+  name: NullLogger
+  nameWithType: NullLogger
+  fullName: com.microsoft.aspnet.signalr.NullLogger
+  type: Class
+  syntax:
+    content: public class NullLogger
+- uid: com.microsoft.aspnet.signalr._null_logger.log(LogLevel,String)
+  parent: com.microsoft.aspnet.signalr._null_logger
+  href: com.microsoft.aspnet.signalr._null_logger.yml
+  name: log(LogLevel logLevel, String message)
+  nameWithType: NullLogger.log(LogLevel logLevel, String message)
+  fullName: com.microsoft.aspnet.signalr.NullLogger.log(LogLevel logLevel, String message)
+  type: Method
+  syntax:
+    content: public void log(LogLevel logLevel, String message)
+    parameters:
+    - id: logLevel
+      type: com.microsoft.aspnet.signalr._log_level
+    - id: message
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._console_logger.log(LogLevel,String)
+  parent: com.microsoft.aspnet.signalr._console_logger
+  href: com.microsoft.aspnet.signalr._console_logger.yml
+  name: log(LogLevel logLevel, String message)
+  nameWithType: ConsoleLogger.log(LogLevel logLevel, String message)
+  fullName: com.microsoft.aspnet.signalr.ConsoleLogger.log(LogLevel logLevel, String message)
+  type: Method
+  syntax:
+    content: public void log(LogLevel logLevel, String message)
+    parameters:
+    - id: logLevel
+      type: com.microsoft.aspnet.signalr._log_level
+    - id: message
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._log_level
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: com.microsoft.aspnet.signalr.LogLevel
+  type: Enum
+  syntax:
+    content: public enum LogLevel

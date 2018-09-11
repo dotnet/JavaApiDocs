@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._subscription
+  id: _subscription
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,ActionBase,String)
+  - com.microsoft.aspnet.signalr._subscription.unsubscribe()
+  href: com.microsoft.aspnet.signalr._subscription.yml
+  langs:
+  - java
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.aspnet.signalr.Subscription
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Subscription.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Subscription.java
+    startLine: 7
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class Subscription
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,ActionBase,String)
+  id: Subscription(CallbackMap,ActionBase,String)
+  parent: com.microsoft.aspnet.signalr._subscription
+  href: com.microsoft.aspnet.signalr._subscription.yml
+  langs:
+  - java
+  name: Subscription(CallbackMap handlers, ActionBase action, String target)
+  nameWithType: Subscription.Subscription(CallbackMap handlers, ActionBase action, String target)
+  fullName: com.microsoft.aspnet.signalr.Subscription.Subscription(CallbackMap handlers, ActionBase action, String target)
+  overload: com.microsoft.aspnet.signalr._subscription.Subscription*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Subscription.java
+    startLine: 12
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Subscription(CallbackMap handlers, ActionBase action, String target)
+    parameters:
+    - id: handlers
+      type: com.microsoft.aspnet.signalr._callback_map
+    - id: action
+      type: com.microsoft.aspnet.signalr._action_base
+    - id: target
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._subscription.unsubscribe()
+  id: unsubscribe()
+  parent: com.microsoft.aspnet.signalr._subscription
+  href: com.microsoft.aspnet.signalr._subscription.yml
+  langs:
+  - java
+  name: unsubscribe()
+  nameWithType: Subscription.unsubscribe()
+  fullName: com.microsoft.aspnet.signalr.Subscription.unsubscribe()
+  overload: com.microsoft.aspnet.signalr._subscription.unsubscribe*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Subscription.java
+    startLine: 18
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void unsubscribe()
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.aspnet.signalr._subscription.Subscription*
+  name: Subscription
+  nameWithType: Subscription.Subscription
+  fullName: com.microsoft.aspnet.signalr.Subscription.Subscription
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._subscription.unsubscribe*
+  name: unsubscribe
+  nameWithType: Subscription.unsubscribe
+  fullName: com.microsoft.aspnet.signalr.Subscription.unsubscribe
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._callback_map
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  name: CallbackMap
+  nameWithType: CallbackMap
+  fullName: com.microsoft.aspnet.signalr.CallbackMap
+  type: Class
+  syntax:
+    content: public class CallbackMap
+- uid: com.microsoft.aspnet.signalr._action_base
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action_base.yml
+  name: ActionBase
+  nameWithType: ActionBase
+  fullName: com.microsoft.aspnet.signalr.ActionBase
+  type: Interface
+  syntax:
+    content: public interface ActionBase

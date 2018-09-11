@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._web_socket_transport
+  id: _web_socket_transport
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._web_socket_transport.getUrl()
+  - com.microsoft.aspnet.signalr._web_socket_transport.onReceive(String)
+  - com.microsoft.aspnet.signalr._web_socket_transport.send(String)
+  - com.microsoft.aspnet.signalr._web_socket_transport.setOnReceive(OnReceiveCallBack)
+  - com.microsoft.aspnet.signalr._web_socket_transport.start()
+  - com.microsoft.aspnet.signalr._web_socket_transport.stop()
+  - com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport(String,Logger)
+  - com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport(String,Logger,Map<String, String>)
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: WebSocketTransport
+  nameWithType: WebSocketTransport
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 12
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class WebSocketTransport implements Transport
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.aspnet.signalr._transport
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.getUrl()
+  id: getUrl()
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: getUrl()
+  nameWithType: WebSocketTransport.getUrl()
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.getUrl()
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.getUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 34
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public URI getUrl()
+    return:
+      type: "62304784"
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.onReceive(String)
+  id: onReceive(String)
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: onReceive(String message)
+  nameWithType: WebSocketTransport.onReceive(String message)
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.onReceive(String message)
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.onReceive*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 73
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void onReceive(String message)
+    parameters:
+    - id: message
+      type: "26831127"
+  overridden: com.microsoft.aspnet.signalr._transport.onReceive(String)
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.send(String)
+  id: send(String)
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: send(String message)
+  nameWithType: WebSocketTransport.send(String message)
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.send(String message)
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.send*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 62
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void send(String message)
+    parameters:
+    - id: message
+      type: "26831127"
+  overridden: com.microsoft.aspnet.signalr._transport.send(String)
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.setOnReceive(OnReceiveCallBack)
+  id: setOnReceive(OnReceiveCallBack)
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: setOnReceive(OnReceiveCallBack callback)
+  nameWithType: WebSocketTransport.setOnReceive(OnReceiveCallBack callback)
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.setOnReceive(OnReceiveCallBack callback)
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.setOnReceive*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 67
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void setOnReceive(OnReceiveCallBack callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.aspnet.signalr._on_receive_call_back
+  overridden: com.microsoft.aspnet.signalr._transport.setOnReceive(OnReceiveCallBack)
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.start()
+  id: start()
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: start()
+  nameWithType: WebSocketTransport.start()
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.start()
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.start*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 49
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void start()
+  overridden: com.microsoft.aspnet.signalr._transport.start()
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.stop()
+  id: stop()
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: stop()
+  nameWithType: WebSocketTransport.stop()
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.stop()
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.stop*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 78
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void stop()
+  overridden: com.microsoft.aspnet.signalr._transport.stop()
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport(String,Logger)
+  id: WebSocketTransport(String,Logger)
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: WebSocketTransport(String url, Logger logger)
+  nameWithType: WebSocketTransport.WebSocketTransport(String url, Logger logger)
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.WebSocketTransport(String url, Logger logger)
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 30
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public WebSocketTransport(String url, Logger logger)
+    parameters:
+    - id: url
+      type: "26831127"
+    - id: logger
+      type: com.microsoft.aspnet.signalr._logger
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport(String,Logger,Map<String, String>)
+  id: WebSocketTransport(String,Logger,Map<String, String>)
+  parent: com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  langs:
+  - java
+  name: WebSocketTransport(String url, Logger logger, Map<String, String> headers)
+  nameWithType: WebSocketTransport.WebSocketTransport(String url, Logger logger, Map<String, String> headers)
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.WebSocketTransport(String url, Logger logger, Map<String, String> headers)
+  overload: com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/WebSocketTransport.java
+    startLine: 24
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public WebSocketTransport(String url, Logger logger, Map<String, String> headers)
+    parameters:
+    - id: url
+      type: "26831127"
+    - id: logger
+      type: com.microsoft.aspnet.signalr._logger
+    - id: headers
+      type: 689c8cb5
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 689c8cb5
+  spec.java:
+  - name: Map<String, String>
+    fullName: Map<String, String>
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.WebSocketTransport*
+  name: WebSocketTransport
+  nameWithType: WebSocketTransport.WebSocketTransport
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.WebSocketTransport
+  package: com.microsoft.aspnet.signalr
+- uid: "62304784"
+  spec.java:
+  - name: URI
+    fullName: URI
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.getUrl*
+  name: getUrl
+  nameWithType: WebSocketTransport.getUrl
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.getUrl
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.start*
+  name: start
+  nameWithType: WebSocketTransport.start
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.start
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.send*
+  name: send
+  nameWithType: WebSocketTransport.send
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.send
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.setOnReceive*
+  name: setOnReceive
+  nameWithType: WebSocketTransport.setOnReceive
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.setOnReceive
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.onReceive*
+  name: onReceive
+  nameWithType: WebSocketTransport.onReceive
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.onReceive
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._web_socket_transport.stop*
+  name: stop
+  nameWithType: WebSocketTransport.stop
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport.stop
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._transport
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.aspnet.signalr.Transport
+  type: Interface
+  syntax:
+    content: public interface Transport
+- uid: com.microsoft.aspnet.signalr._on_receive_call_back
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._on_receive_call_back.yml
+  name: OnReceiveCallBack
+  nameWithType: OnReceiveCallBack
+  fullName: com.microsoft.aspnet.signalr.OnReceiveCallBack
+  type: Interface
+  syntax:
+    content: public interface OnReceiveCallBack
+- uid: com.microsoft.aspnet.signalr._logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._logger.yml
+  name: Logger
+  nameWithType: Logger
+  fullName: com.microsoft.aspnet.signalr.Logger
+  type: Interface
+  syntax:
+    content: public interface Logger
+- uid: com.microsoft.aspnet.signalr._transport.start()
+  parent: com.microsoft.aspnet.signalr._transport
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: start()
+  nameWithType: Transport.start()
+  fullName: com.microsoft.aspnet.signalr.Transport.start()
+  type: Method
+  syntax:
+    content: public void start()
+- uid: com.microsoft.aspnet.signalr._transport.send(String)
+  parent: com.microsoft.aspnet.signalr._transport
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: send(String message)
+  nameWithType: Transport.send(String message)
+  fullName: com.microsoft.aspnet.signalr.Transport.send(String message)
+  type: Method
+  syntax:
+    content: public void send(String message)
+    parameters:
+    - id: message
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._transport.setOnReceive(OnReceiveCallBack)
+  parent: com.microsoft.aspnet.signalr._transport
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: setOnReceive(OnReceiveCallBack callback)
+  nameWithType: Transport.setOnReceive(OnReceiveCallBack callback)
+  fullName: com.microsoft.aspnet.signalr.Transport.setOnReceive(OnReceiveCallBack callback)
+  type: Method
+  syntax:
+    content: public void setOnReceive(OnReceiveCallBack callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.aspnet.signalr._on_receive_call_back
+- uid: com.microsoft.aspnet.signalr._transport.onReceive(String)
+  parent: com.microsoft.aspnet.signalr._transport
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: onReceive(String message)
+  nameWithType: Transport.onReceive(String message)
+  fullName: com.microsoft.aspnet.signalr.Transport.onReceive(String message)
+  type: Method
+  syntax:
+    content: public void onReceive(String message)
+    parameters:
+    - id: message
+      type: "26831127"
+- uid: com.microsoft.aspnet.signalr._transport.stop()
+  parent: com.microsoft.aspnet.signalr._transport
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: stop()
+  nameWithType: Transport.stop()
+  fullName: com.microsoft.aspnet.signalr.Transport.stop()
+  type: Method
+  syntax:
+    content: public void stop()

@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._ping_message
+  id: _ping_message
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._ping_message.getMessageType()
+  href: com.microsoft.aspnet.signalr._ping_message.yml
+  langs:
+  - java
+  name: PingMessage
+  nameWithType: PingMessage
+  fullName: com.microsoft.aspnet.signalr.PingMessage
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/PingMessage.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/PingMessage.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class PingMessage extends HubMessage
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.aspnet.signalr._hub_message
+- uid: com.microsoft.aspnet.signalr._ping_message.getMessageType()
+  id: getMessageType()
+  parent: com.microsoft.aspnet.signalr._ping_message
+  href: com.microsoft.aspnet.signalr._ping_message.yml
+  langs:
+  - java
+  name: getMessageType()
+  nameWithType: PingMessage.getMessageType()
+  fullName: com.microsoft.aspnet.signalr.PingMessage.getMessageType()
+  overload: com.microsoft.aspnet.signalr._ping_message.getMessageType*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/PingMessage.java
+    startLine: 10
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubMessageType getMessageType()
+    return:
+      type: com.microsoft.aspnet.signalr._hub_message_type
+references:
+- uid: com.microsoft.aspnet.signalr._ping_message.getMessageType*
+  name: getMessageType
+  nameWithType: PingMessage.getMessageType
+  fullName: com.microsoft.aspnet.signalr.PingMessage.getMessageType
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._hub_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_message.yml
+  name: HubMessage
+  nameWithType: HubMessage
+  fullName: com.microsoft.aspnet.signalr.HubMessage
+  type: Class
+  summary: <p>A base class for hub messages. </p>
+  syntax:
+    content: public class HubMessage
+- uid: com.microsoft.aspnet.signalr._hub_message_type
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_message_type.yml
+  name: HubMessageType
+  nameWithType: HubMessageType
+  fullName: com.microsoft.aspnet.signalr.HubMessageType
+  type: Enum
+  syntax:
+    content: public enum HubMessageType

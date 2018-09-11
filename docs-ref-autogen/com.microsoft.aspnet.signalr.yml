@@ -1,0 +1,474 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr
+  id: signalr
+  children:
+  - com.microsoft.aspnet.signalr._action
+  - com.microsoft.aspnet.signalr._action_base
+  - com.microsoft.aspnet.signalr._action1
+  - com.microsoft.aspnet.signalr._action2
+  - com.microsoft.aspnet.signalr._action3
+  - com.microsoft.aspnet.signalr._action4
+  - com.microsoft.aspnet.signalr._action5
+  - com.microsoft.aspnet.signalr._action6
+  - com.microsoft.aspnet.signalr._action7
+  - com.microsoft.aspnet.signalr._action8
+  - com.microsoft.aspnet.signalr._callback_map
+  - com.microsoft.aspnet.signalr._chat
+  - com.microsoft.aspnet.signalr._close_message
+  - com.microsoft.aspnet.signalr._console_logger
+  - com.microsoft.aspnet.signalr._handshake_protocol
+  - com.microsoft.aspnet.signalr._handshake_request_message
+  - com.microsoft.aspnet.signalr._handshake_response_message
+  - com.microsoft.aspnet.signalr._hub_connection
+  - com.microsoft.aspnet.signalr._hub_connection_builder
+  - com.microsoft.aspnet.signalr._hub_connection_state
+  - com.microsoft.aspnet.signalr._hub_exception
+  - com.microsoft.aspnet.signalr._hub_message
+  - com.microsoft.aspnet.signalr._hub_message_type
+  - com.microsoft.aspnet.signalr._hub_protocol
+  - com.microsoft.aspnet.signalr._invocation_message
+  - com.microsoft.aspnet.signalr._json_hub_protocol
+  - com.microsoft.aspnet.signalr._log_level
+  - com.microsoft.aspnet.signalr._logger
+  - com.microsoft.aspnet.signalr._negotiate
+  - com.microsoft.aspnet.signalr._negotiate_response
+  - com.microsoft.aspnet.signalr._null_logger
+  - com.microsoft.aspnet.signalr._on_receive_call_back
+  - com.microsoft.aspnet.signalr._ping_message
+  - com.microsoft.aspnet.signalr._subscription
+  - com.microsoft.aspnet.signalr._transfer_format
+  - com.microsoft.aspnet.signalr._transport
+  - com.microsoft.aspnet.signalr._web_socket_transport
+  href: com.microsoft.aspnet.signalr.yml
+  langs:
+  - java
+  name: com.microsoft.aspnet.signalr
+  nameWithType: com.microsoft.aspnet.signalr
+  fullName: com.microsoft.aspnet.signalr
+  type: Namespace
+  source:
+    remote:
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Action.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Action.java
+    startLine: 3
+  syntax:
+    content: package com.microsoft.aspnet.signalr
+references:
+- uid: com.microsoft.aspnet.signalr._action
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action.yml
+  name: Action
+  nameWithType: Action
+  fullName: com.microsoft.aspnet.signalr.Action
+  type: Interface
+  syntax:
+    content: public interface Action
+- uid: com.microsoft.aspnet.signalr._action1
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action1.yml
+  name: Action1<T1>
+  nameWithType: Action1<T1>
+  fullName: com.microsoft.aspnet.signalr.Action1<T1>
+  type: Interface
+  syntax:
+    content: public interface Action1<T1>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+- uid: com.microsoft.aspnet.signalr._action2
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action2.yml
+  name: Action2<T1,T2>
+  nameWithType: Action2<T1,T2>
+  fullName: com.microsoft.aspnet.signalr.Action2<T1,T2>
+  type: Interface
+  syntax:
+    content: public interface Action2<T1,T2>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+- uid: com.microsoft.aspnet.signalr._action3
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action3.yml
+  name: Action3<T1,T2,T3>
+  nameWithType: Action3<T1,T2,T3>
+  fullName: com.microsoft.aspnet.signalr.Action3<T1,T2,T3>
+  type: Interface
+  syntax:
+    content: public interface Action3<T1,T2,T3>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+- uid: com.microsoft.aspnet.signalr._action4
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action4.yml
+  name: Action4<T1,T2,T3,T4>
+  nameWithType: Action4<T1,T2,T3,T4>
+  fullName: com.microsoft.aspnet.signalr.Action4<T1,T2,T3,T4>
+  type: Interface
+  syntax:
+    content: public interface Action4<T1,T2,T3,T4>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+    - id: T4
+      type: 21b77ff4
+- uid: com.microsoft.aspnet.signalr._action5
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action5.yml
+  name: Action5<T1,T2,T3,T4,T5>
+  nameWithType: Action5<T1,T2,T3,T4,T5>
+  fullName: com.microsoft.aspnet.signalr.Action5<T1,T2,T3,T4,T5>
+  type: Interface
+  syntax:
+    content: public interface Action5<T1,T2,T3,T4,T5>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+    - id: T4
+      type: 21b77ff4
+    - id: T5
+      type: 136da300
+- uid: com.microsoft.aspnet.signalr._action6
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action6.yml
+  name: Action6<T1,T2,T3,T4,T5,T6>
+  nameWithType: Action6<T1,T2,T3,T4,T5,T6>
+  fullName: com.microsoft.aspnet.signalr.Action6<T1,T2,T3,T4,T5,T6>
+  type: Interface
+  syntax:
+    content: public interface Action6<T1,T2,T3,T4,T5,T6>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+    - id: T4
+      type: 21b77ff4
+    - id: T5
+      type: 136da300
+    - id: T6
+      type: 43cd3771
+- uid: com.microsoft.aspnet.signalr._action7
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action7.yml
+  name: Action7<T1,T2,T3,T4,T5,T6,T7>
+  nameWithType: Action7<T1,T2,T3,T4,T5,T6,T7>
+  fullName: com.microsoft.aspnet.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>
+  type: Interface
+  syntax:
+    content: public interface Action7<T1,T2,T3,T4,T5,T6,T7>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+    - id: T4
+      type: 21b77ff4
+    - id: T5
+      type: 136da300
+    - id: T6
+      type: 43cd3771
+    - id: T7
+      type: 308f4ff4
+- uid: com.microsoft.aspnet.signalr._action8
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action8.yml
+  name: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  fullName: com.microsoft.aspnet.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  type: Interface
+  syntax:
+    content: public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+    - id: T2
+      type: 6ac4d271
+    - id: T3
+      type: e92ab054
+    - id: T4
+      type: 21b77ff4
+    - id: T5
+      type: 136da300
+    - id: T6
+      type: 43cd3771
+    - id: T7
+      type: 308f4ff4
+    - id: T8
+      type: 57f41c00
+- uid: com.microsoft.aspnet.signalr._action_base
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._action_base.yml
+  name: ActionBase
+  nameWithType: ActionBase
+  fullName: com.microsoft.aspnet.signalr.ActionBase
+  type: Interface
+  syntax:
+    content: public interface ActionBase
+- uid: com.microsoft.aspnet.signalr._callback_map
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._callback_map.yml
+  name: CallbackMap
+  nameWithType: CallbackMap
+  fullName: com.microsoft.aspnet.signalr.CallbackMap
+  type: Class
+  syntax:
+    content: public class CallbackMap
+- uid: com.microsoft.aspnet.signalr._chat
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._chat.yml
+  name: Chat
+  nameWithType: Chat
+  fullName: com.microsoft.aspnet.signalr.Chat
+  type: Class
+  syntax:
+    content: public class Chat
+- uid: com.microsoft.aspnet.signalr._close_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._close_message.yml
+  name: CloseMessage
+  nameWithType: CloseMessage
+  fullName: com.microsoft.aspnet.signalr.CloseMessage
+  type: Class
+  syntax:
+    content: public class CloseMessage extends HubMessage
+- uid: com.microsoft.aspnet.signalr._console_logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._console_logger.yml
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: com.microsoft.aspnet.signalr.ConsoleLogger
+  type: Class
+  syntax:
+    content: public class ConsoleLogger implements Logger
+- uid: com.microsoft.aspnet.signalr._handshake_protocol
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._handshake_protocol.yml
+  name: HandshakeProtocol
+  nameWithType: HandshakeProtocol
+  fullName: com.microsoft.aspnet.signalr.HandshakeProtocol
+  type: Class
+  syntax:
+    content: public class HandshakeProtocol
+- uid: com.microsoft.aspnet.signalr._handshake_request_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._handshake_request_message.yml
+  name: HandshakeRequestMessage
+  nameWithType: HandshakeRequestMessage
+  fullName: com.microsoft.aspnet.signalr.HandshakeRequestMessage
+  type: Class
+  syntax:
+    content: public class HandshakeRequestMessage
+- uid: com.microsoft.aspnet.signalr._handshake_response_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._handshake_response_message.yml
+  name: HandshakeResponseMessage
+  nameWithType: HandshakeResponseMessage
+  fullName: com.microsoft.aspnet.signalr.HandshakeResponseMessage
+  type: Class
+  syntax:
+    content: public class HandshakeResponseMessage
+- uid: com.microsoft.aspnet.signalr._hub_connection
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_connection.yml
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.aspnet.signalr.HubConnection
+  type: Class
+  syntax:
+    content: public class HubConnection
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  name: HubConnectionBuilder
+  nameWithType: HubConnectionBuilder
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder
+  type: Class
+  syntax:
+    content: public class HubConnectionBuilder
+- uid: com.microsoft.aspnet.signalr._hub_connection_state
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_connection_state.yml
+  name: HubConnectionState
+  nameWithType: HubConnectionState
+  fullName: com.microsoft.aspnet.signalr.HubConnectionState
+  type: Enum
+  syntax:
+    content: public enum HubConnectionState
+- uid: com.microsoft.aspnet.signalr._hub_exception
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_exception.yml
+  name: HubException
+  nameWithType: HubException
+  fullName: com.microsoft.aspnet.signalr.HubException
+  type: Class
+  syntax:
+    content: public class HubException
+- uid: com.microsoft.aspnet.signalr._hub_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_message.yml
+  name: HubMessage
+  nameWithType: HubMessage
+  fullName: com.microsoft.aspnet.signalr.HubMessage
+  type: Class
+  summary: <p>A base class for hub messages. </p>
+  syntax:
+    content: public class HubMessage
+- uid: com.microsoft.aspnet.signalr._hub_message_type
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_message_type.yml
+  name: HubMessageType
+  nameWithType: HubMessageType
+  fullName: com.microsoft.aspnet.signalr.HubMessageType
+  type: Enum
+  syntax:
+    content: public enum HubMessageType
+- uid: com.microsoft.aspnet.signalr._hub_protocol
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_protocol.yml
+  name: HubProtocol
+  nameWithType: HubProtocol
+  fullName: com.microsoft.aspnet.signalr.HubProtocol
+  type: Interface
+  summary: <p>A protocol abstraction for communicating with SignalR hubs. </p>
+  syntax:
+    content: public interface HubProtocol
+- uid: com.microsoft.aspnet.signalr._invocation_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._invocation_message.yml
+  name: InvocationMessage
+  nameWithType: InvocationMessage
+  fullName: com.microsoft.aspnet.signalr.InvocationMessage
+  type: Class
+  syntax:
+    content: public class InvocationMessage extends HubMessage
+- uid: com.microsoft.aspnet.signalr._json_hub_protocol
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._json_hub_protocol.yml
+  name: JsonHubProtocol
+  nameWithType: JsonHubProtocol
+  fullName: com.microsoft.aspnet.signalr.JsonHubProtocol
+  type: Class
+  syntax:
+    content: public class JsonHubProtocol implements HubProtocol
+- uid: com.microsoft.aspnet.signalr._logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._logger.yml
+  name: Logger
+  nameWithType: Logger
+  fullName: com.microsoft.aspnet.signalr.Logger
+  type: Interface
+  syntax:
+    content: public interface Logger
+- uid: com.microsoft.aspnet.signalr._log_level
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: com.microsoft.aspnet.signalr.LogLevel
+  type: Enum
+  syntax:
+    content: public enum LogLevel
+- uid: com.microsoft.aspnet.signalr._negotiate
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._negotiate.yml
+  name: Negotiate
+  nameWithType: Negotiate
+  fullName: com.microsoft.aspnet.signalr.Negotiate
+  type: Class
+  syntax:
+    content: public class Negotiate
+- uid: com.microsoft.aspnet.signalr._negotiate_response
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._negotiate_response.yml
+  name: NegotiateResponse
+  nameWithType: NegotiateResponse
+  fullName: com.microsoft.aspnet.signalr.NegotiateResponse
+  type: Class
+  syntax:
+    content: public class NegotiateResponse
+- uid: com.microsoft.aspnet.signalr._null_logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._null_logger.yml
+  name: NullLogger
+  nameWithType: NullLogger
+  fullName: com.microsoft.aspnet.signalr.NullLogger
+  type: Class
+  syntax:
+    content: public class NullLogger implements Logger
+- uid: com.microsoft.aspnet.signalr._on_receive_call_back
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._on_receive_call_back.yml
+  name: OnReceiveCallBack
+  nameWithType: OnReceiveCallBack
+  fullName: com.microsoft.aspnet.signalr.OnReceiveCallBack
+  type: Interface
+  syntax:
+    content: public interface OnReceiveCallBack
+- uid: com.microsoft.aspnet.signalr._ping_message
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._ping_message.yml
+  name: PingMessage
+  nameWithType: PingMessage
+  fullName: com.microsoft.aspnet.signalr.PingMessage
+  type: Class
+  syntax:
+    content: public class PingMessage extends HubMessage
+- uid: com.microsoft.aspnet.signalr._subscription
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._subscription.yml
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.aspnet.signalr.Subscription
+  type: Class
+  syntax:
+    content: public class Subscription
+- uid: com.microsoft.aspnet.signalr._transfer_format
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._transfer_format.yml
+  name: TransferFormat
+  nameWithType: TransferFormat
+  fullName: com.microsoft.aspnet.signalr.TransferFormat
+  type: Enum
+  syntax:
+    content: public enum TransferFormat
+- uid: com.microsoft.aspnet.signalr._transport
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.aspnet.signalr.Transport
+  type: Interface
+  syntax:
+    content: public interface Transport
+- uid: com.microsoft.aspnet.signalr._web_socket_transport
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
+  name: WebSocketTransport
+  nameWithType: WebSocketTransport
+  fullName: com.microsoft.aspnet.signalr.WebSocketTransport
+  type: Class
+  syntax:
+    content: public class WebSocketTransport implements Transport

@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder
+  id: _hub_connection_builder
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._hub_connection_builder.build()
+  - com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(Logger)
+  - com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(LogLevel)
+  - com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String)
+  - com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,Transport)
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: HubConnectionBuilder
+  nameWithType: HubConnectionBuilder
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax: &o1
+    content: public class HubConnectionBuilder
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.build()
+  id: build()
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: build()
+  nameWithType: HubConnectionBuilder.build()
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.build()
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.build*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 32
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnection build()
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(Logger)
+  id: configureLogging(Logger)
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: configureLogging(Logger logger)
+  nameWithType: HubConnectionBuilder.configureLogging(Logger logger)
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.configureLogging(Logger logger)
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 27
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnectionBuilder configureLogging(Logger logger)
+    parameters:
+    - id: logger
+      type: com.microsoft.aspnet.signalr._logger
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection_builder
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(LogLevel)
+  id: configureLogging(LogLevel)
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: configureLogging(LogLevel logLevel)
+  nameWithType: HubConnectionBuilder.configureLogging(LogLevel logLevel)
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.configureLogging(LogLevel logLevel)
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 22
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnectionBuilder configureLogging(LogLevel logLevel)
+    parameters:
+    - id: logLevel
+      type: com.microsoft.aspnet.signalr._log_level
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection_builder
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String)
+  id: withUrl(String)
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: withUrl(String url)
+  nameWithType: HubConnectionBuilder.withUrl(String url)
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.withUrl(String url)
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 11
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnectionBuilder withUrl(String url)
+    parameters:
+    - id: url
+      type: "26831127"
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection_builder
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,Transport)
+  id: withUrl(String,Transport)
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: withUrl(String url, Transport transport)
+  nameWithType: HubConnectionBuilder.withUrl(String url, Transport transport)
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.withUrl(String url, Transport transport)
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 16
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnectionBuilder withUrl(String url, Transport transport)
+    parameters:
+    - id: url
+      type: "26831127"
+    - id: transport
+      type: com.microsoft.aspnet.signalr._transport
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection_builder
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl*
+  name: withUrl
+  nameWithType: HubConnectionBuilder.withUrl
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.withUrl
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging*
+  name: configureLogging
+  nameWithType: HubConnectionBuilder.configureLogging
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.configureLogging
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.build*
+  name: build
+  nameWithType: HubConnectionBuilder.build
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.build
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._transport
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._transport.yml
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.aspnet.signalr.Transport
+  type: Interface
+  syntax:
+    content: public interface Transport
+- uid: com.microsoft.aspnet.signalr._logger
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._logger.yml
+  name: Logger
+  nameWithType: Logger
+  fullName: com.microsoft.aspnet.signalr.Logger
+  type: Interface
+  syntax:
+    content: public interface Logger
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  name: HubConnectionBuilder
+  nameWithType: HubConnectionBuilder
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder
+  type: Class
+  syntax: *o1
+- uid: com.microsoft.aspnet.signalr._log_level
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: com.microsoft.aspnet.signalr.LogLevel
+  type: Enum
+  syntax:
+    content: public enum LogLevel
+- uid: com.microsoft.aspnet.signalr._hub_connection
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._hub_connection.yml
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.aspnet.signalr.HubConnection
+  type: Class
+  syntax:
+    content: public class HubConnection
