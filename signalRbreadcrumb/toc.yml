@@ -2,3 +2,6 @@
   href: /
   homepage: /
   items:
+    - name: ASP.NET Core SignalR Java Client
+      tocHref: /docs-ref-autogen/
+      topicHref: /docs-ref-autogen/toc
