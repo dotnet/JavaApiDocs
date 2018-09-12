@@ -151,8 +151,8 @@ items:
       type: "26831127"
       description: <p>The url of the SignalR server to connect to. </p>
     - id: transport
-      type: com.microsoft.aspnet.signalr._transport
-      description: <p>The <xref uid="com.microsoft.aspnet.signalr._transport" data-throw-if-not-resolved="false">Transport</xref> that the client will use to communicate with the server. </p>
+      type: 88c4f0f5
+      description: <p>The <xref uid="" data-throw-if-not-resolved="false">Transport</xref> that the client will use to communicate with the server. </p>
 - uid: com.microsoft.aspnet.signalr._hub_connection.HubConnection(String,Transport,boolean)
   id: HubConnection(String,Transport,boolean)
   parent: com.microsoft.aspnet.signalr._hub_connection
@@ -175,7 +175,7 @@ items:
     - id: url
       type: "26831127"
     - id: transport
-      type: com.microsoft.aspnet.signalr._transport
+      type: 88c4f0f5
     - id: skipNegotiate
       type: 4fc6e284
 - uid: com.microsoft.aspnet.signalr._hub_connection.HubConnection(String,Transport,Logger)
@@ -200,7 +200,7 @@ items:
     - id: url
       type: "26831127"
     - id: transport
-      type: com.microsoft.aspnet.signalr._transport
+      type: 88c4f0f5
     - id: logger
       type: com.microsoft.aspnet.signalr._logger
 - uid: com.microsoft.aspnet.signalr._hub_connection.HubConnection(String,Transport,Logger,boolean)
@@ -225,7 +225,7 @@ items:
     - id: url
       type: "26831127"
     - id: transport
-      type: com.microsoft.aspnet.signalr._transport
+      type: 88c4f0f5
     - id: logger
       type: com.microsoft.aspnet.signalr._logger
     - id: skipNegotiate
@@ -754,6 +754,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: 88c4f0f5
+  spec.java:
+  - name: Transport
+    fullName: Transport
 - uid: 4fc6e284
   spec.java:
   - name: boolean
@@ -970,43 +974,6 @@ references:
     name: Subscription
     fullName: com.microsoft.aspnet.signalr.Subscription
     href: com.microsoft.aspnet.signalr._subscription.yml
-- uid: com.microsoft.aspnet.signalr._transport
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._transport.yml
-  name: Transport
-  nameWithType: Transport
-  fullName: com.microsoft.aspnet.signalr.Transport
-  type: Interface
-  syntax:
-    content: public interface Transport
-- uid: com.microsoft.aspnet.signalr._on_receive_call_back
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._on_receive_call_back.yml
-  name: OnReceiveCallBack
-  nameWithType: OnReceiveCallBack
-  fullName: com.microsoft.aspnet.signalr.OnReceiveCallBack
-  type: Interface
-  syntax:
-    content: public interface OnReceiveCallBack
-- uid: com.microsoft.aspnet.signalr._callback_map
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._callback_map.yml
-  name: CallbackMap
-  nameWithType: CallbackMap
-  fullName: com.microsoft.aspnet.signalr.CallbackMap
-  type: Class
-  syntax:
-    content: public class CallbackMap
-- uid: com.microsoft.aspnet.signalr._hub_protocol
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._hub_protocol.yml
-  name: HubProtocol
-  nameWithType: HubProtocol
-  fullName: com.microsoft.aspnet.signalr.HubProtocol
-  type: Interface
-  summary: <p>A protocol abstraction for communicating with SignalR hubs. </p>
-  syntax:
-    content: public interface HubProtocol
 - uid: com.microsoft.aspnet.signalr._hub_connection_state
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._hub_connection_state.yml
@@ -1025,15 +992,6 @@ references:
   type: Interface
   syntax:
     content: public interface Logger
-- uid: com.microsoft.aspnet.signalr._negotiate_response
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._negotiate_response.yml
-  name: NegotiateResponse
-  nameWithType: NegotiateResponse
-  fullName: com.microsoft.aspnet.signalr.NegotiateResponse
-  type: Class
-  syntax:
-    content: public class NegotiateResponse
 - uid: com.microsoft.aspnet.signalr._hub_connection
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._hub_connection.yml

@@ -45,7 +45,7 @@ items:
     content: public Subscription(CallbackMap handlers, ActionBase action, String target)
     parameters:
     - id: handlers
-      type: com.microsoft.aspnet.signalr._callback_map
+      type: dc2582fa
     - id: action
       type: com.microsoft.aspnet.signalr._action_base
     - id: target
@@ -69,6 +69,10 @@ items:
   syntax:
     content: public void unsubscribe()
 references:
+- uid: dc2582fa
+  spec.java:
+  - name: CallbackMap
+    fullName: CallbackMap
 - uid: "26831127"
   spec.java:
   - name: String
@@ -83,15 +87,6 @@ references:
   nameWithType: Subscription.unsubscribe
   fullName: com.microsoft.aspnet.signalr.Subscription.unsubscribe
   package: com.microsoft.aspnet.signalr
-- uid: com.microsoft.aspnet.signalr._callback_map
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._callback_map.yml
-  name: CallbackMap
-  nameWithType: CallbackMap
-  fullName: com.microsoft.aspnet.signalr.CallbackMap
-  type: Class
-  syntax:
-    content: public class CallbackMap
 - uid: com.microsoft.aspnet.signalr._action_base
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._action_base.yml

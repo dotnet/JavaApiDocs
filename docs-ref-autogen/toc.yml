@@ -33,27 +33,12 @@
   - uid: com.microsoft.aspnet.signalr._action_base
     name: ActionBase
     href: com.microsoft.aspnet.signalr._action_base.yml
-  - uid: com.microsoft.aspnet.signalr._callback_map
-    name: CallbackMap
-    href: com.microsoft.aspnet.signalr._callback_map.yml
   - uid: com.microsoft.aspnet.signalr._chat
     name: Chat
     href: com.microsoft.aspnet.signalr._chat.yml
-  - uid: com.microsoft.aspnet.signalr._close_message
-    name: CloseMessage
-    href: com.microsoft.aspnet.signalr._close_message.yml
   - uid: com.microsoft.aspnet.signalr._console_logger
     name: ConsoleLogger
     href: com.microsoft.aspnet.signalr._console_logger.yml
-  - uid: com.microsoft.aspnet.signalr._handshake_protocol
-    name: HandshakeProtocol
-    href: com.microsoft.aspnet.signalr._handshake_protocol.yml
-  - uid: com.microsoft.aspnet.signalr._handshake_request_message
-    name: HandshakeRequestMessage
-    href: com.microsoft.aspnet.signalr._handshake_request_message.yml
-  - uid: com.microsoft.aspnet.signalr._handshake_response_message
-    name: HandshakeResponseMessage
-    href: com.microsoft.aspnet.signalr._handshake_response_message.yml
   - uid: com.microsoft.aspnet.signalr._hub_connection
     name: HubConnection
     href: com.microsoft.aspnet.signalr._hub_connection.yml
@@ -66,51 +51,18 @@
   - uid: com.microsoft.aspnet.signalr._hub_exception
     name: HubException
     href: com.microsoft.aspnet.signalr._hub_exception.yml
-  - uid: com.microsoft.aspnet.signalr._hub_message
-    name: HubMessage
-    href: com.microsoft.aspnet.signalr._hub_message.yml
   - uid: com.microsoft.aspnet.signalr._hub_message_type
     name: HubMessageType
     href: com.microsoft.aspnet.signalr._hub_message_type.yml
-  - uid: com.microsoft.aspnet.signalr._hub_protocol
-    name: HubProtocol
-    href: com.microsoft.aspnet.signalr._hub_protocol.yml
-  - uid: com.microsoft.aspnet.signalr._invocation_message
-    name: InvocationMessage
-    href: com.microsoft.aspnet.signalr._invocation_message.yml
-  - uid: com.microsoft.aspnet.signalr._json_hub_protocol
-    name: JsonHubProtocol
-    href: com.microsoft.aspnet.signalr._json_hub_protocol.yml
   - uid: com.microsoft.aspnet.signalr._logger
     name: Logger
     href: com.microsoft.aspnet.signalr._logger.yml
   - uid: com.microsoft.aspnet.signalr._log_level
     name: LogLevel
     href: com.microsoft.aspnet.signalr._log_level.yml
-  - uid: com.microsoft.aspnet.signalr._negotiate
-    name: Negotiate
-    href: com.microsoft.aspnet.signalr._negotiate.yml
-  - uid: com.microsoft.aspnet.signalr._negotiate_response
-    name: NegotiateResponse
-    href: com.microsoft.aspnet.signalr._negotiate_response.yml
-  - uid: com.microsoft.aspnet.signalr._null_logger
-    name: NullLogger
-    href: com.microsoft.aspnet.signalr._null_logger.yml
-  - uid: com.microsoft.aspnet.signalr._on_receive_call_back
-    name: OnReceiveCallBack
-    href: com.microsoft.aspnet.signalr._on_receive_call_back.yml
-  - uid: com.microsoft.aspnet.signalr._ping_message
-    name: PingMessage
-    href: com.microsoft.aspnet.signalr._ping_message.yml
   - uid: com.microsoft.aspnet.signalr._subscription
     name: Subscription
     href: com.microsoft.aspnet.signalr._subscription.yml
   - uid: com.microsoft.aspnet.signalr._transfer_format
     name: TransferFormat
     href: com.microsoft.aspnet.signalr._transfer_format.yml
-  - uid: com.microsoft.aspnet.signalr._transport
-    name: Transport
-    href: com.microsoft.aspnet.signalr._transport.yml
-  - uid: com.microsoft.aspnet.signalr._web_socket_transport
-    name: WebSocketTransport
-    href: com.microsoft.aspnet.signalr._web_socket_transport.yml

@@ -13,33 +13,17 @@ items:
   - com.microsoft.aspnet.signalr._action6
   - com.microsoft.aspnet.signalr._action7
   - com.microsoft.aspnet.signalr._action8
-  - com.microsoft.aspnet.signalr._callback_map
   - com.microsoft.aspnet.signalr._chat
-  - com.microsoft.aspnet.signalr._close_message
   - com.microsoft.aspnet.signalr._console_logger
-  - com.microsoft.aspnet.signalr._handshake_protocol
-  - com.microsoft.aspnet.signalr._handshake_request_message
-  - com.microsoft.aspnet.signalr._handshake_response_message
   - com.microsoft.aspnet.signalr._hub_connection
   - com.microsoft.aspnet.signalr._hub_connection_builder
   - com.microsoft.aspnet.signalr._hub_connection_state
   - com.microsoft.aspnet.signalr._hub_exception
-  - com.microsoft.aspnet.signalr._hub_message
   - com.microsoft.aspnet.signalr._hub_message_type
-  - com.microsoft.aspnet.signalr._hub_protocol
-  - com.microsoft.aspnet.signalr._invocation_message
-  - com.microsoft.aspnet.signalr._json_hub_protocol
   - com.microsoft.aspnet.signalr._log_level
   - com.microsoft.aspnet.signalr._logger
-  - com.microsoft.aspnet.signalr._negotiate
-  - com.microsoft.aspnet.signalr._negotiate_response
-  - com.microsoft.aspnet.signalr._null_logger
-  - com.microsoft.aspnet.signalr._on_receive_call_back
-  - com.microsoft.aspnet.signalr._ping_message
   - com.microsoft.aspnet.signalr._subscription
   - com.microsoft.aspnet.signalr._transfer_format
-  - com.microsoft.aspnet.signalr._transport
-  - com.microsoft.aspnet.signalr._web_socket_transport
   href: com.microsoft.aspnet.signalr.yml
   langs:
   - java
@@ -227,15 +211,6 @@ references:
   type: Interface
   syntax:
     content: public interface ActionBase
-- uid: com.microsoft.aspnet.signalr._callback_map
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._callback_map.yml
-  name: CallbackMap
-  nameWithType: CallbackMap
-  fullName: com.microsoft.aspnet.signalr.CallbackMap
-  type: Class
-  syntax:
-    content: public class CallbackMap
 - uid: com.microsoft.aspnet.signalr._chat
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._chat.yml
@@ -245,15 +220,6 @@ references:
   type: Class
   syntax:
     content: public class Chat
-- uid: com.microsoft.aspnet.signalr._close_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._close_message.yml
-  name: CloseMessage
-  nameWithType: CloseMessage
-  fullName: com.microsoft.aspnet.signalr.CloseMessage
-  type: Class
-  syntax:
-    content: public class CloseMessage extends HubMessage
 - uid: com.microsoft.aspnet.signalr._console_logger
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._console_logger.yml
@@ -263,33 +229,6 @@ references:
   type: Class
   syntax:
     content: public class ConsoleLogger implements Logger
-- uid: com.microsoft.aspnet.signalr._handshake_protocol
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._handshake_protocol.yml
-  name: HandshakeProtocol
-  nameWithType: HandshakeProtocol
-  fullName: com.microsoft.aspnet.signalr.HandshakeProtocol
-  type: Class
-  syntax:
-    content: public class HandshakeProtocol
-- uid: com.microsoft.aspnet.signalr._handshake_request_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._handshake_request_message.yml
-  name: HandshakeRequestMessage
-  nameWithType: HandshakeRequestMessage
-  fullName: com.microsoft.aspnet.signalr.HandshakeRequestMessage
-  type: Class
-  syntax:
-    content: public class HandshakeRequestMessage
-- uid: com.microsoft.aspnet.signalr._handshake_response_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._handshake_response_message.yml
-  name: HandshakeResponseMessage
-  nameWithType: HandshakeResponseMessage
-  fullName: com.microsoft.aspnet.signalr.HandshakeResponseMessage
-  type: Class
-  syntax:
-    content: public class HandshakeResponseMessage
 - uid: com.microsoft.aspnet.signalr._hub_connection
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._hub_connection.yml
@@ -326,16 +265,6 @@ references:
   type: Class
   syntax:
     content: public class HubException
-- uid: com.microsoft.aspnet.signalr._hub_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._hub_message.yml
-  name: HubMessage
-  nameWithType: HubMessage
-  fullName: com.microsoft.aspnet.signalr.HubMessage
-  type: Class
-  summary: <p>A base class for hub messages. </p>
-  syntax:
-    content: public class HubMessage
 - uid: com.microsoft.aspnet.signalr._hub_message_type
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._hub_message_type.yml
@@ -345,34 +274,6 @@ references:
   type: Enum
   syntax:
     content: public enum HubMessageType
-- uid: com.microsoft.aspnet.signalr._hub_protocol
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._hub_protocol.yml
-  name: HubProtocol
-  nameWithType: HubProtocol
-  fullName: com.microsoft.aspnet.signalr.HubProtocol
-  type: Interface
-  summary: <p>A protocol abstraction for communicating with SignalR hubs. </p>
-  syntax:
-    content: public interface HubProtocol
-- uid: com.microsoft.aspnet.signalr._invocation_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._invocation_message.yml
-  name: InvocationMessage
-  nameWithType: InvocationMessage
-  fullName: com.microsoft.aspnet.signalr.InvocationMessage
-  type: Class
-  syntax:
-    content: public class InvocationMessage extends HubMessage
-- uid: com.microsoft.aspnet.signalr._json_hub_protocol
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._json_hub_protocol.yml
-  name: JsonHubProtocol
-  nameWithType: JsonHubProtocol
-  fullName: com.microsoft.aspnet.signalr.JsonHubProtocol
-  type: Class
-  syntax:
-    content: public class JsonHubProtocol implements HubProtocol
 - uid: com.microsoft.aspnet.signalr._logger
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._logger.yml
@@ -391,51 +292,6 @@ references:
   type: Enum
   syntax:
     content: public enum LogLevel
-- uid: com.microsoft.aspnet.signalr._negotiate
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._negotiate.yml
-  name: Negotiate
-  nameWithType: Negotiate
-  fullName: com.microsoft.aspnet.signalr.Negotiate
-  type: Class
-  syntax:
-    content: public class Negotiate
-- uid: com.microsoft.aspnet.signalr._negotiate_response
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._negotiate_response.yml
-  name: NegotiateResponse
-  nameWithType: NegotiateResponse
-  fullName: com.microsoft.aspnet.signalr.NegotiateResponse
-  type: Class
-  syntax:
-    content: public class NegotiateResponse
-- uid: com.microsoft.aspnet.signalr._null_logger
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._null_logger.yml
-  name: NullLogger
-  nameWithType: NullLogger
-  fullName: com.microsoft.aspnet.signalr.NullLogger
-  type: Class
-  syntax:
-    content: public class NullLogger implements Logger
-- uid: com.microsoft.aspnet.signalr._on_receive_call_back
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._on_receive_call_back.yml
-  name: OnReceiveCallBack
-  nameWithType: OnReceiveCallBack
-  fullName: com.microsoft.aspnet.signalr.OnReceiveCallBack
-  type: Interface
-  syntax:
-    content: public interface OnReceiveCallBack
-- uid: com.microsoft.aspnet.signalr._ping_message
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._ping_message.yml
-  name: PingMessage
-  nameWithType: PingMessage
-  fullName: com.microsoft.aspnet.signalr.PingMessage
-  type: Class
-  syntax:
-    content: public class PingMessage extends HubMessage
 - uid: com.microsoft.aspnet.signalr._subscription
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._subscription.yml
@@ -454,21 +310,3 @@ references:
   type: Enum
   syntax:
     content: public enum TransferFormat
-- uid: com.microsoft.aspnet.signalr._transport
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._transport.yml
-  name: Transport
-  nameWithType: Transport
-  fullName: com.microsoft.aspnet.signalr.Transport
-  type: Interface
-  syntax:
-    content: public interface Transport
-- uid: com.microsoft.aspnet.signalr._web_socket_transport
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._web_socket_transport.yml
-  name: WebSocketTransport
-  nameWithType: WebSocketTransport
-  fullName: com.microsoft.aspnet.signalr.WebSocketTransport
-  type: Class
-  syntax:
-    content: public class WebSocketTransport implements Transport

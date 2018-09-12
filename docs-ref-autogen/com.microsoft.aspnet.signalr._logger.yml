@@ -95,28 +95,6 @@ references:
   syntax:
     content: public class ConsoleLogger implements Logger
 - uid: com.microsoft.aspnet.signalr._null_logger
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._null_logger.yml
-  name: NullLogger
-  nameWithType: NullLogger
-  fullName: com.microsoft.aspnet.signalr.NullLogger
-  type: Class
-  syntax:
-    content: public class NullLogger
-- uid: com.microsoft.aspnet.signalr._null_logger.log(LogLevel,String)
-  parent: com.microsoft.aspnet.signalr._null_logger
-  href: com.microsoft.aspnet.signalr._null_logger.yml
-  name: log(LogLevel logLevel, String message)
-  nameWithType: NullLogger.log(LogLevel logLevel, String message)
-  fullName: com.microsoft.aspnet.signalr.NullLogger.log(LogLevel logLevel, String message)
-  type: Method
-  syntax:
-    content: public void log(LogLevel logLevel, String message)
-    parameters:
-    - id: logLevel
-      type: com.microsoft.aspnet.signalr._log_level
-    - id: message
-      type: "26831127"
 - uid: com.microsoft.aspnet.signalr._console_logger.log(LogLevel,String)
   parent: com.microsoft.aspnet.signalr._console_logger
   href: com.microsoft.aspnet.signalr._console_logger.yml

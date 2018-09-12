@@ -139,7 +139,7 @@ items:
     - id: url
       type: "26831127"
     - id: transport
-      type: com.microsoft.aspnet.signalr._transport
+      type: 88c4f0f5
     return:
       type: com.microsoft.aspnet.signalr._hub_connection_builder
 references:
@@ -152,6 +152,10 @@ references:
   nameWithType: HubConnectionBuilder.withUrl
   fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.withUrl
   package: com.microsoft.aspnet.signalr
+- uid: 88c4f0f5
+  spec.java:
+  - name: Transport
+    fullName: Transport
 - uid: com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging*
   name: configureLogging
   nameWithType: HubConnectionBuilder.configureLogging
@@ -162,15 +166,6 @@ references:
   nameWithType: HubConnectionBuilder.build
   fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.build
   package: com.microsoft.aspnet.signalr
-- uid: com.microsoft.aspnet.signalr._transport
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._transport.yml
-  name: Transport
-  nameWithType: Transport
-  fullName: com.microsoft.aspnet.signalr.Transport
-  type: Interface
-  syntax:
-    content: public interface Transport
 - uid: com.microsoft.aspnet.signalr._logger
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._logger.yml
