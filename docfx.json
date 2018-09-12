@@ -63,7 +63,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/java/signalrbreadcrumb/toc.yml"
+      "breadcrumb_path": "~/signalrbreadcrumb/toc.json"
     },
     "fileMetadata": {},
     "template": [],
