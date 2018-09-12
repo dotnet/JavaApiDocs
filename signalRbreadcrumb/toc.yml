@@ -4,6 +4,6 @@
   items:
     - name: ASP.NET Core SignalR Java Client
       tocHref: /com.microsoft.aspnet.signalr/
-      topicHref: /com.microsoft.aspnet.signalr/toc
+      topicHref: /signalrbreadcrumb
       items:
 
