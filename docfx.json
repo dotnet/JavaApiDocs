@@ -19,7 +19,7 @@
           "**/*.yml"
         ],
         "src": "signalRbreadcrumb",
-        "dest": "breadcrumb",
+        "dest": "signalRbreadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
