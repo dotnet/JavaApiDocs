@@ -44,7 +44,7 @@
     ],
     "groups": {
       "signalr": {
-        "dest": "random",
+        "dest": "signalR",
         "moniker_range": "aspnet-signalr-java"
       }
     },
@@ -63,7 +63,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/signalrbreadcrumb/toc.json"
+      "breadcrumb_path": "/signalrbreadcrumb/toc.json"
     },
     "fileMetadata": {},
     "template": [],
