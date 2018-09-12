@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api/signalr",
+        "dest": "api",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
