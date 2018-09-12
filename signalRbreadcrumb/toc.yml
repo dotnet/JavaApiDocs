@@ -2,8 +2,5 @@
   href: /
   homepage: /
   items:
-    - name: ASP.NET Core SignalR Java Client
-      tocHref: /com.microsoft.aspnet.signalr/
-      topicHref: /signalrbreadcrumb/toc
-      items:
+
 
