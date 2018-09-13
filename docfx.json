@@ -63,7 +63,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "signalRbreadcrumb/toc.yml"
+      "breadcrumb_path": "signalRbreadcrumb/toc.yml",
+      "ms.author":"mimengis"
     },
     "fileMetadata": {},
     "template": [],
