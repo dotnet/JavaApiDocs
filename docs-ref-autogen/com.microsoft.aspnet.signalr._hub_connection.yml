@@ -38,7 +38,7 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 14
+    startLine: 11
   package: com.microsoft.aspnet.signalr
   syntax: &o1
     content: public class HubConnection
@@ -58,7 +58,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 149
+    startLine: 143
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Indicates the state of the <xref uid="com.microsoft.aspnet.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> to the server.</p>
@@ -83,7 +83,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 130
+    startLine: 124
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Initializes a new instance of the <xref uid="com.microsoft.aspnet.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> class.</p>
@@ -109,7 +109,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 140
+    startLine: 134
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Initializes a new instance of the <xref uid="com.microsoft.aspnet.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> class.</p>
@@ -138,7 +138,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 121
+    startLine: 115
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Initializes a new instance of the <xref uid="com.microsoft.aspnet.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> class.</p>
@@ -167,7 +167,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 111
+    startLine: 105
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnection(String url, Transport transport, boolean skipNegotiate)
@@ -192,7 +192,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 107
+    startLine: 101
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnection(String url, Transport transport, Logger logger)
@@ -217,7 +217,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 33
+    startLine: 31
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnection(String url, Transport transport, Logger logger, boolean skipNegotiate)
@@ -244,7 +244,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 262
+    startLine: 276
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -276,7 +276,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 278
+    startLine: 292
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -311,7 +311,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 296
+    startLine: 312
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -349,7 +349,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 318
+    startLine: 337
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -390,7 +390,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 343
+    startLine: 366
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -434,7 +434,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 370
+    startLine: 398
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -481,7 +481,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 400
+    startLine: 434
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -531,7 +531,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 432
+    startLine: 473
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -584,7 +584,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 466
+    startLine: 515
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Registers a handler that will be invoked when the hub method with the specified method name is invoked.</p>
@@ -640,7 +640,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 487
+    startLine: 261
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public void onClosed(Consumer<Exception> callback)
@@ -661,7 +661,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 482
+    startLine: 256
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Removes all handlers associated with the method with the specified method name.</p>
@@ -687,7 +687,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 244
+    startLine: 240
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Invokes a hub method on the server using the specified method name. Does not wait for a response from the receiver.</p>
@@ -719,7 +719,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 158
+    startLine: 152
   package: com.microsoft.aspnet.signalr
   summary: >-
     <p>Starts a connection to the server.</p>
@@ -744,7 +744,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnection.java
-    startLine: 232
+    startLine: 228
   package: com.microsoft.aspnet.signalr
   summary: <p>Stops a connection to the server. </p>
   syntax:
@@ -795,11 +795,6 @@ references:
   nameWithType: HubConnection.send
   fullName: com.microsoft.aspnet.signalr.HubConnection.send
   package: com.microsoft.aspnet.signalr
-- uid: com.microsoft.aspnet.signalr._hub_connection.on*
-  name: on
-  nameWithType: HubConnection.on
-  fullName: com.microsoft.aspnet.signalr.HubConnection.on
-  package: com.microsoft.aspnet.signalr
 - uid: com.microsoft.aspnet.signalr._hub_connection.remove*
   name: remove
   nameWithType: HubConnection.remove
@@ -813,6 +808,11 @@ references:
   name: onClosed
   nameWithType: HubConnection.onClosed
   fullName: com.microsoft.aspnet.signalr.HubConnection.onClosed
+  package: com.microsoft.aspnet.signalr
+- uid: com.microsoft.aspnet.signalr._hub_connection.on*
+  name: on
+  nameWithType: HubConnection.on
+  fullName: com.microsoft.aspnet.signalr.HubConnection.on
   package: com.microsoft.aspnet.signalr
 - uid: com.microsoft.aspnet.signalr._action1db2ace7f
   spec.java:

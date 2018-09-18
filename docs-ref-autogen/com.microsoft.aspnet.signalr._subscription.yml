@@ -4,7 +4,7 @@ items:
   id: _subscription
   parent: com.microsoft.aspnet.signalr
   children:
-  - com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,ActionBase,String)
+  - com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,InvocationHandler,String)
   - com.microsoft.aspnet.signalr._subscription.unsubscribe()
   href: com.microsoft.aspnet.signalr._subscription.yml
   langs:
@@ -25,15 +25,15 @@ items:
     content: public class Subscription
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,ActionBase,String)
-  id: Subscription(CallbackMap,ActionBase,String)
+- uid: com.microsoft.aspnet.signalr._subscription.Subscription(CallbackMap,InvocationHandler,String)
+  id: Subscription(CallbackMap,InvocationHandler,String)
   parent: com.microsoft.aspnet.signalr._subscription
   href: com.microsoft.aspnet.signalr._subscription.yml
   langs:
   - java
-  name: Subscription(CallbackMap handlers, ActionBase action, String target)
-  nameWithType: Subscription.Subscription(CallbackMap handlers, ActionBase action, String target)
-  fullName: com.microsoft.aspnet.signalr.Subscription.Subscription(CallbackMap handlers, ActionBase action, String target)
+  name: Subscription(CallbackMap handlers, InvocationHandler handler, String target)
+  nameWithType: Subscription.Subscription(CallbackMap handlers, InvocationHandler handler, String target)
+  fullName: com.microsoft.aspnet.signalr.Subscription.Subscription(CallbackMap handlers, InvocationHandler handler, String target)
   overload: com.microsoft.aspnet.signalr._subscription.Subscription*
   type: Constructor
   source:
@@ -42,12 +42,12 @@ items:
     startLine: 12
   package: com.microsoft.aspnet.signalr
   syntax:
-    content: public Subscription(CallbackMap handlers, ActionBase action, String target)
+    content: public Subscription(CallbackMap handlers, InvocationHandler handler, String target)
     parameters:
     - id: handlers
       type: dc2582fa
-    - id: action
-      type: com.microsoft.aspnet.signalr._action_base
+    - id: handler
+      type: 0878904d
     - id: target
       type: "26831127"
 - uid: com.microsoft.aspnet.signalr._subscription.unsubscribe()
@@ -73,6 +73,10 @@ references:
   spec.java:
   - name: CallbackMap
     fullName: CallbackMap
+- uid: 0878904d
+  spec.java:
+  - name: InvocationHandler
+    fullName: InvocationHandler
 - uid: "26831127"
   spec.java:
   - name: String
@@ -87,12 +91,3 @@ references:
   nameWithType: Subscription.unsubscribe
   fullName: com.microsoft.aspnet.signalr.Subscription.unsubscribe
   package: com.microsoft.aspnet.signalr
-- uid: com.microsoft.aspnet.signalr._action_base
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._action_base.yml
-  name: ActionBase
-  nameWithType: ActionBase
-  fullName: com.microsoft.aspnet.signalr.ActionBase
-  type: Interface
-  syntax:
-    content: public interface ActionBase
