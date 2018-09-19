@@ -1,0 +1,57 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._chat
+  id: _chat
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._chat.main(String [])
+  href: com.microsoft.aspnet.signalr._chat.yml
+  langs:
+  - java
+  name: Chat
+  nameWithType: Chat
+  fullName: com.microsoft.aspnet.signalr.Chat
+  type: Class
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Chat.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Chat.java
+    startLine: 7
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public class Chat
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.aspnet.signalr._chat.main(String [])
+  id: main(String [])
+  parent: com.microsoft.aspnet.signalr._chat
+  href: com.microsoft.aspnet.signalr._chat.yml
+  langs:
+  - java
+  name: main(String[] args)
+  nameWithType: Chat.main(String[] args)
+  fullName: com.microsoft.aspnet.signalr.Chat.main(String[] args)
+  overload: com.microsoft.aspnet.signalr._chat.main*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/Chat.java
+    startLine: 8
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public static void main(String[] args)
+    parameters:
+    - id: args
+      type: 1bb63ab0
+references:
+- uid: 1bb63ab0
+  spec.java:
+  - name: String []
+    fullName: String []
+- uid: com.microsoft.aspnet.signalr._chat.main*
+  name: main
+  nameWithType: Chat.main
+  fullName: com.microsoft.aspnet.signalr.Chat.main
+  package: com.microsoft.aspnet.signalr

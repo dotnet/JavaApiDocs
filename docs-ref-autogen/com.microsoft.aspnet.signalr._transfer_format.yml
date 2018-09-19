@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._transfer_format
+  id: _transfer_format
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._transfer_format.BINARY
+  - com.microsoft.aspnet.signalr._transfer_format.TEXT
+  href: com.microsoft.aspnet.signalr._transfer_format.yml
+  langs:
+  - java
+  name: TransferFormat
+  nameWithType: TransferFormat
+  fullName: com.microsoft.aspnet.signalr.TransferFormat
+  type: Enum
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/TransferFormat.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/TransferFormat.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public enum TransferFormat
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<TransferFormat>
+- uid: com.microsoft.aspnet.signalr._transfer_format.BINARY
+  id: BINARY
+  parent: com.microsoft.aspnet.signalr._transfer_format
+  href: com.microsoft.aspnet.signalr._transfer_format.yml
+  langs:
+  - java
+  name: BINARY
+  nameWithType: TransferFormat.BINARY
+  fullName: com.microsoft.aspnet.signalr.TransferFormat.BINARY
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/TransferFormat.java
+    startLine: 7
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public BINARY
+- uid: com.microsoft.aspnet.signalr._transfer_format.TEXT
+  id: TEXT
+  parent: com.microsoft.aspnet.signalr._transfer_format
+  href: com.microsoft.aspnet.signalr._transfer_format.yml
+  langs:
+  - java
+  name: TEXT
+  nameWithType: TransferFormat.TEXT
+  fullName: com.microsoft.aspnet.signalr.TransferFormat.TEXT
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/TransferFormat.java
+    startLine: 6
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public TEXT
+references: []
