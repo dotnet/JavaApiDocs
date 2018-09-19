@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._action_base
+  id: _action_base
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._action_base.invoke(Object ...)
+  href: com.microsoft.aspnet.signalr._action_base.yml
+  langs:
+  - java
+  name: ActionBase
+  nameWithType: ActionBase
+  fullName: com.microsoft.aspnet.signalr.ActionBase
+  type: Interface
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/ActionBase.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/ActionBase.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public interface ActionBase
+- uid: com.microsoft.aspnet.signalr._action_base.invoke(Object ...)
+  id: )
+  parent: com.microsoft.aspnet.signalr._action_base
+  href: com.microsoft.aspnet.signalr._action_base.yml
+  langs:
+  - java
+  name: invoke(Object ... params)
+  nameWithType: ActionBase.invoke(Object ... params)
+  fullName: com.microsoft.aspnet.signalr.ActionBase.invoke(Object ... params)
+  overload: com.microsoft.aspnet.signalr._action_base.invoke*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/ActionBase.java
+    startLine: 6
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public void invoke(Object ... params)
+    parameters:
+    - id: params
+      type: 6bfbc705
+references:
+- uid: 6bfbc705
+  spec.java:
+  - name: Object ...
+    fullName: Object ...
+- uid: com.microsoft.aspnet.signalr._action_base.invoke*
+  name: invoke
+  nameWithType: ActionBase.invoke
+  fullName: com.microsoft.aspnet.signalr.ActionBase.invoke
+  package: com.microsoft.aspnet.signalr

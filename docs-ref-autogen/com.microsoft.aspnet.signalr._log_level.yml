@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.aspnet.signalr._log_level
+  id: _log_level
+  parent: com.microsoft.aspnet.signalr
+  children:
+  - com.microsoft.aspnet.signalr._log_level.Critical
+  - com.microsoft.aspnet.signalr._log_level.Debug
+  - com.microsoft.aspnet.signalr._log_level.Error
+  - com.microsoft.aspnet.signalr._log_level.Information
+  - com.microsoft.aspnet.signalr._log_level.LogLevel(int)
+  - com.microsoft.aspnet.signalr._log_level.None
+  - com.microsoft.aspnet.signalr._log_level.Trace
+  - com.microsoft.aspnet.signalr._log_level.value
+  - com.microsoft.aspnet.signalr._log_level.Warning
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: com.microsoft.aspnet.signalr.LogLevel
+  type: Enum
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 5
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public enum LogLevel
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<LogLevel>
+- uid: com.microsoft.aspnet.signalr._log_level.Critical
+  id: Critical
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Critical
+  nameWithType: LogLevel.Critical
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Critical
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 11
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Critical=(5)
+- uid: com.microsoft.aspnet.signalr._log_level.Debug
+  id: Debug
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Debug
+  nameWithType: LogLevel.Debug
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Debug
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 7
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Debug=(1)
+- uid: com.microsoft.aspnet.signalr._log_level.Error
+  id: Error
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Error
+  nameWithType: LogLevel.Error
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Error
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 10
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Error=(4)
+- uid: com.microsoft.aspnet.signalr._log_level.Information
+  id: Information
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Information
+  nameWithType: LogLevel.Information
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Information
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 8
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Information=(2)
+- uid: com.microsoft.aspnet.signalr._log_level.LogLevel(int)
+  id: LogLevel(int)
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: LogLevel(int id)
+  nameWithType: LogLevel.LogLevel(int id)
+  fullName: com.microsoft.aspnet.signalr.LogLevel.LogLevel(int id)
+  overload: com.microsoft.aspnet.signalr._log_level.LogLevel*
+  type: Constructor
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 15
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public LogLevel(int id)
+    parameters:
+    - id: id
+      type: f75371fa
+- uid: com.microsoft.aspnet.signalr._log_level.None
+  id: None
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: None
+  nameWithType: LogLevel.None
+  fullName: com.microsoft.aspnet.signalr.LogLevel.None
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 12
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public None=(6)
+- uid: com.microsoft.aspnet.signalr._log_level.Trace
+  id: Trace
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Trace
+  nameWithType: LogLevel.Trace
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Trace
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 6
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Trace=(0)
+- uid: com.microsoft.aspnet.signalr._log_level.value
+  id: value
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: value
+  nameWithType: LogLevel.value
+  fullName: com.microsoft.aspnet.signalr.LogLevel.value
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 14
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public int value
+    return:
+      type: f75371fa
+- uid: com.microsoft.aspnet.signalr._log_level.Warning
+  id: Warning
+  parent: com.microsoft.aspnet.signalr._log_level
+  href: com.microsoft.aspnet.signalr._log_level.yml
+  langs:
+  - java
+  name: Warning
+  nameWithType: LogLevel.Warning
+  fullName: com.microsoft.aspnet.signalr.LogLevel.Warning
+  type: Field
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/LogLevel.java
+    startLine: 9
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public Warning=(3)
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.aspnet.signalr._log_level.LogLevel*
+  name: LogLevel
+  nameWithType: LogLevel.LogLevel
+  fullName: com.microsoft.aspnet.signalr.LogLevel.LogLevel
+  package: com.microsoft.aspnet.signalr
