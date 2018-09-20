@@ -3,12 +3,25 @@
     "content": [
       {
         "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/signalr_java_sdk",
+        "group": "signalr",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
         "dest": "api",
         "exclude": [
+          "**/toc.yml",
           "**/obj/**",
           "**/includes/**"
         ],
