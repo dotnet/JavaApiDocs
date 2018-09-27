@@ -8,6 +8,7 @@
         "src": "docs-ref-autogen",
         "dest": "api/signalr_java_sdk",
         "group": "signalr",
+        "version": "aspnet-signalr-java",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -25,7 +26,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "signalr"
+        "group": "signalr",
+        "version": "aspnet-signalr-java"
       },
       {
         "files": [
@@ -37,7 +39,8 @@
           "**/obj/**",
           "**/includes/**"
         ],
-        "group": "signalr"
+        "group": "signalr",
+        "version": "aspnet-signalr-java"
       },
       {
         "files": [
@@ -52,7 +55,8 @@
           "ThirdPartyNotices",
           "docs-ref-autogen"
         ],
-        "group": "signalr"
+        "group": "signalr",
+        "version": "aspnet-signalr-java"
       }
     ],
     "groups": {
