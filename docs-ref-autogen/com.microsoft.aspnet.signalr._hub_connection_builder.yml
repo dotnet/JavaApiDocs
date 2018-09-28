@@ -8,6 +8,7 @@ items:
   - com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(Logger)
   - com.microsoft.aspnet.signalr._hub_connection_builder.configureLogging(LogLevel)
   - com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String)
+  - com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,HttpConnectionOptions)
   - com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,Transport)
   href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
   langs:
@@ -42,7 +43,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
-    startLine: 32
+    startLine: 51
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnection build()
@@ -62,7 +63,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
-    startLine: 27
+    startLine: 46
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnectionBuilder configureLogging(Logger logger)
@@ -85,7 +86,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
-    startLine: 22
+    startLine: 41
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnectionBuilder configureLogging(LogLevel logLevel)
@@ -117,6 +118,31 @@ items:
       type: "26831127"
     return:
       type: com.microsoft.aspnet.signalr._hub_connection_builder
+- uid: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,HttpConnectionOptions)
+  id: withUrl(String,HttpConnectionOptions)
+  parent: com.microsoft.aspnet.signalr._hub_connection_builder
+  href: com.microsoft.aspnet.signalr._hub_connection_builder.yml
+  langs:
+  - java
+  name: withUrl(String url, HttpConnectionOptions options)
+  nameWithType: HubConnectionBuilder.withUrl(String url, HttpConnectionOptions options)
+  fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder.withUrl(String url, HttpConnectionOptions options)
+  overload: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
+    startLine: 29
+  package: com.microsoft.aspnet.signalr
+  syntax:
+    content: public HubConnectionBuilder withUrl(String url, HttpConnectionOptions options)
+    parameters:
+    - id: url
+      type: "26831127"
+    - id: options
+      type: com.microsoft.aspnet.signalr._http_connection_options
+    return:
+      type: com.microsoft.aspnet.signalr._hub_connection_builder
 - uid: com.microsoft.aspnet.signalr._hub_connection_builder.withUrl(String,Transport)
   id: withUrl(String,Transport)
   parent: com.microsoft.aspnet.signalr._hub_connection_builder
@@ -131,7 +157,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/aspnet/signalr/HubConnectionBuilder.java
-    startLine: 16
+    startLine: 20
   package: com.microsoft.aspnet.signalr
   syntax:
     content: public HubConnectionBuilder withUrl(String url, Transport transport)
@@ -183,6 +209,15 @@ references:
   fullName: com.microsoft.aspnet.signalr.HubConnectionBuilder
   type: Class
   syntax: *o1
+- uid: com.microsoft.aspnet.signalr._http_connection_options
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._http_connection_options.yml
+  name: HttpConnectionOptions
+  nameWithType: HttpConnectionOptions
+  fullName: com.microsoft.aspnet.signalr.HttpConnectionOptions
+  type: Class
+  syntax:
+    content: public class HttpConnectionOptions
 - uid: com.microsoft.aspnet.signalr._log_level
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._log_level.yml

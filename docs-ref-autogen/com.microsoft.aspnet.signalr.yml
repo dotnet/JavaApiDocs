@@ -13,13 +13,12 @@ items:
   - com.microsoft.aspnet.signalr._action6
   - com.microsoft.aspnet.signalr._action7
   - com.microsoft.aspnet.signalr._action8
-  - com.microsoft.aspnet.signalr._chat
   - com.microsoft.aspnet.signalr._console_logger
+  - com.microsoft.aspnet.signalr._http_connection_options
   - com.microsoft.aspnet.signalr._hub_connection
   - com.microsoft.aspnet.signalr._hub_connection_builder
   - com.microsoft.aspnet.signalr._hub_connection_state
   - com.microsoft.aspnet.signalr._hub_exception
-  - com.microsoft.aspnet.signalr._hub_message_type
   - com.microsoft.aspnet.signalr._log_level
   - com.microsoft.aspnet.signalr._logger
   - com.microsoft.aspnet.signalr._subscription
@@ -211,15 +210,6 @@ references:
   type: Interface
   syntax:
     content: public interface ActionBase
-- uid: com.microsoft.aspnet.signalr._chat
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._chat.yml
-  name: Chat
-  nameWithType: Chat
-  fullName: com.microsoft.aspnet.signalr.Chat
-  type: Class
-  syntax:
-    content: public class Chat
 - uid: com.microsoft.aspnet.signalr._console_logger
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._console_logger.yml
@@ -229,6 +219,15 @@ references:
   type: Class
   syntax:
     content: public class ConsoleLogger implements Logger
+- uid: com.microsoft.aspnet.signalr._http_connection_options
+  parent: com.microsoft.aspnet.signalr
+  href: com.microsoft.aspnet.signalr._http_connection_options.yml
+  name: HttpConnectionOptions
+  nameWithType: HttpConnectionOptions
+  fullName: com.microsoft.aspnet.signalr.HttpConnectionOptions
+  type: Class
+  syntax:
+    content: public class HttpConnectionOptions
 - uid: com.microsoft.aspnet.signalr._hub_connection
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._hub_connection.yml
@@ -265,15 +264,6 @@ references:
   type: Class
   syntax:
     content: public class HubException
-- uid: com.microsoft.aspnet.signalr._hub_message_type
-  parent: com.microsoft.aspnet.signalr
-  href: com.microsoft.aspnet.signalr._hub_message_type.yml
-  name: HubMessageType
-  nameWithType: HubMessageType
-  fullName: com.microsoft.aspnet.signalr.HubMessageType
-  type: Enum
-  syntax:
-    content: public enum HubMessageType
 - uid: com.microsoft.aspnet.signalr._logger
   parent: com.microsoft.aspnet.signalr
   href: com.microsoft.aspnet.signalr._logger.yml
