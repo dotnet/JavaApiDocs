@@ -12,16 +12,13 @@ items:
   - com.microsoft.signalr._action6
   - com.microsoft.signalr._action7
   - com.microsoft.signalr._action8
-  - com.microsoft.signalr._console_logger
-  - com.microsoft.signalr._http_connection_options
+  - com.microsoft.signalr._http_hub_connection_builder
   - com.microsoft.signalr._hub_connection
   - com.microsoft.signalr._hub_connection_builder
   - com.microsoft.signalr._hub_connection_state
   - com.microsoft.signalr._hub_exception
   - com.microsoft.signalr._log_level
-  - com.microsoft.signalr._logger
   - com.microsoft.signalr._subscription
-  - com.microsoft.signalr._transfer_format
   href: com.microsoft.signalr.yml
   langs:
   - java
@@ -200,24 +197,15 @@ references:
       type: 308f4ff4
     - id: T8
       type: 57f41c00
-- uid: com.microsoft.signalr._console_logger
+- uid: com.microsoft.signalr._http_hub_connection_builder
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._console_logger.yml
-  name: ConsoleLogger
-  nameWithType: ConsoleLogger
-  fullName: com.microsoft.signalr.ConsoleLogger
+  href: com.microsoft.signalr._http_hub_connection_builder.yml
+  name: HttpHubConnectionBuilder
+  nameWithType: HttpHubConnectionBuilder
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder
   type: Class
   syntax:
-    content: public class ConsoleLogger implements Logger
-- uid: com.microsoft.signalr._http_connection_options
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._http_connection_options.yml
-  name: HttpConnectionOptions
-  nameWithType: HttpConnectionOptions
-  fullName: com.microsoft.signalr.HttpConnectionOptions
-  type: Class
-  syntax:
-    content: public class HttpConnectionOptions
+    content: public class HttpHubConnectionBuilder
 - uid: com.microsoft.signalr._hub_connection
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._hub_connection.yml
@@ -254,15 +242,6 @@ references:
   type: Class
   syntax:
     content: public class HubException
-- uid: com.microsoft.signalr._logger
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._logger.yml
-  name: Logger
-  nameWithType: Logger
-  fullName: com.microsoft.signalr.Logger
-  type: Interface
-  syntax:
-    content: public interface Logger
 - uid: com.microsoft.signalr._log_level
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._log_level.yml
@@ -281,12 +260,3 @@ references:
   type: Class
   syntax:
     content: public class Subscription
-- uid: com.microsoft.signalr._transfer_format
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._transfer_format.yml
-  name: TransferFormat
-  nameWithType: TransferFormat
-  fullName: com.microsoft.signalr.TransferFormat
-  type: Enum
-  syntax:
-    content: public enum TransferFormat

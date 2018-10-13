@@ -5,11 +5,7 @@ items:
   parent: com.microsoft.signalr
   children:
   - com.microsoft.signalr._hub_connection_builder.build()
-  - com.microsoft.signalr._hub_connection_builder.configureLogging(Logger)
-  - com.microsoft.signalr._hub_connection_builder.configureLogging(LogLevel)
   - com.microsoft.signalr._hub_connection_builder.create(String)
-  - com.microsoft.signalr._hub_connection_builder.withOptions(HttpConnectionOptions)
-  - com.microsoft.signalr._hub_connection_builder.withTransport(Transport)
   href: com.microsoft.signalr._hub_connection_builder.yml
   langs:
   - java
@@ -25,7 +21,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 5
   package: com.microsoft.signalr
-  syntax: &o1
+  syntax:
     content: public class HubConnectionBuilder
   inheritance:
   - java.lang.Object
@@ -43,58 +39,12 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 42
+    startLine: 13
   package: com.microsoft.signalr
   syntax:
-    content: public HubConnection build()
+    content: public abstract HubConnection build()
     return:
-      type: com.microsoft.signalr._hub_connection
-- uid: com.microsoft.signalr._hub_connection_builder.configureLogging(Logger)
-  id: configureLogging(Logger)
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
-  langs:
-  - java
-  name: configureLogging(Logger logger)
-  nameWithType: HubConnectionBuilder.configureLogging(Logger logger)
-  fullName: com.microsoft.signalr.HubConnectionBuilder.configureLogging(Logger logger)
-  overload: com.microsoft.signalr._hub_connection_builder.configureLogging*
-  type: Method
-  source:
-    remote: *o0
-    path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 37
-  package: com.microsoft.signalr
-  syntax:
-    content: public HubConnectionBuilder configureLogging(Logger logger)
-    parameters:
-    - id: logger
-      type: com.microsoft.signalr._logger
-    return:
-      type: com.microsoft.signalr._hub_connection_builder
-- uid: com.microsoft.signalr._hub_connection_builder.configureLogging(LogLevel)
-  id: configureLogging(LogLevel)
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
-  langs:
-  - java
-  name: configureLogging(LogLevel logLevel)
-  nameWithType: HubConnectionBuilder.configureLogging(LogLevel logLevel)
-  fullName: com.microsoft.signalr.HubConnectionBuilder.configureLogging(LogLevel logLevel)
-  overload: com.microsoft.signalr._hub_connection_builder.configureLogging*
-  type: Method
-  source:
-    remote: *o0
-    path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 32
-  package: com.microsoft.signalr
-  syntax:
-    content: public HubConnectionBuilder configureLogging(LogLevel logLevel)
-    parameters:
-    - id: logLevel
-      type: com.microsoft.signalr._log_level
-    return:
-      type: com.microsoft.signalr._hub_connection_builder
+      type: 13c86962com.microsoft.signalr._hub_connection
 - uid: com.microsoft.signalr._hub_connection_builder.create(String)
   id: create(String)
   parent: com.microsoft.signalr._hub_connection_builder
@@ -109,61 +59,15 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 15
+    startLine: 6
   package: com.microsoft.signalr
   syntax:
-    content: public static HubConnectionBuilder create(String url)
+    content: public static HttpHubConnectionBuilder create(String url)
     parameters:
     - id: url
       type: "26831127"
     return:
-      type: com.microsoft.signalr._hub_connection_builder
-- uid: com.microsoft.signalr._hub_connection_builder.withOptions(HttpConnectionOptions)
-  id: withOptions(HttpConnectionOptions)
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
-  langs:
-  - java
-  name: withOptions(HttpConnectionOptions options)
-  nameWithType: HubConnectionBuilder.withOptions(HttpConnectionOptions options)
-  fullName: com.microsoft.signalr.HubConnectionBuilder.withOptions(HttpConnectionOptions options)
-  overload: com.microsoft.signalr._hub_connection_builder.withOptions*
-  type: Method
-  source:
-    remote: *o0
-    path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 27
-  package: com.microsoft.signalr
-  syntax:
-    content: public HubConnectionBuilder withOptions(HttpConnectionOptions options)
-    parameters:
-    - id: options
-      type: com.microsoft.signalr._http_connection_options
-    return:
-      type: com.microsoft.signalr._hub_connection_builder
-- uid: com.microsoft.signalr._hub_connection_builder.withTransport(Transport)
-  id: withTransport(Transport)
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
-  langs:
-  - java
-  name: withTransport(Transport transport)
-  nameWithType: HubConnectionBuilder.withTransport(Transport transport)
-  fullName: com.microsoft.signalr.HubConnectionBuilder.withTransport(Transport transport)
-  overload: com.microsoft.signalr._hub_connection_builder.withTransport*
-  type: Method
-  source:
-    remote: *o0
-    path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
-    startLine: 22
-  package: com.microsoft.signalr
-  syntax:
-    content: public HubConnectionBuilder withTransport(Transport transport)
-    parameters:
-    - id: transport
-      type: 88c4f0f5
-    return:
-      type: com.microsoft.signalr._hub_connection_builder
+      type: com.microsoft.signalr._http_hub_connection_builder
 references:
 - uid: "26831127"
   spec.java:
@@ -174,65 +78,28 @@ references:
   nameWithType: HubConnectionBuilder.create
   fullName: com.microsoft.signalr.HubConnectionBuilder.create
   package: com.microsoft.signalr
-- uid: 88c4f0f5
+- uid: 13c86962com.microsoft.signalr._hub_connection
   spec.java:
-  - name: Transport
-    fullName: Transport
-- uid: com.microsoft.signalr._hub_connection_builder.withTransport*
-  name: withTransport
-  nameWithType: HubConnectionBuilder.withTransport
-  fullName: com.microsoft.signalr.HubConnectionBuilder.withTransport
-  package: com.microsoft.signalr
-- uid: com.microsoft.signalr._hub_connection_builder.withOptions*
-  name: withOptions
-  nameWithType: HubConnectionBuilder.withOptions
-  fullName: com.microsoft.signalr.HubConnectionBuilder.withOptions
-  package: com.microsoft.signalr
-- uid: com.microsoft.signalr._hub_connection_builder.configureLogging*
-  name: configureLogging
-  nameWithType: HubConnectionBuilder.configureLogging
-  fullName: com.microsoft.signalr.HubConnectionBuilder.configureLogging
-  package: com.microsoft.signalr
+  - name: 'abstract '
+    fullName: 'abstract '
+  - uid: com.microsoft.signalr._hub_connection
+    name: HubConnection
+    fullName: com.microsoft.signalr.HubConnection
+    href: com.microsoft.signalr._hub_connection.yml
 - uid: com.microsoft.signalr._hub_connection_builder.build*
   name: build
   nameWithType: HubConnectionBuilder.build
   fullName: com.microsoft.signalr.HubConnectionBuilder.build
   package: com.microsoft.signalr
-- uid: com.microsoft.signalr._logger
+- uid: com.microsoft.signalr._http_hub_connection_builder
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._logger.yml
-  name: Logger
-  nameWithType: Logger
-  fullName: com.microsoft.signalr.Logger
-  type: Interface
-  syntax:
-    content: public interface Logger
-- uid: com.microsoft.signalr._http_connection_options
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._http_connection_options.yml
-  name: HttpConnectionOptions
-  nameWithType: HttpConnectionOptions
-  fullName: com.microsoft.signalr.HttpConnectionOptions
+  href: com.microsoft.signalr._http_hub_connection_builder.yml
+  name: HttpHubConnectionBuilder
+  nameWithType: HttpHubConnectionBuilder
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder
   type: Class
   syntax:
-    content: public class HttpConnectionOptions
-- uid: com.microsoft.signalr._hub_connection_builder
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._hub_connection_builder.yml
-  name: HubConnectionBuilder
-  nameWithType: HubConnectionBuilder
-  fullName: com.microsoft.signalr.HubConnectionBuilder
-  type: Class
-  syntax: *o1
-- uid: com.microsoft.signalr._log_level
-  parent: com.microsoft.signalr
-  href: com.microsoft.signalr._log_level.yml
-  name: LogLevel
-  nameWithType: LogLevel
-  fullName: com.microsoft.signalr.LogLevel
-  type: Enum
-  syntax:
-    content: public enum LogLevel
+    content: public class HttpHubConnectionBuilder
 - uid: com.microsoft.signalr._hub_connection
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._hub_connection.yml

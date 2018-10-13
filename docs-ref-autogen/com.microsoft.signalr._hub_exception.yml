@@ -26,7 +26,7 @@ items:
     content: public class HubException
   inheritance:
   - java.lang.Object
-  - Exception
+  - RuntimeException
 - uid: com.microsoft.signalr._hub_exception.HubException()
   id: HubException()
   parent: com.microsoft.signalr._hub_exception
@@ -41,7 +41,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
-    startLine: 6
+    startLine: 8
   package: com.microsoft.signalr
   syntax:
     content: public HubException()
@@ -59,7 +59,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
-    startLine: 9
+    startLine: 11
   package: com.microsoft.signalr
   syntax:
     content: public HubException(String errorMessage)
@@ -80,7 +80,7 @@ items:
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
-    startLine: 13
+    startLine: 15
   package: com.microsoft.signalr
   syntax:
     content: public HubException(String errorMessage, Exception innerException)

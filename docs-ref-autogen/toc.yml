@@ -30,12 +30,9 @@
   - uid: com.microsoft.signalr._action8
     name: Action8
     href: com.microsoft.signalr._action8.yml
-  - uid: com.microsoft.signalr._console_logger
-    name: ConsoleLogger
-    href: com.microsoft.signalr._console_logger.yml
-  - uid: com.microsoft.signalr._http_connection_options
-    name: HttpConnectionOptions
-    href: com.microsoft.signalr._http_connection_options.yml
+  - uid: com.microsoft.signalr._http_hub_connection_builder
+    name: HttpHubConnectionBuilder
+    href: com.microsoft.signalr._http_hub_connection_builder.yml
   - uid: com.microsoft.signalr._hub_connection
     name: HubConnection
     href: com.microsoft.signalr._hub_connection.yml
@@ -48,15 +45,9 @@
   - uid: com.microsoft.signalr._hub_exception
     name: HubException
     href: com.microsoft.signalr._hub_exception.yml
-  - uid: com.microsoft.signalr._logger
-    name: Logger
-    href: com.microsoft.signalr._logger.yml
   - uid: com.microsoft.signalr._log_level
     name: LogLevel
     href: com.microsoft.signalr._log_level.yml
   - uid: com.microsoft.signalr._subscription
     name: Subscription
     href: com.microsoft.signalr._subscription.yml
-  - uid: com.microsoft.signalr._transfer_format
-    name: TransferFormat
-    href: com.microsoft.signalr._transfer_format.yml
