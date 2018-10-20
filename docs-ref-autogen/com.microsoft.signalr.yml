@@ -33,6 +33,7 @@ items:
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action.java
     startLine: 3
+  summary: <p>This package contains the classes for SignalR Java client. </p>
   syntax:
     content: package com.microsoft.signalr
 references:
@@ -43,6 +44,7 @@ references:
   nameWithType: Action
   fullName: com.microsoft.signalr.Action
   type: Interface
+  summary: <p>A callback that takes no parameters. </p>
   syntax:
     content: public interface Action
 - uid: com.microsoft.signalr._action1
@@ -52,11 +54,16 @@ references:
   nameWithType: Action1<T1>
   fullName: com.microsoft.signalr.Action1<T1>
   type: Interface
+  summary: >-
+    <p>A callback that takes one parameter.</p>
+
+    <p></p>
   syntax:
     content: public interface Action1<T1>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
 - uid: com.microsoft.signalr._action2
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action2.yml
@@ -64,13 +71,19 @@ references:
   nameWithType: Action2<T1,T2>
   fullName: com.microsoft.signalr.Action2<T1,T2>
   type: Interface
+  summary: >-
+    <p>A callback that takes two parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action2<T1,T2>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
 - uid: com.microsoft.signalr._action3
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action3.yml
@@ -78,15 +91,22 @@ references:
   nameWithType: Action3<T1,T2,T3>
   fullName: com.microsoft.signalr.Action3<T1,T2,T3>
   type: Interface
+  summary: >-
+    <p>A callback that takes three parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action3<T1,T2,T3>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
 - uid: com.microsoft.signalr._action4
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action4.yml
@@ -94,17 +114,25 @@ references:
   nameWithType: Action4<T1,T2,T3,T4>
   fullName: com.microsoft.signalr.Action4<T1,T2,T3,T4>
   type: Interface
+  summary: >-
+    <p>A callback that takes four parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action4<T1,T2,T3,T4>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
     - id: T4
       type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
 - uid: com.microsoft.signalr._action5
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action5.yml
@@ -112,19 +140,28 @@ references:
   nameWithType: Action5<T1,T2,T3,T4,T5>
   fullName: com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>
   type: Interface
+  summary: >-
+    <p>A callback that takes five parameter.</p>
+
+    <p></p>
   syntax:
     content: public interface Action5<T1,T2,T3,T4,T5>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
     - id: T4
       type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
     - id: T5
       type: 136da300
+      description: <p>The type of the fifth parameter to the callback. </p>
 - uid: com.microsoft.signalr._action6
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action6.yml
@@ -132,21 +169,31 @@ references:
   nameWithType: Action6<T1,T2,T3,T4,T5,T6>
   fullName: com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>
   type: Interface
+  summary: >-
+    <p>A callback that takes six parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action6<T1,T2,T3,T4,T5,T6>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
     - id: T4
       type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
     - id: T5
       type: 136da300
+      description: <p>The type of the fifth parameter to the callback. </p>
     - id: T6
       type: 43cd3771
+      description: <p>The type of the sixth parameter to the callback. </p>
 - uid: com.microsoft.signalr._action7
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action7.yml
@@ -154,23 +201,34 @@ references:
   nameWithType: Action7<T1,T2,T3,T4,T5,T6,T7>
   fullName: com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>
   type: Interface
+  summary: >-
+    <p>A callback that takes seven parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action7<T1,T2,T3,T4,T5,T6,T7>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
     - id: T4
       type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
     - id: T5
       type: 136da300
+      description: <p>The type of the fifth parameter to the callback. </p>
     - id: T6
       type: 43cd3771
+      description: <p>The type of the sixth parameter to the callback. </p>
     - id: T7
       type: 308f4ff4
+      description: <p>The type of the seventh parameter to the callback. </p>
 - uid: com.microsoft.signalr._action8
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._action8.yml
@@ -178,25 +236,37 @@ references:
   nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
   fullName: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>
   type: Interface
+  summary: >-
+    <p>A callback that takes eight parameters.</p>
+
+    <p></p>
   syntax:
     content: public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>
     typeParameters:
     - id: T1
       type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
     - id: T2
       type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
     - id: T3
       type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
     - id: T4
       type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
     - id: T5
       type: 136da300
+      description: <p>The type of the fifth parameter to the callback. </p>
     - id: T6
       type: 43cd3771
+      description: <p>The type of the sixth parameter to the callback. </p>
     - id: T7
       type: 308f4ff4
+      description: <p>The type of the seventh parameter to the callback. </p>
     - id: T8
       type: 57f41c00
+      description: <p>The type of the eighth parameter to the callback. </p>
 - uid: com.microsoft.signalr._http_hub_connection_builder
   parent: com.microsoft.signalr
   href: com.microsoft.signalr._http_hub_connection_builder.yml
@@ -204,6 +274,7 @@ references:
   nameWithType: HttpHubConnectionBuilder
   fullName: com.microsoft.signalr.HttpHubConnectionBuilder
   type: Class
+  summary: <p>A builder for configuring <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> instances. </p>
   syntax:
     content: public class HttpHubConnectionBuilder
 - uid: com.microsoft.signalr._hub_connection
@@ -222,6 +293,7 @@ references:
   nameWithType: HubConnectionBuilder
   fullName: com.microsoft.signalr.HubConnectionBuilder
   type: Class
+  summary: <p>A builder for configuring <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> instances. </p>
   syntax:
     content: public class HubConnectionBuilder
 - uid: com.microsoft.signalr._hub_connection_state
@@ -231,6 +303,7 @@ references:
   nameWithType: HubConnectionState
   fullName: com.microsoft.signalr.HubConnectionState
   type: Enum
+  summary: <p>Indicates the state of the <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>. </p>
   syntax:
     content: public enum HubConnectionState
 - uid: com.microsoft.signalr._hub_exception
@@ -240,6 +313,7 @@ references:
   nameWithType: HubException
   fullName: com.microsoft.signalr.HubException
   type: Class
+  summary: <p>An exception thrown when the server fails to invoke a Hub method. </p>
   syntax:
     content: public class HubException
 - uid: com.microsoft.signalr._log_level
@@ -258,5 +332,6 @@ references:
   nameWithType: Subscription
   fullName: com.microsoft.signalr.Subscription
   type: Class
+  summary: <p>Represents the registration of a handler for a client method. </p>
   syntax:
     content: public class Subscription
