@@ -22,7 +22,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>An exception thrown when the server fails to invoke a Hub method. </p>
+  summary: "<p>An exception thrown when the server fails to invoke a Hub method. </p>"
   syntax: &o1
     content: public class HubException
   inheritance:
@@ -44,7 +44,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 14
   package: com.microsoft.signalr
-  summary: <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class. </p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr._hub_exception\" data-throw-if-not-resolved=\"false\">HubException</xref> class. </p>"
   syntax:
     content: public HubException()
 - uid: com.microsoft.signalr._hub_exception.HubException(String)
@@ -63,10 +63,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 22
   package: com.microsoft.signalr
-  summary: >-
-    <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr._hub_exception\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message.</p>\r\n<p></p>"
   syntax:
     content: public HubException(String errorMessage)
     parameters:
@@ -89,10 +86,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 33
   package: com.microsoft.signalr
-  summary: >-
-    <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr._hub_exception\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception.</p>\r\n<p></p>"
   syntax:
     content: public HubException(String errorMessage, Exception innerException)
     parameters:

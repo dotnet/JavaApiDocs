@@ -20,7 +20,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Subscription.java
     startLine: 10
   package: com.microsoft.signalr
-  summary: <p>Represents the registration of a handler for a client method. </p>
+  summary: "<p>Represents the registration of a handler for a client method. </p>"
   syntax:
     content: public class Subscription
   inheritance:
@@ -41,7 +41,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Subscription.java
     startLine: 24
   package: com.microsoft.signalr
-  summary: <p>Removes the client method handler represented by this subscription. </p>
+  summary: "<p>Removes the client method handler represented by this subscription. </p>"
   syntax:
     content: public void unsubscribe()
 references:

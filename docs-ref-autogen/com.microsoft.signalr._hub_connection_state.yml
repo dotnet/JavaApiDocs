@@ -21,7 +21,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>Indicates the state of the <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>. </p>
+  summary: "<p>Indicates the state of the <xref uid=\"com.microsoft.signalr._hub_connection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>. </p>"
   syntax:
     content: public enum HubConnectionState
   inheritance:

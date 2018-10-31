@@ -21,7 +21,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>A builder for configuring <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> instances. </p>
+  summary: "<p>A builder for configuring <xref uid=\"com.microsoft.signalr._hub_connection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances. </p>"
   syntax:
     content: public class HubConnectionBuilder
   inheritance:
@@ -42,10 +42,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 27
   package: com.microsoft.signalr
-  summary: >-
-    <p>Builds a new instance of <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>.</p>
-
-    <p></p>
+  summary: "<p>Builds a new instance of <xref uid=\"com.microsoft.signalr._hub_connection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>.</p>\r\n<p></p>"
   syntax:
     content: public abstract HubConnection build()
     return:
@@ -67,10 +64,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 15
   package: com.microsoft.signalr
-  summary: >-
-    <p>Creates a new instance of <xref uid="com.microsoft.signalr._http_hub_connection_builder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>.</p>
-
-    <p></p>
+  summary: "<p>Creates a new instance of <xref uid=\"com.microsoft.signalr._http_hub_connection_builder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>.</p>\r\n<p></p>"
   syntax:
     content: public static HttpHubConnectionBuilder create(String url)
     parameters:
