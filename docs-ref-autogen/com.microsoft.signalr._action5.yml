@@ -20,7 +20,7 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
     startLine: 14
   package: com.microsoft.signalr
-  summary: "<p>A callback that takes five parameter.</p>\r\n<p></p>"
+  summary: "<p>A callback that takes five parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action5<T1,T2,T3,T4,T5>
     typeParameters:

@@ -141,7 +141,7 @@ references:
   fullName: com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>
   type: Interface
   summary: >-
-    <p>A callback that takes five parameter.</p>
+    <p>A callback that takes five parameters.</p>
 
     <p></p>
   syntax:
@@ -284,6 +284,7 @@ references:
   nameWithType: HubConnection
   fullName: com.microsoft.signalr.HubConnection
   type: Class
+  summary: <p>A connection used to invoke hub methods on a SignalR Server. </p>
   syntax:
     content: public class HubConnection
 - uid: com.microsoft.signalr._hub_connection_builder

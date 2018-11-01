@@ -114,5 +114,6 @@ references:
   nameWithType: HubConnection
   fullName: com.microsoft.signalr.HubConnection
   type: Class
+  summary: <p>A connection used to invoke hub methods on a SignalR Server. </p>
   syntax:
     content: public class HubConnection
