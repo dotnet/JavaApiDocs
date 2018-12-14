@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action2
-  id: _action2
+- uid: com.microsoft.signalr.Action2
+  id: Action2
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action2.invoke(T1,T2)
-  href: com.microsoft.signalr._action2.yml
+  - com.microsoft.signalr.Action2.invoke(T1,T2)
+  href: com.microsoft.signalr.Action2.yml
   langs:
   - java
   name: Action2<T1,T2>
@@ -30,16 +30,16 @@ items:
     - id: T2
       type: 6ac4d271
       description: <p>The type of the second parameter to the callback. </p>
-- uid: com.microsoft.signalr._action2.invoke(T1,T2)
+- uid: com.microsoft.signalr.Action2.invoke(T1,T2)
   id: invoke(T1,T2)
-  parent: com.microsoft.signalr._action2
-  href: com.microsoft.signalr._action2.yml
+  parent: com.microsoft.signalr.Action2
+  href: com.microsoft.signalr.Action2.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2)
   nameWithType: Action2<T1,T2>.invoke(T1 param1, T2 param2)
   fullName: com.microsoft.signalr.Action2<T1, T2>.invoke(T1 param1, T2 param2)
-  overload: com.microsoft.signalr._action2.invoke*
+  overload: com.microsoft.signalr.Action2.invoke*
   type: Method
   source:
     remote: *o0
@@ -62,7 +62,7 @@ references:
   spec.java:
   - name: T2
     fullName: T2
-- uid: com.microsoft.signalr._action2.invoke*
+- uid: com.microsoft.signalr.Action2.invoke*
   name: invoke
   nameWithType: Action2<T1,T2>.invoke
   fullName: com.microsoft.signalr.Action2<T1, T2>.invoke

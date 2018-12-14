@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action
-  id: _action
+- uid: com.microsoft.signalr.Action
+  id: Action
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action.invoke()
-  href: com.microsoft.signalr._action.yml
+  - com.microsoft.signalr.Action.invoke()
+  href: com.microsoft.signalr.Action.yml
   langs:
   - java
   name: Action
@@ -23,16 +23,16 @@ items:
   summary: "<p>A callback that takes no parameters. </p>"
   syntax:
     content: public interface Action
-- uid: com.microsoft.signalr._action.invoke()
+- uid: com.microsoft.signalr.Action.invoke()
   id: invoke()
-  parent: com.microsoft.signalr._action
-  href: com.microsoft.signalr._action.yml
+  parent: com.microsoft.signalr.Action
+  href: com.microsoft.signalr.Action.yml
   langs:
   - java
   name: invoke()
   nameWithType: Action.invoke()
   fullName: com.microsoft.signalr.Action.invoke()
-  overload: com.microsoft.signalr._action.invoke*
+  overload: com.microsoft.signalr.Action.invoke*
   type: Method
   source:
     remote: *o0
@@ -42,7 +42,7 @@ items:
   syntax:
     content: public void invoke()
 references:
-- uid: com.microsoft.signalr._action.invoke*
+- uid: com.microsoft.signalr.Action.invoke*
   name: invoke
   nameWithType: Action.invoke
   fullName: com.microsoft.signalr.Action.invoke

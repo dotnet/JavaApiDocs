@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._on_closed_callback
-  id: _on_closed_callback
+- uid: com.microsoft.signalr.OnClosedCallback
+  id: OnClosedCallback
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._on_closed_callback.invoke(Exception)
-  href: com.microsoft.signalr._on_closed_callback.yml
+  - com.microsoft.signalr.OnClosedCallback.invoke(Exception)
+  href: com.microsoft.signalr.OnClosedCallback.yml
   langs:
   - java
   name: OnClosedCallback
@@ -23,16 +23,16 @@ items:
   summary: "<p>A callback to create and register on a HubConnections OnClosed method. </p>"
   syntax:
     content: public interface OnClosedCallback
-- uid: com.microsoft.signalr._on_closed_callback.invoke(Exception)
+- uid: com.microsoft.signalr.OnClosedCallback.invoke(Exception)
   id: invoke(Exception)
-  parent: com.microsoft.signalr._on_closed_callback
-  href: com.microsoft.signalr._on_closed_callback.yml
+  parent: com.microsoft.signalr.OnClosedCallback
+  href: com.microsoft.signalr.OnClosedCallback.yml
   langs:
   - java
   name: invoke(Exception exception)
   nameWithType: OnClosedCallback.invoke(Exception exception)
   fullName: com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)
-  overload: com.microsoft.signalr._on_closed_callback.invoke*
+  overload: com.microsoft.signalr.OnClosedCallback.invoke*
   type: Method
   source:
     remote: *o0
@@ -49,7 +49,7 @@ references:
   spec.java:
   - name: Exception
     fullName: Exception
-- uid: com.microsoft.signalr._on_closed_callback.invoke*
+- uid: com.microsoft.signalr.OnClosedCallback.invoke*
   name: invoke
   nameWithType: OnClosedCallback.invoke
   fullName: com.microsoft.signalr.OnClosedCallback.invoke
