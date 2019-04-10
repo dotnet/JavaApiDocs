@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.signalr.Action5
+  id: Action5
+  parent: com.microsoft.signalr
+  children:
+  - com.microsoft.signalr.Action5.invoke(T1,T2,T3,T4,T5)
+  href: com.microsoft.signalr.Action5.yml
+  langs:
+  - java
+  name: Action5<T1,T2,T3,T4,T5>
+  nameWithType: Action5<T1,T2,T3,T4,T5>
+  fullName: com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>
+  type: Interface
+  source:
+    remote: &o0
+      path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/AspNetCore
+    path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
+    startLine: 14
+  package: com.microsoft.signalr
+  summary: "<p>A callback that takes five parameters.</p>\r\n<p></p>"
+  syntax:
+    content: public interface Action5<T1,T2,T3,T4,T5>
+    typeParameters:
+    - id: T1
+      type: ea9d49ce
+      description: <p>The type of the first parameter to the callback. </p>
+    - id: T2
+      type: 6ac4d271
+      description: <p>The type of the second parameter to the callback. </p>
+    - id: T3
+      type: e92ab054
+      description: <p>The type of the third parameter to the callback. </p>
+    - id: T4
+      type: 21b77ff4
+      description: <p>The type of the fourth parameter to the callback. </p>
+    - id: T5
+      type: 136da300
+      description: <p>The type of the fifth parameter to the callback. </p>
+- uid: com.microsoft.signalr.Action5.invoke(T1,T2,T3,T4,T5)
+  id: invoke(T1,T2,T3,T4,T5)
+  parent: com.microsoft.signalr.Action5
+  href: com.microsoft.signalr.Action5.yml
+  langs:
+  - java
+  name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+  nameWithType: Action5<T1,T2,T3,T4,T5>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+  fullName: com.microsoft.signalr.Action5<T1, T2, T3, T4, T5>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+  overload: com.microsoft.signalr.Action5.invoke*
+  type: Method
+  source:
+    remote: *o0
+    path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
+    startLine: 17
+  package: com.microsoft.signalr
+  syntax:
+    content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+    parameters:
+    - id: param1
+      type: ea9d49ce
+    - id: param2
+      type: 6ac4d271
+    - id: param3
+      type: e92ab054
+    - id: param4
+      type: 21b77ff4
+    - id: param5
+      type: 136da300
+references:
+- uid: ea9d49ce
+  spec.java:
+  - name: T1
+    fullName: T1
+- uid: 6ac4d271
+  spec.java:
+  - name: T2
+    fullName: T2
+- uid: e92ab054
+  spec.java:
+  - name: T3
+    fullName: T3
+- uid: 21b77ff4
+  spec.java:
+  - name: T4
+    fullName: T4
+- uid: 136da300
+  spec.java:
+  - name: T5
+    fullName: T5
+- uid: com.microsoft.signalr.Action5.invoke*
+  name: invoke
+  nameWithType: Action5<T1,T2,T3,T4,T5>.invoke
+  fullName: com.microsoft.signalr.Action5<T1, T2, T3, T4, T5>.invoke
+  package: com.microsoft.signalr

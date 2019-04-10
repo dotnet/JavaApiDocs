@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.signalr.HubConnectionState
+  id: HubConnectionState
+  parent: com.microsoft.signalr
+  children:
+  - com.microsoft.signalr.HubConnectionState.CONNECTED
+  - com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  href: com.microsoft.signalr.HubConnectionState.yml
+  langs:
+  - java
+  name: HubConnectionState
+  nameWithType: HubConnectionState
+  fullName: com.microsoft.signalr.HubConnectionState
+  type: Enum
+  source:
+    remote: &o0
+      path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/AspNetCore
+    path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
+    startLine: 8
+  package: com.microsoft.signalr
+  summary: "<p>Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>. </p>"
+  syntax:
+    content: public enum HubConnectionState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<HubConnectionState>
+- uid: com.microsoft.signalr.HubConnectionState.CONNECTED
+  id: CONNECTED
+  parent: com.microsoft.signalr.HubConnectionState
+  href: com.microsoft.signalr.HubConnectionState.yml
+  langs:
+  - java
+  name: CONNECTED
+  nameWithType: HubConnectionState.CONNECTED
+  fullName: com.microsoft.signalr.HubConnectionState.CONNECTED
+  type: Field
+  source:
+    remote: *o0
+    path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
+    startLine: 9
+  package: com.microsoft.signalr
+  syntax:
+    content: public CONNECTED
+- uid: com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  id: DISCONNECTED
+  parent: com.microsoft.signalr.HubConnectionState
+  href: com.microsoft.signalr.HubConnectionState.yml
+  langs:
+  - java
+  name: DISCONNECTED
+  nameWithType: HubConnectionState.DISCONNECTED
+  fullName: com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  type: Field
+  source:
+    remote: *o0
+    path: src/SignalR/clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
+    startLine: 10
+  package: com.microsoft.signalr
+  syntax:
+    content: public DISCONNECTED
+references:
+- uid: com.microsoft.signalr.HubConnection
+  parent: com.microsoft.signalr
+  href: com.microsoft.signalr.HubConnection.yml
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.signalr.HubConnection
+  type: Class
+  summary: "<p>A connection used to invoke hub methods on a SignalR Server. </p>"
+  syntax:
+    content: public class HubConnection
