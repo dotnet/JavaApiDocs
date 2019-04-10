@@ -1,7 +1,7 @@
 {
     "repo":[
        {
-          "url":"https://github.com/aspnet/AspNetCore/src/SignalR",
+          "url":"https://github.com/aspnet/AspNetCore",
           "branch":"release/2.2",
           "name":"aspnet-signalr-java"
        }
