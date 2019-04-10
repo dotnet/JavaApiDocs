@@ -1,5 +1,5 @@
 {
-    "input_paths": ["src/aspnet-signalr-java/clients/java/signalr/src/main/java"],
+    "input_paths": ["src/SignalR/clients/java/signalr"],
     "exclude_paths": [],
     "language": "java"
   }
