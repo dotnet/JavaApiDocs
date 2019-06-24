@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action8
-  id: _action8
+- uid: com.microsoft.signalr.Action8
+  id: Action8
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
-  href: com.microsoft.signalr._action8.yml
+  - com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
+  href: com.microsoft.signalr.Action8.yml
   langs:
   - java
   name: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
@@ -18,12 +18,9 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action8.java
-    startLine: 18
+    startLine: 17
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes eight parameters.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes eight parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>
     typeParameters:
@@ -51,21 +48,21 @@ items:
     - id: T8
       type: 57f41c00
       description: <p>The type of the eighth parameter to the callback. </p>
-- uid: com.microsoft.signalr._action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
+- uid: com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
   id: invoke(T1,T2,T3,T4,T5,T6,T7,T8)
-  parent: com.microsoft.signalr._action8
-  href: com.microsoft.signalr._action8.yml
+  parent: com.microsoft.signalr.Action8
+  href: com.microsoft.signalr.Action8.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
   nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
   fullName: com.microsoft.signalr.Action8<T1, T2, T3, T4, T5, T6, T7, T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
-  overload: com.microsoft.signalr._action8.invoke*
+  overload: com.microsoft.signalr.Action8.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action8.java
-    startLine: 19
+    startLine: 20
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
@@ -119,7 +116,7 @@ references:
   spec.java:
   - name: T8
     fullName: T8
-- uid: com.microsoft.signalr._action8.invoke*
+- uid: com.microsoft.signalr.Action8.invoke*
   name: invoke
   nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke
   fullName: com.microsoft.signalr.Action8<T1, T2, T3, T4, T5, T6, T7, T8>.invoke

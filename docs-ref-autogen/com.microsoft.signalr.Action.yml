@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action
-  id: _action
+- uid: com.microsoft.signalr.Action
+  id: Action
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action.invoke()
-  href: com.microsoft.signalr._action.yml
+  - com.microsoft.signalr.Action.invoke()
+  href: com.microsoft.signalr.Action.yml
   langs:
   - java
   name: Action
@@ -18,31 +18,31 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action.java
-    startLine: 9
+    startLine: 8
   package: com.microsoft.signalr
-  summary: <p>A callback that takes no parameters. </p>
+  summary: "<p>A callback that takes no parameters. </p>"
   syntax:
     content: public interface Action
-- uid: com.microsoft.signalr._action.invoke()
+- uid: com.microsoft.signalr.Action.invoke()
   id: invoke()
-  parent: com.microsoft.signalr._action
-  href: com.microsoft.signalr._action.yml
+  parent: com.microsoft.signalr.Action
+  href: com.microsoft.signalr.Action.yml
   langs:
   - java
   name: invoke()
   nameWithType: Action.invoke()
   fullName: com.microsoft.signalr.Action.invoke()
-  overload: com.microsoft.signalr._action.invoke*
+  overload: com.microsoft.signalr.Action.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action.java
-    startLine: 10
+    startLine: 11
   package: com.microsoft.signalr
   syntax:
     content: public void invoke()
 references:
-- uid: com.microsoft.signalr._action.invoke*
+- uid: com.microsoft.signalr.Action.invoke*
   name: invoke
   nameWithType: Action.invoke
   fullName: com.microsoft.signalr.Action.invoke

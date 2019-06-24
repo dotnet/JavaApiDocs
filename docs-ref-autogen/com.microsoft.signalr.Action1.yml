@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action1
-  id: _action1
+- uid: com.microsoft.signalr.Action1
+  id: Action1
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action1.invoke(T1)
-  href: com.microsoft.signalr._action1.yml
+  - com.microsoft.signalr.Action1.invoke(T1)
+  href: com.microsoft.signalr.Action1.yml
   langs:
   - java
   name: Action1<T1>
@@ -18,33 +18,30 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action1.java
-    startLine: 11
+    startLine: 10
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes one parameter.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes one parameter.</p>\r\n<p></p>"
   syntax:
     content: public interface Action1<T1>
     typeParameters:
     - id: T1
       type: ea9d49ce
       description: <p>The type of the first parameter to the callback. </p>
-- uid: com.microsoft.signalr._action1.invoke(T1)
+- uid: com.microsoft.signalr.Action1.invoke(T1)
   id: invoke(T1)
-  parent: com.microsoft.signalr._action1
-  href: com.microsoft.signalr._action1.yml
+  parent: com.microsoft.signalr.Action1
+  href: com.microsoft.signalr.Action1.yml
   langs:
   - java
   name: invoke(T1 param1)
   nameWithType: Action1<T1>.invoke(T1 param1)
   fullName: com.microsoft.signalr.Action1<T1>.invoke(T1 param1)
-  overload: com.microsoft.signalr._action1.invoke*
+  overload: com.microsoft.signalr.Action1.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action1.java
-    startLine: 12
+    startLine: 13
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1)
@@ -56,7 +53,7 @@ references:
   spec.java:
   - name: T1
     fullName: T1
-- uid: com.microsoft.signalr._action1.invoke*
+- uid: com.microsoft.signalr.Action1.invoke*
   name: invoke
   nameWithType: Action1<T1>.invoke
   fullName: com.microsoft.signalr.Action1<T1>.invoke

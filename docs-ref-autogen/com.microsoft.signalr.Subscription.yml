@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._subscription
-  id: _subscription
+- uid: com.microsoft.signalr.Subscription
+  id: Subscription
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._subscription.unsubscribe()
-  href: com.microsoft.signalr._subscription.yml
+  - com.microsoft.signalr.Subscription.unsubscribe()
+  href: com.microsoft.signalr.Subscription.yml
   langs:
   - java
   name: Subscription
@@ -20,32 +20,32 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Subscription.java
     startLine: 10
   package: com.microsoft.signalr
-  summary: <p>Represents the registration of a handler for a client method. </p>
+  summary: "<p>Represents the registration of a handler for a client method. </p>"
   syntax:
     content: public class Subscription
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.signalr._subscription.unsubscribe()
+- uid: com.microsoft.signalr.Subscription.unsubscribe()
   id: unsubscribe()
-  parent: com.microsoft.signalr._subscription
-  href: com.microsoft.signalr._subscription.yml
+  parent: com.microsoft.signalr.Subscription
+  href: com.microsoft.signalr.Subscription.yml
   langs:
   - java
   name: unsubscribe()
   nameWithType: Subscription.unsubscribe()
   fullName: com.microsoft.signalr.Subscription.unsubscribe()
-  overload: com.microsoft.signalr._subscription.unsubscribe*
+  overload: com.microsoft.signalr.Subscription.unsubscribe*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Subscription.java
     startLine: 24
   package: com.microsoft.signalr
-  summary: <p>Removes the client method handler represented by this subscription. </p>
+  summary: "<p>Removes the client method handler represented by this subscription. </p>"
   syntax:
     content: public void unsubscribe()
 references:
-- uid: com.microsoft.signalr._subscription.unsubscribe*
+- uid: com.microsoft.signalr.Subscription.unsubscribe*
   name: unsubscribe
   nameWithType: Subscription.unsubscribe
   fullName: com.microsoft.signalr.Subscription.unsubscribe

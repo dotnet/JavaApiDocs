@@ -1,13 +1,13 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._hub_exception
-  id: _hub_exception
+- uid: com.microsoft.signalr.HubException
+  id: HubException
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._hub_exception.HubException()
-  - com.microsoft.signalr._hub_exception.HubException(String)
-  - com.microsoft.signalr._hub_exception.HubException(String,Exception)
-  href: com.microsoft.signalr._hub_exception.yml
+  - com.microsoft.signalr.HubException.HubException()
+  - com.microsoft.signalr.HubException.HubException(String)
+  - com.microsoft.signalr.HubException.HubException(String,Exception)
+  href: com.microsoft.signalr.HubException.yml
   langs:
   - java
   name: HubException
@@ -22,77 +22,71 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>An exception thrown when the server fails to invoke a Hub method. </p>
+  summary: "<p>An exception thrown when the server fails to invoke a Hub method. </p>"
   syntax: &o1
     content: public class HubException
   inheritance:
   - java.lang.Object
   - RuntimeException
-- uid: com.microsoft.signalr._hub_exception.HubException()
+- uid: com.microsoft.signalr.HubException.HubException()
   id: HubException()
-  parent: com.microsoft.signalr._hub_exception
-  href: com.microsoft.signalr._hub_exception.yml
+  parent: com.microsoft.signalr.HubException
+  href: com.microsoft.signalr.HubException.yml
   langs:
   - java
   name: HubException()
   nameWithType: HubException.HubException()
   fullName: com.microsoft.signalr.HubException.HubException()
-  overload: com.microsoft.signalr._hub_exception.HubException*
+  overload: com.microsoft.signalr.HubException.HubException*
   type: Constructor
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 14
   package: com.microsoft.signalr
-  summary: <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class. </p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class. </p>"
   syntax:
     content: public HubException()
-- uid: com.microsoft.signalr._hub_exception.HubException(String)
+- uid: com.microsoft.signalr.HubException.HubException(String)
   id: HubException(String)
-  parent: com.microsoft.signalr._hub_exception
-  href: com.microsoft.signalr._hub_exception.yml
+  parent: com.microsoft.signalr.HubException
+  href: com.microsoft.signalr.HubException.yml
   langs:
   - java
   name: HubException(String errorMessage)
   nameWithType: HubException.HubException(String errorMessage)
   fullName: com.microsoft.signalr.HubException.HubException(String errorMessage)
-  overload: com.microsoft.signalr._hub_exception.HubException*
+  overload: com.microsoft.signalr.HubException.HubException*
   type: Constructor
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 22
   package: com.microsoft.signalr
-  summary: >-
-    <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message.</p>\r\n<p></p>"
   syntax:
     content: public HubException(String errorMessage)
     parameters:
     - id: errorMessage
       type: "26831127"
       description: <p>The error message that explains the reason for the exception. </p>
-- uid: com.microsoft.signalr._hub_exception.HubException(String,Exception)
+- uid: com.microsoft.signalr.HubException.HubException(String,Exception)
   id: HubException(String,Exception)
-  parent: com.microsoft.signalr._hub_exception
-  href: com.microsoft.signalr._hub_exception.yml
+  parent: com.microsoft.signalr.HubException
+  href: com.microsoft.signalr.HubException.yml
   langs:
   - java
   name: HubException(String errorMessage, Exception innerException)
   nameWithType: HubException.HubException(String errorMessage, Exception innerException)
   fullName: com.microsoft.signalr.HubException.HubException(String errorMessage, Exception innerException)
-  overload: com.microsoft.signalr._hub_exception.HubException*
+  overload: com.microsoft.signalr.HubException.HubException*
   type: Constructor
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubException.java
     startLine: 33
   package: com.microsoft.signalr
-  summary: >-
-    <p>Initializes a new instance of the <xref uid="com.microsoft.signalr._hub_exception" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception.</p>\r\n<p></p>"
   syntax:
     content: public HubException(String errorMessage, Exception innerException)
     parameters:
@@ -103,7 +97,7 @@ items:
       type: 8a99d4b0
       description: <p>The exception that is the cause of the current exception, or null if no inner exception is specified. </p>
 references:
-- uid: com.microsoft.signalr._hub_exception.HubException*
+- uid: com.microsoft.signalr.HubException.HubException*
   name: HubException
   nameWithType: HubException.HubException
   fullName: com.microsoft.signalr.HubException.HubException
@@ -116,12 +110,12 @@ references:
   spec.java:
   - name: Exception
     fullName: Exception
-- uid: com.microsoft.signalr._hub_exception
+- uid: com.microsoft.signalr.HubException
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._hub_exception.yml
+  href: com.microsoft.signalr.HubException.yml
   name: HubException
   nameWithType: HubException
   fullName: com.microsoft.signalr.HubException
   type: Class
-  summary: <p>An exception thrown when the server fails to invoke a Hub method. </p>
+  summary: "<p>An exception thrown when the server fails to invoke a Hub method. </p>"
   syntax: *o1

@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action4
-  id: _action4
+- uid: com.microsoft.signalr.Action4
+  id: Action4
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action4.invoke(T1,T2,T3,T4)
-  href: com.microsoft.signalr._action4.yml
+  - com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)
+  href: com.microsoft.signalr.Action4.yml
   langs:
   - java
   name: Action4<T1,T2,T3,T4>
@@ -18,12 +18,9 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action4.java
-    startLine: 14
+    startLine: 13
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes four parameters.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes four parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action4<T1,T2,T3,T4>
     typeParameters:
@@ -39,21 +36,21 @@ items:
     - id: T4
       type: 21b77ff4
       description: <p>The type of the fourth parameter to the callback. </p>
-- uid: com.microsoft.signalr._action4.invoke(T1,T2,T3,T4)
+- uid: com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)
   id: invoke(T1,T2,T3,T4)
-  parent: com.microsoft.signalr._action4
-  href: com.microsoft.signalr._action4.yml
+  parent: com.microsoft.signalr.Action4
+  href: com.microsoft.signalr.Action4.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2, T3 param3, T4 param4)
   nameWithType: Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)
   fullName: com.microsoft.signalr.Action4<T1, T2, T3, T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)
-  overload: com.microsoft.signalr._action4.invoke*
+  overload: com.microsoft.signalr.Action4.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action4.java
-    startLine: 15
+    startLine: 16
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4)
@@ -83,7 +80,7 @@ references:
   spec.java:
   - name: T4
     fullName: T4
-- uid: com.microsoft.signalr._action4.invoke*
+- uid: com.microsoft.signalr.Action4.invoke*
   name: invoke
   nameWithType: Action4<T1,T2,T3,T4>.invoke
   fullName: com.microsoft.signalr.Action4<T1, T2, T3, T4>.invoke

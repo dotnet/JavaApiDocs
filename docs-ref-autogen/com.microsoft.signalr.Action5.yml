@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action5
-  id: _action5
+- uid: com.microsoft.signalr.Action5
+  id: Action5
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action5.invoke(T1,T2,T3,T4,T5)
-  href: com.microsoft.signalr._action5.yml
+  - com.microsoft.signalr.Action5.invoke(T1,T2,T3,T4,T5)
+  href: com.microsoft.signalr.Action5.yml
   langs:
   - java
   name: Action5<T1,T2,T3,T4,T5>
@@ -18,12 +18,9 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
-    startLine: 15
+    startLine: 14
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes five parameter.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes five parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action5<T1,T2,T3,T4,T5>
     typeParameters:
@@ -42,21 +39,21 @@ items:
     - id: T5
       type: 136da300
       description: <p>The type of the fifth parameter to the callback. </p>
-- uid: com.microsoft.signalr._action5.invoke(T1,T2,T3,T4,T5)
+- uid: com.microsoft.signalr.Action5.invoke(T1,T2,T3,T4,T5)
   id: invoke(T1,T2,T3,T4,T5)
-  parent: com.microsoft.signalr._action5
-  href: com.microsoft.signalr._action5.yml
+  parent: com.microsoft.signalr.Action5
+  href: com.microsoft.signalr.Action5.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
   nameWithType: Action5<T1,T2,T3,T4,T5>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
   fullName: com.microsoft.signalr.Action5<T1, T2, T3, T4, T5>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
-  overload: com.microsoft.signalr._action5.invoke*
+  overload: com.microsoft.signalr.Action5.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action5.java
-    startLine: 16
+    startLine: 17
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
@@ -92,7 +89,7 @@ references:
   spec.java:
   - name: T5
     fullName: T5
-- uid: com.microsoft.signalr._action5.invoke*
+- uid: com.microsoft.signalr.Action5.invoke*
   name: invoke
   nameWithType: Action5<T1,T2,T3,T4,T5>.invoke
   fullName: com.microsoft.signalr.Action5<T1, T2, T3, T4, T5>.invoke

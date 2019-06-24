@@ -1,12 +1,12 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._hub_connection_state
-  id: _hub_connection_state
+- uid: com.microsoft.signalr.HubConnectionState
+  id: HubConnectionState
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._hub_connection_state.CONNECTED
-  - com.microsoft.signalr._hub_connection_state.DISCONNECTED
-  href: com.microsoft.signalr._hub_connection_state.yml
+  - com.microsoft.signalr.HubConnectionState.CONNECTED
+  - com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  href: com.microsoft.signalr.HubConnectionState.yml
   langs:
   - java
   name: HubConnectionState
@@ -21,16 +21,16 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionState.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>Indicates the state of the <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>. </p>
+  summary: "<p>Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>. </p>"
   syntax:
     content: public enum HubConnectionState
   inheritance:
   - java.lang.Object
   - java.lang.Enum<HubConnectionState>
-- uid: com.microsoft.signalr._hub_connection_state.CONNECTED
+- uid: com.microsoft.signalr.HubConnectionState.CONNECTED
   id: CONNECTED
-  parent: com.microsoft.signalr._hub_connection_state
-  href: com.microsoft.signalr._hub_connection_state.yml
+  parent: com.microsoft.signalr.HubConnectionState
+  href: com.microsoft.signalr.HubConnectionState.yml
   langs:
   - java
   name: CONNECTED
@@ -44,10 +44,10 @@ items:
   package: com.microsoft.signalr
   syntax:
     content: public CONNECTED
-- uid: com.microsoft.signalr._hub_connection_state.DISCONNECTED
+- uid: com.microsoft.signalr.HubConnectionState.DISCONNECTED
   id: DISCONNECTED
-  parent: com.microsoft.signalr._hub_connection_state
-  href: com.microsoft.signalr._hub_connection_state.yml
+  parent: com.microsoft.signalr.HubConnectionState
+  href: com.microsoft.signalr.HubConnectionState.yml
   langs:
   - java
   name: DISCONNECTED
@@ -62,12 +62,13 @@ items:
   syntax:
     content: public DISCONNECTED
 references:
-- uid: com.microsoft.signalr._hub_connection
+- uid: com.microsoft.signalr.HubConnection
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._hub_connection.yml
+  href: com.microsoft.signalr.HubConnection.yml
   name: HubConnection
   nameWithType: HubConnection
   fullName: com.microsoft.signalr.HubConnection
   type: Class
+  summary: "<p>A connection used to invoke hub methods on a SignalR Server. </p>"
   syntax:
     content: public class HubConnection

@@ -3,51 +3,51 @@
   name: com.microsoft.signalr
   href: com.microsoft.signalr.yml
   items:
-  - uid: com.microsoft.signalr._action
+  - uid: com.microsoft.signalr.Action
     name: Action
-    href: com.microsoft.signalr._action.yml
-  - uid: com.microsoft.signalr._action1
+    href: com.microsoft.signalr.Action.yml
+  - uid: com.microsoft.signalr.Action1
     name: Action1
-    href: com.microsoft.signalr._action1.yml
-  - uid: com.microsoft.signalr._action2
+    href: com.microsoft.signalr.Action1.yml
+  - uid: com.microsoft.signalr.Action2
     name: Action2
-    href: com.microsoft.signalr._action2.yml
-  - uid: com.microsoft.signalr._action3
+    href: com.microsoft.signalr.Action2.yml
+  - uid: com.microsoft.signalr.Action3
     name: Action3
-    href: com.microsoft.signalr._action3.yml
-  - uid: com.microsoft.signalr._action4
+    href: com.microsoft.signalr.Action3.yml
+  - uid: com.microsoft.signalr.Action4
     name: Action4
-    href: com.microsoft.signalr._action4.yml
-  - uid: com.microsoft.signalr._action5
+    href: com.microsoft.signalr.Action4.yml
+  - uid: com.microsoft.signalr.Action5
     name: Action5
-    href: com.microsoft.signalr._action5.yml
-  - uid: com.microsoft.signalr._action6
+    href: com.microsoft.signalr.Action5.yml
+  - uid: com.microsoft.signalr.Action6
     name: Action6
-    href: com.microsoft.signalr._action6.yml
-  - uid: com.microsoft.signalr._action7
+    href: com.microsoft.signalr.Action6.yml
+  - uid: com.microsoft.signalr.Action7
     name: Action7
-    href: com.microsoft.signalr._action7.yml
-  - uid: com.microsoft.signalr._action8
+    href: com.microsoft.signalr.Action7.yml
+  - uid: com.microsoft.signalr.Action8
     name: Action8
-    href: com.microsoft.signalr._action8.yml
-  - uid: com.microsoft.signalr._http_hub_connection_builder
+    href: com.microsoft.signalr.Action8.yml
+  - uid: com.microsoft.signalr.HttpHubConnectionBuilder
     name: HttpHubConnectionBuilder
-    href: com.microsoft.signalr._http_hub_connection_builder.yml
-  - uid: com.microsoft.signalr._hub_connection
+    href: com.microsoft.signalr.HttpHubConnectionBuilder.yml
+  - uid: com.microsoft.signalr.HubConnection
     name: HubConnection
-    href: com.microsoft.signalr._hub_connection.yml
-  - uid: com.microsoft.signalr._hub_connection_builder
+    href: com.microsoft.signalr.HubConnection.yml
+  - uid: com.microsoft.signalr.HubConnectionBuilder
     name: HubConnectionBuilder
-    href: com.microsoft.signalr._hub_connection_builder.yml
-  - uid: com.microsoft.signalr._hub_connection_state
+    href: com.microsoft.signalr.HubConnectionBuilder.yml
+  - uid: com.microsoft.signalr.HubConnectionState
     name: HubConnectionState
-    href: com.microsoft.signalr._hub_connection_state.yml
-  - uid: com.microsoft.signalr._hub_exception
+    href: com.microsoft.signalr.HubConnectionState.yml
+  - uid: com.microsoft.signalr.HubException
     name: HubException
-    href: com.microsoft.signalr._hub_exception.yml
-  - uid: com.microsoft.signalr._log_level
-    name: LogLevel
-    href: com.microsoft.signalr._log_level.yml
-  - uid: com.microsoft.signalr._subscription
+    href: com.microsoft.signalr.HubException.yml
+  - uid: com.microsoft.signalr.OnClosedCallback
+    name: OnClosedCallback
+    href: com.microsoft.signalr.OnClosedCallback.yml
+  - uid: com.microsoft.signalr.Subscription
     name: Subscription
-    href: com.microsoft.signalr._subscription.yml
+    href: com.microsoft.signalr.Subscription.yml

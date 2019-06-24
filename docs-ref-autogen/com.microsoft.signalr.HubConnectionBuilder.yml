@@ -1,12 +1,12 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._hub_connection_builder
-  id: _hub_connection_builder
+- uid: com.microsoft.signalr.HubConnectionBuilder
+  id: HubConnectionBuilder
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._hub_connection_builder.build()
-  - com.microsoft.signalr._hub_connection_builder.create(String)
-  href: com.microsoft.signalr._hub_connection_builder.yml
+  - com.microsoft.signalr.HubConnectionBuilder.build()
+  - com.microsoft.signalr.HubConnectionBuilder.create(String)
+  href: com.microsoft.signalr.HubConnectionBuilder.yml
   langs:
   - java
   name: HubConnectionBuilder
@@ -21,56 +21,50 @@ items:
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 8
   package: com.microsoft.signalr
-  summary: <p>A builder for configuring <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> instances. </p>
+  summary: "<p>A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances. </p>"
   syntax:
     content: public class HubConnectionBuilder
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.signalr._hub_connection_builder.build()
+- uid: com.microsoft.signalr.HubConnectionBuilder.build()
   id: build()
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
+  parent: com.microsoft.signalr.HubConnectionBuilder
+  href: com.microsoft.signalr.HubConnectionBuilder.yml
   langs:
   - java
   name: build()
   nameWithType: HubConnectionBuilder.build()
   fullName: com.microsoft.signalr.HubConnectionBuilder.build()
-  overload: com.microsoft.signalr._hub_connection_builder.build*
+  overload: com.microsoft.signalr.HubConnectionBuilder.build*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 27
   package: com.microsoft.signalr
-  summary: >-
-    <p>Builds a new instance of <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>.</p>
-
-    <p></p>
+  summary: "<p>Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>.</p>\r\n<p></p>"
   syntax:
     content: public abstract HubConnection build()
     return:
-      type: 13c86962com.microsoft.signalr._hub_connection
-      description: <p>A new instance of <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref>. </p>
-- uid: com.microsoft.signalr._hub_connection_builder.create(String)
+      type: 13c86962com.microsoft.signalr.HubConnection
+      description: <p>A new instance of <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>. </p>
+- uid: com.microsoft.signalr.HubConnectionBuilder.create(String)
   id: create(String)
-  parent: com.microsoft.signalr._hub_connection_builder
-  href: com.microsoft.signalr._hub_connection_builder.yml
+  parent: com.microsoft.signalr.HubConnectionBuilder
+  href: com.microsoft.signalr.HubConnectionBuilder.yml
   langs:
   - java
   name: create(String url)
   nameWithType: HubConnectionBuilder.create(String url)
   fullName: com.microsoft.signalr.HubConnectionBuilder.create(String url)
-  overload: com.microsoft.signalr._hub_connection_builder.create*
+  overload: com.microsoft.signalr.HubConnectionBuilder.create*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/HubConnectionBuilder.java
     startLine: 15
   package: com.microsoft.signalr
-  summary: >-
-    <p>Creates a new instance of <xref uid="com.microsoft.signalr._http_hub_connection_builder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>.</p>
-
-    <p></p>
+  summary: "<p>Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>.</p>\r\n<p></p>"
   syntax:
     content: public static HttpHubConnectionBuilder create(String url)
     parameters:
@@ -78,47 +72,48 @@ items:
       type: "26831127"
       description: <p>The URL of the SignalR hub to connect to. </p>
     return:
-      type: com.microsoft.signalr._http_hub_connection_builder
-      description: <p>An instance of <xref uid="com.microsoft.signalr._http_hub_connection_builder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>. </p>
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: <p>An instance of <xref uid="com.microsoft.signalr.HttpHubConnectionBuilder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>. </p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.signalr._hub_connection_builder.create*
+- uid: com.microsoft.signalr.HubConnectionBuilder.create*
   name: create
   nameWithType: HubConnectionBuilder.create
   fullName: com.microsoft.signalr.HubConnectionBuilder.create
   package: com.microsoft.signalr
-- uid: 13c86962com.microsoft.signalr._hub_connection
+- uid: 13c86962com.microsoft.signalr.HubConnection
   spec.java:
   - name: 'abstract '
     fullName: 'abstract '
-  - uid: com.microsoft.signalr._hub_connection
+  - uid: com.microsoft.signalr.HubConnection
     name: HubConnection
     fullName: com.microsoft.signalr.HubConnection
-    href: com.microsoft.signalr._hub_connection.yml
-- uid: com.microsoft.signalr._hub_connection_builder.build*
+    href: com.microsoft.signalr.HubConnection.yml
+- uid: com.microsoft.signalr.HubConnectionBuilder.build*
   name: build
   nameWithType: HubConnectionBuilder.build
   fullName: com.microsoft.signalr.HubConnectionBuilder.build
   package: com.microsoft.signalr
-- uid: com.microsoft.signalr._http_hub_connection_builder
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._http_hub_connection_builder.yml
+  href: com.microsoft.signalr.HttpHubConnectionBuilder.yml
   name: HttpHubConnectionBuilder
   nameWithType: HttpHubConnectionBuilder
   fullName: com.microsoft.signalr.HttpHubConnectionBuilder
   type: Class
-  summary: <p>A builder for configuring <xref uid="com.microsoft.signalr._hub_connection" data-throw-if-not-resolved="false">HubConnection</xref> instances. </p>
+  summary: "<p>A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances. </p>"
   syntax:
     content: public class HttpHubConnectionBuilder
-- uid: com.microsoft.signalr._hub_connection
+- uid: com.microsoft.signalr.HubConnection
   parent: com.microsoft.signalr
-  href: com.microsoft.signalr._hub_connection.yml
+  href: com.microsoft.signalr.HubConnection.yml
   name: HubConnection
   nameWithType: HubConnection
   fullName: com.microsoft.signalr.HubConnection
   type: Class
+  summary: "<p>A connection used to invoke hub methods on a SignalR Server. </p>"
   syntax:
     content: public class HubConnection

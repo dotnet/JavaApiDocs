@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action7
-  id: _action7
+- uid: com.microsoft.signalr.Action7
+  id: Action7
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action7.invoke(T1,T2,T3,T4,T5,T6,T7)
-  href: com.microsoft.signalr._action7.yml
+  - com.microsoft.signalr.Action7.invoke(T1,T2,T3,T4,T5,T6,T7)
+  href: com.microsoft.signalr.Action7.yml
   langs:
   - java
   name: Action7<T1,T2,T3,T4,T5,T6,T7>
@@ -18,12 +18,9 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action7.java
-    startLine: 17
+    startLine: 16
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes seven parameters.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes seven parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action7<T1,T2,T3,T4,T5,T6,T7>
     typeParameters:
@@ -48,21 +45,21 @@ items:
     - id: T7
       type: 308f4ff4
       description: <p>The type of the seventh parameter to the callback. </p>
-- uid: com.microsoft.signalr._action7.invoke(T1,T2,T3,T4,T5,T6,T7)
+- uid: com.microsoft.signalr.Action7.invoke(T1,T2,T3,T4,T5,T6,T7)
   id: invoke(T1,T2,T3,T4,T5,T6,T7)
-  parent: com.microsoft.signalr._action7
-  href: com.microsoft.signalr._action7.yml
+  parent: com.microsoft.signalr.Action7
+  href: com.microsoft.signalr.Action7.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)
   nameWithType: Action7<T1,T2,T3,T4,T5,T6,T7>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)
   fullName: com.microsoft.signalr.Action7<T1, T2, T3, T4, T5, T6, T7>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)
-  overload: com.microsoft.signalr._action7.invoke*
+  overload: com.microsoft.signalr.Action7.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action7.java
-    startLine: 18
+    startLine: 19
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)
@@ -110,7 +107,7 @@ references:
   spec.java:
   - name: T7
     fullName: T7
-- uid: com.microsoft.signalr._action7.invoke*
+- uid: com.microsoft.signalr.Action7.invoke*
   name: invoke
   nameWithType: Action7<T1,T2,T3,T4,T5,T6,T7>.invoke
   fullName: com.microsoft.signalr.Action7<T1, T2, T3, T4, T5, T6, T7>.invoke

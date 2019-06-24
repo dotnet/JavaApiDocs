@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.signalr.OnClosedCallback
+  id: OnClosedCallback
+  parent: com.microsoft.signalr
+  children:
+  - com.microsoft.signalr.OnClosedCallback.invoke(Exception)
+  href: com.microsoft.signalr.OnClosedCallback.yml
+  langs:
+  - java
+  name: OnClosedCallback
+  nameWithType: OnClosedCallback
+  fullName: com.microsoft.signalr.OnClosedCallback
+  type: Interface
+  source:
+    remote: &o0
+      path: clients/java/signalr/src/main/java/com/microsoft/signalr/OnClosedCallback.java
+      branch: release/2.2
+      repo: https://github.com/aspnet/SignalR
+    path: clients/java/signalr/src/main/java/com/microsoft/signalr/OnClosedCallback.java
+    startLine: 8
+  package: com.microsoft.signalr
+  summary: "<p>A callback to create and register on a HubConnections OnClosed method. </p>"
+  syntax:
+    content: public interface OnClosedCallback
+- uid: com.microsoft.signalr.OnClosedCallback.invoke(Exception)
+  id: invoke(Exception)
+  parent: com.microsoft.signalr.OnClosedCallback
+  href: com.microsoft.signalr.OnClosedCallback.yml
+  langs:
+  - java
+  name: invoke(Exception exception)
+  nameWithType: OnClosedCallback.invoke(Exception exception)
+  fullName: com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)
+  overload: com.microsoft.signalr.OnClosedCallback.invoke*
+  type: Method
+  source:
+    remote: *o0
+    path: clients/java/signalr/src/main/java/com/microsoft/signalr/OnClosedCallback.java
+    startLine: 9
+  package: com.microsoft.signalr
+  syntax:
+    content: public void invoke(Exception exception)
+    parameters:
+    - id: exception
+      type: 8a99d4b0
+references:
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
+- uid: com.microsoft.signalr.OnClosedCallback.invoke*
+  name: invoke
+  nameWithType: OnClosedCallback.invoke
+  fullName: com.microsoft.signalr.OnClosedCallback.invoke
+  package: com.microsoft.signalr

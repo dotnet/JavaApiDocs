@@ -1,11 +1,11 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.signalr._action6
-  id: _action6
+- uid: com.microsoft.signalr.Action6
+  id: Action6
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr._action6.invoke(T1,T2,T3,T4,T5,T6)
-  href: com.microsoft.signalr._action6.yml
+  - com.microsoft.signalr.Action6.invoke(T1,T2,T3,T4,T5,T6)
+  href: com.microsoft.signalr.Action6.yml
   langs:
   - java
   name: Action6<T1,T2,T3,T4,T5,T6>
@@ -18,12 +18,9 @@ items:
       branch: release/2.2
       repo: https://github.com/aspnet/SignalR
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action6.java
-    startLine: 16
+    startLine: 15
   package: com.microsoft.signalr
-  summary: >-
-    <p>A callback that takes six parameters.</p>
-
-    <p></p>
+  summary: "<p>A callback that takes six parameters.</p>\r\n<p></p>"
   syntax:
     content: public interface Action6<T1,T2,T3,T4,T5,T6>
     typeParameters:
@@ -45,21 +42,21 @@ items:
     - id: T6
       type: 43cd3771
       description: <p>The type of the sixth parameter to the callback. </p>
-- uid: com.microsoft.signalr._action6.invoke(T1,T2,T3,T4,T5,T6)
+- uid: com.microsoft.signalr.Action6.invoke(T1,T2,T3,T4,T5,T6)
   id: invoke(T1,T2,T3,T4,T5,T6)
-  parent: com.microsoft.signalr._action6
-  href: com.microsoft.signalr._action6.yml
+  parent: com.microsoft.signalr.Action6
+  href: com.microsoft.signalr.Action6.yml
   langs:
   - java
   name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6)
   nameWithType: Action6<T1,T2,T3,T4,T5,T6>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6)
   fullName: com.microsoft.signalr.Action6<T1, T2, T3, T4, T5, T6>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6)
-  overload: com.microsoft.signalr._action6.invoke*
+  overload: com.microsoft.signalr.Action6.invoke*
   type: Method
   source:
     remote: *o0
     path: clients/java/signalr/src/main/java/com/microsoft/signalr/Action6.java
-    startLine: 17
+    startLine: 18
   package: com.microsoft.signalr
   syntax:
     content: public void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6)
@@ -101,7 +98,7 @@ references:
   spec.java:
   - name: T6
     fullName: T6
-- uid: com.microsoft.signalr._action6.invoke*
+- uid: com.microsoft.signalr.Action6.invoke*
   name: invoke
   nameWithType: Action6<T1,T2,T3,T4,T5,T6>.invoke
   fullName: com.microsoft.signalr.Action6<T1, T2, T3, T4, T5, T6>.invoke
