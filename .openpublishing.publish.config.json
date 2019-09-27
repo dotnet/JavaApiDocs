@@ -22,13 +22,15 @@
       ],
       "customized_tasks": {
         "docset_prebuild": [
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
           "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
           "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
         ]
       },
       "SplitTOC": [
         "docs-ref-autogen/toc.yml"
+      ],
+      "DiffFolder": [
+        "api"
       ]
     }
   ],
@@ -66,9 +68,6 @@
       "id": "memberpage.plugins",
       "nuget_feed": "https://www.myget.org/F/docfx/api/v2"
     }
-  ],
-  "SplitTOC": [
-    "docs-ref-autogen/toc.yml"
   ]
 }
 

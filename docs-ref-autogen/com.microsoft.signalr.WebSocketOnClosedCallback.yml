@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.microsoft.signalr.WebSocketOnClosedCallback"
+  id: "WebSocketOnClosedCallback"
+  parent: "com.microsoft.signalr"
+  children:
+  - "com.microsoft.signalr.WebSocketOnClosedCallback.invoke(java.lang.Integer,java.lang.String)"
+  langs:
+  - "java"
+  name: "WebSocketOnClosedCallback"
+  nameWithType: "WebSocketOnClosedCallback"
+  fullName: "com.microsoft.signalr.WebSocketOnClosedCallback"
+  type: "Interface"
+  package: "com.microsoft.signalr"
+  syntax:
+    content: " interface WebSocketOnClosedCallback"
+- uid: "com.microsoft.signalr.WebSocketOnClosedCallback.invoke(java.lang.Integer,java.lang.String)"
+  id: "invoke(java.lang.Integer,java.lang.String)"
+  parent: "com.microsoft.signalr.WebSocketOnClosedCallback"
+  langs:
+  - "java"
+  name: "invoke(Integer code, String reason)"
+  nameWithType: "WebSocketOnClosedCallback.invoke(Integer code, String reason)"
+  fullName: "com.microsoft.signalr.WebSocketOnClosedCallback.invoke(Integer code, String reason)"
+  overload: "com.microsoft.signalr.WebSocketOnClosedCallback.invoke*"
+  type: "Method"
+  package: "com.microsoft.signalr"
+  syntax:
+    content: "public abstract void invoke(Integer code, String reason)"
+    parameters:
+    - id: "code"
+      type: "java.lang.Integer"
+    - id: "reason"
+      type: "java.lang.String"
+references:
+- uid: "java.lang.Integer"
+  spec.java:
+  - uid: "java.lang.Integer"
+    name: "Integer"
+    fullName: "java.lang.Integer"
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.signalr.WebSocketOnClosedCallback.invoke*"
+  name: "invoke"
+  nameWithType: "WebSocketOnClosedCallback.invoke"
+  fullName: "com.microsoft.signalr.WebSocketOnClosedCallback.invoke"
+  package: "com.microsoft.signalr"
