@@ -5,6 +5,7 @@ items:
   parent: "com.microsoft.signalr"
   children:
   - "com.microsoft.signalr.HttpClient.HttpClient()"
+  - "com.microsoft.signalr.HttpClient.cloneWithTimeOut(int)"
   - "com.microsoft.signalr.HttpClient.createWebSocket(java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
   - "com.microsoft.signalr.HttpClient.delete(java.lang.String)"
   - "com.microsoft.signalr.HttpClient.delete(java.lang.String,com.microsoft.signalr.HttpRequest)"
@@ -12,7 +13,9 @@ items:
   - "com.microsoft.signalr.HttpClient.get(java.lang.String,com.microsoft.signalr.HttpRequest)"
   - "com.microsoft.signalr.HttpClient.post(java.lang.String)"
   - "com.microsoft.signalr.HttpClient.post(java.lang.String,com.microsoft.signalr.HttpRequest)"
+  - "com.microsoft.signalr.HttpClient.post(java.lang.String,java.lang.String,com.microsoft.signalr.HttpRequest)"
   - "com.microsoft.signalr.HttpClient.send(com.microsoft.signalr.HttpRequest)"
+  - "com.microsoft.signalr.HttpClient.send(com.microsoft.signalr.HttpRequest,java.lang.String)"
   langs:
   - "java"
   name: "HttpClient"
@@ -49,6 +52,24 @@ items:
   package: "com.microsoft.signalr"
   syntax:
     content: " HttpClient()"
+- uid: "com.microsoft.signalr.HttpClient.cloneWithTimeOut(int)"
+  id: "cloneWithTimeOut(int)"
+  parent: "com.microsoft.signalr.HttpClient"
+  langs:
+  - "java"
+  name: "cloneWithTimeOut(int timeoutInMilliseconds)"
+  nameWithType: "HttpClient.cloneWithTimeOut(int timeoutInMilliseconds)"
+  fullName: "com.microsoft.signalr.HttpClient.cloneWithTimeOut(int timeoutInMilliseconds)"
+  overload: "com.microsoft.signalr.HttpClient.cloneWithTimeOut*"
+  type: "Method"
+  package: "com.microsoft.signalr"
+  syntax:
+    content: "public abstract HttpClient cloneWithTimeOut(int timeoutInMilliseconds)"
+    parameters:
+    - id: "timeoutInMilliseconds"
+      type: "int"
+    return:
+      type: "com.microsoft.signalr.HttpClient"
 - uid: "com.microsoft.signalr.HttpClient.createWebSocket(java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
   id: "createWebSocket(java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
   parent: "com.microsoft.signalr.HttpClient"
@@ -183,6 +204,28 @@ items:
       type: "com.microsoft.signalr.HttpRequest"
     return:
       type: "io.reactivex.Single<com.microsoft.signalr.HttpResponse>"
+- uid: "com.microsoft.signalr.HttpClient.post(java.lang.String,java.lang.String,com.microsoft.signalr.HttpRequest)"
+  id: "post(java.lang.String,java.lang.String,com.microsoft.signalr.HttpRequest)"
+  parent: "com.microsoft.signalr.HttpClient"
+  langs:
+  - "java"
+  name: "post(String url, String body, HttpRequest options)"
+  nameWithType: "HttpClient.post(String url, String body, HttpRequest options)"
+  fullName: "com.microsoft.signalr.HttpClient.post(String url, String body, HttpRequest options)"
+  overload: "com.microsoft.signalr.HttpClient.post*"
+  type: "Method"
+  package: "com.microsoft.signalr"
+  syntax:
+    content: "public Single<HttpResponse> post(String url, String body, HttpRequest options)"
+    parameters:
+    - id: "url"
+      type: "java.lang.String"
+    - id: "body"
+      type: "java.lang.String"
+    - id: "options"
+      type: "com.microsoft.signalr.HttpRequest"
+    return:
+      type: "io.reactivex.Single<com.microsoft.signalr.HttpResponse>"
 - uid: "com.microsoft.signalr.HttpClient.send(com.microsoft.signalr.HttpRequest)"
   id: "send(com.microsoft.signalr.HttpRequest)"
   parent: "com.microsoft.signalr.HttpClient"
@@ -199,6 +242,26 @@ items:
     parameters:
     - id: "request"
       type: "com.microsoft.signalr.HttpRequest"
+    return:
+      type: "io.reactivex.Single<com.microsoft.signalr.HttpResponse>"
+- uid: "com.microsoft.signalr.HttpClient.send(com.microsoft.signalr.HttpRequest,java.lang.String)"
+  id: "send(com.microsoft.signalr.HttpRequest,java.lang.String)"
+  parent: "com.microsoft.signalr.HttpClient"
+  langs:
+  - "java"
+  name: "send(HttpRequest request, String body)"
+  nameWithType: "HttpClient.send(HttpRequest request, String body)"
+  fullName: "com.microsoft.signalr.HttpClient.send(HttpRequest request, String body)"
+  overload: "com.microsoft.signalr.HttpClient.send*"
+  type: "Method"
+  package: "com.microsoft.signalr"
+  syntax:
+    content: "public abstract Single<HttpResponse> send(HttpRequest request, String body)"
+    parameters:
+    - id: "request"
+      type: "com.microsoft.signalr.HttpRequest"
+    - id: "body"
+      type: "java.lang.String"
     return:
       type: "io.reactivex.Single<com.microsoft.signalr.HttpResponse>"
 references:
@@ -273,6 +336,16 @@ references:
   name: "createWebSocket"
   nameWithType: "HttpClient.createWebSocket"
   fullName: "com.microsoft.signalr.HttpClient.createWebSocket"
+  package: "com.microsoft.signalr"
+- uid: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"
+- uid: "com.microsoft.signalr.HttpClient.cloneWithTimeOut*"
+  name: "cloneWithTimeOut"
+  nameWithType: "HttpClient.cloneWithTimeOut"
+  fullName: "com.microsoft.signalr.HttpClient.cloneWithTimeOut"
   package: "com.microsoft.signalr"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
