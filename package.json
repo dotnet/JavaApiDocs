@@ -5,7 +5,7 @@
 			"packageDownloadUrl": "https://repo1.maven.org/maven2",
 			"packageGroupId": "com.microsoft.signalr",
 			"packageArtifactId": "signalr",
-			"packageVersion": "3.0.0",
+			"packageVersion": "3.1.3",
 			"input_paths": [],
 			"exclude_paths": []
 		}
