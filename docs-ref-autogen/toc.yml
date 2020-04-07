@@ -104,6 +104,8 @@
     name: "TransportEnum"
   - uid: "com.microsoft.signalr.TransportOnClosedCallback"
     name: "TransportOnClosedCallback"
+  - uid: "com.microsoft.signalr.Utils"
+    name: "Utils"
   - uid: "com.microsoft.signalr.WebSocketOnClosedCallback"
     name: "WebSocketOnClosedCallback"
   - uid: "com.microsoft.signalr.WebSocketTransport"
