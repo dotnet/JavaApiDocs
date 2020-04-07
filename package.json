@@ -1,7 +1,7 @@
 [
   {
     "language": "java",
-    "output_path": "_javadocs",
+    "output_path": "docs-ref-autogen",
     "packages": [
       {
         "packageDownloadUrl": "https://repo1.maven.org/maven2",
