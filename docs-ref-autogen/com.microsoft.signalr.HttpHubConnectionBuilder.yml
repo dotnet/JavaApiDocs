@@ -1,408 +1,419 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder"
-  id: "HttpHubConnectionBuilder"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder
+  id: HttpHubConnectionBuilder
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(java.lang.String)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)"
-  - "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)"
+  - com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(java.lang.String)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.build()
+  - com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)
+  - com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)
   langs:
-  - "java"
-  name: "HttpHubConnectionBuilder"
-  nameWithType: "HttpHubConnectionBuilder"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder"
-  type: "Class"
-  package: "com.microsoft.signalr"
-  summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances."
+  - java
+  name: HttpHubConnectionBuilder
+  nameWithType: HttpHubConnectionBuilder
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder
+  type: Class
+  package: com.microsoft.signalr
+  summary: A builder for configuring <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> instances.
   syntax:
-    content: "public class HttpHubConnectionBuilder"
+    content: public class HttpHubConnectionBuilder
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(java.lang.String)"
-  id: "HttpHubConnectionBuilder(java.lang.String)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(java.lang.String)
+  id: HttpHubConnectionBuilder(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "HttpHubConnectionBuilder(String url)"
-  nameWithType: "HttpHubConnectionBuilder.HttpHubConnectionBuilder(String url)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(String url)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
+  - java
+  name: HttpHubConnectionBuilder(String url)
+  nameWithType: HttpHubConnectionBuilder.HttpHubConnectionBuilder(String url)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(String url)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder*
+  type: Constructor
+  package: com.microsoft.signalr
   syntax:
     content: " HttpHubConnectionBuilder(String url)"
     parameters:
-    - id: "url"
-      type: "java.lang.String"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
-  id: "build()"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+    - id: url
+      type: java.lang.String
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.build()
+  id: build()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "build()"
-  nameWithType: "HttpHubConnectionBuilder.build()"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.build*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: build()
+  nameWithType: HttpHubConnectionBuilder.build()
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.build()
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.build*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Builds a new instance of <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
-    content: "public HubConnection build()"
+    content: public HubConnection build()
     return:
-      type: "com.microsoft.signalr.HubConnection"
-      description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)"
-  id: "shouldSkipNegotiate(boolean)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HubConnection
+      description: A new instance of <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)
+  id: shouldSkipNegotiate(boolean)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "shouldSkipNegotiate(boolean skipNegotiate)"
-  nameWithType: "HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Indicates to the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> that it should skip the negotiate process. Note: This option only works with the Websockets transport and the Azure SignalR Service require the negotiate step."
+  - java
+  name: shouldSkipNegotiate(boolean skipNegotiate)
+  nameWithType: HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate*
+  type: Method
+  package: com.microsoft.signalr
+  summary: 'Indicates to the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> that it should skip the negotiate process. Note: This option only works with the Websockets transport and the Azure SignalR Service require the negotiate step.'
   syntax:
-    content: "public HttpHubConnectionBuilder shouldSkipNegotiate(boolean skipNegotiate)"
+    content: public HttpHubConnectionBuilder shouldSkipNegotiate(boolean skipNegotiate)
     parameters:
-    - id: "skipNegotiate"
-      type: "boolean"
-      description: "Boolean indicating if the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should skip the negotiate step."
+    - id: skipNegotiate
+      type: boolean
+      description: Boolean indicating if the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> should skip the negotiate step.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)"
-  id: "withAccessTokenProvider(io.reactivex.Single<java.lang.String>)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)
+  id: withAccessTokenProvider(io.reactivex.Single<java.lang.String>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withAccessTokenProvider(Single<String> accessTokenProvider)"
-  nameWithType: "HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the access token provider for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: withAccessTokenProvider(Single<String> accessTokenProvider)
+  nameWithType: HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the access token provider for the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
-    content: "public HttpHubConnectionBuilder withAccessTokenProvider(Single<String> accessTokenProvider)"
+    content: public HttpHubConnectionBuilder withAccessTokenProvider(Single<String> accessTokenProvider)
     parameters:
-    - id: "accessTokenProvider"
-      type: "io.reactivex.Single<java.lang.String>"
-      description: "The access token provider to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+    - id: accessTokenProvider
+      type: io.reactivex.Single<java.lang.String>
+      description: The access token provider to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)"
-  id: "withHandshakeResponseTimeout(long)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)
+  id: withHandshakeResponseTimeout(long)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withHandshakeResponseTimeout(long timeoutInMilliseconds)"
-  nameWithType: "HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the duration the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should wait for a Handshake Response from the server."
+  - java
+  name: withHandshakeResponseTimeout(long timeoutInMilliseconds)
+  nameWithType: HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the duration the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> should wait for a Handshake Response from the server.
   syntax:
-    content: "public HttpHubConnectionBuilder withHandshakeResponseTimeout(long timeoutInMilliseconds)"
+    content: public HttpHubConnectionBuilder withHandshakeResponseTimeout(long timeoutInMilliseconds)
     parameters:
-    - id: "timeoutInMilliseconds"
-      type: "long"
-      description: "The duration (specified in milliseconds) that the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should wait for a Handshake Response from the server."
+    - id: timeoutInMilliseconds
+      type: long
+      description: The duration (specified in milliseconds) that the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> should wait for a Handshake Response from the server.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)"
-  id: "withHeader(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)
+  id: withHeader(java.lang.String,java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withHeader(String name, String value)"
-  nameWithType: "HttpHubConnectionBuilder.withHeader(String name, String value)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(String name, String value)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets a single header for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> to send."
+  - java
+  name: withHeader(String name, String value)
+  nameWithType: HttpHubConnectionBuilder.withHeader(String name, String value)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(String name, String value)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withHeader*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets a single header for the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> to send.
   syntax:
-    content: "public HttpHubConnectionBuilder withHeader(String name, String value)"
+    content: public HttpHubConnectionBuilder withHeader(String name, String value)
     parameters:
-    - id: "name"
-      type: "java.lang.String"
-      description: "The name of the header to set."
-    - id: "value"
-      type: "java.lang.String"
-      description: "The value of the header to be set."
+    - id: name
+      type: java.lang.String
+      description: The name of the header to set.
+    - id: value
+      type: java.lang.String
+      description: The value of the header to be set.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)"
-  id: "withHeaders(java.util.Map<java.lang.String,java.lang.String>)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)
+  id: withHeaders(java.util.Map<java.lang.String,java.lang.String>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withHeaders(Map<String,String> headers)"
-  nameWithType: "HttpHubConnectionBuilder.withHeaders(Map<String,String> headers)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(Map<String,String> headers)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets a collection of Headers for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> to send with every Http request."
+  - java
+  name: withHeaders(Map<String,String> headers)
+  nameWithType: HttpHubConnectionBuilder.withHeaders(Map<String,String> headers)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(Map<String,String> headers)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets a collection of Headers for the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> to send with every Http request.
   syntax:
-    content: "public HttpHubConnectionBuilder withHeaders(Map<String,String> headers)"
+    content: public HttpHubConnectionBuilder withHeaders(Map<String,String> headers)
     parameters:
-    - id: "headers"
-      type: "java.util.Map<java.lang.String,java.lang.String>"
-      description: "A Map representing the collection of Headers that the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should send."
+    - id: headers
+      type: java.util.Map<java.lang.String,java.lang.String>
+      description: A Map representing the collection of Headers that the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> should send.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)"
-  id: "withHttpClient(com.microsoft.signalr.HttpClient)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)
+  id: withHttpClient(com.microsoft.signalr.HttpClient)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withHttpClient(HttpClient httpClient)"
-  nameWithType: "HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the <xref uid=\"com.microsoft.signalr.HttpClient\" data-throw-if-not-resolved=\"false\">HttpClient</xref> to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: withHttpClient(HttpClient httpClient)
+  nameWithType: HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the <xref uid="com.microsoft.signalr.HttpClient" data-throw-if-not-resolved="false">HttpClient</xref> to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
     content: " HttpHubConnectionBuilder withHttpClient(HttpClient httpClient)"
     parameters:
-    - id: "httpClient"
-      type: "com.microsoft.signalr.HttpClient"
-      description: "The <xref uid=\"com.microsoft.signalr.HttpClient\" data-throw-if-not-resolved=\"false\">HttpClient</xref> to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+    - id: httpClient
+      type: com.microsoft.signalr.HttpClient
+      description: The <xref uid="com.microsoft.signalr.HttpClient" data-throw-if-not-resolved="false">HttpClient</xref> to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)"
-  id: "withTransport(com.microsoft.signalr.TransportEnum)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)
+  id: withTransport(com.microsoft.signalr.TransportEnum)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withTransport(TransportEnum transportEnum)"
-  nameWithType: "HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the transport type to indicate which transport to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: withTransport(TransportEnum transportEnum)
+  nameWithType: HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the transport type to indicate which transport to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
-    content: "public HttpHubConnectionBuilder withTransport(TransportEnum transportEnum)"
+    content: public HttpHubConnectionBuilder withTransport(TransportEnum transportEnum)
     parameters:
-    - id: "transportEnum"
-      type: "com.microsoft.signalr.TransportEnum"
-      description: "The type of transport to be used."
+    - id: transportEnum
+      type: com.microsoft.signalr.TransportEnum
+      description: The type of transport to be used.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "This instance of the HttpHubConnectionBuilder."
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)"
-  id: "withTransportImplementation(com.microsoft.signalr.Transport)"
-  parent: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: This instance of the HttpHubConnectionBuilder.
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)
+  id: withTransportImplementation(com.microsoft.signalr.Transport)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HttpHubConnectionBuilder
   langs:
-  - "java"
-  name: "withTransportImplementation(Transport transport)"
-  nameWithType: "HttpHubConnectionBuilder.withTransportImplementation(Transport transport)"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(Transport transport)"
-  overload: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: withTransportImplementation(Transport transport)
+  nameWithType: HttpHubConnectionBuilder.withTransportImplementation(Transport transport)
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(Transport transport)
+  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " HttpHubConnectionBuilder withTransportImplementation(Transport transport)"
     parameters:
-    - id: "transport"
-      type: "com.microsoft.signalr.Transport"
+    - id: transport
+      type: com.microsoft.signalr.Transport
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder*"
-  name: "HttpHubConnectionBuilder"
-  nameWithType: "HttpHubConnectionBuilder.HttpHubConnectionBuilder"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.Transport"
-  name: "Transport"
-  nameWithType: "Transport"
-  fullName: "com.microsoft.signalr.Transport"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*"
-  name: "withTransportImplementation"
-  nameWithType: "HttpHubConnectionBuilder.withTransportImplementation"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.TransportEnum"
-  name: "TransportEnum"
-  nameWithType: "TransportEnum"
-  fullName: "com.microsoft.signalr.TransportEnum"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport*"
-  name: "withTransport"
-  nameWithType: "HttpHubConnectionBuilder.withTransport"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HttpClient"
-  name: "HttpClient"
-  nameWithType: "HttpClient"
-  fullName: "com.microsoft.signalr.HttpClient"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*"
-  name: "withHttpClient"
-  nameWithType: "HttpHubConnectionBuilder.withHttpClient"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient"
-  package: "com.microsoft.signalr"
-- uid: "boolean"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder*
+  name: HttpHubConnectionBuilder
+  nameWithType: HttpHubConnectionBuilder.HttpHubConnectionBuilder
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.Transport
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.signalr.Transport
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*
+  name: withTransportImplementation
+  nameWithType: HttpHubConnectionBuilder.withTransportImplementation
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.TransportEnum
+  name: TransportEnum
+  nameWithType: TransportEnum
+  fullName: com.microsoft.signalr.TransportEnum
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport*
+  name: withTransport
+  nameWithType: HttpHubConnectionBuilder.withTransport
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HttpClient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: com.microsoft.signalr.HttpClient
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*
+  name: withHttpClient
+  nameWithType: HttpHubConnectionBuilder.withHttpClient
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient
+  package: com.microsoft.signalr
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate*"
-  name: "shouldSkipNegotiate"
-  nameWithType: "HttpHubConnectionBuilder.shouldSkipNegotiate"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate"
-  package: "com.microsoft.signalr"
-- uid: "io.reactivex.Single<java.lang.String>"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate*
+  name: shouldSkipNegotiate
+  nameWithType: HttpHubConnectionBuilder.shouldSkipNegotiate
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate
+  package: com.microsoft.signalr
+- uid: io.reactivex.Single<java.lang.String>
   spec.java:
-  - uid: "io.reactivex.Single"
-    name: "Single"
-    fullName: "io.reactivex.Single"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider*"
-  name: "withAccessTokenProvider"
-  nameWithType: "HttpHubConnectionBuilder.withAccessTokenProvider"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider"
-  package: "com.microsoft.signalr"
-- uid: "long"
+  - uid: io.reactivex.Single
+    name: Single
+    fullName: io.reactivex.Single
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider*
+  name: withAccessTokenProvider
+  nameWithType: HttpHubConnectionBuilder.withAccessTokenProvider
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider
+  package: com.microsoft.signalr
+- uid: long
   spec.java:
-  - uid: "long"
-    name: "long"
-    fullName: "long"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout*"
-  name: "withHandshakeResponseTimeout"
-  nameWithType: "HttpHubConnectionBuilder.withHandshakeResponseTimeout"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout"
-  package: "com.microsoft.signalr"
-- uid: "java.util.Map<java.lang.String,java.lang.String>"
+  - uid: long
+    name: long
+    fullName: long
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout*
+  name: withHandshakeResponseTimeout
+  nameWithType: HttpHubConnectionBuilder.withHandshakeResponseTimeout
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout
+  package: com.microsoft.signalr
+- uid: java.util.Map<java.lang.String,java.lang.String>
   spec.java:
-  - uid: "java.util.Map"
-    name: "Map"
-    fullName: "java.util.Map"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders*"
-  name: "withHeaders"
-  nameWithType: "HttpHubConnectionBuilder.withHeaders"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader*"
-  name: "withHeader"
-  nameWithType: "HttpHubConnectionBuilder.withHeader"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection"
-  name: "HubConnection"
-  nameWithType: "HubConnection"
-  fullName: "com.microsoft.signalr.HubConnection"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.build*"
-  name: "build"
-  nameWithType: "HttpHubConnectionBuilder.build"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.build"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "io.reactivex.Single"
-  name: "Single"
-  nameWithType: "Single"
-  fullName: "io.reactivex.Single"
-- uid: "java.util.Map"
-  name: "Map"
-  nameWithType: "Map"
-  fullName: "java.util.Map"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
+  - uid: java.util.Map
+    name: Map
+    fullName: java.util.Map
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders*
+  name: withHeaders
+  nameWithType: HttpHubConnectionBuilder.withHeaders
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHeader*
+  name: withHeader
+  nameWithType: HttpHubConnectionBuilder.withHeader
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHeader
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.signalr.HubConnection
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder.build*
+  name: build
+  nameWithType: HttpHubConnectionBuilder.build
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.build
+  package: com.microsoft.signalr
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: io.reactivex.Single
+  name: Single
+  nameWithType: Single
+  fullName: io.reactivex.Single
+- uid: java.util.Map
+  name: Map
+  nameWithType: Map
+  fullName: java.util.Map
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String

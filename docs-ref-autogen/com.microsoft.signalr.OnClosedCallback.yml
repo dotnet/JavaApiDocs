@@ -1,44 +1,46 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.OnClosedCallback"
-  id: "OnClosedCallback"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.OnClosedCallback
+  id: OnClosedCallback
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
+  - com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)
   langs:
-  - "java"
-  name: "OnClosedCallback"
-  nameWithType: "OnClosedCallback"
-  fullName: "com.microsoft.signalr.OnClosedCallback"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback to create and register on a HubConnections OnClosed method."
+  - java
+  name: OnClosedCallback
+  nameWithType: OnClosedCallback
+  fullName: com.microsoft.signalr.OnClosedCallback
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback to create and register on a HubConnections OnClosed method.
   syntax:
-    content: "public interface OnClosedCallback"
-- uid: "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
-  id: "invoke(java.lang.Exception)"
-  parent: "com.microsoft.signalr.OnClosedCallback"
+    content: public interface OnClosedCallback
+- uid: com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)
+  id: invoke(java.lang.Exception)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.OnClosedCallback
   langs:
-  - "java"
-  name: "invoke(Exception exception)"
-  nameWithType: "OnClosedCallback.invoke(Exception exception)"
-  fullName: "com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)"
-  overload: "com.microsoft.signalr.OnClosedCallback.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(Exception exception)
+  nameWithType: OnClosedCallback.invoke(Exception exception)
+  fullName: com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)
+  overload: com.microsoft.signalr.OnClosedCallback.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(Exception exception)"
+    content: public abstract void invoke(Exception exception)
     parameters:
-    - id: "exception"
-      type: "java.lang.Exception"
+    - id: exception
+      type: java.lang.Exception
 references:
-- uid: "java.lang.Exception"
+- uid: java.lang.Exception
   spec.java:
-  - uid: "java.lang.Exception"
-    name: "Exception"
-    fullName: "java.lang.Exception"
-- uid: "com.microsoft.signalr.OnClosedCallback.invoke*"
-  name: "invoke"
-  nameWithType: "OnClosedCallback.invoke"
-  fullName: "com.microsoft.signalr.OnClosedCallback.invoke"
-  package: "com.microsoft.signalr"
+  - uid: java.lang.Exception
+    name: Exception
+    fullName: java.lang.Exception
+- uid: com.microsoft.signalr.OnClosedCallback.invoke*
+  name: invoke
+  nameWithType: OnClosedCallback.invoke
+  fullName: com.microsoft.signalr.OnClosedCallback.invoke
+  package: com.microsoft.signalr

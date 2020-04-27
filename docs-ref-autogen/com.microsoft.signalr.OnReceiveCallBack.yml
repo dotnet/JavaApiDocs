@@ -1,43 +1,45 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.OnReceiveCallBack"
-  id: "OnReceiveCallBack"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.OnReceiveCallBack
+  id: OnReceiveCallBack
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.OnReceiveCallBack.invoke(java.lang.String)"
+  - com.microsoft.signalr.OnReceiveCallBack.invoke(java.lang.String)
   langs:
-  - "java"
-  name: "OnReceiveCallBack"
-  nameWithType: "OnReceiveCallBack"
-  fullName: "com.microsoft.signalr.OnReceiveCallBack"
-  type: "Interface"
-  package: "com.microsoft.signalr"
+  - java
+  name: OnReceiveCallBack
+  nameWithType: OnReceiveCallBack
+  fullName: com.microsoft.signalr.OnReceiveCallBack
+  type: Interface
+  package: com.microsoft.signalr
   syntax:
     content: " interface OnReceiveCallBack"
-- uid: "com.microsoft.signalr.OnReceiveCallBack.invoke(java.lang.String)"
-  id: "invoke(java.lang.String)"
-  parent: "com.microsoft.signalr.OnReceiveCallBack"
+- uid: com.microsoft.signalr.OnReceiveCallBack.invoke(java.lang.String)
+  id: invoke(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.OnReceiveCallBack
   langs:
-  - "java"
-  name: "invoke(String message)"
-  nameWithType: "OnReceiveCallBack.invoke(String message)"
-  fullName: "com.microsoft.signalr.OnReceiveCallBack.invoke(String message)"
-  overload: "com.microsoft.signalr.OnReceiveCallBack.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(String message)
+  nameWithType: OnReceiveCallBack.invoke(String message)
+  fullName: com.microsoft.signalr.OnReceiveCallBack.invoke(String message)
+  overload: com.microsoft.signalr.OnReceiveCallBack.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(String message)"
+    content: public abstract void invoke(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
+    - id: message
+      type: java.lang.String
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.signalr.OnReceiveCallBack.invoke*"
-  name: "invoke"
-  nameWithType: "OnReceiveCallBack.invoke"
-  fullName: "com.microsoft.signalr.OnReceiveCallBack.invoke"
-  package: "com.microsoft.signalr"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.signalr.OnReceiveCallBack.invoke*
+  name: invoke
+  nameWithType: OnReceiveCallBack.invoke
+  fullName: com.microsoft.signalr.OnReceiveCallBack.invoke
+  package: com.microsoft.signalr

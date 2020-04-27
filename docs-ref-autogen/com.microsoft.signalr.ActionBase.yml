@@ -1,45 +1,47 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.ActionBase"
-  id: "ActionBase"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.ActionBase
+  id: ActionBase
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.ActionBase.invoke(java.lang.Object...)"
+  - com.microsoft.signalr.ActionBase.invoke(java.lang.Object...)
   langs:
-  - "java"
-  name: "ActionBase"
-  nameWithType: "ActionBase"
-  fullName: "com.microsoft.signalr.ActionBase"
-  type: "Interface"
-  package: "com.microsoft.signalr"
+  - java
+  name: ActionBase
+  nameWithType: ActionBase
+  fullName: com.microsoft.signalr.ActionBase
+  type: Interface
+  package: com.microsoft.signalr
   syntax:
     content: " interface ActionBase"
-- uid: "com.microsoft.signalr.ActionBase.invoke(java.lang.Object...)"
-  id: "invoke(java.lang.Object...)"
-  parent: "com.microsoft.signalr.ActionBase"
+- uid: com.microsoft.signalr.ActionBase.invoke(java.lang.Object...)
+  id: invoke(java.lang.Object...)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.ActionBase
   langs:
-  - "java"
-  name: "invoke(Object[] params)"
-  nameWithType: "ActionBase.invoke(Object[] params)"
-  fullName: "com.microsoft.signalr.ActionBase.invoke(Object[] params)"
-  overload: "com.microsoft.signalr.ActionBase.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(Object[] params)
+  nameWithType: ActionBase.invoke(Object[] params)
+  fullName: com.microsoft.signalr.ActionBase.invoke(Object[] params)
+  overload: com.microsoft.signalr.ActionBase.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(Object[] params)"
+    content: public abstract void invoke(Object[] params)
     parameters:
-    - id: "params"
-      type: "java.lang.Object[]"
+    - id: params
+      type: java.lang.Object[]
 references:
-- uid: "java.lang.Object[]"
+- uid: java.lang.Object[]
   spec.java:
-  - uid: "java.lang.Object"
-    name: "Object"
-    fullName: "java.lang.Object"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.signalr.ActionBase.invoke*"
-  name: "invoke"
-  nameWithType: "ActionBase.invoke"
-  fullName: "com.microsoft.signalr.ActionBase.invoke"
-  package: "com.microsoft.signalr"
+  - uid: java.lang.Object
+    name: Object
+    fullName: java.lang.Object
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.signalr.ActionBase.invoke*
+  name: invoke
+  nameWithType: ActionBase.invoke
+  fullName: com.microsoft.signalr.ActionBase.invoke
+  package: com.microsoft.signalr

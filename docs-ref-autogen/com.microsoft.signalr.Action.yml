@@ -1,36 +1,38 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.Action"
-  id: "Action"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action
+  id: Action
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.Action.invoke()"
+  - com.microsoft.signalr.Action.invoke()
   langs:
-  - "java"
-  name: "Action"
-  nameWithType: "Action"
-  fullName: "com.microsoft.signalr.Action"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback that takes no parameters."
+  - java
+  name: Action
+  nameWithType: Action
+  fullName: com.microsoft.signalr.Action
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback that takes no parameters.
   syntax:
-    content: "public interface Action"
-- uid: "com.microsoft.signalr.Action.invoke()"
-  id: "invoke()"
-  parent: "com.microsoft.signalr.Action"
+    content: public interface Action
+- uid: com.microsoft.signalr.Action.invoke()
+  id: invoke()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.Action
   langs:
-  - "java"
-  name: "invoke()"
-  nameWithType: "Action.invoke()"
-  fullName: "com.microsoft.signalr.Action.invoke()"
-  overload: "com.microsoft.signalr.Action.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke()
+  nameWithType: Action.invoke()
+  fullName: com.microsoft.signalr.Action.invoke()
+  overload: com.microsoft.signalr.Action.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke()"
+    content: public abstract void invoke()
 references:
-- uid: "com.microsoft.signalr.Action.invoke*"
-  name: "invoke"
-  nameWithType: "Action.invoke"
-  fullName: "com.microsoft.signalr.Action.invoke"
-  package: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action.invoke*
+  name: invoke
+  nameWithType: Action.invoke
+  fullName: com.microsoft.signalr.Action.invoke
+  package: com.microsoft.signalr

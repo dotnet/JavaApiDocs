@@ -1,102 +1,104 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.Action8"
-  id: "Action8"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action8
+  id: Action8
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)"
+  - com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
   langs:
-  - "java"
-  name: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
-  nameWithType: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
-  fullName: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback that takes eight parameters."
+  - java
+  name: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  fullName: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback that takes eight parameters.
   syntax:
-    content: "public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
+    content: public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>
     typeParameters:
-    - id: "T1"
-    - id: "T2"
-    - id: "T3"
-    - id: "T4"
-    - id: "T5"
-    - id: "T6"
-    - id: "T7"
-    - id: "T8"
-- uid: "com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)"
-  id: "invoke(T1,T2,T3,T4,T5,T6,T7,T8)"
-  parent: "com.microsoft.signalr.Action8"
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+    - id: T5
+    - id: T6
+    - id: T7
+    - id: T8
+- uid: com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)
+  id: invoke(T1,T2,T3,T4,T5,T6,T7,T8)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.Action8
   langs:
-  - "java"
-  name: "invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)"
-  nameWithType: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)"
-  fullName: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)"
-  overload: "com.microsoft.signalr.Action8.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
+  nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
+  fullName: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
+  overload: com.microsoft.signalr.Action8.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)"
+    content: public abstract void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)
     parameters:
-    - id: "param1"
-      type: "T1"
-    - id: "param2"
-      type: "T2"
-    - id: "param3"
-      type: "T3"
-    - id: "param4"
-      type: "T4"
-    - id: "param5"
-      type: "T5"
-    - id: "param6"
-      type: "T6"
-    - id: "param7"
-      type: "T7"
-    - id: "param8"
-      type: "T8"
+    - id: param1
+      type: T1
+    - id: param2
+      type: T2
+    - id: param3
+      type: T3
+    - id: param4
+      type: T4
+    - id: param5
+      type: T5
+    - id: param6
+      type: T6
+    - id: param7
+      type: T7
+    - id: param8
+      type: T8
 references:
-- uid: "T1"
+- uid: T1
   spec.java:
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-- uid: "T2"
+  - uid: T1
+    name: T1
+    fullName: T1
+- uid: T2
   spec.java:
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-- uid: "T3"
+  - uid: T2
+    name: T2
+    fullName: T2
+- uid: T3
   spec.java:
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-- uid: "T4"
+  - uid: T3
+    name: T3
+    fullName: T3
+- uid: T4
   spec.java:
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-- uid: "T5"
+  - uid: T4
+    name: T4
+    fullName: T4
+- uid: T5
   spec.java:
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-- uid: "T6"
+  - uid: T5
+    name: T5
+    fullName: T5
+- uid: T6
   spec.java:
-  - uid: "T6"
-    name: "T6"
-    fullName: "T6"
-- uid: "T7"
+  - uid: T6
+    name: T6
+    fullName: T6
+- uid: T7
   spec.java:
-  - uid: "T7"
-    name: "T7"
-    fullName: "T7"
-- uid: "T8"
+  - uid: T7
+    name: T7
+    fullName: T7
+- uid: T8
   spec.java:
-  - uid: "T8"
-    name: "T8"
-    fullName: "T8"
-- uid: "com.microsoft.signalr.Action8.invoke*"
-  name: "invoke"
-  nameWithType: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke"
-  fullName: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke"
-  package: "com.microsoft.signalr"
+  - uid: T8
+    name: T8
+    fullName: T8
+- uid: com.microsoft.signalr.Action8.invoke*
+  name: invoke
+  nameWithType: Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke
+  fullName: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke
+  package: com.microsoft.signalr

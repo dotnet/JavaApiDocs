@@ -1,46 +1,48 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.Action1"
-  id: "Action1"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action1
+  id: Action1
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.Action1.invoke(T1)"
+  - com.microsoft.signalr.Action1.invoke(T1)
   langs:
-  - "java"
-  name: "Action1<T1>"
-  nameWithType: "Action1<T1>"
-  fullName: "com.microsoft.signalr.Action1<T1>"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback that takes one parameter."
+  - java
+  name: Action1<T1>
+  nameWithType: Action1<T1>
+  fullName: com.microsoft.signalr.Action1<T1>
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback that takes one parameter.
   syntax:
-    content: "public interface Action1<T1>"
+    content: public interface Action1<T1>
     typeParameters:
-    - id: "T1"
-- uid: "com.microsoft.signalr.Action1.invoke(T1)"
-  id: "invoke(T1)"
-  parent: "com.microsoft.signalr.Action1"
+    - id: T1
+- uid: com.microsoft.signalr.Action1.invoke(T1)
+  id: invoke(T1)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.Action1
   langs:
-  - "java"
-  name: "invoke(T1 param1)"
-  nameWithType: "Action1<T1>.invoke(T1 param1)"
-  fullName: "com.microsoft.signalr.Action1<T1>.invoke(T1 param1)"
-  overload: "com.microsoft.signalr.Action1.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(T1 param1)
+  nameWithType: Action1<T1>.invoke(T1 param1)
+  fullName: com.microsoft.signalr.Action1<T1>.invoke(T1 param1)
+  overload: com.microsoft.signalr.Action1.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(T1 param1)"
+    content: public abstract void invoke(T1 param1)
     parameters:
-    - id: "param1"
-      type: "T1"
+    - id: param1
+      type: T1
 references:
-- uid: "T1"
+- uid: T1
   spec.java:
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-- uid: "com.microsoft.signalr.Action1.invoke*"
-  name: "invoke"
-  nameWithType: "Action1<T1>.invoke"
-  fullName: "com.microsoft.signalr.Action1<T1>.invoke"
-  package: "com.microsoft.signalr"
+  - uid: T1
+    name: T1
+    fullName: T1
+- uid: com.microsoft.signalr.Action1.invoke*
+  name: invoke
+  nameWithType: Action1<T1>.invoke
+  fullName: com.microsoft.signalr.Action1<T1>.invoke
+  package: com.microsoft.signalr

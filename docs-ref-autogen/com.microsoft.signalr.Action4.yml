@@ -1,70 +1,72 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.Action4"
-  id: "Action4"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action4
+  id: Action4
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)"
+  - com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)
   langs:
-  - "java"
-  name: "Action4<T1,T2,T3,T4>"
-  nameWithType: "Action4<T1,T2,T3,T4>"
-  fullName: "com.microsoft.signalr.Action4<T1,T2,T3,T4>"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback that takes four parameters."
+  - java
+  name: Action4<T1,T2,T3,T4>
+  nameWithType: Action4<T1,T2,T3,T4>
+  fullName: com.microsoft.signalr.Action4<T1,T2,T3,T4>
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback that takes four parameters.
   syntax:
-    content: "public interface Action4<T1,T2,T3,T4>"
+    content: public interface Action4<T1,T2,T3,T4>
     typeParameters:
-    - id: "T1"
-    - id: "T2"
-    - id: "T3"
-    - id: "T4"
-- uid: "com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)"
-  id: "invoke(T1,T2,T3,T4)"
-  parent: "com.microsoft.signalr.Action4"
+    - id: T1
+    - id: T2
+    - id: T3
+    - id: T4
+- uid: com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)
+  id: invoke(T1,T2,T3,T4)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.Action4
   langs:
-  - "java"
-  name: "invoke(T1 param1, T2 param2, T3 param3, T4 param4)"
-  nameWithType: "Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)"
-  fullName: "com.microsoft.signalr.Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)"
-  overload: "com.microsoft.signalr.Action4.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(T1 param1, T2 param2, T3 param3, T4 param4)
+  nameWithType: Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)
+  fullName: com.microsoft.signalr.Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)
+  overload: com.microsoft.signalr.Action4.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(T1 param1, T2 param2, T3 param3, T4 param4)"
+    content: public abstract void invoke(T1 param1, T2 param2, T3 param3, T4 param4)
     parameters:
-    - id: "param1"
-      type: "T1"
-    - id: "param2"
-      type: "T2"
-    - id: "param3"
-      type: "T3"
-    - id: "param4"
-      type: "T4"
+    - id: param1
+      type: T1
+    - id: param2
+      type: T2
+    - id: param3
+      type: T3
+    - id: param4
+      type: T4
 references:
-- uid: "T1"
+- uid: T1
   spec.java:
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-- uid: "T2"
+  - uid: T1
+    name: T1
+    fullName: T1
+- uid: T2
   spec.java:
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-- uid: "T3"
+  - uid: T2
+    name: T2
+    fullName: T2
+- uid: T3
   spec.java:
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-- uid: "T4"
+  - uid: T3
+    name: T3
+    fullName: T3
+- uid: T4
   spec.java:
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-- uid: "com.microsoft.signalr.Action4.invoke*"
-  name: "invoke"
-  nameWithType: "Action4<T1,T2,T3,T4>.invoke"
-  fullName: "com.microsoft.signalr.Action4<T1,T2,T3,T4>.invoke"
-  package: "com.microsoft.signalr"
+  - uid: T4
+    name: T4
+    fullName: T4
+- uid: com.microsoft.signalr.Action4.invoke*
+  name: invoke
+  nameWithType: Action4<T1,T2,T3,T4>.invoke
+  fullName: com.microsoft.signalr.Action4<T1,T2,T3,T4>.invoke
+  package: com.microsoft.signalr

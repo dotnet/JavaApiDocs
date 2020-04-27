@@ -1,213 +1,217 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.HubException"
-  id: "HubException"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.HubException
+  id: HubException
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.HubException.HubException()"
-  - "com.microsoft.signalr.HubException.HubException(java.lang.String)"
-  - "com.microsoft.signalr.HubException.HubException(java.lang.String,java.lang.Exception)"
+  - com.microsoft.signalr.HubException.HubException()
+  - com.microsoft.signalr.HubException.HubException(java.lang.String)
+  - com.microsoft.signalr.HubException.HubException(java.lang.String,java.lang.Exception)
   langs:
-  - "java"
-  name: "HubException"
-  nameWithType: "HubException"
-  fullName: "com.microsoft.signalr.HubException"
-  type: "Class"
-  package: "com.microsoft.signalr"
-  summary: "An exception thrown when the server fails to invoke a Hub method."
+  - java
+  name: HubException
+  nameWithType: HubException
+  fullName: com.microsoft.signalr.HubException
+  type: Class
+  package: com.microsoft.signalr
+  summary: An exception thrown when the server fails to invoke a Hub method.
   syntax:
-    content: "public class HubException extends RuntimeException"
+    content: public class HubException extends RuntimeException
   inheritance:
-  - "java.lang.Object"
-  - "java.lang.Throwable"
-  - "java.lang.Exception"
-  - "java.lang.RuntimeException"
+  - java.lang.Object
+  - java.lang.Throwable
+  - java.lang.Exception
+  - java.lang.RuntimeException
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-  - "java.lang.Throwable.addSuppressed(java.lang.Throwable)"
-  - "java.lang.Throwable.fillInStackTrace()"
-  - "java.lang.Throwable.getCause()"
-  - "java.lang.Throwable.getLocalizedMessage()"
-  - "java.lang.Throwable.getMessage()"
-  - "java.lang.Throwable.getStackTrace()"
-  - "java.lang.Throwable.getSuppressed()"
-  - "java.lang.Throwable.initCause(java.lang.Throwable)"
-  - "java.lang.Throwable.printStackTrace()"
-  - "java.lang.Throwable.printStackTrace(java.io.PrintStream)"
-  - "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
-  - "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
-  - "java.lang.Throwable.toString()"
-- uid: "com.microsoft.signalr.HubException.HubException()"
-  id: "HubException()"
-  parent: "com.microsoft.signalr.HubException"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+  - java.lang.Throwable.addSuppressed(java.lang.Throwable)
+  - java.lang.Throwable.fillInStackTrace()
+  - java.lang.Throwable.getCause()
+  - java.lang.Throwable.getLocalizedMessage()
+  - java.lang.Throwable.getMessage()
+  - java.lang.Throwable.getStackTrace()
+  - java.lang.Throwable.getSuppressed()
+  - java.lang.Throwable.initCause(java.lang.Throwable)
+  - java.lang.Throwable.printStackTrace()
+  - java.lang.Throwable.printStackTrace(java.io.PrintStream)
+  - java.lang.Throwable.printStackTrace(java.io.PrintWriter)
+  - java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])
+  - java.lang.Throwable.toString()
+- uid: com.microsoft.signalr.HubException.HubException()
+  id: HubException()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubException
   langs:
-  - "java"
-  name: "HubException()"
-  nameWithType: "HubException.HubException()"
-  fullName: "com.microsoft.signalr.HubException.HubException()"
-  overload: "com.microsoft.signalr.HubException.HubException*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
-  summary: "Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class."
+  - java
+  name: HubException()
+  nameWithType: HubException.HubException()
+  fullName: com.microsoft.signalr.HubException.HubException()
+  overload: com.microsoft.signalr.HubException.HubException*
+  type: Constructor
+  package: com.microsoft.signalr
+  summary: Initializes a new instance of the <xref uid="com.microsoft.signalr.HubException" data-throw-if-not-resolved="false">HubException</xref> class.
   syntax:
-    content: "public HubException()"
-- uid: "com.microsoft.signalr.HubException.HubException(java.lang.String)"
-  id: "HubException(java.lang.String)"
-  parent: "com.microsoft.signalr.HubException"
+    content: public HubException()
+- uid: com.microsoft.signalr.HubException.HubException(java.lang.String)
+  id: HubException(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubException
   langs:
-  - "java"
-  name: "HubException(String errorMessage)"
-  nameWithType: "HubException.HubException(String errorMessage)"
-  fullName: "com.microsoft.signalr.HubException.HubException(String errorMessage)"
-  overload: "com.microsoft.signalr.HubException.HubException*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
-  summary: "Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message."
+  - java
+  name: HubException(String errorMessage)
+  nameWithType: HubException.HubException(String errorMessage)
+  fullName: com.microsoft.signalr.HubException.HubException(String errorMessage)
+  overload: com.microsoft.signalr.HubException.HubException*
+  type: Constructor
+  package: com.microsoft.signalr
+  summary: Initializes a new instance of the <xref uid="com.microsoft.signalr.HubException" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message.
   syntax:
-    content: "public HubException(String errorMessage)"
+    content: public HubException(String errorMessage)
     parameters:
-    - id: "errorMessage"
-      type: "java.lang.String"
-      description: "The error message that explains the reason for the exception."
-- uid: "com.microsoft.signalr.HubException.HubException(java.lang.String,java.lang.Exception)"
-  id: "HubException(java.lang.String,java.lang.Exception)"
-  parent: "com.microsoft.signalr.HubException"
+    - id: errorMessage
+      type: java.lang.String
+      description: The error message that explains the reason for the exception.
+- uid: com.microsoft.signalr.HubException.HubException(java.lang.String,java.lang.Exception)
+  id: HubException(java.lang.String,java.lang.Exception)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubException
   langs:
-  - "java"
-  name: "HubException(String errorMessage, Exception innerException)"
-  nameWithType: "HubException.HubException(String errorMessage, Exception innerException)"
-  fullName: "com.microsoft.signalr.HubException.HubException(String errorMessage, Exception innerException)"
-  overload: "com.microsoft.signalr.HubException.HubException*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
-  summary: "Initializes a new instance of the <xref uid=\"com.microsoft.signalr.HubException\" data-throw-if-not-resolved=\"false\">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception."
+  - java
+  name: HubException(String errorMessage, Exception innerException)
+  nameWithType: HubException.HubException(String errorMessage, Exception innerException)
+  fullName: com.microsoft.signalr.HubException.HubException(String errorMessage, Exception innerException)
+  overload: com.microsoft.signalr.HubException.HubException*
+  type: Constructor
+  package: com.microsoft.signalr
+  summary: Initializes a new instance of the <xref uid="com.microsoft.signalr.HubException" data-throw-if-not-resolved="false">HubException</xref> class with a specified error message and a reference to the exception that is the cause of this exception.
   syntax:
-    content: "public HubException(String errorMessage, Exception innerException)"
+    content: public HubException(String errorMessage, Exception innerException)
     parameters:
-    - id: "errorMessage"
-      type: "java.lang.String"
-      description: "The error message that explains the reason for the exception."
-    - id: "innerException"
-      type: "java.lang.Exception"
-      description: "The exception that is the cause of the current exception, or null if no inner exception is specified."
+    - id: errorMessage
+      type: java.lang.String
+      description: The error message that explains the reason for the exception.
+    - id: innerException
+      type: java.lang.Exception
+      description: The exception that is the cause of the current exception, or null if no inner exception is specified.
 references:
-- uid: "com.microsoft.signalr.HubException.HubException*"
-  name: "HubException"
-  nameWithType: "HubException.HubException"
-  fullName: "com.microsoft.signalr.HubException.HubException"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.String"
+- uid: com.microsoft.signalr.HubException.HubException*
+  name: HubException
+  nameWithType: HubException.HubException
+  fullName: com.microsoft.signalr.HubException.HubException
+  package: com.microsoft.signalr
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "java.lang.Exception"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: java.lang.Exception
   spec.java:
-  - uid: "java.lang.Exception"
-    name: "Exception"
-    fullName: "java.lang.Exception"
-- uid: "java.lang.RuntimeException"
-  name: "RuntimeException"
-  nameWithType: "RuntimeException"
-  fullName: "java.lang.RuntimeException"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
-  name: "Throwable.printStackTrace(PrintWriter)"
-  nameWithType: "Throwable.printStackTrace(PrintWriter)"
-  fullName: "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
-- uid: "java.lang.Throwable.getCause()"
-  name: "Throwable.getCause()"
-  nameWithType: "Throwable.getCause()"
-  fullName: "java.lang.Throwable.getCause()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Throwable.addSuppressed(java.lang.Throwable)"
-  name: "Throwable.addSuppressed(Throwable)"
-  nameWithType: "Throwable.addSuppressed(Throwable)"
-  fullName: "java.lang.Throwable.addSuppressed(java.lang.Throwable)"
-- uid: "java.lang.Throwable.fillInStackTrace()"
-  name: "Throwable.fillInStackTrace()"
-  nameWithType: "Throwable.fillInStackTrace()"
-  fullName: "java.lang.Throwable.fillInStackTrace()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Throwable.initCause(java.lang.Throwable)"
-  name: "Throwable.initCause(Throwable)"
-  nameWithType: "Throwable.initCause(Throwable)"
-  fullName: "java.lang.Throwable.initCause(java.lang.Throwable)"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
-  name: "Throwable.setStackTrace(StackTraceElement[])"
-  nameWithType: "Throwable.setStackTrace(StackTraceElement[])"
-  fullName: "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
-- uid: "java.lang.Throwable.toString()"
-  name: "Throwable.toString()"
-  nameWithType: "Throwable.toString()"
-  fullName: "java.lang.Throwable.toString()"
-- uid: "java.lang.Throwable.printStackTrace(java.io.PrintStream)"
-  name: "Throwable.printStackTrace(PrintStream)"
-  nameWithType: "Throwable.printStackTrace(PrintStream)"
-  fullName: "java.lang.Throwable.printStackTrace(java.io.PrintStream)"
-- uid: "java.lang.Throwable.getMessage()"
-  name: "Throwable.getMessage()"
-  nameWithType: "Throwable.getMessage()"
-  fullName: "java.lang.Throwable.getMessage()"
-- uid: "java.lang.Throwable.getSuppressed()"
-  name: "Throwable.getSuppressed()"
-  nameWithType: "Throwable.getSuppressed()"
-  fullName: "java.lang.Throwable.getSuppressed()"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Throwable.getStackTrace()"
-  name: "Throwable.getStackTrace()"
-  nameWithType: "Throwable.getStackTrace()"
-  fullName: "java.lang.Throwable.getStackTrace()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Throwable.getLocalizedMessage()"
-  name: "Throwable.getLocalizedMessage()"
-  nameWithType: "Throwable.getLocalizedMessage()"
-  fullName: "java.lang.Throwable.getLocalizedMessage()"
-- uid: "java.lang.Throwable.printStackTrace()"
-  name: "Throwable.printStackTrace()"
-  nameWithType: "Throwable.printStackTrace()"
-  fullName: "java.lang.Throwable.printStackTrace()"
+  - uid: java.lang.Exception
+    name: Exception
+    fullName: java.lang.Exception
+- uid: java.lang.RuntimeException
+  name: RuntimeException
+  nameWithType: RuntimeException
+  fullName: java.lang.RuntimeException
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Throwable.printStackTrace(java.io.PrintWriter)
+  name: Throwable.printStackTrace(PrintWriter)
+  nameWithType: Throwable.printStackTrace(PrintWriter)
+  fullName: java.lang.Throwable.printStackTrace(java.io.PrintWriter)
+- uid: java.lang.Throwable.getCause()
+  name: Throwable.getCause()
+  nameWithType: Throwable.getCause()
+  fullName: java.lang.Throwable.getCause()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Throwable.addSuppressed(java.lang.Throwable)
+  name: Throwable.addSuppressed(Throwable)
+  nameWithType: Throwable.addSuppressed(Throwable)
+  fullName: java.lang.Throwable.addSuppressed(java.lang.Throwable)
+- uid: java.lang.Throwable.fillInStackTrace()
+  name: Throwable.fillInStackTrace()
+  nameWithType: Throwable.fillInStackTrace()
+  fullName: java.lang.Throwable.fillInStackTrace()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Throwable.initCause(java.lang.Throwable)
+  name: Throwable.initCause(Throwable)
+  nameWithType: Throwable.initCause(Throwable)
+  fullName: java.lang.Throwable.initCause(java.lang.Throwable)
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])
+  name: Throwable.setStackTrace(StackTraceElement[])
+  nameWithType: Throwable.setStackTrace(StackTraceElement[])
+  fullName: java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])
+- uid: java.lang.Throwable.toString()
+  name: Throwable.toString()
+  nameWithType: Throwable.toString()
+  fullName: java.lang.Throwable.toString()
+- uid: java.lang.Throwable.printStackTrace(java.io.PrintStream)
+  name: Throwable.printStackTrace(PrintStream)
+  nameWithType: Throwable.printStackTrace(PrintStream)
+  fullName: java.lang.Throwable.printStackTrace(java.io.PrintStream)
+- uid: java.lang.Throwable.getMessage()
+  name: Throwable.getMessage()
+  nameWithType: Throwable.getMessage()
+  fullName: java.lang.Throwable.getMessage()
+- uid: java.lang.Throwable.getSuppressed()
+  name: Throwable.getSuppressed()
+  nameWithType: Throwable.getSuppressed()
+  fullName: java.lang.Throwable.getSuppressed()
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Throwable.getStackTrace()
+  name: Throwable.getStackTrace()
+  nameWithType: Throwable.getStackTrace()
+  fullName: java.lang.Throwable.getStackTrace()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Throwable.getLocalizedMessage()
+  name: Throwable.getLocalizedMessage()
+  nameWithType: Throwable.getLocalizedMessage()
+  fullName: java.lang.Throwable.getLocalizedMessage()
+- uid: java.lang.Throwable.printStackTrace()
+  name: Throwable.printStackTrace()
+  nameWithType: Throwable.printStackTrace()
+  fullName: java.lang.Throwable.printStackTrace()

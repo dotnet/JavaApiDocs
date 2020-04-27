@@ -1,157 +1,161 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.HubConnectionBuilder"
-  id: "HubConnectionBuilder"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.HubConnectionBuilder
+  id: HubConnectionBuilder
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
-  - "com.microsoft.signalr.HubConnectionBuilder.build()"
-  - "com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)"
+  - com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()
+  - com.microsoft.signalr.HubConnectionBuilder.build()
+  - com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)
   langs:
-  - "java"
-  name: "HubConnectionBuilder"
-  nameWithType: "HubConnectionBuilder"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder"
-  type: "Class"
-  package: "com.microsoft.signalr"
-  summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances."
+  - java
+  name: HubConnectionBuilder
+  nameWithType: HubConnectionBuilder
+  fullName: com.microsoft.signalr.HubConnectionBuilder
+  type: Class
+  package: com.microsoft.signalr
+  summary: A builder for configuring <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> instances.
   syntax:
-    content: "public abstract class HubConnectionBuilder"
+    content: public abstract class HubConnectionBuilder
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
-  id: "HubConnectionBuilder()"
-  parent: "com.microsoft.signalr.HubConnectionBuilder"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()
+  id: HubConnectionBuilder()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionBuilder
   langs:
-  - "java"
-  name: "HubConnectionBuilder()"
-  nameWithType: "HubConnectionBuilder.HubConnectionBuilder()"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
-  overload: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
+  - java
+  name: HubConnectionBuilder()
+  nameWithType: HubConnectionBuilder.HubConnectionBuilder()
+  fullName: com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()
+  overload: com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder*
+  type: Constructor
+  package: com.microsoft.signalr
   syntax:
-    content: "public HubConnectionBuilder()"
-- uid: "com.microsoft.signalr.HubConnectionBuilder.build()"
-  id: "build()"
-  parent: "com.microsoft.signalr.HubConnectionBuilder"
+    content: public HubConnectionBuilder()
+- uid: com.microsoft.signalr.HubConnectionBuilder.build()
+  id: build()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionBuilder
   langs:
-  - "java"
-  name: "build()"
-  nameWithType: "HubConnectionBuilder.build()"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.build()"
-  overload: "com.microsoft.signalr.HubConnectionBuilder.build*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: build()
+  nameWithType: HubConnectionBuilder.build()
+  fullName: com.microsoft.signalr.HubConnectionBuilder.build()
+  overload: com.microsoft.signalr.HubConnectionBuilder.build*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Builds a new instance of <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
-    content: "public abstract HubConnection build()"
+    content: public abstract HubConnection build()
     return:
-      type: "com.microsoft.signalr.HubConnection"
-      description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
-- uid: "com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)"
-  id: "create(java.lang.String)"
-  parent: "com.microsoft.signalr.HubConnectionBuilder"
+      type: com.microsoft.signalr.HubConnection
+      description: A new instance of <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
+- uid: com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)
+  id: create(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionBuilder
   langs:
-  - "java"
-  name: "create(String url)"
-  nameWithType: "HubConnectionBuilder.create(String url)"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.create(String url)"
-  overload: "com.microsoft.signalr.HubConnectionBuilder.create*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>."
+  - java
+  name: create(String url)
+  nameWithType: HubConnectionBuilder.create(String url)
+  fullName: com.microsoft.signalr.HubConnectionBuilder.create(String url)
+  overload: com.microsoft.signalr.HubConnectionBuilder.create*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Creates a new instance of <xref uid="com.microsoft.signalr.HttpHubConnectionBuilder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>.
   syntax:
-    content: "public static HttpHubConnectionBuilder create(String url)"
+    content: public static HttpHubConnectionBuilder create(String url)
     parameters:
-    - id: "url"
-      type: "java.lang.String"
-      description: "The URL of the SignalR hub to connect to."
+    - id: url
+      type: java.lang.String
+      description: The URL of the SignalR hub to connect to.
     return:
-      type: "com.microsoft.signalr.HttpHubConnectionBuilder"
-      description: "An instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>."
+      type: com.microsoft.signalr.HttpHubConnectionBuilder
+      description: An instance of <xref uid="com.microsoft.signalr.HttpHubConnectionBuilder" data-throw-if-not-resolved="false">HttpHubConnectionBuilder</xref>.
 references:
-- uid: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder*"
-  name: "HubConnectionBuilder"
-  nameWithType: "HubConnectionBuilder.HubConnectionBuilder"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.String"
+- uid: com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder*
+  name: HubConnectionBuilder
+  nameWithType: HubConnectionBuilder.HubConnectionBuilder
+  fullName: com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder
+  package: com.microsoft.signalr
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.signalr.HttpHubConnectionBuilder"
-  name: "HttpHubConnectionBuilder"
-  nameWithType: "HttpHubConnectionBuilder"
-  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder"
-- uid: "com.microsoft.signalr.HubConnectionBuilder.create*"
-  name: "create"
-  nameWithType: "HubConnectionBuilder.create"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.create"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection"
-  name: "HubConnection"
-  nameWithType: "HubConnection"
-  fullName: "com.microsoft.signalr.HubConnection"
-- uid: "com.microsoft.signalr.HubConnectionBuilder.build*"
-  name: "build"
-  nameWithType: "HubConnectionBuilder.build"
-  fullName: "com.microsoft.signalr.HubConnectionBuilder.build"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.signalr.HttpHubConnectionBuilder
+  name: HttpHubConnectionBuilder
+  nameWithType: HttpHubConnectionBuilder
+  fullName: com.microsoft.signalr.HttpHubConnectionBuilder
+- uid: com.microsoft.signalr.HubConnectionBuilder.create*
+  name: create
+  nameWithType: HubConnectionBuilder.create
+  fullName: com.microsoft.signalr.HubConnectionBuilder.create
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.signalr.HubConnection
+- uid: com.microsoft.signalr.HubConnectionBuilder.build*
+  name: build
+  nameWithType: HubConnectionBuilder.build
+  fullName: com.microsoft.signalr.HubConnectionBuilder.build
+  package: com.microsoft.signalr
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

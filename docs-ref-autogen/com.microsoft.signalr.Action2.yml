@@ -1,54 +1,56 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.Action2"
-  id: "Action2"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.Action2
+  id: Action2
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.Action2.invoke(T1,T2)"
+  - com.microsoft.signalr.Action2.invoke(T1,T2)
   langs:
-  - "java"
-  name: "Action2<T1,T2>"
-  nameWithType: "Action2<T1,T2>"
-  fullName: "com.microsoft.signalr.Action2<T1,T2>"
-  type: "Interface"
-  package: "com.microsoft.signalr"
-  summary: "A callback that takes two parameters."
+  - java
+  name: Action2<T1,T2>
+  nameWithType: Action2<T1,T2>
+  fullName: com.microsoft.signalr.Action2<T1,T2>
+  type: Interface
+  package: com.microsoft.signalr
+  summary: A callback that takes two parameters.
   syntax:
-    content: "public interface Action2<T1,T2>"
+    content: public interface Action2<T1,T2>
     typeParameters:
-    - id: "T1"
-    - id: "T2"
-- uid: "com.microsoft.signalr.Action2.invoke(T1,T2)"
-  id: "invoke(T1,T2)"
-  parent: "com.microsoft.signalr.Action2"
+    - id: T1
+    - id: T2
+- uid: com.microsoft.signalr.Action2.invoke(T1,T2)
+  id: invoke(T1,T2)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.Action2
   langs:
-  - "java"
-  name: "invoke(T1 param1, T2 param2)"
-  nameWithType: "Action2<T1,T2>.invoke(T1 param1, T2 param2)"
-  fullName: "com.microsoft.signalr.Action2<T1,T2>.invoke(T1 param1, T2 param2)"
-  overload: "com.microsoft.signalr.Action2.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: invoke(T1 param1, T2 param2)
+  nameWithType: Action2<T1,T2>.invoke(T1 param1, T2 param2)
+  fullName: com.microsoft.signalr.Action2<T1,T2>.invoke(T1 param1, T2 param2)
+  overload: com.microsoft.signalr.Action2.invoke*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public abstract void invoke(T1 param1, T2 param2)"
+    content: public abstract void invoke(T1 param1, T2 param2)
     parameters:
-    - id: "param1"
-      type: "T1"
-    - id: "param2"
-      type: "T2"
+    - id: param1
+      type: T1
+    - id: param2
+      type: T2
 references:
-- uid: "T1"
+- uid: T1
   spec.java:
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-- uid: "T2"
+  - uid: T1
+    name: T1
+    fullName: T1
+- uid: T2
   spec.java:
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-- uid: "com.microsoft.signalr.Action2.invoke*"
-  name: "invoke"
-  nameWithType: "Action2<T1,T2>.invoke"
-  fullName: "com.microsoft.signalr.Action2<T1,T2>.invoke"
-  package: "com.microsoft.signalr"
+  - uid: T2
+    name: T2
+    fullName: T2
+- uid: com.microsoft.signalr.Action2.invoke*
+  name: invoke
+  nameWithType: Action2<T1,T2>.invoke
+  fullName: com.microsoft.signalr.Action2<T1,T2>.invoke
+  package: com.microsoft.signalr

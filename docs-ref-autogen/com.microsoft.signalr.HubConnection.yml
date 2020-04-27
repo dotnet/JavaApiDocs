@@ -1,1588 +1,1621 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.HubConnection"
-  id: "HubConnection"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.HubConnection
+  id: HubConnection
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)"
-  - "com.microsoft.signalr.HubConnection.<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)"
-  - "com.microsoft.signalr.HubConnection.<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)"
-  - "com.microsoft.signalr.HubConnection.<T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  - "com.microsoft.signalr.HubConnection.<T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  - "com.microsoft.signalr.HubConnection.HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)"
-  - "com.microsoft.signalr.HubConnection.checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)"
-  - "com.microsoft.signalr.HubConnection.getBaseUrl()"
-  - "com.microsoft.signalr.HubConnection.getConnectionId()"
-  - "com.microsoft.signalr.HubConnection.getConnectionState()"
-  - "com.microsoft.signalr.HubConnection.getKeepAliveInterval()"
-  - "com.microsoft.signalr.HubConnection.getServerTimeout()"
-  - "com.microsoft.signalr.HubConnection.getStreamMap()"
-  - "com.microsoft.signalr.HubConnection.getTransport()"
-  - "com.microsoft.signalr.HubConnection.getTransportEnum()"
-  - "com.microsoft.signalr.HubConnection.invoke(java.lang.String,java.lang.Object...)"
-  - "com.microsoft.signalr.HubConnection.launchStreams(java.util.List<java.lang.String>)"
-  - "com.microsoft.signalr.HubConnection.on(java.lang.String,com.microsoft.signalr.Action)"
-  - "com.microsoft.signalr.HubConnection.onClosed(com.microsoft.signalr.OnClosedCallback)"
-  - "com.microsoft.signalr.HubConnection.remove(java.lang.String)"
-  - "com.microsoft.signalr.HubConnection.send(java.lang.String,java.lang.Object...)"
-  - "com.microsoft.signalr.HubConnection.setBaseUrl(java.lang.String)"
-  - "com.microsoft.signalr.HubConnection.setKeepAliveInterval(long)"
-  - "com.microsoft.signalr.HubConnection.setServerTimeout(long)"
-  - "com.microsoft.signalr.HubConnection.setTickRate(long)"
-  - "com.microsoft.signalr.HubConnection.start()"
-  - "com.microsoft.signalr.HubConnection.stop()"
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)
+  - com.microsoft.signalr.HubConnection.<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)
+  - com.microsoft.signalr.HubConnection.<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)
+  - com.microsoft.signalr.HubConnection.<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)
+  - com.microsoft.signalr.HubConnection.<T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  - com.microsoft.signalr.HubConnection.<T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  - com.microsoft.signalr.HubConnection.HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)
+  - com.microsoft.signalr.HubConnection.checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)
+  - com.microsoft.signalr.HubConnection.getBaseUrl()
+  - com.microsoft.signalr.HubConnection.getConnectionId()
+  - com.microsoft.signalr.HubConnection.getConnectionState()
+  - com.microsoft.signalr.HubConnection.getKeepAliveInterval()
+  - com.microsoft.signalr.HubConnection.getServerTimeout()
+  - com.microsoft.signalr.HubConnection.getStreamMap()
+  - com.microsoft.signalr.HubConnection.getTransport()
+  - com.microsoft.signalr.HubConnection.getTransportEnum()
+  - com.microsoft.signalr.HubConnection.invoke(java.lang.String,java.lang.Object...)
+  - com.microsoft.signalr.HubConnection.launchStreams(java.util.List<java.lang.String>)
+  - com.microsoft.signalr.HubConnection.on(java.lang.String,com.microsoft.signalr.Action)
+  - com.microsoft.signalr.HubConnection.onClosed(com.microsoft.signalr.OnClosedCallback)
+  - com.microsoft.signalr.HubConnection.remove(java.lang.String)
+  - com.microsoft.signalr.HubConnection.send(java.lang.String,java.lang.Object...)
+  - com.microsoft.signalr.HubConnection.setBaseUrl(java.lang.String)
+  - com.microsoft.signalr.HubConnection.setKeepAliveInterval(long)
+  - com.microsoft.signalr.HubConnection.setServerTimeout(long)
+  - com.microsoft.signalr.HubConnection.setTickRate(long)
+  - com.microsoft.signalr.HubConnection.start()
+  - com.microsoft.signalr.HubConnection.stop()
   langs:
-  - "java"
-  name: "HubConnection"
-  nameWithType: "HubConnection"
-  fullName: "com.microsoft.signalr.HubConnection"
-  type: "Class"
-  package: "com.microsoft.signalr"
-  summary: "A connection used to invoke hub methods on a SignalR Server."
+  - java
+  name: HubConnection
+  nameWithType: HubConnection
+  fullName: com.microsoft.signalr.HubConnection
+  type: Class
+  package: com.microsoft.signalr
+  summary: A connection used to invoke hub methods on a SignalR Server.
   syntax:
-    content: "public class HubConnection"
+    content: public class HubConnection
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)"
-  id: "<T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)"
-  parent: "com.microsoft.signalr.HubConnection"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)
+  id: <T1,T2,T3,T4,T5,T6,T7,T8>on(java.lang.String,com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>,java.lang.Class<T8>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)"
-  nameWithType: "HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)
+  nameWithType: HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)"
+    content: public Subscription <T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
-    - id: "param4"
-      type: "java.lang.Class<T4>"
-      description: "The fourth parameter."
-    - id: "param5"
-      type: "java.lang.Class<T5>"
-      description: "The fifth parameter."
-    - id: "param6"
-      type: "java.lang.Class<T6>"
-      description: "The sixth parameter."
-    - id: "param7"
-      type: "java.lang.Class<T7>"
-      description: "The seventh parameter."
-    - id: "param8"
-      type: "java.lang.Class<T8>"
-      description: "The eighth parameter"
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
+    - id: param4
+      type: java.lang.Class<T4>
+      description: The fourth parameter.
+    - id: param5
+      type: java.lang.Class<T5>
+      description: The fifth parameter.
+    - id: param6
+      type: java.lang.Class<T6>
+      description: The sixth parameter.
+    - id: param7
+      type: java.lang.Class<T7>
+      description: The seventh parameter.
+    - id: param8
+      type: java.lang.Class<T8>
+      description: The eighth parameter
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)"
-  id: "<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)
+  id: <T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
-  nameWithType: "HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)
+  nameWithType: HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
+    content: public Subscription <T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
-    - id: "param4"
-      type: "java.lang.Class<T4>"
-      description: "The fourth parameter."
-    - id: "param5"
-      type: "java.lang.Class<T5>"
-      description: "The fifth parameter."
-    - id: "param6"
-      type: "java.lang.Class<T6>"
-      description: "The sixth parameter."
-    - id: "param7"
-      type: "java.lang.Class<T7>"
-      description: "The seventh parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
+    - id: param4
+      type: java.lang.Class<T4>
+      description: The fourth parameter.
+    - id: param5
+      type: java.lang.Class<T5>
+      description: The fifth parameter.
+    - id: param6
+      type: java.lang.Class<T6>
+      description: The sixth parameter.
+    - id: param7
+      type: java.lang.Class<T7>
+      description: The seventh parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)"
-  id: "<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)
+  id: <T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
-  nameWithType: "HubConnection.<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)
+  nameWithType: HubConnection.<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
+    content: public Subscription <T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
-    - id: "param4"
-      type: "java.lang.Class<T4>"
-      description: "The fourth parameter."
-    - id: "param5"
-      type: "java.lang.Class<T5>"
-      description: "The fifth parameter."
-    - id: "param6"
-      type: "java.lang.Class<T6>"
-      description: "The sixth parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
+    - id: param4
+      type: java.lang.Class<T4>
+      description: The fourth parameter.
+    - id: param5
+      type: java.lang.Class<T5>
+      description: The fifth parameter.
+    - id: param6
+      type: java.lang.Class<T6>
+      description: The sixth parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)"
-  id: "<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)
+  id: <T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
-  nameWithType: "HubConnection.<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)
+  nameWithType: HubConnection.<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
+    content: public Subscription <T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
-    - id: "param4"
-      type: "java.lang.Class<T4>"
-      description: "The fourth parameter."
-    - id: "param5"
-      type: "java.lang.Class<T5>"
-      description: "The fifth parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
+    - id: param4
+      type: java.lang.Class<T4>
+      description: The fourth parameter.
+    - id: param5
+      type: java.lang.Class<T5>
+      description: The fifth parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)"
-  id: "<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)
+  id: <T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
-  nameWithType: "HubConnection.<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)
+  nameWithType: HubConnection.<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
+    content: public Subscription <T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action4<T1,T2,T3,T4>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
-    - id: "param4"
-      type: "java.lang.Class<T4>"
-      description: "The fourth parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action4<T1,T2,T3,T4>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
+    - id: param4
+      type: java.lang.Class<T4>
+      description: The fourth parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)"
-  id: "<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)
+  id: <T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
-  nameWithType: "HubConnection.<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)
+  nameWithType: HubConnection.<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
+    content: public Subscription <T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action3<T1,T2,T3>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
-    - id: "param3"
-      type: "java.lang.Class<T3>"
-      description: "The third parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action3<T1,T2,T3>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
+    - id: param3
+      type: java.lang.Class<T3>
+      description: The third parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)"
-  id: "<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)
+  id: <T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
-  nameWithType: "HubConnection.<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)
+  nameWithType: HubConnection.<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)
+  fullName: com.microsoft.signalr.HubConnection.<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
+    content: public Subscription <T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action2<T1,T2>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
-    - id: "param2"
-      type: "java.lang.Class<T2>"
-      description: "The second parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action2<T1,T2>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
+    - id: param2
+      type: java.lang.Class<T2>
+      description: The second parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)"
-  id: "<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)
+  id: <T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T1>on(String target, Action1<T1> callback, Class<T1> param1)"
-  nameWithType: "HubConnection.<T1>on(String target, Action1<T1> callback, Class<T1> param1)"
-  fullName: "com.microsoft.signalr.HubConnection.<T1>on(String target, Action1<T1> callback, Class<T1> param1)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: <T1>on(String target, Action1<T1> callback, Class<T1> param1)
+  nameWithType: HubConnection.<T1>on(String target, Action1<T1> callback, Class<T1> param1)
+  fullName: com.microsoft.signalr.HubConnection.<T1>on(String target, Action1<T1> callback, Class<T1> param1)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription <T1>on(String target, Action1<T1> callback, Class<T1> param1)"
+    content: public Subscription <T1>on(String target, Action1<T1> callback, Class<T1> param1)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action1<T1>"
-      description: "The handler that will be raised when the hub method is invoked."
-    - id: "param1"
-      type: "java.lang.Class<T1>"
-      description: "The first parameter."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action1<T1>
+      description: The handler that will be raised when the hub method is invoked.
+    - id: param1
+      type: java.lang.Class<T1>
+      description: The first parameter.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.<T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  id: "<T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.<T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  id: <T>invoke(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T>invoke(Class<T> returnType, String method, Object[] args)"
-  nameWithType: "HubConnection.<T>invoke(Class<T> returnType, String method, Object[] args)"
-  fullName: "com.microsoft.signalr.HubConnection.<T>invoke(Class<T> returnType, String method, Object[] args)"
-  overload: "com.microsoft.signalr.HubConnection.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Invokes a hub method on the server using the specified method name and arguments."
+  - java
+  name: <T>invoke(Class<T> returnType, String method, Object[] args)
+  nameWithType: HubConnection.<T>invoke(Class<T> returnType, String method, Object[] args)
+  fullName: com.microsoft.signalr.HubConnection.<T>invoke(Class<T> returnType, String method, Object[] args)
+  overload: com.microsoft.signalr.HubConnection.invoke*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Invokes a hub method on the server using the specified method name and arguments.
   syntax:
-    content: "public Single<T> <T>invoke(Class<T> returnType, String method, Object[] args)"
+    content: public Single<T> <T>invoke(Class<T> returnType, String method, Object[] args)
     parameters:
-    - id: "returnType"
-      type: "java.lang.Class<T>"
-      description: "The expected return type."
-    - id: "method"
-      type: "java.lang.String"
-      description: "The name of the server method to invoke."
-    - id: "args"
-      type: "java.lang.Object[]"
-      description: "The arguments used to invoke the server method."
+    - id: returnType
+      type: java.lang.Class<T>
+      description: The expected return type.
+    - id: method
+      type: java.lang.String
+      description: The name of the server method to invoke.
+    - id: args
+      type: java.lang.Object[]
+      description: The arguments used to invoke the server method.
     return:
-      type: "io.reactivex.Single<T>"
-      description: "A Single that yields the return value when the invocation has completed."
-- uid: "com.microsoft.signalr.HubConnection.<T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  id: "<T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: io.reactivex.Single<T>
+      description: A Single that yields the return value when the invocation has completed.
+- uid: com.microsoft.signalr.HubConnection.<T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  id: <T>stream(java.lang.Class<T>,java.lang.String,java.lang.Object...)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "<T>stream(Class<T> returnType, String method, Object[] args)"
-  nameWithType: "HubConnection.<T>stream(Class<T> returnType, String method, Object[] args)"
-  fullName: "com.microsoft.signalr.HubConnection.<T>stream(Class<T> returnType, String method, Object[] args)"
-  overload: "com.microsoft.signalr.HubConnection.stream*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Invokes a streaming hub method on the server using the specified name and arguments."
+  - java
+  name: <T>stream(Class<T> returnType, String method, Object[] args)
+  nameWithType: HubConnection.<T>stream(Class<T> returnType, String method, Object[] args)
+  fullName: com.microsoft.signalr.HubConnection.<T>stream(Class<T> returnType, String method, Object[] args)
+  overload: com.microsoft.signalr.HubConnection.stream*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Invokes a streaming hub method on the server using the specified name and arguments.
   syntax:
-    content: "public Observable<T> <T>stream(Class<T> returnType, String method, Object[] args)"
+    content: public Observable<T> <T>stream(Class<T> returnType, String method, Object[] args)
     parameters:
-    - id: "returnType"
-      type: "java.lang.Class<T>"
-      description: "The expected return type of the stream items."
-    - id: "method"
-      type: "java.lang.String"
-      description: "The name of the server method to invoke."
-    - id: "args"
-      type: "java.lang.Object[]"
-      description: "The arguments used to invoke the server method."
+    - id: returnType
+      type: java.lang.Class<T>
+      description: The expected return type of the stream items.
+    - id: method
+      type: java.lang.String
+      description: The name of the server method to invoke.
+    - id: args
+      type: java.lang.Object[]
+      description: The arguments used to invoke the server method.
     return:
-      type: "io.reactivex.Observable<T>"
-      description: "An observable that yields the streaming results from the server."
-- uid: "com.microsoft.signalr.HubConnection.HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)"
-  id: "HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: io.reactivex.Observable<T>
+      description: An observable that yields the streaming results from the server.
+- uid: com.microsoft.signalr.HubConnection.HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)
+  id: HubConnection(java.lang.String,com.microsoft.signalr.Transport,boolean,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>,long,java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.TransportEnum)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)"
-  nameWithType: "HubConnection.HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)"
-  fullName: "com.microsoft.signalr.HubConnection.HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)"
-  overload: "com.microsoft.signalr.HubConnection.HubConnection*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
+  - java
+  name: HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)
+  nameWithType: HubConnection.HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)
+  fullName: com.microsoft.signalr.HubConnection.HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)
+  overload: com.microsoft.signalr.HubConnection.HubConnection*
+  type: Constructor
+  package: com.microsoft.signalr
   syntax:
     content: " HubConnection(String url, Transport transport, boolean skipNegotiate, HttpClient httpClient, Single<String> accessTokenProvider, long handshakeResponseTimeout, Map<String,String> headers, TransportEnum transportEnum)"
     parameters:
-    - id: "url"
-      type: "java.lang.String"
-    - id: "transport"
-      type: "com.microsoft.signalr.Transport"
-    - id: "skipNegotiate"
-      type: "boolean"
-    - id: "httpClient"
-      type: "com.microsoft.signalr.HttpClient"
-    - id: "accessTokenProvider"
-      type: "io.reactivex.Single<java.lang.String>"
-    - id: "handshakeResponseTimeout"
-      type: "long"
-    - id: "headers"
-      type: "java.util.Map<java.lang.String,java.lang.String>"
-    - id: "transportEnum"
-      type: "com.microsoft.signalr.TransportEnum"
-- uid: "com.microsoft.signalr.HubConnection.checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)"
-  id: "checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: url
+      type: java.lang.String
+    - id: transport
+      type: com.microsoft.signalr.Transport
+    - id: skipNegotiate
+      type: boolean
+    - id: httpClient
+      type: com.microsoft.signalr.HttpClient
+    - id: accessTokenProvider
+      type: io.reactivex.Single<java.lang.String>
+    - id: handshakeResponseTimeout
+      type: long
+    - id: headers
+      type: java.util.Map<java.lang.String,java.lang.String>
+    - id: transportEnum
+      type: com.microsoft.signalr.TransportEnum
+- uid: com.microsoft.signalr.HubConnection.checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)
+  id: checkUploadStream(java.lang.Object[],java.util.List<java.lang.String>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "checkUploadStream(Object[] args, List<String> streamIds)"
-  nameWithType: "HubConnection.checkUploadStream(Object[] args, List<String> streamIds)"
-  fullName: "com.microsoft.signalr.HubConnection.checkUploadStream(Object[] args, List<String> streamIds)"
-  overload: "com.microsoft.signalr.HubConnection.checkUploadStream*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: checkUploadStream(Object[] args, List<String> streamIds)
+  nameWithType: HubConnection.checkUploadStream(Object[] args, List<String> streamIds)
+  fullName: com.microsoft.signalr.HubConnection.checkUploadStream(Object[] args, List<String> streamIds)
+  overload: com.microsoft.signalr.HubConnection.checkUploadStream*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " Object[] checkUploadStream(Object[] args, List<String> streamIds)"
     parameters:
-    - id: "args"
-      type: "java.lang.Object[]"
-    - id: "streamIds"
-      type: "java.util.List<java.lang.String>"
+    - id: args
+      type: java.lang.Object[]
+    - id: streamIds
+      type: java.util.List<java.lang.String>
     return:
-      type: "java.lang.Object[]"
-- uid: "com.microsoft.signalr.HubConnection.getBaseUrl()"
-  id: "getBaseUrl()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: java.lang.Object[]
+- uid: com.microsoft.signalr.HubConnection.getBaseUrl()
+  id: getBaseUrl()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getBaseUrl()"
-  nameWithType: "HubConnection.getBaseUrl()"
-  fullName: "com.microsoft.signalr.HubConnection.getBaseUrl()"
-  overload: "com.microsoft.signalr.HubConnection.getBaseUrl*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: getBaseUrl()
+  nameWithType: HubConnection.getBaseUrl()
+  fullName: com.microsoft.signalr.HubConnection.getBaseUrl()
+  overload: com.microsoft.signalr.HubConnection.getBaseUrl*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " String getBaseUrl()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.signalr.HubConnection.getConnectionId()"
-  id: "getConnectionId()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: java.lang.String
+- uid: com.microsoft.signalr.HubConnection.getConnectionId()
+  id: getConnectionId()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getConnectionId()"
-  nameWithType: "HubConnection.getConnectionId()"
-  fullName: "com.microsoft.signalr.HubConnection.getConnectionId()"
-  overload: "com.microsoft.signalr.HubConnection.getConnectionId*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Gets the connections connectionId. This value will be cleared when the connection is stopped and will have a new value every time the connection is successfully started."
+  - java
+  name: getConnectionId()
+  nameWithType: HubConnection.getConnectionId()
+  fullName: com.microsoft.signalr.HubConnection.getConnectionId()
+  overload: com.microsoft.signalr.HubConnection.getConnectionId*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Gets the connections connectionId. This value will be cleared when the connection is stopped and will have a new value every time the connection is successfully started.
   syntax:
-    content: "public String getConnectionId()"
+    content: public String getConnectionId()
     return:
-      type: "java.lang.String"
-      description: "A string representing the the client's connectionId."
-- uid: "com.microsoft.signalr.HubConnection.getConnectionState()"
-  id: "getConnectionState()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: java.lang.String
+      description: A string representing the the client's connectionId.
+- uid: com.microsoft.signalr.HubConnection.getConnectionState()
+  id: getConnectionState()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getConnectionState()"
-  nameWithType: "HubConnection.getConnectionState()"
-  fullName: "com.microsoft.signalr.HubConnection.getConnectionState()"
-  overload: "com.microsoft.signalr.HubConnection.getConnectionState*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> to the server."
+  - java
+  name: getConnectionState()
+  nameWithType: HubConnection.getConnectionState()
+  fullName: com.microsoft.signalr.HubConnection.getConnectionState()
+  overload: com.microsoft.signalr.HubConnection.getConnectionState*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Indicates the state of the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref> to the server.
   syntax:
-    content: "public HubConnectionState getConnectionState()"
+    content: public HubConnectionState getConnectionState()
     return:
-      type: "com.microsoft.signalr.HubConnectionState"
-      description: "HubConnection state enum."
-- uid: "com.microsoft.signalr.HubConnection.getKeepAliveInterval()"
-  id: "getKeepAliveInterval()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.HubConnectionState
+      description: HubConnection state enum.
+- uid: com.microsoft.signalr.HubConnection.getKeepAliveInterval()
+  id: getKeepAliveInterval()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getKeepAliveInterval()"
-  nameWithType: "HubConnection.getKeepAliveInterval()"
-  fullName: "com.microsoft.signalr.HubConnection.getKeepAliveInterval()"
-  overload: "com.microsoft.signalr.HubConnection.getKeepAliveInterval*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Gets the keep alive interval."
+  - java
+  name: getKeepAliveInterval()
+  nameWithType: HubConnection.getKeepAliveInterval()
+  fullName: com.microsoft.signalr.HubConnection.getKeepAliveInterval()
+  overload: com.microsoft.signalr.HubConnection.getKeepAliveInterval*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Gets the keep alive interval.
   syntax:
-    content: "public long getKeepAliveInterval()"
+    content: public long getKeepAliveInterval()
     return:
-      type: "long"
-      description: "The interval (specified in milliseconds) between keep alive messages."
-- uid: "com.microsoft.signalr.HubConnection.getServerTimeout()"
-  id: "getServerTimeout()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: long
+      description: The interval (specified in milliseconds) between keep alive messages.
+- uid: com.microsoft.signalr.HubConnection.getServerTimeout()
+  id: getServerTimeout()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getServerTimeout()"
-  nameWithType: "HubConnection.getServerTimeout()"
-  fullName: "com.microsoft.signalr.HubConnection.getServerTimeout()"
-  overload: "com.microsoft.signalr.HubConnection.getServerTimeout*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Gets the server timeout duration."
+  - java
+  name: getServerTimeout()
+  nameWithType: HubConnection.getServerTimeout()
+  fullName: com.microsoft.signalr.HubConnection.getServerTimeout()
+  overload: com.microsoft.signalr.HubConnection.getServerTimeout*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Gets the server timeout duration.
   syntax:
-    content: "public long getServerTimeout()"
+    content: public long getServerTimeout()
     return:
-      type: "long"
-      description: "The server timeout duration (specified in milliseconds)."
-- uid: "com.microsoft.signalr.HubConnection.getStreamMap()"
-  id: "getStreamMap()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: long
+      description: The server timeout duration (specified in milliseconds).
+- uid: com.microsoft.signalr.HubConnection.getStreamMap()
+  id: getStreamMap()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getStreamMap()"
-  nameWithType: "HubConnection.getStreamMap()"
-  fullName: "com.microsoft.signalr.HubConnection.getStreamMap()"
-  overload: "com.microsoft.signalr.HubConnection.getStreamMap*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: getStreamMap()
+  nameWithType: HubConnection.getStreamMap()
+  fullName: com.microsoft.signalr.HubConnection.getStreamMap()
+  overload: com.microsoft.signalr.HubConnection.getStreamMap*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " Map<String,Observable> getStreamMap()"
     return:
-      type: "java.util.Map<java.lang.String,io.reactivex.Observable>"
-- uid: "com.microsoft.signalr.HubConnection.getTransport()"
-  id: "getTransport()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: java.util.Map<java.lang.String,io.reactivex.Observable>
+- uid: com.microsoft.signalr.HubConnection.getTransport()
+  id: getTransport()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getTransport()"
-  nameWithType: "HubConnection.getTransport()"
-  fullName: "com.microsoft.signalr.HubConnection.getTransport()"
-  overload: "com.microsoft.signalr.HubConnection.getTransport*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: getTransport()
+  nameWithType: HubConnection.getTransport()
+  fullName: com.microsoft.signalr.HubConnection.getTransport()
+  overload: com.microsoft.signalr.HubConnection.getTransport*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " Transport getTransport()"
     return:
-      type: "com.microsoft.signalr.Transport"
-- uid: "com.microsoft.signalr.HubConnection.getTransportEnum()"
-  id: "getTransportEnum()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Transport
+- uid: com.microsoft.signalr.HubConnection.getTransportEnum()
+  id: getTransportEnum()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "getTransportEnum()"
-  nameWithType: "HubConnection.getTransportEnum()"
-  fullName: "com.microsoft.signalr.HubConnection.getTransportEnum()"
-  overload: "com.microsoft.signalr.HubConnection.getTransportEnum*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: getTransportEnum()
+  nameWithType: HubConnection.getTransportEnum()
+  fullName: com.microsoft.signalr.HubConnection.getTransportEnum()
+  overload: com.microsoft.signalr.HubConnection.getTransportEnum*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " TransportEnum getTransportEnum()"
     return:
-      type: "com.microsoft.signalr.TransportEnum"
-- uid: "com.microsoft.signalr.HubConnection.invoke(java.lang.String,java.lang.Object...)"
-  id: "invoke(java.lang.String,java.lang.Object...)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.TransportEnum
+- uid: com.microsoft.signalr.HubConnection.invoke(java.lang.String,java.lang.Object...)
+  id: invoke(java.lang.String,java.lang.Object...)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "invoke(String method, Object[] args)"
-  nameWithType: "HubConnection.invoke(String method, Object[] args)"
-  fullName: "com.microsoft.signalr.HubConnection.invoke(String method, Object[] args)"
-  overload: "com.microsoft.signalr.HubConnection.invoke*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Invokes a hub method on the server using the specified method name and arguments."
+  - java
+  name: invoke(String method, Object[] args)
+  nameWithType: HubConnection.invoke(String method, Object[] args)
+  fullName: com.microsoft.signalr.HubConnection.invoke(String method, Object[] args)
+  overload: com.microsoft.signalr.HubConnection.invoke*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Invokes a hub method on the server using the specified method name and arguments.
   syntax:
-    content: "public Completable invoke(String method, Object[] args)"
+    content: public Completable invoke(String method, Object[] args)
     parameters:
-    - id: "method"
-      type: "java.lang.String"
-      description: "The name of the server method to invoke."
-    - id: "args"
-      type: "java.lang.Object[]"
-      description: "The arguments used to invoke the server method."
+    - id: method
+      type: java.lang.String
+      description: The name of the server method to invoke.
+    - id: args
+      type: java.lang.Object[]
+      description: The arguments used to invoke the server method.
     return:
-      type: "io.reactivex.Completable"
-      description: "A Completable that indicates when the invocation has completed."
-- uid: "com.microsoft.signalr.HubConnection.launchStreams(java.util.List<java.lang.String>)"
-  id: "launchStreams(java.util.List<java.lang.String>)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: io.reactivex.Completable
+      description: A Completable that indicates when the invocation has completed.
+- uid: com.microsoft.signalr.HubConnection.launchStreams(java.util.List<java.lang.String>)
+  id: launchStreams(java.util.List<java.lang.String>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "launchStreams(List<String> streamIds)"
-  nameWithType: "HubConnection.launchStreams(List<String> streamIds)"
-  fullName: "com.microsoft.signalr.HubConnection.launchStreams(List<String> streamIds)"
-  overload: "com.microsoft.signalr.HubConnection.launchStreams*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: launchStreams(List<String> streamIds)
+  nameWithType: HubConnection.launchStreams(List<String> streamIds)
+  fullName: com.microsoft.signalr.HubConnection.launchStreams(List<String> streamIds)
+  overload: com.microsoft.signalr.HubConnection.launchStreams*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " void launchStreams(List<String> streamIds)"
     parameters:
-    - id: "streamIds"
-      type: "java.util.List<java.lang.String>"
-- uid: "com.microsoft.signalr.HubConnection.on(java.lang.String,com.microsoft.signalr.Action)"
-  id: "on(java.lang.String,com.microsoft.signalr.Action)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: streamIds
+      type: java.util.List<java.lang.String>
+- uid: com.microsoft.signalr.HubConnection.on(java.lang.String,com.microsoft.signalr.Action)
+  id: on(java.lang.String,com.microsoft.signalr.Action)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "on(String target, Action callback)"
-  nameWithType: "HubConnection.on(String target, Action callback)"
-  fullName: "com.microsoft.signalr.HubConnection.on(String target, Action callback)"
-  overload: "com.microsoft.signalr.HubConnection.on*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a handler that will be invoked when the hub method with the specified method name is invoked."
+  - java
+  name: on(String target, Action callback)
+  nameWithType: HubConnection.on(String target, Action callback)
+  fullName: com.microsoft.signalr.HubConnection.on(String target, Action callback)
+  overload: com.microsoft.signalr.HubConnection.on*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a handler that will be invoked when the hub method with the specified method name is invoked.
   syntax:
-    content: "public Subscription on(String target, Action callback)"
+    content: public Subscription on(String target, Action callback)
     parameters:
-    - id: "target"
-      type: "java.lang.String"
-      description: "The name of the hub method to define."
-    - id: "callback"
-      type: "com.microsoft.signalr.Action"
-      description: "The handler that will be raised when the hub method is invoked."
+    - id: target
+      type: java.lang.String
+      description: The name of the hub method to define.
+    - id: callback
+      type: com.microsoft.signalr.Action
+      description: The handler that will be raised when the hub method is invoked.
     return:
-      type: "com.microsoft.signalr.Subscription"
-      description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
-- uid: "com.microsoft.signalr.HubConnection.onClosed(com.microsoft.signalr.OnClosedCallback)"
-  id: "onClosed(com.microsoft.signalr.OnClosedCallback)"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: com.microsoft.signalr.Subscription
+      description: A <xref uid="com.microsoft.signalr.Subscription" data-throw-if-not-resolved="false">Subscription</xref> that can be disposed to unsubscribe from the hub method.
+- uid: com.microsoft.signalr.HubConnection.onClosed(com.microsoft.signalr.OnClosedCallback)
+  id: onClosed(com.microsoft.signalr.OnClosedCallback)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "onClosed(OnClosedCallback callback)"
-  nameWithType: "HubConnection.onClosed(OnClosedCallback callback)"
-  fullName: "com.microsoft.signalr.HubConnection.onClosed(OnClosedCallback callback)"
-  overload: "com.microsoft.signalr.HubConnection.onClosed*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Registers a callback to run when the connection is closed."
+  - java
+  name: onClosed(OnClosedCallback callback)
+  nameWithType: HubConnection.onClosed(OnClosedCallback callback)
+  fullName: com.microsoft.signalr.HubConnection.onClosed(OnClosedCallback callback)
+  overload: com.microsoft.signalr.HubConnection.onClosed*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Registers a callback to run when the connection is closed.
   syntax:
-    content: "public void onClosed(OnClosedCallback callback)"
+    content: public void onClosed(OnClosedCallback callback)
     parameters:
-    - id: "callback"
-      type: "com.microsoft.signalr.OnClosedCallback"
-      description: "A callback to run when the connection closes."
-- uid: "com.microsoft.signalr.HubConnection.remove(java.lang.String)"
-  id: "remove(java.lang.String)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: callback
+      type: com.microsoft.signalr.OnClosedCallback
+      description: A callback to run when the connection closes.
+- uid: com.microsoft.signalr.HubConnection.remove(java.lang.String)
+  id: remove(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "remove(String name)"
-  nameWithType: "HubConnection.remove(String name)"
-  fullName: "com.microsoft.signalr.HubConnection.remove(String name)"
-  overload: "com.microsoft.signalr.HubConnection.remove*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Removes all handlers associated with the method with the specified method name."
+  - java
+  name: remove(String name)
+  nameWithType: HubConnection.remove(String name)
+  fullName: com.microsoft.signalr.HubConnection.remove(String name)
+  overload: com.microsoft.signalr.HubConnection.remove*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Removes all handlers associated with the method with the specified method name.
   syntax:
-    content: "public void remove(String name)"
+    content: public void remove(String name)
     parameters:
-    - id: "name"
-      type: "java.lang.String"
-      description: "The name of the hub method from which handlers are being removed."
-- uid: "com.microsoft.signalr.HubConnection.send(java.lang.String,java.lang.Object...)"
-  id: "send(java.lang.String,java.lang.Object...)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: name
+      type: java.lang.String
+      description: The name of the hub method from which handlers are being removed.
+- uid: com.microsoft.signalr.HubConnection.send(java.lang.String,java.lang.Object...)
+  id: send(java.lang.String,java.lang.Object...)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "send(String method, Object[] args)"
-  nameWithType: "HubConnection.send(String method, Object[] args)"
-  fullName: "com.microsoft.signalr.HubConnection.send(String method, Object[] args)"
-  overload: "com.microsoft.signalr.HubConnection.send*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Invokes a hub method on the server using the specified method name. Does not wait for a response from the receiver."
+  - java
+  name: send(String method, Object[] args)
+  nameWithType: HubConnection.send(String method, Object[] args)
+  fullName: com.microsoft.signalr.HubConnection.send(String method, Object[] args)
+  overload: com.microsoft.signalr.HubConnection.send*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Invokes a hub method on the server using the specified method name. Does not wait for a response from the receiver.
   syntax:
-    content: "public void send(String method, Object[] args)"
+    content: public void send(String method, Object[] args)
     parameters:
-    - id: "method"
-      type: "java.lang.String"
-      description: "The name of the server method to invoke."
-    - id: "args"
-      type: "java.lang.Object[]"
-      description: "The arguments to be passed to the method."
-- uid: "com.microsoft.signalr.HubConnection.setBaseUrl(java.lang.String)"
-  id: "setBaseUrl(java.lang.String)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: method
+      type: java.lang.String
+      description: The name of the server method to invoke.
+    - id: args
+      type: java.lang.Object[]
+      description: The arguments to be passed to the method.
+- uid: com.microsoft.signalr.HubConnection.setBaseUrl(java.lang.String)
+  id: setBaseUrl(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "setBaseUrl(String url)"
-  nameWithType: "HubConnection.setBaseUrl(String url)"
-  fullName: "com.microsoft.signalr.HubConnection.setBaseUrl(String url)"
-  overload: "com.microsoft.signalr.HubConnection.setBaseUrl*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets a new url for the HubConnection."
+  - java
+  name: setBaseUrl(String url)
+  nameWithType: HubConnection.setBaseUrl(String url)
+  fullName: com.microsoft.signalr.HubConnection.setBaseUrl(String url)
+  overload: com.microsoft.signalr.HubConnection.setBaseUrl*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets a new url for the HubConnection.
   syntax:
-    content: "public void setBaseUrl(String url)"
+    content: public void setBaseUrl(String url)
     parameters:
-    - id: "url"
-      type: "java.lang.String"
-      description: "The url to connect to."
-- uid: "com.microsoft.signalr.HubConnection.setKeepAliveInterval(long)"
-  id: "setKeepAliveInterval(long)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: url
+      type: java.lang.String
+      description: The url to connect to.
+- uid: com.microsoft.signalr.HubConnection.setKeepAliveInterval(long)
+  id: setKeepAliveInterval(long)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
-  nameWithType: "HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
-  fullName: "com.microsoft.signalr.HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
-  overload: "com.microsoft.signalr.HubConnection.setKeepAliveInterval*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the keep alive interval duration."
+  - java
+  name: setKeepAliveInterval(long keepAliveIntervalInMilliseconds)
+  nameWithType: HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)
+  fullName: com.microsoft.signalr.HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)
+  overload: com.microsoft.signalr.HubConnection.setKeepAliveInterval*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the keep alive interval duration.
   syntax:
-    content: "public void setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+    content: public void setKeepAliveInterval(long keepAliveIntervalInMilliseconds)
     parameters:
-    - id: "keepAliveIntervalInMilliseconds"
-      type: "long"
-      description: "The interval (specified in milliseconds) at which the connection should send keep alive messages."
-- uid: "com.microsoft.signalr.HubConnection.setServerTimeout(long)"
-  id: "setServerTimeout(long)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: keepAliveIntervalInMilliseconds
+      type: long
+      description: The interval (specified in milliseconds) at which the connection should send keep alive messages.
+- uid: com.microsoft.signalr.HubConnection.setServerTimeout(long)
+  id: setServerTimeout(long)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "setServerTimeout(long serverTimeoutInMilliseconds)"
-  nameWithType: "HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)"
-  fullName: "com.microsoft.signalr.HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)"
-  overload: "com.microsoft.signalr.HubConnection.setServerTimeout*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Sets the server timeout interval for the connection."
+  - java
+  name: setServerTimeout(long serverTimeoutInMilliseconds)
+  nameWithType: HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)
+  fullName: com.microsoft.signalr.HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)
+  overload: com.microsoft.signalr.HubConnection.setServerTimeout*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Sets the server timeout interval for the connection.
   syntax:
-    content: "public void setServerTimeout(long serverTimeoutInMilliseconds)"
+    content: public void setServerTimeout(long serverTimeoutInMilliseconds)
     parameters:
-    - id: "serverTimeoutInMilliseconds"
-      type: "long"
-      description: "The server timeout duration (specified in milliseconds)."
-- uid: "com.microsoft.signalr.HubConnection.setTickRate(long)"
-  id: "setTickRate(long)"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: serverTimeoutInMilliseconds
+      type: long
+      description: The server timeout duration (specified in milliseconds).
+- uid: com.microsoft.signalr.HubConnection.setTickRate(long)
+  id: setTickRate(long)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "setTickRate(long tickRateInMilliseconds)"
-  nameWithType: "HubConnection.setTickRate(long tickRateInMilliseconds)"
-  fullName: "com.microsoft.signalr.HubConnection.setTickRate(long tickRateInMilliseconds)"
-  overload: "com.microsoft.signalr.HubConnection.setTickRate*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: setTickRate(long tickRateInMilliseconds)
+  nameWithType: HubConnection.setTickRate(long tickRateInMilliseconds)
+  fullName: com.microsoft.signalr.HubConnection.setTickRate(long tickRateInMilliseconds)
+  overload: com.microsoft.signalr.HubConnection.setTickRate*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " void setTickRate(long tickRateInMilliseconds)"
     parameters:
-    - id: "tickRateInMilliseconds"
-      type: "long"
-- uid: "com.microsoft.signalr.HubConnection.start()"
-  id: "start()"
-  parent: "com.microsoft.signalr.HubConnection"
+    - id: tickRateInMilliseconds
+      type: long
+- uid: com.microsoft.signalr.HubConnection.start()
+  id: start()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "start()"
-  nameWithType: "HubConnection.start()"
-  fullName: "com.microsoft.signalr.HubConnection.start()"
-  overload: "com.microsoft.signalr.HubConnection.start*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Starts a connection to the server."
+  - java
+  name: start()
+  nameWithType: HubConnection.start()
+  fullName: com.microsoft.signalr.HubConnection.start()
+  overload: com.microsoft.signalr.HubConnection.start*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Starts a connection to the server.
   syntax:
-    content: "public Completable start()"
+    content: public Completable start()
     return:
-      type: "io.reactivex.Completable"
-      description: "A Completable that completes when the connection has been established."
-- uid: "com.microsoft.signalr.HubConnection.stop()"
-  id: "stop()"
-  parent: "com.microsoft.signalr.HubConnection"
+      type: io.reactivex.Completable
+      description: A Completable that completes when the connection has been established.
+- uid: com.microsoft.signalr.HubConnection.stop()
+  id: stop()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnection
   langs:
-  - "java"
-  name: "stop()"
-  nameWithType: "HubConnection.stop()"
-  fullName: "com.microsoft.signalr.HubConnection.stop()"
-  overload: "com.microsoft.signalr.HubConnection.stop*"
-  type: "Method"
-  package: "com.microsoft.signalr"
-  summary: "Stops a connection to the server."
+  - java
+  name: stop()
+  nameWithType: HubConnection.stop()
+  fullName: com.microsoft.signalr.HubConnection.stop()
+  overload: com.microsoft.signalr.HubConnection.stop*
+  type: Method
+  package: com.microsoft.signalr
+  summary: Stops a connection to the server.
   syntax:
-    content: "public Completable stop()"
+    content: public Completable stop()
     return:
-      type: "io.reactivex.Completable"
-      description: "A Completable that completes when the connection has been stopped."
+      type: io.reactivex.Completable
+      description: A Completable that completes when the connection has been stopped.
 references:
-- uid: "java.lang.String"
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.signalr.Transport"
-  name: "Transport"
-  nameWithType: "Transport"
-  fullName: "com.microsoft.signalr.Transport"
-- uid: "boolean"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.signalr.Transport
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.signalr.Transport
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.signalr.HttpClient"
-  name: "HttpClient"
-  nameWithType: "HttpClient"
-  fullName: "com.microsoft.signalr.HttpClient"
-- uid: "io.reactivex.Single<java.lang.String>"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: com.microsoft.signalr.HttpClient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: com.microsoft.signalr.HttpClient
+- uid: io.reactivex.Single<java.lang.String>
   spec.java:
-  - uid: "io.reactivex.Single"
-    name: "Single"
-    fullName: "io.reactivex.Single"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "long"
+  - uid: io.reactivex.Single
+    name: Single
+    fullName: io.reactivex.Single
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: long
   spec.java:
-  - uid: "long"
-    name: "long"
-    fullName: "long"
-- uid: "java.util.Map<java.lang.String,java.lang.String>"
+  - uid: long
+    name: long
+    fullName: long
+- uid: java.util.Map<java.lang.String,java.lang.String>
   spec.java:
-  - uid: "java.util.Map"
-    name: "Map"
-    fullName: "java.util.Map"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.TransportEnum"
-  name: "TransportEnum"
-  nameWithType: "TransportEnum"
-  fullName: "com.microsoft.signalr.TransportEnum"
-- uid: "com.microsoft.signalr.HubConnection.HubConnection*"
-  name: "HubConnection"
-  nameWithType: "HubConnection.HubConnection"
-  fullName: "com.microsoft.signalr.HubConnection.HubConnection"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.setServerTimeout*"
-  name: "setServerTimeout"
-  nameWithType: "HubConnection.setServerTimeout"
-  fullName: "com.microsoft.signalr.HubConnection.setServerTimeout"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getServerTimeout*"
-  name: "getServerTimeout"
-  nameWithType: "HubConnection.getServerTimeout"
-  fullName: "com.microsoft.signalr.HubConnection.getServerTimeout"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.setKeepAliveInterval*"
-  name: "setKeepAliveInterval"
-  nameWithType: "HubConnection.setKeepAliveInterval"
-  fullName: "com.microsoft.signalr.HubConnection.setKeepAliveInterval"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getKeepAliveInterval*"
-  name: "getKeepAliveInterval"
-  nameWithType: "HubConnection.getKeepAliveInterval"
-  fullName: "com.microsoft.signalr.HubConnection.getKeepAliveInterval"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getConnectionId*"
-  name: "getConnectionId"
-  nameWithType: "HubConnection.getConnectionId"
-  fullName: "com.microsoft.signalr.HubConnection.getConnectionId"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.setTickRate*"
-  name: "setTickRate"
-  nameWithType: "HubConnection.setTickRate"
-  fullName: "com.microsoft.signalr.HubConnection.setTickRate"
-  package: "com.microsoft.signalr"
-- uid: "java.util.Map<java.lang.String,io.reactivex.Observable>"
+  - uid: java.util.Map
+    name: Map
+    fullName: java.util.Map
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.TransportEnum
+  name: TransportEnum
+  nameWithType: TransportEnum
+  fullName: com.microsoft.signalr.TransportEnum
+- uid: com.microsoft.signalr.HubConnection.HubConnection*
+  name: HubConnection
+  nameWithType: HubConnection.HubConnection
+  fullName: com.microsoft.signalr.HubConnection.HubConnection
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.setServerTimeout*
+  name: setServerTimeout
+  nameWithType: HubConnection.setServerTimeout
+  fullName: com.microsoft.signalr.HubConnection.setServerTimeout
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getServerTimeout*
+  name: getServerTimeout
+  nameWithType: HubConnection.getServerTimeout
+  fullName: com.microsoft.signalr.HubConnection.getServerTimeout
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.setKeepAliveInterval*
+  name: setKeepAliveInterval
+  nameWithType: HubConnection.setKeepAliveInterval
+  fullName: com.microsoft.signalr.HubConnection.setKeepAliveInterval
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getKeepAliveInterval*
+  name: getKeepAliveInterval
+  nameWithType: HubConnection.getKeepAliveInterval
+  fullName: com.microsoft.signalr.HubConnection.getKeepAliveInterval
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getConnectionId*
+  name: getConnectionId
+  nameWithType: HubConnection.getConnectionId
+  fullName: com.microsoft.signalr.HubConnection.getConnectionId
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.setTickRate*
+  name: setTickRate
+  nameWithType: HubConnection.setTickRate
+  fullName: com.microsoft.signalr.HubConnection.setTickRate
+  package: com.microsoft.signalr
+- uid: java.util.Map<java.lang.String,io.reactivex.Observable>
   spec.java:
-  - uid: "java.util.Map"
-    name: "Map"
-    fullName: "java.util.Map"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "io.reactivex.Observable"
-    name: "Observable"
-    fullName: "io.reactivex.Observable"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HubConnection.getStreamMap*"
-  name: "getStreamMap"
-  nameWithType: "HubConnection.getStreamMap"
-  fullName: "com.microsoft.signalr.HubConnection.getStreamMap"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getTransportEnum*"
-  name: "getTransportEnum"
-  nameWithType: "HubConnection.getTransportEnum"
-  fullName: "com.microsoft.signalr.HubConnection.getTransportEnum"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getTransport*"
-  name: "getTransport"
-  nameWithType: "HubConnection.getTransport"
-  fullName: "com.microsoft.signalr.HubConnection.getTransport"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnectionState"
-  name: "HubConnectionState"
-  nameWithType: "HubConnectionState"
-  fullName: "com.microsoft.signalr.HubConnectionState"
-- uid: "com.microsoft.signalr.HubConnection.getConnectionState*"
-  name: "getConnectionState"
-  nameWithType: "HubConnection.getConnectionState"
-  fullName: "com.microsoft.signalr.HubConnection.getConnectionState"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.getBaseUrl*"
-  name: "getBaseUrl"
-  nameWithType: "HubConnection.getBaseUrl"
-  fullName: "com.microsoft.signalr.HubConnection.getBaseUrl"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.setBaseUrl*"
-  name: "setBaseUrl"
-  nameWithType: "HubConnection.setBaseUrl"
-  fullName: "com.microsoft.signalr.HubConnection.setBaseUrl"
-  package: "com.microsoft.signalr"
-- uid: "io.reactivex.Completable"
+  - uid: java.util.Map
+    name: Map
+    fullName: java.util.Map
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: io.reactivex.Observable
+    name: Observable
+    fullName: io.reactivex.Observable
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HubConnection.getStreamMap*
+  name: getStreamMap
+  nameWithType: HubConnection.getStreamMap
+  fullName: com.microsoft.signalr.HubConnection.getStreamMap
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getTransportEnum*
+  name: getTransportEnum
+  nameWithType: HubConnection.getTransportEnum
+  fullName: com.microsoft.signalr.HubConnection.getTransportEnum
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getTransport*
+  name: getTransport
+  nameWithType: HubConnection.getTransport
+  fullName: com.microsoft.signalr.HubConnection.getTransport
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnectionState
+  name: HubConnectionState
+  nameWithType: HubConnectionState
+  fullName: com.microsoft.signalr.HubConnectionState
+- uid: com.microsoft.signalr.HubConnection.getConnectionState*
+  name: getConnectionState
+  nameWithType: HubConnection.getConnectionState
+  fullName: com.microsoft.signalr.HubConnection.getConnectionState
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.getBaseUrl*
+  name: getBaseUrl
+  nameWithType: HubConnection.getBaseUrl
+  fullName: com.microsoft.signalr.HubConnection.getBaseUrl
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.setBaseUrl*
+  name: setBaseUrl
+  nameWithType: HubConnection.setBaseUrl
+  fullName: com.microsoft.signalr.HubConnection.setBaseUrl
+  package: com.microsoft.signalr
+- uid: io.reactivex.Completable
   spec.java:
-  - uid: "io.reactivex.Completable"
-    name: "Completable"
-    fullName: "io.reactivex.Completable"
-- uid: "com.microsoft.signalr.HubConnection.start*"
-  name: "start"
-  nameWithType: "HubConnection.start"
-  fullName: "com.microsoft.signalr.HubConnection.start"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.stop*"
-  name: "stop"
-  nameWithType: "HubConnection.stop"
-  fullName: "com.microsoft.signalr.HubConnection.stop"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.Object[]"
+  - uid: io.reactivex.Completable
+    name: Completable
+    fullName: io.reactivex.Completable
+- uid: com.microsoft.signalr.HubConnection.start*
+  name: start
+  nameWithType: HubConnection.start
+  fullName: com.microsoft.signalr.HubConnection.start
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.stop*
+  name: stop
+  nameWithType: HubConnection.stop
+  fullName: com.microsoft.signalr.HubConnection.stop
+  package: com.microsoft.signalr
+- uid: java.lang.Object[]
   spec.java:
-  - uid: "java.lang.Object"
-    name: "Object"
-    fullName: "java.lang.Object"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.signalr.HubConnection.send*"
-  name: "send"
-  nameWithType: "HubConnection.send"
-  fullName: "com.microsoft.signalr.HubConnection.send"
-  package: "com.microsoft.signalr"
-- uid: "java.util.List<java.lang.String>"
+  - uid: java.lang.Object
+    name: Object
+    fullName: java.lang.Object
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.signalr.HubConnection.send*
+  name: send
+  nameWithType: HubConnection.send
+  fullName: com.microsoft.signalr.HubConnection.send
+  package: com.microsoft.signalr
+- uid: java.util.List<java.lang.String>
   spec.java:
-  - uid: "java.util.List"
-    name: "List"
-    fullName: "java.util.List"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HubConnection.launchStreams*"
-  name: "launchStreams"
-  nameWithType: "HubConnection.launchStreams"
-  fullName: "com.microsoft.signalr.HubConnection.launchStreams"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.checkUploadStream*"
-  name: "checkUploadStream"
-  nameWithType: "HubConnection.checkUploadStream"
-  fullName: "com.microsoft.signalr.HubConnection.checkUploadStream"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.invoke*"
-  name: "invoke"
-  nameWithType: "HubConnection.invoke"
-  fullName: "com.microsoft.signalr.HubConnection.invoke"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.Class<T>"
+  - uid: java.util.List
+    name: List
+    fullName: java.util.List
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HubConnection.launchStreams*
+  name: launchStreams
+  nameWithType: HubConnection.launchStreams
+  fullName: com.microsoft.signalr.HubConnection.launchStreams
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.checkUploadStream*
+  name: checkUploadStream
+  nameWithType: HubConnection.checkUploadStream
+  fullName: com.microsoft.signalr.HubConnection.checkUploadStream
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.invoke*
+  name: invoke
+  nameWithType: HubConnection.invoke
+  fullName: com.microsoft.signalr.HubConnection.invoke
+  package: com.microsoft.signalr
+- uid: java.lang.Class<T>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T"
-    name: "T"
-    fullName: "T"
-  - name: ">"
-    fullName: ">"
-- uid: "io.reactivex.Single<T>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T
+    name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+- uid: io.reactivex.Single<T>
   spec.java:
-  - uid: "io.reactivex.Single"
-    name: "Single"
-    fullName: "io.reactivex.Single"
-  - name: "<"
-    fullName: "<"
-  - uid: "T"
-    name: "T"
-    fullName: "T"
-  - name: ">"
-    fullName: ">"
-- uid: "io.reactivex.Observable<T>"
+  - uid: io.reactivex.Single
+    name: Single
+    fullName: io.reactivex.Single
+  - name: <
+    fullName: <
+  - uid: T
+    name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+- uid: io.reactivex.Observable<T>
   spec.java:
-  - uid: "io.reactivex.Observable"
-    name: "Observable"
-    fullName: "io.reactivex.Observable"
-  - name: "<"
-    fullName: "<"
-  - uid: "T"
-    name: "T"
-    fullName: "T"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HubConnection.stream*"
-  name: "<T>stream"
-  nameWithType: "HubConnection.<T>stream"
-  fullName: "com.microsoft.signalr.HubConnection.<T>stream"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnection.remove*"
-  name: "remove"
-  nameWithType: "HubConnection.remove"
-  fullName: "com.microsoft.signalr.HubConnection.remove"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.OnClosedCallback"
-  name: "OnClosedCallback"
-  nameWithType: "OnClosedCallback"
-  fullName: "com.microsoft.signalr.OnClosedCallback"
-- uid: "com.microsoft.signalr.HubConnection.onClosed*"
-  name: "onClosed"
-  nameWithType: "HubConnection.onClosed"
-  fullName: "com.microsoft.signalr.HubConnection.onClosed"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.Action"
-  name: "Action"
-  nameWithType: "Action"
-  fullName: "com.microsoft.signalr.Action"
-- uid: "com.microsoft.signalr.Subscription"
-  name: "Subscription"
-  nameWithType: "Subscription"
-  fullName: "com.microsoft.signalr.Subscription"
-- uid: "com.microsoft.signalr.HubConnection.on*"
-  name: "on"
-  nameWithType: "HubConnection.on"
-  fullName: "com.microsoft.signalr.HubConnection.on"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.Action1<T1>"
+  - uid: io.reactivex.Observable
+    name: Observable
+    fullName: io.reactivex.Observable
+  - name: <
+    fullName: <
+  - uid: T
+    name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HubConnection.stream*
+  name: <T>stream
+  nameWithType: HubConnection.<T>stream
+  fullName: com.microsoft.signalr.HubConnection.<T>stream
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnection.remove*
+  name: remove
+  nameWithType: HubConnection.remove
+  fullName: com.microsoft.signalr.HubConnection.remove
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.OnClosedCallback
+  name: OnClosedCallback
+  nameWithType: OnClosedCallback
+  fullName: com.microsoft.signalr.OnClosedCallback
+- uid: com.microsoft.signalr.HubConnection.onClosed*
+  name: onClosed
+  nameWithType: HubConnection.onClosed
+  fullName: com.microsoft.signalr.HubConnection.onClosed
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.Action
+  name: Action
+  nameWithType: Action
+  fullName: com.microsoft.signalr.Action
+- uid: com.microsoft.signalr.Subscription
+  name: Subscription
+  nameWithType: Subscription
+  fullName: com.microsoft.signalr.Subscription
+- uid: com.microsoft.signalr.HubConnection.on*
+  name: on
+  nameWithType: HubConnection.on
+  fullName: com.microsoft.signalr.HubConnection.on
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.Action1<T1>
   spec.java:
-  - uid: "com.microsoft.signalr.Action1"
-    name: "Action1"
-    fullName: "com.microsoft.signalr.Action1"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T1>"
+  - uid: com.microsoft.signalr.Action1
+    name: Action1
+    fullName: com.microsoft.signalr.Action1
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T1>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action2<T1,T2>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action2<T1,T2>
   spec.java:
-  - uid: "com.microsoft.signalr.Action2"
-    name: "Action2"
-    fullName: "com.microsoft.signalr.Action2"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T2>"
+  - uid: com.microsoft.signalr.Action2
+    name: Action2
+    fullName: com.microsoft.signalr.Action2
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T2>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action3<T1,T2,T3>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action3<T1,T2,T3>
   spec.java:
-  - uid: "com.microsoft.signalr.Action3"
-    name: "Action3"
-    fullName: "com.microsoft.signalr.Action3"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T3>"
+  - uid: com.microsoft.signalr.Action3
+    name: Action3
+    fullName: com.microsoft.signalr.Action3
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T3>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action4<T1,T2,T3,T4>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action4<T1,T2,T3,T4>
   spec.java:
-  - uid: "com.microsoft.signalr.Action4"
-    name: "Action4"
-    fullName: "com.microsoft.signalr.Action4"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ","
-    fullName: ","
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T4>"
+  - uid: com.microsoft.signalr.Action4
+    name: Action4
+    fullName: com.microsoft.signalr.Action4
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T4>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>
   spec.java:
-  - uid: "com.microsoft.signalr.Action5"
-    name: "Action5"
-    fullName: "com.microsoft.signalr.Action5"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ","
-    fullName: ","
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ","
-    fullName: ","
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T5>"
+  - uid: com.microsoft.signalr.Action5
+    name: Action5
+    fullName: com.microsoft.signalr.Action5
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: ','
+    fullName: ','
+  - uid: T5
+    name: T5
+    fullName: T5
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T5>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T5
+    name: T5
+    fullName: T5
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>
   spec.java:
-  - uid: "com.microsoft.signalr.Action6"
-    name: "Action6"
-    fullName: "com.microsoft.signalr.Action6"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ","
-    fullName: ","
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ","
-    fullName: ","
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-  - name: ","
-    fullName: ","
-  - uid: "T6"
-    name: "T6"
-    fullName: "T6"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T6>"
+  - uid: com.microsoft.signalr.Action6
+    name: Action6
+    fullName: com.microsoft.signalr.Action6
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: ','
+    fullName: ','
+  - uid: T5
+    name: T5
+    fullName: T5
+  - name: ','
+    fullName: ','
+  - uid: T6
+    name: T6
+    fullName: T6
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T6>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T6"
-    name: "T6"
-    fullName: "T6"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T6
+    name: T6
+    fullName: T6
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>
   spec.java:
-  - uid: "com.microsoft.signalr.Action7"
-    name: "Action7"
-    fullName: "com.microsoft.signalr.Action7"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ","
-    fullName: ","
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ","
-    fullName: ","
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-  - name: ","
-    fullName: ","
-  - uid: "T6"
-    name: "T6"
-    fullName: "T6"
-  - name: ","
-    fullName: ","
-  - uid: "T7"
-    name: "T7"
-    fullName: "T7"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T7>"
+  - uid: com.microsoft.signalr.Action7
+    name: Action7
+    fullName: com.microsoft.signalr.Action7
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: ','
+    fullName: ','
+  - uid: T5
+    name: T5
+    fullName: T5
+  - name: ','
+    fullName: ','
+  - uid: T6
+    name: T6
+    fullName: T6
+  - name: ','
+    fullName: ','
+  - uid: T7
+    name: T7
+    fullName: T7
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T7>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T7"
-    name: "T7"
-    fullName: "T7"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T7
+    name: T7
+    fullName: T7
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>
   spec.java:
-  - uid: "com.microsoft.signalr.Action8"
-    name: "Action8"
-    fullName: "com.microsoft.signalr.Action8"
-  - name: "<"
-    fullName: "<"
-  - uid: "T1"
-    name: "T1"
-    fullName: "T1"
-  - name: ","
-    fullName: ","
-  - uid: "T2"
-    name: "T2"
-    fullName: "T2"
-  - name: ","
-    fullName: ","
-  - uid: "T3"
-    name: "T3"
-    fullName: "T3"
-  - name: ","
-    fullName: ","
-  - uid: "T4"
-    name: "T4"
-    fullName: "T4"
-  - name: ","
-    fullName: ","
-  - uid: "T5"
-    name: "T5"
-    fullName: "T5"
-  - name: ","
-    fullName: ","
-  - uid: "T6"
-    name: "T6"
-    fullName: "T6"
-  - name: ","
-    fullName: ","
-  - uid: "T7"
-    name: "T7"
-    fullName: "T7"
-  - name: ","
-    fullName: ","
-  - uid: "T8"
-    name: "T8"
-    fullName: "T8"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Class<T8>"
+  - uid: com.microsoft.signalr.Action8
+    name: Action8
+    fullName: com.microsoft.signalr.Action8
+  - name: <
+    fullName: <
+  - uid: T1
+    name: T1
+    fullName: T1
+  - name: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    fullName: T2
+  - name: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    fullName: T3
+  - name: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    fullName: T4
+  - name: ','
+    fullName: ','
+  - uid: T5
+    name: T5
+    fullName: T5
+  - name: ','
+    fullName: ','
+  - uid: T6
+    name: T6
+    fullName: T6
+  - name: ','
+    fullName: ','
+  - uid: T7
+    name: T7
+    fullName: T7
+  - name: ','
+    fullName: ','
+  - uid: T8
+    name: T8
+    fullName: T8
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Class<T8>
   spec.java:
-  - uid: "java.lang.Class"
-    name: "Class"
-    fullName: "java.lang.Class"
-  - name: "<"
-    fullName: "<"
-  - uid: "T8"
-    name: "T8"
-    fullName: "T8"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "com.microsoft.signalr.HubConnection.ConnectionState"
-  name: "HubConnection.ConnectionState"
-  nameWithType: "HubConnection.ConnectionState"
-  fullName: "com.microsoft.signalr.HubConnection.ConnectionState"
-- uid: "io.reactivex.Single"
-  name: "Single"
-  nameWithType: "Single"
-  fullName: "io.reactivex.Single"
-- uid: "java.util.Map"
-  name: "Map"
-  nameWithType: "Map"
-  fullName: "java.util.Map"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
-- uid: "java.lang.String,io.reactivex.Observable"
-  name: "String,Observable"
-  nameWithType: "String,Observable"
-  fullName: "java.lang.String,io.reactivex.Observable"
-- uid: "java.util.List"
-  name: "List"
-  nameWithType: "List"
-  fullName: "java.util.List"
-- uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
-- uid: "java.lang.Class"
-  name: "Class"
-  nameWithType: "Class"
-  fullName: "java.lang.Class"
-- uid: "io.reactivex.Observable"
-  name: "Observable"
-  nameWithType: "Observable"
-  fullName: "io.reactivex.Observable"
-- uid: "com.microsoft.signalr.Action1"
-  name: "Action1"
-  nameWithType: "Action1"
-  fullName: "com.microsoft.signalr.Action1"
-- uid: "T1"
-  name: "T1"
-  nameWithType: "T1"
-  fullName: "T1"
-- uid: "com.microsoft.signalr.Action2"
-  name: "Action2"
-  nameWithType: "Action2"
-  fullName: "com.microsoft.signalr.Action2"
-- uid: "T1,T2"
-  name: "T1,T2"
-  nameWithType: "T1,T2"
-  fullName: "T1,T2"
-- uid: "T2"
-  name: "T2"
-  nameWithType: "T2"
-  fullName: "T2"
-- uid: "com.microsoft.signalr.Action3"
-  name: "Action3"
-  nameWithType: "Action3"
-  fullName: "com.microsoft.signalr.Action3"
-- uid: "T1,T2,T3"
-  name: "T1,T2,T3"
-  nameWithType: "T1,T2,T3"
-  fullName: "T1,T2,T3"
-- uid: "T3"
-  name: "T3"
-  nameWithType: "T3"
-  fullName: "T3"
-- uid: "com.microsoft.signalr.Action4"
-  name: "Action4"
-  nameWithType: "Action4"
-  fullName: "com.microsoft.signalr.Action4"
-- uid: "T1,T2,T3,T4"
-  name: "T1,T2,T3,T4"
-  nameWithType: "T1,T2,T3,T4"
-  fullName: "T1,T2,T3,T4"
-- uid: "T4"
-  name: "T4"
-  nameWithType: "T4"
-  fullName: "T4"
-- uid: "com.microsoft.signalr.Action5"
-  name: "Action5"
-  nameWithType: "Action5"
-  fullName: "com.microsoft.signalr.Action5"
-- uid: "T1,T2,T3,T4,T5"
-  name: "T1,T2,T3,T4,T5"
-  nameWithType: "T1,T2,T3,T4,T5"
-  fullName: "T1,T2,T3,T4,T5"
-- uid: "T5"
-  name: "T5"
-  nameWithType: "T5"
-  fullName: "T5"
-- uid: "com.microsoft.signalr.Action6"
-  name: "Action6"
-  nameWithType: "Action6"
-  fullName: "com.microsoft.signalr.Action6"
-- uid: "T1,T2,T3,T4,T5,T6"
-  name: "T1,T2,T3,T4,T5,T6"
-  nameWithType: "T1,T2,T3,T4,T5,T6"
-  fullName: "T1,T2,T3,T4,T5,T6"
-- uid: "T6"
-  name: "T6"
-  nameWithType: "T6"
-  fullName: "T6"
-- uid: "T1,T2,T3,T4,T5,T6,T7"
-  name: "T1,T2,T3,T4,T5,T6,T7"
-  nameWithType: "T1,T2,T3,T4,T5,T6,T7"
-  fullName: "T1,T2,T3,T4,T5,T6,T7"
-- uid: "com.microsoft.signalr.Action7"
-  name: "Action7"
-  nameWithType: "Action7"
-  fullName: "com.microsoft.signalr.Action7"
-- uid: "T7"
-  name: "T7"
-  nameWithType: "T7"
-  fullName: "T7"
-- uid: "com.microsoft.signalr.Action8"
-  name: "Action8"
-  nameWithType: "Action8"
-  fullName: "com.microsoft.signalr.Action8"
-- uid: "T1,T2,T3,T4,T5,T6,T7,T8"
-  name: "T1,T2,T3,T4,T5,T6,T7,T8"
-  nameWithType: "T1,T2,T3,T4,T5,T6,T7,T8"
-  fullName: "T1,T2,T3,T4,T5,T6,T7,T8"
-- uid: "T8"
-  name: "T8"
-  nameWithType: "T8"
-  fullName: "T8"
+  - uid: java.lang.Class
+    name: Class
+    fullName: java.lang.Class
+  - name: <
+    fullName: <
+  - uid: T8
+    name: T8
+    fullName: T8
+  - name: '>'
+    fullName: '>'
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: com.microsoft.signalr.HubConnection.ConnectionState
+  name: HubConnection.ConnectionState
+  nameWithType: HubConnection.ConnectionState
+  fullName: com.microsoft.signalr.HubConnection.ConnectionState
+- uid: io.reactivex.Single
+  name: Single
+  nameWithType: Single
+  fullName: io.reactivex.Single
+- uid: java.util.Map
+  name: Map
+  nameWithType: Map
+  fullName: java.util.Map
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String
+- uid: java.lang.String,io.reactivex.Observable
+  name: String,Observable
+  nameWithType: String,Observable
+  fullName: java.lang.String,io.reactivex.Observable
+- uid: java.util.List
+  name: List
+  nameWithType: List
+  fullName: java.util.List
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: java.lang.Class
+  name: Class
+  nameWithType: Class
+  fullName: java.lang.Class
+- uid: io.reactivex.Observable
+  name: Observable
+  nameWithType: Observable
+  fullName: io.reactivex.Observable
+- uid: com.microsoft.signalr.Action1
+  name: Action1
+  nameWithType: Action1
+  fullName: com.microsoft.signalr.Action1
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: com.microsoft.signalr.Action2
+  name: Action2
+  nameWithType: Action2
+  fullName: com.microsoft.signalr.Action2
+- uid: T1,T2
+  name: T1,T2
+  nameWithType: T1,T2
+  fullName: T1,T2
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: com.microsoft.signalr.Action3
+  name: Action3
+  nameWithType: Action3
+  fullName: com.microsoft.signalr.Action3
+- uid: T1,T2,T3
+  name: T1,T2,T3
+  nameWithType: T1,T2,T3
+  fullName: T1,T2,T3
+- uid: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: com.microsoft.signalr.Action4
+  name: Action4
+  nameWithType: Action4
+  fullName: com.microsoft.signalr.Action4
+- uid: T1,T2,T3,T4
+  name: T1,T2,T3,T4
+  nameWithType: T1,T2,T3,T4
+  fullName: T1,T2,T3,T4
+- uid: T4
+  name: T4
+  nameWithType: T4
+  fullName: T4
+- uid: com.microsoft.signalr.Action5
+  name: Action5
+  nameWithType: Action5
+  fullName: com.microsoft.signalr.Action5
+- uid: T1,T2,T3,T4,T5
+  name: T1,T2,T3,T4,T5
+  nameWithType: T1,T2,T3,T4,T5
+  fullName: T1,T2,T3,T4,T5
+- uid: T5
+  name: T5
+  nameWithType: T5
+  fullName: T5
+- uid: com.microsoft.signalr.Action6
+  name: Action6
+  nameWithType: Action6
+  fullName: com.microsoft.signalr.Action6
+- uid: T1,T2,T3,T4,T5,T6
+  name: T1,T2,T3,T4,T5,T6
+  nameWithType: T1,T2,T3,T4,T5,T6
+  fullName: T1,T2,T3,T4,T5,T6
+- uid: T6
+  name: T6
+  nameWithType: T6
+  fullName: T6
+- uid: T1,T2,T3,T4,T5,T6,T7
+  name: T1,T2,T3,T4,T5,T6,T7
+  nameWithType: T1,T2,T3,T4,T5,T6,T7
+  fullName: T1,T2,T3,T4,T5,T6,T7
+- uid: com.microsoft.signalr.Action7
+  name: Action7
+  nameWithType: Action7
+  fullName: com.microsoft.signalr.Action7
+- uid: T7
+  name: T7
+  nameWithType: T7
+  fullName: T7
+- uid: com.microsoft.signalr.Action8
+  name: Action8
+  nameWithType: Action8
+  fullName: com.microsoft.signalr.Action8
+- uid: T1,T2,T3,T4,T5,T6,T7,T8
+  name: T1,T2,T3,T4,T5,T6,T7,T8
+  nameWithType: T1,T2,T3,T4,T5,T6,T7,T8
+  fullName: T1,T2,T3,T4,T5,T6,T7,T8
+- uid: T8
+  name: T8
+  nameWithType: T8
+  fullName: T8

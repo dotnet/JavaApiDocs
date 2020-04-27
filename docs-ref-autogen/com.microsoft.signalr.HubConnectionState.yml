@@ -1,226 +1,232 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.HubConnectionState"
-  id: "HubConnectionState"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.HubConnectionState
+  id: HubConnectionState
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.HubConnectionState.CONNECTED"
-  - "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
-  - "com.microsoft.signalr.HubConnectionState.valueOf(java.lang.String)"
-  - "com.microsoft.signalr.HubConnectionState.values()"
+  - com.microsoft.signalr.HubConnectionState.CONNECTED
+  - com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  - com.microsoft.signalr.HubConnectionState.valueOf(java.lang.String)
+  - com.microsoft.signalr.HubConnectionState.values()
   langs:
-  - "java"
-  name: "HubConnectionState"
-  nameWithType: "HubConnectionState"
-  fullName: "com.microsoft.signalr.HubConnectionState"
-  type: "Enum"
-  package: "com.microsoft.signalr"
-  summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - java
+  name: HubConnectionState
+  nameWithType: HubConnectionState
+  fullName: com.microsoft.signalr.HubConnectionState
+  type: Enum
+  package: com.microsoft.signalr
+  summary: Indicates the state of the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
   syntax:
-    content: "public enum HubConnectionState extends Enum<HubConnectionState>"
+    content: public enum HubConnectionState extends Enum<HubConnectionState>
   inheritance:
-  - "java.lang.Object"
-  - "java.lang.Enum"
+  - java.lang.Object
+  - java.lang.Enum
   inheritedMembers:
-  - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  - "java.lang.Enum.clone()"
-  - "java.lang.Enum.compareTo(E)"
-  - "java.lang.Enum.equals(java.lang.Object)"
-  - "java.lang.Enum.finalize()"
-  - "java.lang.Enum.getDeclaringClass()"
-  - "java.lang.Enum.hashCode()"
-  - "java.lang.Enum.name()"
-  - "java.lang.Enum.ordinal()"
-  - "java.lang.Enum.toString()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.signalr.HubConnectionState.CONNECTED"
-  id: "CONNECTED"
-  parent: "com.microsoft.signalr.HubConnectionState"
+  - java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  - java.lang.Enum.clone()
+  - java.lang.Enum.compareTo(E)
+  - java.lang.Enum.equals(java.lang.Object)
+  - java.lang.Enum.finalize()
+  - java.lang.Enum.getDeclaringClass()
+  - java.lang.Enum.hashCode()
+  - java.lang.Enum.name()
+  - java.lang.Enum.ordinal()
+  - java.lang.Enum.toString()
+  - java.lang.Object.getClass()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.signalr.HubConnectionState.CONNECTED
+  id: CONNECTED
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionState
   langs:
-  - "java"
-  name: "CONNECTED"
-  nameWithType: "HubConnectionState.CONNECTED"
-  fullName: "com.microsoft.signalr.HubConnectionState.CONNECTED"
-  type: "Field"
-  package: "com.microsoft.signalr"
+  - java
+  name: CONNECTED
+  nameWithType: HubConnectionState.CONNECTED
+  fullName: com.microsoft.signalr.HubConnectionState.CONNECTED
+  type: Field
+  package: com.microsoft.signalr
   syntax:
-    content: "public static final HubConnectionState CONNECTED"
+    content: public static final HubConnectionState CONNECTED
     return:
-      type: "com.microsoft.signalr.HubConnectionState"
-- uid: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
-  id: "DISCONNECTED"
-  parent: "com.microsoft.signalr.HubConnectionState"
+      type: com.microsoft.signalr.HubConnectionState
+- uid: com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  id: DISCONNECTED
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionState
   langs:
-  - "java"
-  name: "DISCONNECTED"
-  nameWithType: "HubConnectionState.DISCONNECTED"
-  fullName: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
-  type: "Field"
-  package: "com.microsoft.signalr"
+  - java
+  name: DISCONNECTED
+  nameWithType: HubConnectionState.DISCONNECTED
+  fullName: com.microsoft.signalr.HubConnectionState.DISCONNECTED
+  type: Field
+  package: com.microsoft.signalr
   syntax:
-    content: "public static final HubConnectionState DISCONNECTED"
+    content: public static final HubConnectionState DISCONNECTED
     return:
-      type: "com.microsoft.signalr.HubConnectionState"
-- uid: "com.microsoft.signalr.HubConnectionState.HubConnectionState()"
-  id: "HubConnectionState()"
-  parent: "com.microsoft.signalr.HubConnectionState"
+      type: com.microsoft.signalr.HubConnectionState
+- uid: com.microsoft.signalr.HubConnectionState.HubConnectionState()
+  id: HubConnectionState()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionState
   langs:
-  - "java"
-  name: "HubConnectionState()"
-  nameWithType: "HubConnectionState.HubConnectionState()"
-  fullName: "com.microsoft.signalr.HubConnectionState.HubConnectionState()"
-  overload: "com.microsoft.signalr.HubConnectionState.HubConnectionState*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
+  - java
+  name: HubConnectionState()
+  nameWithType: HubConnectionState.HubConnectionState()
+  fullName: com.microsoft.signalr.HubConnectionState.HubConnectionState()
+  overload: com.microsoft.signalr.HubConnectionState.HubConnectionState*
+  type: Constructor
+  package: com.microsoft.signalr
   syntax:
-    content: "private HubConnectionState()"
-- uid: "com.microsoft.signalr.HubConnectionState.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.signalr.HubConnectionState"
+    content: private HubConnectionState()
+- uid: com.microsoft.signalr.HubConnectionState.valueOf(java.lang.String)
+  id: valueOf(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionState
   langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "HubConnectionState.valueOf(String name)"
-  fullName: "com.microsoft.signalr.HubConnectionState.valueOf(String name)"
-  overload: "com.microsoft.signalr.HubConnectionState.valueOf*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: valueOf(String name)
+  nameWithType: HubConnectionState.valueOf(String name)
+  fullName: com.microsoft.signalr.HubConnectionState.valueOf(String name)
+  overload: com.microsoft.signalr.HubConnectionState.valueOf*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public static HubConnectionState valueOf(String name)"
+    content: public static HubConnectionState valueOf(String name)
     parameters:
-    - id: "name"
-      type: "java.lang.String"
+    - id: name
+      type: java.lang.String
     return:
-      type: "com.microsoft.signalr.HubConnectionState"
-- uid: "com.microsoft.signalr.HubConnectionState.values()"
-  id: "values()"
-  parent: "com.microsoft.signalr.HubConnectionState"
+      type: com.microsoft.signalr.HubConnectionState
+- uid: com.microsoft.signalr.HubConnectionState.values()
+  id: values()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.HubConnectionState
   langs:
-  - "java"
-  name: "values()"
-  nameWithType: "HubConnectionState.values()"
-  fullName: "com.microsoft.signalr.HubConnectionState.values()"
-  overload: "com.microsoft.signalr.HubConnectionState.values*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: values()
+  nameWithType: HubConnectionState.values()
+  fullName: com.microsoft.signalr.HubConnectionState.values()
+  overload: com.microsoft.signalr.HubConnectionState.values*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public static HubConnectionState[] values()"
+    content: public static HubConnectionState[] values()
     return:
-      type: "com.microsoft.signalr.HubConnectionState[]"
+      type: com.microsoft.signalr.HubConnectionState[]
 references:
-- uid: "com.microsoft.signalr.HubConnectionState.HubConnectionState*"
-  name: "HubConnectionState"
-  nameWithType: "HubConnectionState.HubConnectionState"
-  fullName: "com.microsoft.signalr.HubConnectionState.HubConnectionState"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.HubConnectionState[]"
+- uid: com.microsoft.signalr.HubConnectionState.HubConnectionState*
+  name: HubConnectionState
+  nameWithType: HubConnectionState.HubConnectionState
+  fullName: com.microsoft.signalr.HubConnectionState.HubConnectionState
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.HubConnectionState[]
   spec.java:
-  - uid: "com.microsoft.signalr.HubConnectionState"
-    name: "HubConnectionState"
-    fullName: "com.microsoft.signalr.HubConnectionState"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.signalr.HubConnectionState.values*"
-  name: "values"
-  nameWithType: "HubConnectionState.values"
-  fullName: "com.microsoft.signalr.HubConnectionState.values"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.String"
+  - uid: com.microsoft.signalr.HubConnectionState
+    name: HubConnectionState
+    fullName: com.microsoft.signalr.HubConnectionState
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.signalr.HubConnectionState.values*
+  name: values
+  nameWithType: HubConnectionState.values
+  fullName: com.microsoft.signalr.HubConnectionState.values
+  package: com.microsoft.signalr
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.signalr.HubConnectionState.valueOf*"
-  name: "valueOf"
-  nameWithType: "HubConnectionState.valueOf"
-  fullName: "com.microsoft.signalr.HubConnectionState.valueOf"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.Enum<com.microsoft.signalr.HubConnectionState>"
-  name: "Enum<HubConnectionState>"
-  nameWithType: "Enum<HubConnectionState>"
-  fullName: "java.lang.Enum<com.microsoft.signalr.HubConnectionState>"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Enum.toString()"
-  name: "Enum.toString()"
-  nameWithType: "Enum.toString()"
-  fullName: "java.lang.Enum.toString()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Enum.clone()"
-  name: "Enum.clone()"
-  nameWithType: "Enum.clone()"
-  fullName: "java.lang.Enum.clone()"
-- uid: "java.lang.Enum.finalize()"
-  name: "Enum.finalize()"
-  nameWithType: "Enum.finalize()"
-  fullName: "java.lang.Enum.finalize()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Enum.compareTo(E)"
-  name: "Enum.compareTo(E)"
-  nameWithType: "Enum.compareTo(E)"
-  fullName: "java.lang.Enum.compareTo(E)"
-- uid: "java.lang.Enum.name()"
-  name: "Enum.name()"
-  nameWithType: "Enum.name()"
-  fullName: "java.lang.Enum.name()"
-- uid: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-  name: "Enum.<T>valueOf(Class<T>,String)"
-  nameWithType: "Enum.<T>valueOf(Class<T>,String)"
-  fullName: "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Enum.getDeclaringClass()"
-  name: "Enum.getDeclaringClass()"
-  nameWithType: "Enum.getDeclaringClass()"
-  fullName: "java.lang.Enum.getDeclaringClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Enum.ordinal()"
-  name: "Enum.ordinal()"
-  nameWithType: "Enum.ordinal()"
-  fullName: "java.lang.Enum.ordinal()"
-- uid: "java.lang.Enum.hashCode()"
-  name: "Enum.hashCode()"
-  nameWithType: "Enum.hashCode()"
-  fullName: "java.lang.Enum.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Enum.equals(java.lang.Object)"
-  name: "Enum.equals(Object)"
-  nameWithType: "Enum.equals(Object)"
-  fullName: "java.lang.Enum.equals(java.lang.Object)"
-- uid: "java.lang.Enum"
-  name: "Enum"
-  nameWithType: "Enum"
-  fullName: "java.lang.Enum"
-- uid: "java.lang.Enum."
-  name: "Enum."
-  nameWithType: "Enum."
-  fullName: "java.lang.Enum."
-- uid: "T>,java.lang.String)"
-  name: "T>,String)"
-  nameWithType: "T>,String)"
-  fullName: "T>,java.lang.String)"
-- uid: "T>valueOf(java.lang.Class"
-  name: "T>valueOf(Class"
-  nameWithType: "T>valueOf(Class"
-  fullName: "T>valueOf(java.lang.Class"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.signalr.HubConnectionState.valueOf*
+  name: valueOf
+  nameWithType: HubConnectionState.valueOf
+  fullName: com.microsoft.signalr.HubConnectionState.valueOf
+  package: com.microsoft.signalr
+- uid: java.lang.Enum<com.microsoft.signalr.HubConnectionState>
+  name: Enum<HubConnectionState>
+  nameWithType: Enum<HubConnectionState>
+  fullName: java.lang.Enum<com.microsoft.signalr.HubConnectionState>
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Enum.toString()
+  name: Enum.toString()
+  nameWithType: Enum.toString()
+  fullName: java.lang.Enum.toString()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Enum.clone()
+  name: Enum.clone()
+  nameWithType: Enum.clone()
+  fullName: java.lang.Enum.clone()
+- uid: java.lang.Enum.finalize()
+  name: Enum.finalize()
+  nameWithType: Enum.finalize()
+  fullName: java.lang.Enum.finalize()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Enum.compareTo(E)
+  name: Enum.compareTo(E)
+  nameWithType: Enum.compareTo(E)
+  fullName: java.lang.Enum.compareTo(E)
+- uid: java.lang.Enum.name()
+  name: Enum.name()
+  nameWithType: Enum.name()
+  fullName: java.lang.Enum.name()
+- uid: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+  name: Enum.<T>valueOf(Class<T>,String)
+  nameWithType: Enum.<T>valueOf(Class<T>,String)
+  fullName: java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Enum.getDeclaringClass()
+  name: Enum.getDeclaringClass()
+  nameWithType: Enum.getDeclaringClass()
+  fullName: java.lang.Enum.getDeclaringClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Enum.ordinal()
+  name: Enum.ordinal()
+  nameWithType: Enum.ordinal()
+  fullName: java.lang.Enum.ordinal()
+- uid: java.lang.Enum.hashCode()
+  name: Enum.hashCode()
+  nameWithType: Enum.hashCode()
+  fullName: java.lang.Enum.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Enum.equals(java.lang.Object)
+  name: Enum.equals(Object)
+  nameWithType: Enum.equals(Object)
+  fullName: java.lang.Enum.equals(java.lang.Object)
+- uid: java.lang.Enum
+  name: Enum
+  nameWithType: Enum
+  fullName: java.lang.Enum
+- uid: java.lang.Enum.
+  name: Enum.
+  nameWithType: Enum.
+  fullName: java.lang.Enum.
+- uid: T>,java.lang.String)
+  name: T>,String)
+  nameWithType: T>,String)
+  fullName: T>,java.lang.String)
+- uid: T>valueOf(java.lang.Class
+  name: T>valueOf(Class
+  nameWithType: T>valueOf(Class
+  fullName: T>valueOf(java.lang.Class

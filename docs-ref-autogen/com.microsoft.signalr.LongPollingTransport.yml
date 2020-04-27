@@ -1,330 +1,339 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.signalr.LongPollingTransport"
-  id: "LongPollingTransport"
-  parent: "com.microsoft.signalr"
+- uid: com.microsoft.signalr.LongPollingTransport
+  id: LongPollingTransport
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr
   children:
-  - "com.microsoft.signalr.LongPollingTransport.LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)"
-  - "com.microsoft.signalr.LongPollingTransport.isActive()"
-  - "com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)"
-  - "com.microsoft.signalr.LongPollingTransport.send(java.lang.String)"
-  - "com.microsoft.signalr.LongPollingTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)"
-  - "com.microsoft.signalr.LongPollingTransport.setOnReceive(com.microsoft.signalr.OnReceiveCallBack)"
-  - "com.microsoft.signalr.LongPollingTransport.start(java.lang.String)"
-  - "com.microsoft.signalr.LongPollingTransport.stop()"
+  - com.microsoft.signalr.LongPollingTransport.LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)
+  - com.microsoft.signalr.LongPollingTransport.isActive()
+  - com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)
+  - com.microsoft.signalr.LongPollingTransport.send(java.lang.String)
+  - com.microsoft.signalr.LongPollingTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)
+  - com.microsoft.signalr.LongPollingTransport.setOnReceive(com.microsoft.signalr.OnReceiveCallBack)
+  - com.microsoft.signalr.LongPollingTransport.start(java.lang.String)
+  - com.microsoft.signalr.LongPollingTransport.stop()
   langs:
-  - "java"
-  name: "LongPollingTransport"
-  nameWithType: "LongPollingTransport"
-  fullName: "com.microsoft.signalr.LongPollingTransport"
-  type: "Class"
-  package: "com.microsoft.signalr"
+  - java
+  name: LongPollingTransport
+  nameWithType: LongPollingTransport
+  fullName: com.microsoft.signalr.LongPollingTransport
+  type: Class
+  package: com.microsoft.signalr
   syntax:
     content: " class LongPollingTransport implements Transport"
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   implements:
-  - "com.microsoft.signalr.Transport"
+  - com.microsoft.signalr.Transport
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.signalr.LongPollingTransport.LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)"
-  id: "LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.signalr.LongPollingTransport.LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)
+  id: LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)"
-  nameWithType: "LongPollingTransport.LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)"
-  overload: "com.microsoft.signalr.LongPollingTransport.LongPollingTransport*"
-  type: "Constructor"
-  package: "com.microsoft.signalr"
+  - java
+  name: LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)
+  nameWithType: LongPollingTransport.LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)
+  fullName: com.microsoft.signalr.LongPollingTransport.LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)
+  overload: com.microsoft.signalr.LongPollingTransport.LongPollingTransport*
+  type: Constructor
+  package: com.microsoft.signalr
   syntax:
-    content: "public LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)"
+    content: public LongPollingTransport(Map<String,String> headers, HttpClient client, Single<String> accessTokenProvider)
     parameters:
-    - id: "headers"
-      type: "java.util.Map<java.lang.String,java.lang.String>"
-    - id: "client"
-      type: "com.microsoft.signalr.HttpClient"
-    - id: "accessTokenProvider"
-      type: "io.reactivex.Single<java.lang.String>"
-- uid: "com.microsoft.signalr.LongPollingTransport.isActive()"
-  id: "isActive()"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+    - id: headers
+      type: java.util.Map<java.lang.String,java.lang.String>
+    - id: client
+      type: com.microsoft.signalr.HttpClient
+    - id: accessTokenProvider
+      type: io.reactivex.Single<java.lang.String>
+- uid: com.microsoft.signalr.LongPollingTransport.isActive()
+  id: isActive()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "isActive()"
-  nameWithType: "LongPollingTransport.isActive()"
-  fullName: "com.microsoft.signalr.LongPollingTransport.isActive()"
-  overload: "com.microsoft.signalr.LongPollingTransport.isActive*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: isActive()
+  nameWithType: LongPollingTransport.isActive()
+  fullName: com.microsoft.signalr.LongPollingTransport.isActive()
+  overload: com.microsoft.signalr.LongPollingTransport.isActive*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
     content: " boolean isActive()"
     return:
-      type: "boolean"
-- uid: "com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)"
-  id: "onReceive(java.lang.String)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+      type: boolean
+- uid: com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)
+  id: onReceive(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "onReceive(String message)"
-  nameWithType: "LongPollingTransport.onReceive(String message)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.onReceive(String message)"
-  overload: "com.microsoft.signalr.LongPollingTransport.onReceive*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: onReceive(String message)
+  nameWithType: LongPollingTransport.onReceive(String message)
+  fullName: com.microsoft.signalr.LongPollingTransport.onReceive(String message)
+  overload: com.microsoft.signalr.LongPollingTransport.onReceive*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public void onReceive(String message)"
+    content: public void onReceive(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
-- uid: "com.microsoft.signalr.LongPollingTransport.send(java.lang.String)"
-  id: "send(java.lang.String)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+    - id: message
+      type: java.lang.String
+- uid: com.microsoft.signalr.LongPollingTransport.send(java.lang.String)
+  id: send(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "send(String message)"
-  nameWithType: "LongPollingTransport.send(String message)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.send(String message)"
-  overload: "com.microsoft.signalr.LongPollingTransport.send*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: send(String message)
+  nameWithType: LongPollingTransport.send(String message)
+  fullName: com.microsoft.signalr.LongPollingTransport.send(String message)
+  overload: com.microsoft.signalr.LongPollingTransport.send*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public Completable send(String message)"
+    content: public Completable send(String message)
     parameters:
-    - id: "message"
-      type: "java.lang.String"
+    - id: message
+      type: java.lang.String
     return:
-      type: "io.reactivex.Completable"
-- uid: "com.microsoft.signalr.LongPollingTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)"
-  id: "setOnClose(com.microsoft.signalr.TransportOnClosedCallback)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+      type: io.reactivex.Completable
+- uid: com.microsoft.signalr.LongPollingTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)
+  id: setOnClose(com.microsoft.signalr.TransportOnClosedCallback)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "setOnClose(TransportOnClosedCallback onCloseCallback)"
-  nameWithType: "LongPollingTransport.setOnClose(TransportOnClosedCallback onCloseCallback)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.setOnClose(TransportOnClosedCallback onCloseCallback)"
-  overload: "com.microsoft.signalr.LongPollingTransport.setOnClose*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: setOnClose(TransportOnClosedCallback onCloseCallback)
+  nameWithType: LongPollingTransport.setOnClose(TransportOnClosedCallback onCloseCallback)
+  fullName: com.microsoft.signalr.LongPollingTransport.setOnClose(TransportOnClosedCallback onCloseCallback)
+  overload: com.microsoft.signalr.LongPollingTransport.setOnClose*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public void setOnClose(TransportOnClosedCallback onCloseCallback)"
+    content: public void setOnClose(TransportOnClosedCallback onCloseCallback)
     parameters:
-    - id: "onCloseCallback"
-      type: "com.microsoft.signalr.TransportOnClosedCallback"
-- uid: "com.microsoft.signalr.LongPollingTransport.setOnReceive(com.microsoft.signalr.OnReceiveCallBack)"
-  id: "setOnReceive(com.microsoft.signalr.OnReceiveCallBack)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+    - id: onCloseCallback
+      type: com.microsoft.signalr.TransportOnClosedCallback
+- uid: com.microsoft.signalr.LongPollingTransport.setOnReceive(com.microsoft.signalr.OnReceiveCallBack)
+  id: setOnReceive(com.microsoft.signalr.OnReceiveCallBack)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "setOnReceive(OnReceiveCallBack callback)"
-  nameWithType: "LongPollingTransport.setOnReceive(OnReceiveCallBack callback)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.setOnReceive(OnReceiveCallBack callback)"
-  overload: "com.microsoft.signalr.LongPollingTransport.setOnReceive*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: setOnReceive(OnReceiveCallBack callback)
+  nameWithType: LongPollingTransport.setOnReceive(OnReceiveCallBack callback)
+  fullName: com.microsoft.signalr.LongPollingTransport.setOnReceive(OnReceiveCallBack callback)
+  overload: com.microsoft.signalr.LongPollingTransport.setOnReceive*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public void setOnReceive(OnReceiveCallBack callback)"
+    content: public void setOnReceive(OnReceiveCallBack callback)
     parameters:
-    - id: "callback"
-      type: "com.microsoft.signalr.OnReceiveCallBack"
-- uid: "com.microsoft.signalr.LongPollingTransport.start(java.lang.String)"
-  id: "start(java.lang.String)"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+    - id: callback
+      type: com.microsoft.signalr.OnReceiveCallBack
+- uid: com.microsoft.signalr.LongPollingTransport.start(java.lang.String)
+  id: start(java.lang.String)
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "start(String url)"
-  nameWithType: "LongPollingTransport.start(String url)"
-  fullName: "com.microsoft.signalr.LongPollingTransport.start(String url)"
-  overload: "com.microsoft.signalr.LongPollingTransport.start*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: start(String url)
+  nameWithType: LongPollingTransport.start(String url)
+  fullName: com.microsoft.signalr.LongPollingTransport.start(String url)
+  overload: com.microsoft.signalr.LongPollingTransport.start*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public Completable start(String url)"
+    content: public Completable start(String url)
     parameters:
-    - id: "url"
-      type: "java.lang.String"
+    - id: url
+      type: java.lang.String
     return:
-      type: "io.reactivex.Completable"
-- uid: "com.microsoft.signalr.LongPollingTransport.stop()"
-  id: "stop()"
-  parent: "com.microsoft.signalr.LongPollingTransport"
+      type: io.reactivex.Completable
+- uid: com.microsoft.signalr.LongPollingTransport.stop()
+  id: stop()
+  artifact: com.microsoft.signalr:signalr:3.1.3
+  parent: com.microsoft.signalr.LongPollingTransport
   langs:
-  - "java"
-  name: "stop()"
-  nameWithType: "LongPollingTransport.stop()"
-  fullName: "com.microsoft.signalr.LongPollingTransport.stop()"
-  overload: "com.microsoft.signalr.LongPollingTransport.stop*"
-  type: "Method"
-  package: "com.microsoft.signalr"
+  - java
+  name: stop()
+  nameWithType: LongPollingTransport.stop()
+  fullName: com.microsoft.signalr.LongPollingTransport.stop()
+  overload: com.microsoft.signalr.LongPollingTransport.stop*
+  type: Method
+  package: com.microsoft.signalr
   syntax:
-    content: "public Completable stop()"
+    content: public Completable stop()
     return:
-      type: "io.reactivex.Completable"
+      type: io.reactivex.Completable
 references:
-- uid: "java.util.Map<java.lang.String,java.lang.String>"
+- uid: java.util.Map<java.lang.String,java.lang.String>
   spec.java:
-  - uid: "java.util.Map"
-    name: "Map"
-    fullName: "java.util.Map"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.HttpClient"
-  name: "HttpClient"
-  nameWithType: "HttpClient"
-  fullName: "com.microsoft.signalr.HttpClient"
-- uid: "io.reactivex.Single<java.lang.String>"
+  - uid: java.util.Map
+    name: Map
+    fullName: java.util.Map
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.HttpClient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: com.microsoft.signalr.HttpClient
+- uid: io.reactivex.Single<java.lang.String>
   spec.java:
-  - uid: "io.reactivex.Single"
-    name: "Single"
-    fullName: "io.reactivex.Single"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.signalr.LongPollingTransport.LongPollingTransport*"
-  name: "LongPollingTransport"
-  nameWithType: "LongPollingTransport.LongPollingTransport"
-  fullName: "com.microsoft.signalr.LongPollingTransport.LongPollingTransport"
-  package: "com.microsoft.signalr"
-- uid: "boolean"
+  - uid: io.reactivex.Single
+    name: Single
+    fullName: io.reactivex.Single
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.signalr.LongPollingTransport.LongPollingTransport*
+  name: LongPollingTransport
+  nameWithType: LongPollingTransport.LongPollingTransport
+  fullName: com.microsoft.signalr.LongPollingTransport.LongPollingTransport
+  package: com.microsoft.signalr
+- uid: boolean
   spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.signalr.LongPollingTransport.isActive*"
-  name: "isActive"
-  nameWithType: "LongPollingTransport.isActive"
-  fullName: "com.microsoft.signalr.LongPollingTransport.isActive"
-  package: "com.microsoft.signalr"
-- uid: "java.lang.String"
+  - uid: boolean
+    name: boolean
+    fullName: boolean
+- uid: com.microsoft.signalr.LongPollingTransport.isActive*
+  name: isActive
+  nameWithType: LongPollingTransport.isActive
+  fullName: com.microsoft.signalr.LongPollingTransport.isActive
+  package: com.microsoft.signalr
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "io.reactivex.Completable"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: io.reactivex.Completable
   spec.java:
-  - uid: "io.reactivex.Completable"
-    name: "Completable"
-    fullName: "io.reactivex.Completable"
-- uid: "com.microsoft.signalr.LongPollingTransport.start*"
-  name: "start"
-  nameWithType: "LongPollingTransport.start"
-  fullName: "com.microsoft.signalr.LongPollingTransport.start"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.LongPollingTransport.send*"
-  name: "send"
-  nameWithType: "LongPollingTransport.send"
-  fullName: "com.microsoft.signalr.LongPollingTransport.send"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.OnReceiveCallBack"
-  name: "OnReceiveCallBack"
-  nameWithType: "OnReceiveCallBack"
-  fullName: "com.microsoft.signalr.OnReceiveCallBack"
-- uid: "com.microsoft.signalr.LongPollingTransport.setOnReceive*"
-  name: "setOnReceive"
-  nameWithType: "LongPollingTransport.setOnReceive"
-  fullName: "com.microsoft.signalr.LongPollingTransport.setOnReceive"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.LongPollingTransport.onReceive*"
-  name: "onReceive"
-  nameWithType: "LongPollingTransport.onReceive"
-  fullName: "com.microsoft.signalr.LongPollingTransport.onReceive"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.TransportOnClosedCallback"
-  name: "TransportOnClosedCallback"
-  nameWithType: "TransportOnClosedCallback"
-  fullName: "com.microsoft.signalr.TransportOnClosedCallback"
-- uid: "com.microsoft.signalr.LongPollingTransport.setOnClose*"
-  name: "setOnClose"
-  nameWithType: "LongPollingTransport.setOnClose"
-  fullName: "com.microsoft.signalr.LongPollingTransport.setOnClose"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.LongPollingTransport.stop*"
-  name: "stop"
-  nameWithType: "LongPollingTransport.stop"
-  fullName: "com.microsoft.signalr.LongPollingTransport.stop"
-  package: "com.microsoft.signalr"
-- uid: "com.microsoft.signalr.Transport"
-  name: "Transport"
-  nameWithType: "Transport"
-  fullName: "com.microsoft.signalr.Transport"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.util.Map"
-  name: "Map"
-  nameWithType: "Map"
-  fullName: "java.util.Map"
-- uid: "java.lang.String,java.lang.String"
-  name: "String,String"
-  nameWithType: "String,String"
-  fullName: "java.lang.String,java.lang.String"
-- uid: "io.reactivex.Single"
-  name: "Single"
-  nameWithType: "Single"
-  fullName: "io.reactivex.Single"
+  - uid: io.reactivex.Completable
+    name: Completable
+    fullName: io.reactivex.Completable
+- uid: com.microsoft.signalr.LongPollingTransport.start*
+  name: start
+  nameWithType: LongPollingTransport.start
+  fullName: com.microsoft.signalr.LongPollingTransport.start
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.LongPollingTransport.send*
+  name: send
+  nameWithType: LongPollingTransport.send
+  fullName: com.microsoft.signalr.LongPollingTransport.send
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.OnReceiveCallBack
+  name: OnReceiveCallBack
+  nameWithType: OnReceiveCallBack
+  fullName: com.microsoft.signalr.OnReceiveCallBack
+- uid: com.microsoft.signalr.LongPollingTransport.setOnReceive*
+  name: setOnReceive
+  nameWithType: LongPollingTransport.setOnReceive
+  fullName: com.microsoft.signalr.LongPollingTransport.setOnReceive
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.LongPollingTransport.onReceive*
+  name: onReceive
+  nameWithType: LongPollingTransport.onReceive
+  fullName: com.microsoft.signalr.LongPollingTransport.onReceive
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.TransportOnClosedCallback
+  name: TransportOnClosedCallback
+  nameWithType: TransportOnClosedCallback
+  fullName: com.microsoft.signalr.TransportOnClosedCallback
+- uid: com.microsoft.signalr.LongPollingTransport.setOnClose*
+  name: setOnClose
+  nameWithType: LongPollingTransport.setOnClose
+  fullName: com.microsoft.signalr.LongPollingTransport.setOnClose
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.LongPollingTransport.stop*
+  name: stop
+  nameWithType: LongPollingTransport.stop
+  fullName: com.microsoft.signalr.LongPollingTransport.stop
+  package: com.microsoft.signalr
+- uid: com.microsoft.signalr.Transport
+  name: Transport
+  nameWithType: Transport
+  fullName: com.microsoft.signalr.Transport
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.util.Map
+  name: Map
+  nameWithType: Map
+  fullName: java.util.Map
+- uid: java.lang.String,java.lang.String
+  name: String,String
+  nameWithType: String,String
+  fullName: java.lang.String,java.lang.String
+- uid: io.reactivex.Single
+  name: Single
+  nameWithType: Single
+  fullName: io.reactivex.Single
