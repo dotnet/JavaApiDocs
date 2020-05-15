@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.HandshakeProtocol.HandshakeProtocol()
   - com.microsoft.signalr.HandshakeProtocol.createHandshakeRequestMessage(com.microsoft.signalr.HandshakeRequestMessage)
   - com.microsoft.signalr.HandshakeProtocol.parseHandshakeResponse(java.lang.String)
   langs:

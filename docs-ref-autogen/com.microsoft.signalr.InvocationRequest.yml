@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.InvocationRequest.InvocationRequest(java.lang.Class<?>,java.lang.String)
   - com.microsoft.signalr.InvocationRequest.addItem(com.microsoft.signalr.StreamItem)
   - com.microsoft.signalr.InvocationRequest.cancel()
   - com.microsoft.signalr.InvocationRequest.complete(com.microsoft.signalr.CompletionMessage)

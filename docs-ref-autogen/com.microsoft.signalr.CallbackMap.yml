@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.CallbackMap.CallbackMap()
   - com.microsoft.signalr.CallbackMap.get(java.lang.String)
   - com.microsoft.signalr.CallbackMap.put(java.lang.String,com.microsoft.signalr.ActionBase,java.lang.Class<?>...)
   - com.microsoft.signalr.CallbackMap.remove(java.lang.String)

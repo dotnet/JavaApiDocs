@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.JsonHubProtocol.JsonHubProtocol()
   - com.microsoft.signalr.JsonHubProtocol.getName()
   - com.microsoft.signalr.JsonHubProtocol.getTransferFormat()
   - com.microsoft.signalr.JsonHubProtocol.getVersion()

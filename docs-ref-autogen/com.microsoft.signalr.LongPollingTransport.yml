@@ -6,7 +6,6 @@ items:
   parent: com.microsoft.signalr
   children:
   - com.microsoft.signalr.LongPollingTransport.LongPollingTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient,io.reactivex.Single<java.lang.String>)
-  - com.microsoft.signalr.LongPollingTransport.isActive()
   - com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)
   - com.microsoft.signalr.LongPollingTransport.send(java.lang.String)
   - com.microsoft.signalr.LongPollingTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)
@@ -59,22 +58,6 @@ items:
       type: com.microsoft.signalr.HttpClient
     - id: accessTokenProvider
       type: io.reactivex.Single<java.lang.String>
-- uid: com.microsoft.signalr.LongPollingTransport.isActive()
-  id: isActive()
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.LongPollingTransport
-  langs:
-  - java
-  name: isActive()
-  nameWithType: LongPollingTransport.isActive()
-  fullName: com.microsoft.signalr.LongPollingTransport.isActive()
-  overload: com.microsoft.signalr.LongPollingTransport.isActive*
-  type: Method
-  package: com.microsoft.signalr
-  syntax:
-    content: " boolean isActive()"
-    return:
-      type: boolean
 - uid: com.microsoft.signalr.LongPollingTransport.onReceive(java.lang.String)
   id: onReceive(java.lang.String)
   artifact: com.microsoft.signalr:signalr:3.0.0
@@ -218,16 +201,6 @@ references:
   name: LongPollingTransport
   nameWithType: LongPollingTransport.LongPollingTransport
   fullName: com.microsoft.signalr.LongPollingTransport.LongPollingTransport
-  package: com.microsoft.signalr
-- uid: boolean
-  spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.microsoft.signalr.LongPollingTransport.isActive*
-  name: isActive
-  nameWithType: LongPollingTransport.isActive
-  fullName: com.microsoft.signalr.LongPollingTransport.isActive
   package: com.microsoft.signalr
 - uid: java.lang.String
   spec.java:

@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.InvocationHandler.InvocationHandler(com.microsoft.signalr.ActionBase,java.lang.Class<?>...)
   - com.microsoft.signalr.InvocationHandler.getAction()
   - com.microsoft.signalr.InvocationHandler.getClasses()
   langs:

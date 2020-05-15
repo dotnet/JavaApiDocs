@@ -6,8 +6,6 @@ items:
   parent: com.microsoft.signalr
   children:
   - com.microsoft.signalr.WebSocketTransport.WebSocketTransport(java.util.Map<java.lang.String,java.lang.String>,com.microsoft.signalr.HttpClient)
-  - com.microsoft.signalr.WebSocketTransport.getUrl()
-  - com.microsoft.signalr.WebSocketTransport.onClose(java.lang.Integer,java.lang.String)
   - com.microsoft.signalr.WebSocketTransport.onReceive(java.lang.String)
   - com.microsoft.signalr.WebSocketTransport.send(java.lang.String)
   - com.microsoft.signalr.WebSocketTransport.setOnClose(com.microsoft.signalr.TransportOnClosedCallback)
@@ -58,41 +56,6 @@ items:
       type: java.util.Map<java.lang.String,java.lang.String>
     - id: client
       type: com.microsoft.signalr.HttpClient
-- uid: com.microsoft.signalr.WebSocketTransport.getUrl()
-  id: getUrl()
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.WebSocketTransport
-  langs:
-  - java
-  name: getUrl()
-  nameWithType: WebSocketTransport.getUrl()
-  fullName: com.microsoft.signalr.WebSocketTransport.getUrl()
-  overload: com.microsoft.signalr.WebSocketTransport.getUrl*
-  type: Method
-  package: com.microsoft.signalr
-  syntax:
-    content: " String getUrl()"
-    return:
-      type: java.lang.String
-- uid: com.microsoft.signalr.WebSocketTransport.onClose(java.lang.Integer,java.lang.String)
-  id: onClose(java.lang.Integer,java.lang.String)
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.WebSocketTransport
-  langs:
-  - java
-  name: onClose(Integer code, String reason)
-  nameWithType: WebSocketTransport.onClose(Integer code, String reason)
-  fullName: com.microsoft.signalr.WebSocketTransport.onClose(Integer code, String reason)
-  overload: com.microsoft.signalr.WebSocketTransport.onClose*
-  type: Method
-  package: com.microsoft.signalr
-  syntax:
-    content: " void onClose(Integer code, String reason)"
-    parameters:
-    - id: code
-      type: java.lang.Integer
-    - id: reason
-      type: java.lang.String
 - uid: com.microsoft.signalr.WebSocketTransport.onReceive(java.lang.String)
   id: onReceive(java.lang.String)
   artifact: com.microsoft.signalr:signalr:3.0.0
@@ -230,11 +193,6 @@ references:
   - uid: java.lang.String
     name: String
     fullName: java.lang.String
-- uid: com.microsoft.signalr.WebSocketTransport.getUrl*
-  name: getUrl
-  nameWithType: WebSocketTransport.getUrl
-  fullName: com.microsoft.signalr.WebSocketTransport.getUrl
-  package: com.microsoft.signalr
 - uid: io.reactivex.Completable
   spec.java:
   - uid: io.reactivex.Completable
@@ -277,16 +235,6 @@ references:
   name: stop
   nameWithType: WebSocketTransport.stop
   fullName: com.microsoft.signalr.WebSocketTransport.stop
-  package: com.microsoft.signalr
-- uid: java.lang.Integer
-  spec.java:
-  - uid: java.lang.Integer
-    name: Integer
-    fullName: java.lang.Integer
-- uid: com.microsoft.signalr.WebSocketTransport.onClose*
-  name: onClose
-  nameWithType: WebSocketTransport.onClose
-  fullName: com.microsoft.signalr.WebSocketTransport.onClose
   package: com.microsoft.signalr
 - uid: com.microsoft.signalr.Transport
   name: Transport

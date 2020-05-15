@@ -11,7 +11,6 @@ items:
   - com.microsoft.signalr.InvocationMessage.getInvocationId()
   - com.microsoft.signalr.InvocationMessage.getMessageType()
   - com.microsoft.signalr.InvocationMessage.getTarget()
-  - com.microsoft.signalr.InvocationMessage.type
   langs:
   - java
   name: InvocationMessage
@@ -145,21 +144,6 @@ items:
     content: public String getTarget()
     return:
       type: java.lang.String
-- uid: com.microsoft.signalr.InvocationMessage.type
-  id: type
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.InvocationMessage
-  langs:
-  - java
-  name: type
-  nameWithType: InvocationMessage.type
-  fullName: com.microsoft.signalr.InvocationMessage.type
-  type: Field
-  package: com.microsoft.signalr
-  syntax:
-    content: " int type"
-    return:
-      type: int
 references:
 - uid: java.lang.String
   spec.java:
@@ -214,11 +198,6 @@ references:
   nameWithType: InvocationMessage.getMessageType
   fullName: com.microsoft.signalr.InvocationMessage.getMessageType
   package: com.microsoft.signalr
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
 - uid: com.microsoft.signalr.HubMessage
   name: HubMessage
   nameWithType: HubMessage

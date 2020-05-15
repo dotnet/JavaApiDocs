@@ -5,16 +5,13 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder(java.lang.String)
   - com.microsoft.signalr.HttpHubConnectionBuilder.build()
   - com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)
   - com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)
   - com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)
   - com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)
   - com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)
-  - com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)
   - com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)
-  - com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)
   langs:
   - java
   name: HttpHubConnectionBuilder
@@ -187,28 +184,6 @@ items:
     return:
       type: com.microsoft.signalr.HttpHubConnectionBuilder
       description: This instance of the HttpHubConnectionBuilder.
-- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(com.microsoft.signalr.HttpClient)
-  id: withHttpClient(com.microsoft.signalr.HttpClient)
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.HttpHubConnectionBuilder
-  langs:
-  - java
-  name: withHttpClient(HttpClient httpClient)
-  nameWithType: HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)
-  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient(HttpClient httpClient)
-  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*
-  type: Method
-  package: com.microsoft.signalr
-  summary: Sets the <xref uid="com.microsoft.signalr.HttpClient" data-throw-if-not-resolved="false">HttpClient</xref> to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
-  syntax:
-    content: " HttpHubConnectionBuilder withHttpClient(HttpClient httpClient)"
-    parameters:
-    - id: httpClient
-      type: com.microsoft.signalr.HttpClient
-      description: The <xref uid="com.microsoft.signalr.HttpClient" data-throw-if-not-resolved="false">HttpClient</xref> to be used by the <xref uid="com.microsoft.signalr.HubConnection" data-throw-if-not-resolved="false">HubConnection</xref>.
-    return:
-      type: com.microsoft.signalr.HttpHubConnectionBuilder
-      description: This instance of the HttpHubConnectionBuilder.
 - uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)
   id: withTransport(com.microsoft.signalr.TransportEnum)
   artifact: com.microsoft.signalr:signalr:3.0.0
@@ -231,25 +206,6 @@ items:
     return:
       type: com.microsoft.signalr.HttpHubConnectionBuilder
       description: This instance of the HttpHubConnectionBuilder.
-- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(com.microsoft.signalr.Transport)
-  id: withTransportImplementation(com.microsoft.signalr.Transport)
-  artifact: com.microsoft.signalr:signalr:3.0.0
-  parent: com.microsoft.signalr.HttpHubConnectionBuilder
-  langs:
-  - java
-  name: withTransportImplementation(Transport transport)
-  nameWithType: HttpHubConnectionBuilder.withTransportImplementation(Transport transport)
-  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation(Transport transport)
-  overload: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*
-  type: Method
-  package: com.microsoft.signalr
-  syntax:
-    content: " HttpHubConnectionBuilder withTransportImplementation(Transport transport)"
-    parameters:
-    - id: transport
-      type: com.microsoft.signalr.Transport
-    return:
-      type: com.microsoft.signalr.HttpHubConnectionBuilder
 references:
 - uid: java.lang.String
   spec.java:
@@ -261,15 +217,6 @@ references:
   nameWithType: HttpHubConnectionBuilder.HttpHubConnectionBuilder
   fullName: com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder
   package: com.microsoft.signalr
-- uid: com.microsoft.signalr.Transport
-  name: Transport
-  nameWithType: Transport
-  fullName: com.microsoft.signalr.Transport
-- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation*
-  name: withTransportImplementation
-  nameWithType: HttpHubConnectionBuilder.withTransportImplementation
-  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransportImplementation
-  package: com.microsoft.signalr
 - uid: com.microsoft.signalr.TransportEnum
   name: TransportEnum
   nameWithType: TransportEnum
@@ -278,15 +225,6 @@ references:
   name: withTransport
   nameWithType: HttpHubConnectionBuilder.withTransport
   fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withTransport
-  package: com.microsoft.signalr
-- uid: com.microsoft.signalr.HttpClient
-  name: HttpClient
-  nameWithType: HttpClient
-  fullName: com.microsoft.signalr.HttpClient
-- uid: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient*
-  name: withHttpClient
-  nameWithType: HttpHubConnectionBuilder.withHttpClient
-  fullName: com.microsoft.signalr.HttpHubConnectionBuilder.withHttpClient
   package: com.microsoft.signalr
 - uid: boolean
   spec.java:

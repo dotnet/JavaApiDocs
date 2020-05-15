@@ -5,7 +5,6 @@ items:
   artifact: com.microsoft.signalr:signalr:3.0.0
   parent: com.microsoft.signalr
   children:
-  - com.microsoft.signalr.WebSocketWrapper.WebSocketWrapper()
   - com.microsoft.signalr.WebSocketWrapper.send(java.lang.String)
   - com.microsoft.signalr.WebSocketWrapper.setOnClose(com.microsoft.signalr.WebSocketOnClosedCallback)
   - com.microsoft.signalr.WebSocketWrapper.setOnReceive(com.microsoft.signalr.OnReceiveCallBack)
