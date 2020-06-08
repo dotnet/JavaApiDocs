@@ -68,13 +68,15 @@ items:
     content: public void unsubscribe()
 references:
 - uid: com.microsoft.signalr.CallbackMap
-  name: CallbackMap
-  nameWithType: CallbackMap
-  fullName: com.microsoft.signalr.CallbackMap
+  spec.java:
+  - uid: com.microsoft.signalr.CallbackMap
+    name: CallbackMap
+    fullName: com.microsoft.signalr.CallbackMap
 - uid: com.microsoft.signalr.InvocationHandler
-  name: InvocationHandler
-  nameWithType: InvocationHandler
-  fullName: com.microsoft.signalr.InvocationHandler
+  spec.java:
+  - uid: com.microsoft.signalr.InvocationHandler
+    name: InvocationHandler
+    fullName: com.microsoft.signalr.InvocationHandler
 - uid: java.lang.String
   spec.java:
   - uid: java.lang.String
