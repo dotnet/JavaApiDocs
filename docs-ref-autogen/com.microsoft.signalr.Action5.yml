@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.Action5"
+fullName: "com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>"
+name: "Action5<T1,T2,T3,T4,T5>"
+nameWithType: "Action5<T1,T2,T3,T4,T5>"
+summary: "A callback that takes five parameters."
+syntax: "public interface Action5<T1,T2,T3,T4,T5>"
+methods:
+- "com.microsoft.signalr.Action5.invoke(T1,T2,T3,T4,T5)"
+type: "interface"
+typeParameters:
+- name: "T1"
+- name: "T2"
+- name: "T3"
+- name: "T4"
+- name: "T5"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

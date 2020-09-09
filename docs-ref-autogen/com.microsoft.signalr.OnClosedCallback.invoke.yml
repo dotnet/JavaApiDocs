@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.OnClosedCallback.invoke*"
+fullName: "com.microsoft.signalr.OnClosedCallback.invoke"
+name: "invoke"
+nameWithType: "OnClosedCallback.invoke"
+members:
+- uid: "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
+  fullName: "com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)"
+  name: "invoke(Exception exception)"
+  nameWithType: "OnClosedCallback.invoke(Exception exception)"
+  parameters:
+  - name: "exception"
+    type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void invoke(Exception exception)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

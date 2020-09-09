@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnection.start*"
+fullName: "com.microsoft.signalr.HubConnection.start"
+name: "start"
+nameWithType: "HubConnection.start"
+members:
+- uid: "com.microsoft.signalr.HubConnection.start()"
+  fullName: "com.microsoft.signalr.HubConnection.start()"
+  name: "start()"
+  nameWithType: "HubConnection.start()"
+  summary: "Starts a connection to the server."
+  syntax: "public Completable start()"
+  returns:
+    description: "A Completable that completes when the connection has been established."
+    type: "<xref href=\"io.reactivex.Completable?alt=io.reactivex.Completable&text=Completable\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.Action1.invoke*"
+fullName: "com.microsoft.signalr.Action1<T1>.invoke"
+name: "invoke"
+nameWithType: "Action1<T1>.invoke"
+members:
+- uid: "com.microsoft.signalr.Action1.invoke(T1)"
+  fullName: "com.microsoft.signalr.Action1<T1>.invoke(T1 param1)"
+  name: "invoke(T1 param1)"
+  nameWithType: "Action1<T1>.invoke(T1 param1)"
+  parameters:
+  - name: "param1"
+    type: "<xref href=\"T1?alt=T1&text=T1\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void invoke(T1 param1)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

@@ -1,0 +1,33 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.HttpHubConnectionBuilder"
+fullName: "com.microsoft.signalr.HttpHubConnectionBuilder"
+name: "HttpHubConnectionBuilder"
+nameWithType: "HttpHubConnectionBuilder"
+summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances."
+inheritances:
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class HttpHubConnectionBuilder"
+methods:
+- "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3
