@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnection.setServerTimeout*"
+fullName: "com.microsoft.signalr.HubConnection.setServerTimeout"
+name: "setServerTimeout"
+nameWithType: "HubConnection.setServerTimeout"
+members:
+- uid: "com.microsoft.signalr.HubConnection.setServerTimeout(long)"
+  fullName: "com.microsoft.signalr.HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)"
+  name: "setServerTimeout(long serverTimeoutInMilliseconds)"
+  nameWithType: "HubConnection.setServerTimeout(long serverTimeoutInMilliseconds)"
+  summary: "Sets the server timeout interval for the connection."
+  parameters:
+  - description: "The server timeout duration (specified in milliseconds)."
+    name: "serverTimeoutInMilliseconds"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setServerTimeout(long serverTimeoutInMilliseconds)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

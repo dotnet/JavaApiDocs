@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader*"
+fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader"
+name: "withHeader"
+nameWithType: "HttpHubConnectionBuilder.withHeader"
+members:
+- uid: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(String name, String value)"
+  name: "withHeader(String name, String value)"
+  nameWithType: "HttpHubConnectionBuilder.withHeader(String name, String value)"
+  summary: "Sets a single header for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> to send."
+  parameters:
+  - description: "The name of the header to set."
+    name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The value of the header to be set."
+    name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public HttpHubConnectionBuilder withHeader(String name, String value)"
+  returns:
+    description: "This instance of the HttpHubConnectionBuilder."
+    type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

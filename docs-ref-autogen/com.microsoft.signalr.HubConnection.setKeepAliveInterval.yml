@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnection.setKeepAliveInterval*"
+fullName: "com.microsoft.signalr.HubConnection.setKeepAliveInterval"
+name: "setKeepAliveInterval"
+nameWithType: "HubConnection.setKeepAliveInterval"
+members:
+- uid: "com.microsoft.signalr.HubConnection.setKeepAliveInterval(long)"
+  fullName: "com.microsoft.signalr.HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+  name: "setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+  nameWithType: "HubConnection.setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+  summary: "Sets the keep alive interval duration."
+  parameters:
+  - description: "The interval (specified in milliseconds) at which the connection should send keep alive messages."
+    name: "keepAliveIntervalInMilliseconds"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

@@ -1,0 +1,13 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.OnClosedCallback"
+fullName: "com.microsoft.signalr.OnClosedCallback"
+name: "OnClosedCallback"
+nameWithType: "OnClosedCallback"
+summary: "A callback to create and register on a HubConnections OnClosed method."
+syntax: "public interface OnClosedCallback"
+methods:
+- "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
+type: "interface"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder*"
+fullName: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder"
+name: "HubConnectionBuilder"
+nameWithType: "HubConnectionBuilder.HubConnectionBuilder"
+members:
+- uid: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
+  fullName: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
+  name: "HubConnectionBuilder()"
+  nameWithType: "HubConnectionBuilder.HubConnectionBuilder()"
+  syntax: "public HubConnectionBuilder()"
+type: "constructor"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

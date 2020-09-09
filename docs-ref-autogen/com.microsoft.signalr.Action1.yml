@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.Action1"
+fullName: "com.microsoft.signalr.Action1<T1>"
+name: "Action1<T1>"
+nameWithType: "Action1<T1>"
+summary: "A callback that takes one parameter."
+syntax: "public interface Action1<T1>"
+methods:
+- "com.microsoft.signalr.Action1.invoke(T1)"
+type: "interface"
+typeParameters:
+- name: "T1"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3
