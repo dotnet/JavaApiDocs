@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.Action7.invoke*"
+fullName: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>.invoke"
+name: "invoke"
+nameWithType: "Action7<T1,T2,T3,T4,T5,T6,T7>.invoke"
+members:
+- uid: "com.microsoft.signalr.Action7.invoke(T1,T2,T3,T4,T5,T6,T7)"
+  fullName: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)"
+  name: "invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)"
+  nameWithType: "Action7<T1,T2,T3,T4,T5,T6,T7>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)"
+  parameters:
+  - name: "param1"
+    type: "<xref href=\"T1?alt=T1&text=T1\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param2"
+    type: "<xref href=\"T2?alt=T2&text=T2\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param3"
+    type: "<xref href=\"T3?alt=T3&text=T3\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param4"
+    type: "<xref href=\"T4?alt=T4&text=T4\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param5"
+    type: "<xref href=\"T5?alt=T5&text=T5\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param6"
+    type: "<xref href=\"T6?alt=T6&text=T6\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param7"
+    type: "<xref href=\"T7?alt=T7&text=T7\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

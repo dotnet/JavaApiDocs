@@ -65,6 +65,11 @@
         "moniker_range": "aspnet-signalr-java"
       }
     },
+    "versions": {
+      "aspnet-signalr-java": {
+        "dest": "aspnet-signalr-java"
+      }
+    },
     "resource": [
       {
         "files": [

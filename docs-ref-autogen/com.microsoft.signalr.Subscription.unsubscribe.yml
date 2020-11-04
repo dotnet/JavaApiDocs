@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.Subscription.unsubscribe*"
+fullName: "com.microsoft.signalr.Subscription.unsubscribe"
+name: "unsubscribe"
+nameWithType: "Subscription.unsubscribe"
+members:
+- uid: "com.microsoft.signalr.Subscription.unsubscribe()"
+  fullName: "com.microsoft.signalr.Subscription.unsubscribe()"
+  name: "unsubscribe()"
+  nameWithType: "Subscription.unsubscribe()"
+  summary: "Removes the client method handler represented by this subscription."
+  syntax: "public void unsubscribe()"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

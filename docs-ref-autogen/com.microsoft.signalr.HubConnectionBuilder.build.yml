@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnectionBuilder.build*"
+fullName: "com.microsoft.signalr.HubConnectionBuilder.build"
+name: "build"
+nameWithType: "HubConnectionBuilder.build"
+members:
+- uid: "com.microsoft.signalr.HubConnectionBuilder.build()"
+  fullName: "com.microsoft.signalr.HubConnectionBuilder.build()"
+  name: "build()"
+  nameWithType: "HubConnectionBuilder.build()"
+  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  syntax: "public abstract HubConnection build()"
+  returns:
+    description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+    type: "<xref href=\"com.microsoft.signalr.HubConnection?alt=com.microsoft.signalr.HubConnection&text=HubConnection\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnection.setBaseUrl*"
+fullName: "com.microsoft.signalr.HubConnection.setBaseUrl"
+name: "setBaseUrl"
+nameWithType: "HubConnection.setBaseUrl"
+members:
+- uid: "com.microsoft.signalr.HubConnection.setBaseUrl(java.lang.String)"
+  fullName: "com.microsoft.signalr.HubConnection.setBaseUrl(String url)"
+  name: "setBaseUrl(String url)"
+  nameWithType: "HubConnection.setBaseUrl(String url)"
+  summary: "Sets a new url for the HubConnection."
+  parameters:
+  - description: "The url to connect to."
+    name: "url"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setBaseUrl(String url)"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3

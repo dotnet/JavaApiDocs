@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.Action.invoke*"
+fullName: "com.microsoft.signalr.Action.invoke"
+name: "invoke"
+nameWithType: "Action.invoke"
+members:
+- uid: "com.microsoft.signalr.Action.invoke()"
+  fullName: "com.microsoft.signalr.Action.invoke()"
+  name: "invoke()"
+  nameWithType: "Action.invoke()"
+  syntax: "public abstract void invoke()"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:3.1.3
