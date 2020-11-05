@@ -8,7 +8,7 @@ members:
   fullName: "com.microsoft.signalr.HubConnection.getConnectionState()"
   name: "getConnectionState()"
   nameWithType: "HubConnection.getConnectionState()"
-  summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> to the server."
+  summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> to the server."
   syntax: "public HubConnectionState getConnectionState()"
   returns:
     description: "HubConnection state enum."

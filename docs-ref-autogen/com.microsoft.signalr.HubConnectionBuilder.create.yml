@@ -8,14 +8,14 @@ members:
   fullName: "com.microsoft.signalr.HubConnectionBuilder.create(String url)"
   name: "create(String url)"
   nameWithType: "HubConnectionBuilder.create(String url)"
-  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>."
+  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
   parameters:
   - description: "The URL of the SignalR hub to connect to."
     name: "url"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static HttpHubConnectionBuilder create(String url)"
   returns:
-    description: "An instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\">HttpHubConnectionBuilder</xref>."
+    description: "An instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}

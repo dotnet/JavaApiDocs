@@ -8,10 +8,10 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
   name: "build()"
   nameWithType: "HttpHubConnectionBuilder.build()"
-  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
   syntax: "public HubConnection build()"
   returns:
-    description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+    description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
     type: "<xref href=\"com.microsoft.signalr.HubConnection?alt=com.microsoft.signalr.HubConnection&text=HubConnection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}

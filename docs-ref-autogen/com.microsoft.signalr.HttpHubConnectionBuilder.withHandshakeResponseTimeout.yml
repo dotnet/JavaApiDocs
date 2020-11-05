@@ -8,9 +8,9 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)"
   name: "withHandshakeResponseTimeout(long timeoutInMilliseconds)"
   nameWithType: "HttpHubConnectionBuilder.withHandshakeResponseTimeout(long timeoutInMilliseconds)"
-  summary: "Sets the duration the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should wait for a Handshake Response from the server."
+  summary: "Sets the duration the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> should wait for a Handshake Response from the server."
   parameters:
-  - description: "The duration (specified in milliseconds) that the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should wait for a Handshake Response from the server."
+  - description: "The duration (specified in milliseconds) that the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> should wait for a Handshake Response from the server."
     name: "timeoutInMilliseconds"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public HttpHubConnectionBuilder withHandshakeResponseTimeout(long timeoutInMilliseconds)"

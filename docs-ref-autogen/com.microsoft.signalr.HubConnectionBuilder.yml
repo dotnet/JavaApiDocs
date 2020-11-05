@@ -3,7 +3,7 @@ uid: "com.microsoft.signalr.HubConnectionBuilder"
 fullName: "com.microsoft.signalr.HubConnectionBuilder"
 name: "HubConnectionBuilder"
 nameWithType: "HubConnectionBuilder"
-summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> instances."
+summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> instances."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:

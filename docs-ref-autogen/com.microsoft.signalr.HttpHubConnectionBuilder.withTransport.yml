@@ -8,7 +8,7 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)"
   name: "withTransport(TransportEnum transportEnum)"
   nameWithType: "HttpHubConnectionBuilder.withTransport(TransportEnum transportEnum)"
-  summary: "Sets the transport type to indicate which transport to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  summary: "Sets the transport type to indicate which transport to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
   parameters:
   - description: "The type of transport to be used."
     name: "transportEnum"
