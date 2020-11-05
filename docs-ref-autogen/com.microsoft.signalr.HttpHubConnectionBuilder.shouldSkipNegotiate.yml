@@ -8,9 +8,9 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)"
   name: "shouldSkipNegotiate(boolean skipNegotiate)"
   nameWithType: "HttpHubConnectionBuilder.shouldSkipNegotiate(boolean skipNegotiate)"
-  summary: "Indicates to the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> that it should skip the negotiate process. Note: This option only works with the Websockets transport and the Azure SignalR Service require the negotiate step."
+  summary: "Indicates to the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> that it should skip the negotiate process. Note: This option only works with the Websockets transport and the Azure SignalR Service require the negotiate step."
   parameters:
-  - description: "Boolean indicating if the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref> should skip the negotiate step."
+  - description: "Boolean indicating if the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> should skip the negotiate step."
     name: "skipNegotiate"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public HttpHubConnectionBuilder shouldSkipNegotiate(boolean skipNegotiate)"

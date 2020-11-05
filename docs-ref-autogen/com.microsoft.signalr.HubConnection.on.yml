@@ -42,7 +42,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T8?alt=T8&text=T8\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3,T4,T5,T6,T7,T8>on(String target, Action8<T1,T2,T3,T4,T5,T6,T7,T8> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7, Class<T8> param8)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(java.lang.String,com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>,java.lang.Class<T7>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
@@ -79,7 +79,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T7?alt=T7&text=T7\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3,T4,T5,T6,T7>on(String target, Action7<T1,T2,T3,T4,T5,T6,T7> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6, Class<T7> param7)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(java.lang.String,com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>,java.lang.Class<T6>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
@@ -113,7 +113,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T6?alt=T6&text=T6\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3,T4,T5,T6>on(String target, Action6<T1,T2,T3,T4,T5,T6> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5, Class<T6> param6)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(java.lang.String,com.microsoft.signalr.Action5<T1,T2,T3,T4,T5>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>,java.lang.Class<T5>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
@@ -144,7 +144,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T5?alt=T5&text=T5\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3,T4,T5>on(String target, Action5<T1,T2,T3,T4,T5> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4, Class<T5> param5)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(java.lang.String,com.microsoft.signalr.Action4<T1,T2,T3,T4>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>,java.lang.Class<T4>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
@@ -172,7 +172,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T4?alt=T4&text=T4\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3,T4>on(String target, Action4<T1,T2,T3,T4> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3, Class<T4> param4)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2,T3>on(java.lang.String,com.microsoft.signalr.Action3<T1,T2,T3>,java.lang.Class<T1>,java.lang.Class<T2>,java.lang.Class<T3>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
@@ -197,7 +197,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T3?alt=T3&text=T3\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2,T3>on(String target, Action3<T1,T2,T3> callback, Class<T1> param1, Class<T2> param2, Class<T3> param3)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1,T2>on(java.lang.String,com.microsoft.signalr.Action2<T1,T2>,java.lang.Class<T1>,java.lang.Class<T2>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
@@ -219,7 +219,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T2?alt=T2&text=T2\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1,T2>on(String target, Action2<T1,T2> callback, Class<T1> param1, Class<T2> param2)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.<T1>on(java.lang.String,com.microsoft.signalr.Action1<T1>,java.lang.Class<T1>)"
   fullName: "com.microsoft.signalr.HubConnection.<T1>on(String target, Action1<T1> callback, Class<T1> param1)"
@@ -238,7 +238,7 @@ members:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T1?alt=T1&text=T1\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public Subscription <T1>on(String target, Action1<T1> callback, Class<T1> param1)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.signalr.HubConnection.on(java.lang.String,com.microsoft.signalr.Action)"
   fullName: "com.microsoft.signalr.HubConnection.on(String target, Action callback)"
@@ -254,7 +254,7 @@ members:
     type: "<xref href=\"com.microsoft.signalr.Action?alt=com.microsoft.signalr.Action&text=Action\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Subscription on(String target, Action callback)"
   returns:
-    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\">Subscription</xref> that can be disposed to unsubscribe from the hub method."
+    description: "A <xref uid=\"com.microsoft.signalr.Subscription\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Subscription\"></xref> that can be disposed to unsubscribe from the hub method."
     type: "<xref href=\"com.microsoft.signalr.Subscription?alt=com.microsoft.signalr.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}

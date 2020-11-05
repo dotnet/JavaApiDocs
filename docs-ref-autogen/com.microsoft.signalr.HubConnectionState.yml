@@ -3,7 +3,7 @@ uid: "com.microsoft.signalr.HubConnectionState"
 fullName: "com.microsoft.signalr.HubConnectionState"
 name: "HubConnectionState"
 nameWithType: "HubConnectionState"
-summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
