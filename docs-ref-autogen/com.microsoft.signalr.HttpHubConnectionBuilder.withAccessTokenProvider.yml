@@ -8,9 +8,9 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)"
   name: "withAccessTokenProvider(Single<String> accessTokenProvider)"
   nameWithType: "HttpHubConnectionBuilder.withAccessTokenProvider(Single<String> accessTokenProvider)"
-  summary: "Sets the access token provider for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  summary: "Sets the access token provider for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
   parameters:
-  - description: "The access token provider to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\">HubConnection</xref>."
+  - description: "The access token provider to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
     name: "accessTokenProvider"
     type: "<xref href=\"io.reactivex.Single?alt=io.reactivex.Single&text=Single\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public HttpHubConnectionBuilder withAccessTokenProvider(Single<String> accessTokenProvider)"
