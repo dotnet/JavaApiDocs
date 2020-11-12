@@ -90,6 +90,8 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "_site"
+    "dest": "_site",
+    "rules": {
+      "xref-not-found": "off"
   }
 }
