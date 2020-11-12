@@ -1,95 +1,98 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/toc.yml"
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/toc.yml"
+                ],
+                "src": "docs-ref-autogen",
+                "dest": "api/signalr_java_sdk",
+                "group": "signalr",
+                "version": "aspnet-signalr-java",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "docs-ref-autogen",
+                "dest": "api",
+                "exclude": [
+                    "**/toc.yml",
+                    "**/obj/**",
+                    "**/includes/**"
+                ],
+                "group": "signalr",
+                "version": "aspnet-signalr-java"
+            },
+            {
+                "files": [
+                    "**/*.yml"
+                ],
+                "src": "signalRbreadcrumb",
+                "dest": "signalRbreadcrumb",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ],
+                "group": "signalr",
+                "version": "aspnet-signalr-java"
+            },
+            {
+                "files": [
+                    "**/*.md"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices",
+                    "docs-ref-autogen"
+                ],
+                "group": "signalr",
+                "version": "aspnet-signalr-java"
+            }
         ],
-        "src": "docs-ref-autogen",
-        "dest": "api/signalr_java_sdk",
-        "group": "signalr",
-        "version": "aspnet-signalr-java",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
+        "groups": {
+            "signalr": {
+                "dest": "aspnet-signalr-java",
+                "moniker_range": "aspnet-signalr-java"
+            }
+        },
+        "versions": {
+            "aspnet-signalr-java": {
+                "dest": "aspnet-signalr-java"
+            }
+        },
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
         ],
-        "src": "docs-ref-autogen",
-        "dest": "api",
-        "exclude": [
-          "**/toc.yml",
-          "**/obj/**",
-          "**/includes/**"
-        ],
-        "group": "signalr",
-        "version": "aspnet-signalr-java"
-      },
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "signalRbreadcrumb",
-        "dest": "signalRbreadcrumb",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ],
-        "group": "signalr",
-        "version": "aspnet-signalr-java"
-      },
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "docs-ref-autogen"
-        ],
-        "group": "signalr",
-        "version": "aspnet-signalr-java"
-      }
-    ],
-    "groups": {
-      "signalr": {
-        "dest": "aspnet-signalr-java",
-        "moniker_range": "aspnet-signalr-java"
-      }
-    },
-    "versions": {
-      "aspnet-signalr-java": {
-        "dest": "aspnet-signalr-java"
-      }
-    },
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "signalRbreadcrumb/toc.yml",
-      "ms.author":"mimengis"
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "_site"
-  }
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "breadcrumb_path": "signalRbreadcrumb/toc.yml",
+            "ms.author": "mimengis"
+        },
+        "fileMetadata": {},
+        "template": [],
+        "dest": "_site",
+        "rules": {
+            "xref-not-found": "off"
+        }
+    }
 }
