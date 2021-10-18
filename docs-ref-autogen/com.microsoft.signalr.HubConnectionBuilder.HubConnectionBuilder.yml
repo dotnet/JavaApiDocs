@@ -12,4 +12,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.microsoft.signalr"
-artifact: com.microsoft.signalr:signalr:3.1.3
+artifact: com.microsoft.signalr:signalr:5.0.10

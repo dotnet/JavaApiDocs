@@ -21,13 +21,15 @@ inheritedMembers:
 syntax: "public class HttpHubConnectionBuilder"
 methods:
 - "com.microsoft.signalr.HttpHubConnectionBuilder.build()"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.setHttpClientBuilderCallback(com.microsoft.signalr.Action1<okhttp3.OkHttpClient.Builder>)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate(boolean)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider(io.reactivex.Single<java.lang.String>)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout(long)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.withHeader(java.lang.String,java.lang.String)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.microsoft.signalr.HttpHubConnectionBuilder.withHubProtocol(com.microsoft.signalr.HubProtocol)"
 - "com.microsoft.signalr.HttpHubConnectionBuilder.withTransport(com.microsoft.signalr.TransportEnum)"
 type: "class"
 metadata: {}
 package: "com.microsoft.signalr"
-artifact: com.microsoft.signalr:signalr:3.1.3
+artifact: com.microsoft.signalr:signalr:5.0.10

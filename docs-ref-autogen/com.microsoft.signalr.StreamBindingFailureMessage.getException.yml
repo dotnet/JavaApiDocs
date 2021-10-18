@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.StreamBindingFailureMessage.getException*"
+fullName: "com.microsoft.signalr.StreamBindingFailureMessage.getException"
+name: "getException"
+nameWithType: "StreamBindingFailureMessage.getException"
+members:
+- uid: "com.microsoft.signalr.StreamBindingFailureMessage.getException()"
+  fullName: "com.microsoft.signalr.StreamBindingFailureMessage.getException()"
+  name: "getException()"
+  nameWithType: "StreamBindingFailureMessage.getException()"
+  syntax: "public Exception getException()"
+  returns:
+    type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubConnection.close*"
+fullName: "com.microsoft.signalr.HubConnection.close"
+name: "close"
+nameWithType: "HubConnection.close"
+members:
+- uid: "com.microsoft.signalr.HubConnection.close()"
+  fullName: "com.microsoft.signalr.HubConnection.close()"
+  name: "close()"
+  nameWithType: "HubConnection.close()"
+  syntax: "public void close()"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

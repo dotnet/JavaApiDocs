@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.CancelInvocationMessage.getInvocationId*"
+fullName: "com.microsoft.signalr.CancelInvocationMessage.getInvocationId"
+name: "getInvocationId"
+nameWithType: "CancelInvocationMessage.getInvocationId"
+members:
+- uid: "com.microsoft.signalr.CancelInvocationMessage.getInvocationId()"
+  fullName: "com.microsoft.signalr.CancelInvocationMessage.getInvocationId()"
+  name: "getInvocationId()"
+  nameWithType: "CancelInvocationMessage.getInvocationId()"
+  syntax: "public String getInvocationId()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

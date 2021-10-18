@@ -1,0 +1,33 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.InvocationBindingFailureMessage"
+fullName: "com.microsoft.signalr.InvocationBindingFailureMessage"
+name: "InvocationBindingFailureMessage"
+nameWithType: "InvocationBindingFailureMessage"
+inheritances:
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "com.microsoft.signalr.HubMessage.getMessageType()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class InvocationBindingFailureMessage extends HubMessage"
+constructors:
+- "com.microsoft.signalr.InvocationBindingFailureMessage.InvocationBindingFailureMessage(java.lang.String,java.lang.String,java.lang.Exception)"
+methods:
+- "com.microsoft.signalr.InvocationBindingFailureMessage.getException()"
+- "com.microsoft.signalr.InvocationBindingFailureMessage.getInvocationId()"
+- "com.microsoft.signalr.InvocationBindingFailureMessage.getMessageType()"
+- "com.microsoft.signalr.InvocationBindingFailureMessage.getTarget()"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

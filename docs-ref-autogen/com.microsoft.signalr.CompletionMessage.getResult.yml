@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.CompletionMessage.getResult*"
+fullName: "com.microsoft.signalr.CompletionMessage.getResult"
+name: "getResult"
+nameWithType: "CompletionMessage.getResult"
+members:
+- uid: "com.microsoft.signalr.CompletionMessage.getResult()"
+  fullName: "com.microsoft.signalr.CompletionMessage.getResult()"
+  name: "getResult()"
+  nameWithType: "CompletionMessage.getResult()"
+  syntax: "public Object getResult()"
+  returns:
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

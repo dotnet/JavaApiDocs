@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol*"
+fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol"
+name: "MessagePackHubProtocol"
+nameWithType: "MessagePackHubProtocol.MessagePackHubProtocol"
+members:
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol()"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol()"
+  name: "MessagePackHubProtocol()"
+  nameWithType: "MessagePackHubProtocol.MessagePackHubProtocol()"
+  syntax: "public MessagePackHubProtocol()"
+type: "constructor"
+metadata: {}
+package: "com.microsoft.signalr.messagepack"
+artifact: com.microsoft.signalr.messagepack:signalr-messagepack:5.0.10
