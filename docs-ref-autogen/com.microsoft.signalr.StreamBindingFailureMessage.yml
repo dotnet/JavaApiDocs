@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.StreamBindingFailureMessage"
+fullName: "com.microsoft.signalr.StreamBindingFailureMessage"
+name: "StreamBindingFailureMessage"
+nameWithType: "StreamBindingFailureMessage"
+inheritances:
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "com.microsoft.signalr.HubMessage.getMessageType()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class StreamBindingFailureMessage extends HubMessage"
+constructors:
+- "com.microsoft.signalr.StreamBindingFailureMessage.StreamBindingFailureMessage(java.lang.String,java.lang.Exception)"
+methods:
+- "com.microsoft.signalr.StreamBindingFailureMessage.getException()"
+- "com.microsoft.signalr.StreamBindingFailureMessage.getInvocationId()"
+- "com.microsoft.signalr.StreamBindingFailureMessage.getMessageType()"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

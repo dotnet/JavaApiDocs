@@ -4,13 +4,26 @@ fullName: "com.microsoft.signalr"
 name: "com.microsoft.signalr"
 summary: "This package contains the classes for SignalR Java client."
 classes:
+- "com.microsoft.signalr.CancelInvocationMessage"
+- "com.microsoft.signalr.CloseMessage"
+- "com.microsoft.signalr.CompletionMessage"
 - "com.microsoft.signalr.HttpHubConnectionBuilder"
 - "com.microsoft.signalr.HubConnection"
 - "com.microsoft.signalr.HubConnectionBuilder"
 - "com.microsoft.signalr.HubException"
+- "com.microsoft.signalr.HubMessage"
+- "com.microsoft.signalr.InvocationBindingFailureMessage"
+- "com.microsoft.signalr.InvocationMessage"
+- "com.microsoft.signalr.PingMessage"
+- "com.microsoft.signalr.StreamBindingFailureMessage"
+- "com.microsoft.signalr.StreamInvocationMessage"
+- "com.microsoft.signalr.StreamItem"
 - "com.microsoft.signalr.Subscription"
+- "com.microsoft.signalr.TypeReference"
+- "com.microsoft.signalr.UserAgentHelper"
 enums:
 - "com.microsoft.signalr.HubConnectionState"
+- "com.microsoft.signalr.HubMessageType"
 - "com.microsoft.signalr.TransportEnum"
 interfaces:
 - "com.microsoft.signalr.Action"
@@ -22,7 +35,9 @@ interfaces:
 - "com.microsoft.signalr.Action6"
 - "com.microsoft.signalr.Action7"
 - "com.microsoft.signalr.Action8"
+- "com.microsoft.signalr.HubProtocol"
+- "com.microsoft.signalr.InvocationBinder"
 - "com.microsoft.signalr.OnClosedCallback"
 metadata: {}
 package: "com.microsoft.signalr"
-artifact: com.microsoft.signalr:signalr:3.1.3
+artifact: com.microsoft.signalr:signalr:5.0.10

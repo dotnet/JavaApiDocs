@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.HubProtocol"
+fullName: "com.microsoft.signalr.HubProtocol"
+name: "HubProtocol"
+nameWithType: "HubProtocol"
+summary: "A protocol abstraction for communicating with SignalR hubs."
+syntax: "public interface HubProtocol"
+methods:
+- "com.microsoft.signalr.HubProtocol.getName()"
+- "com.microsoft.signalr.HubProtocol.getVersion()"
+- "com.microsoft.signalr.HubProtocol.parseMessages(java.nio.ByteBuffer,com.microsoft.signalr.InvocationBinder)"
+- "com.microsoft.signalr.HubProtocol.writeMessage(com.microsoft.signalr.HubMessage)"
+type: "interface"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

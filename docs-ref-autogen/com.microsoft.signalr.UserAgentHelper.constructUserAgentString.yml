@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString*"
+fullName: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString"
+name: "constructUserAgentString"
+nameWithType: "UserAgentHelper.constructUserAgentString"
+members:
+- uid: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  name: "constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  nameWithType: "UserAgentHelper.constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  parameters:
+  - name: "detailedVersion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "os"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "runtime"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "runtimeVersion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "vendor"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

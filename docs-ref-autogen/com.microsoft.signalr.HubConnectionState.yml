@@ -30,6 +30,10 @@ fields:
   fullName: "com.microsoft.signalr.HubConnectionState.CONNECTED"
   name: "CONNECTED"
   nameWithType: "HubConnectionState.CONNECTED"
+- uid: "com.microsoft.signalr.HubConnectionState.CONNECTING"
+  fullName: "com.microsoft.signalr.HubConnectionState.CONNECTING"
+  name: "CONNECTING"
+  nameWithType: "HubConnectionState.CONNECTING"
 - uid: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
   fullName: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
   name: "DISCONNECTED"
@@ -54,4 +58,4 @@ methods:
     type: "<xref href=\"com.microsoft.signalr.HubConnectionState?alt=com.microsoft.signalr.HubConnectionState&text=HubConnectionState\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.microsoft.signalr"
-artifact: com.microsoft.signalr:signalr:3.1.3
+artifact: com.microsoft.signalr:signalr:5.0.10

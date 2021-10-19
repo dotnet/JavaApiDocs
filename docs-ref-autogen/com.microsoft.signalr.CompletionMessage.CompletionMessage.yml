@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.CompletionMessage.CompletionMessage*"
+fullName: "com.microsoft.signalr.CompletionMessage.CompletionMessage"
+name: "CompletionMessage"
+nameWithType: "CompletionMessage.CompletionMessage"
+members:
+- uid: "com.microsoft.signalr.CompletionMessage.CompletionMessage(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.Object,java.lang.String)"
+  fullName: "com.microsoft.signalr.CompletionMessage.CompletionMessage(Map<String,String> headers, String invocationId, Object result, String error)"
+  name: "CompletionMessage(Map<String,String> headers, String invocationId, Object result, String error)"
+  nameWithType: "CompletionMessage.CompletionMessage(Map<String,String> headers, String invocationId, Object result, String error)"
+  parameters:
+  - name: "headers"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "invocationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "result"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  - name: "error"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CompletionMessage(Map<String,String> headers, String invocationId, Object result, String error)"
+type: "constructor"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10
