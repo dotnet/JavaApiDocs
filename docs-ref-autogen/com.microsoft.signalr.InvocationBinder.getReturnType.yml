@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.InvocationBinder.getReturnType*"
+fullName: "com.microsoft.signalr.InvocationBinder.getReturnType"
+name: "getReturnType"
+nameWithType: "InvocationBinder.getReturnType"
+members:
+- uid: "com.microsoft.signalr.InvocationBinder.getReturnType(java.lang.String)"
+  fullName: "com.microsoft.signalr.InvocationBinder.getReturnType(String invocationId)"
+  name: "getReturnType(String invocationId)"
+  nameWithType: "InvocationBinder.getReturnType(String invocationId)"
+  parameters:
+  - name: "invocationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Type getReturnType(String invocationId)"
+  returns:
+    type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

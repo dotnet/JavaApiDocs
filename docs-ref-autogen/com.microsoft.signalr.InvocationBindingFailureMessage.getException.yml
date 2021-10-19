@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.InvocationBindingFailureMessage.getException*"
+fullName: "com.microsoft.signalr.InvocationBindingFailureMessage.getException"
+name: "getException"
+nameWithType: "InvocationBindingFailureMessage.getException"
+members:
+- uid: "com.microsoft.signalr.InvocationBindingFailureMessage.getException()"
+  fullName: "com.microsoft.signalr.InvocationBindingFailureMessage.getException()"
+  name: "getException()"
+  nameWithType: "InvocationBindingFailureMessage.getException()"
+  syntax: "public Exception getException()"
+  returns:
+    type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

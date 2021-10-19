@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.StreamItem.getItem*"
+fullName: "com.microsoft.signalr.StreamItem.getItem"
+name: "getItem"
+nameWithType: "StreamItem.getItem"
+members:
+- uid: "com.microsoft.signalr.StreamItem.getItem()"
+  fullName: "com.microsoft.signalr.StreamItem.getItem()"
+  name: "getItem()"
+  nameWithType: "StreamItem.getItem()"
+  syntax: "public Object getItem()"
+  returns:
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

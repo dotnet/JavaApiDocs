@@ -1,0 +1,33 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.StreamItem"
+fullName: "com.microsoft.signalr.StreamItem"
+name: "StreamItem"
+nameWithType: "StreamItem"
+inheritances:
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "com.microsoft.signalr.HubMessage.getMessageType()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StreamItem extends HubMessage"
+constructors:
+- "com.microsoft.signalr.StreamItem.StreamItem(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.Object)"
+methods:
+- "com.microsoft.signalr.StreamItem.getHeaders()"
+- "com.microsoft.signalr.StreamItem.getInvocationId()"
+- "com.microsoft.signalr.StreamItem.getItem()"
+- "com.microsoft.signalr.StreamItem.getMessageType()"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

@@ -1,0 +1,9 @@
+### YamlMime:JavaPackage
+uid: "com.microsoft.signalr.messagepack"
+fullName: "com.microsoft.signalr.messagepack"
+name: "com.microsoft.signalr.messagepack"
+classes:
+- "com.microsoft.signalr.messagepack.MessagePackHubProtocol"
+metadata: {}
+package: "com.microsoft.signalr.messagepack"
+artifact: com.microsoft.signalr.messagepack:signalr-messagepack:5.0.10

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubMessage.HubMessage*"
+fullName: "com.microsoft.signalr.HubMessage.HubMessage"
+name: "HubMessage"
+nameWithType: "HubMessage.HubMessage"
+members:
+- uid: "com.microsoft.signalr.HubMessage.HubMessage()"
+  fullName: "com.microsoft.signalr.HubMessage.HubMessage()"
+  name: "HubMessage()"
+  nameWithType: "HubMessage.HubMessage()"
+  syntax: "public HubMessage()"
+type: "constructor"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

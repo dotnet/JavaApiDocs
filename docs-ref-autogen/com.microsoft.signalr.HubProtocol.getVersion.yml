@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.HubProtocol.getVersion*"
+fullName: "com.microsoft.signalr.HubProtocol.getVersion"
+name: "getVersion"
+nameWithType: "HubProtocol.getVersion"
+members:
+- uid: "com.microsoft.signalr.HubProtocol.getVersion()"
+  fullName: "com.microsoft.signalr.HubProtocol.getVersion()"
+  name: "getVersion()"
+  nameWithType: "HubProtocol.getVersion()"
+  syntax: "public abstract int getVersion()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

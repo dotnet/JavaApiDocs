@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.PingMessage.getInstance*"
+fullName: "com.microsoft.signalr.PingMessage.getInstance"
+name: "getInstance"
+nameWithType: "PingMessage.getInstance"
+members:
+- uid: "com.microsoft.signalr.PingMessage.getInstance()"
+  fullName: "com.microsoft.signalr.PingMessage.getInstance()"
+  name: "getInstance()"
+  nameWithType: "PingMessage.getInstance()"
+  syntax: "public static PingMessage getInstance()"
+  returns:
+    type: "<xref href=\"com.microsoft.signalr.PingMessage?alt=com.microsoft.signalr.PingMessage&text=PingMessage\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

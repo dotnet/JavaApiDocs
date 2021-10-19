@@ -1,0 +1,36 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.StreamInvocationMessage"
+fullName: "com.microsoft.signalr.StreamInvocationMessage"
+name: "StreamInvocationMessage"
+nameWithType: "StreamInvocationMessage"
+inheritances:
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.InvocationMessage\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "com.microsoft.signalr.InvocationMessage.getArguments()"
+- "com.microsoft.signalr.InvocationMessage.getHeaders()"
+- "com.microsoft.signalr.InvocationMessage.getInvocationId()"
+- "com.microsoft.signalr.InvocationMessage.getMessageType()"
+- "com.microsoft.signalr.InvocationMessage.getStreamIds()"
+- "com.microsoft.signalr.InvocationMessage.getTarget()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StreamInvocationMessage extends InvocationMessage"
+constructors:
+- "com.microsoft.signalr.StreamInvocationMessage.StreamInvocationMessage(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.String,java.lang.Object[],java.util.Collection<java.lang.String>)"
+methods:
+- "com.microsoft.signalr.StreamInvocationMessage.getMessageType()"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

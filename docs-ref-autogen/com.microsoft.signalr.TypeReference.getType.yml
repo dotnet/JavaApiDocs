@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.TypeReference.getType*"
+fullName: "com.microsoft.signalr.TypeReference<T>.getType"
+name: "getType"
+nameWithType: "TypeReference<T>.getType"
+members:
+- uid: "com.microsoft.signalr.TypeReference.getType()"
+  fullName: "com.microsoft.signalr.TypeReference<T>.getType()"
+  name: "getType()"
+  nameWithType: "TypeReference<T>.getType()"
+  summary: "Gets the referenced type."
+  syntax: "public Type getType()"
+  returns:
+    description: "The Type encapsulated by this TypeReference"
+    type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

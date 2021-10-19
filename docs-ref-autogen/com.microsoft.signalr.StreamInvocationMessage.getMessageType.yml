@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.signalr.StreamInvocationMessage.getMessageType*"
+fullName: "com.microsoft.signalr.StreamInvocationMessage.getMessageType"
+name: "getMessageType"
+nameWithType: "StreamInvocationMessage.getMessageType"
+members:
+- uid: "com.microsoft.signalr.StreamInvocationMessage.getMessageType()"
+  fullName: "com.microsoft.signalr.StreamInvocationMessage.getMessageType()"
+  name: "getMessageType()"
+  nameWithType: "StreamInvocationMessage.getMessageType()"
+  overridden: "com.microsoft.signalr.InvocationMessage.getMessageType()"
+  syntax: "public HubMessageType getMessageType()"
+  returns:
+    type: "<xref href=\"com.microsoft.signalr.HubMessageType?alt=com.microsoft.signalr.HubMessageType&text=HubMessageType\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10
