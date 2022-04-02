@@ -1,0 +1,24 @@
+[
+  {
+    "language": "java",
+    "output_path": "docs-ref-autogen",
+    "packages": [
+      {
+        "packageDownloadUrl": "https://repo1.maven.org/maven2",
+        "packageGroupId": "com.microsoft.signalr",
+        "packageArtifactId": "signalr",
+        "packageVersion": "5.0.10",
+        "input_paths": [],
+        "exclude_paths": []
+      },
+      {
+        "packageDownloadUrl": "https://repo1.maven.org/maven2",
+        "packageGroupId": "com.microsoft.signalr.messagepack",
+        "packageArtifactId": "signalr-messagepack",
+        "packageVersion": "5.0.10",
+        "input_paths": [],
+        "exclude_paths": []
+      }
+    ]
+  }
+]
