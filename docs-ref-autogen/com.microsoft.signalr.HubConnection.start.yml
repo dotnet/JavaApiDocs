@@ -10,6 +10,7 @@ members:
   nameWithType: "HubConnection.start()"
   summary: "Starts a connection to the server."
   syntax: "public Completable start()"
+  desc: "Starts a connection to the server."
   returns:
     description: "A Completable that completes when the connection has been established."
     type: "<xref href=\"io.reactivex.Completable?alt=io.reactivex.Completable&text=Completable\" data-throw-if-not-resolved=\"False\" />"

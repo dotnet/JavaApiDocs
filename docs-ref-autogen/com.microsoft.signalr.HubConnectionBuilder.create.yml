@@ -14,6 +14,7 @@ members:
     name: "url"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static HttpHubConnectionBuilder create(String url)"
+  desc: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
   returns:
     description: "An instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"

@@ -4,8 +4,8 @@ fullName: "com.microsoft.signalr.StreamItem"
 name: "StreamItem"
 nameWithType: "StreamItem"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.signalr.HubMessage.getMessageType()"
 - "java.lang.Object.clone()"

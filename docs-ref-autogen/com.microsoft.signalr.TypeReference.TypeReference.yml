@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.signalr.TypeReference<T>.TypeReference()"
   name: "TypeReference()"
   nameWithType: "TypeReference<T>.TypeReference()"
-  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.TypeReference\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeReference\"></xref>. This class implements Super Type Tokens (Gafter's Gadget) as a way to get a reference to generic types in spite of type erasure since, sadly, `Foo.class` is not valid Java. To get the Type of Class `Foo`, use the following syntax:\n\n```java\nType fooBarType = (new TypeReference>() { }).getType();\n```\n\nTo get the Type of class Foo, use a regular Type Token:\n\n```java\nType fooType = Foo.class;\n```"
+  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.TypeReference\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeReference\"></xref>."
   syntax: "public TypeReference()"
+  desc: "Creates a new instance of <xref uid=\"com.microsoft.signalr.TypeReference\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeReference\"></xref>. This class implements Super Type Tokens (Gafter's Gadget) as a way to get a reference to generic types in spite of type erasure since, sadly, `Foo.class` is not valid Java. To get the Type of Class `Foo`, use the following syntax:\n\n```java\nType fooBarType = (new TypeReference>() { }).getType();\n```\n\nTo get the Type of class Foo, use a regular Type Token:\n\n```java\nType fooType = Foo.class;\n```"
 type: "constructor"
 metadata: {}
 package: "com.microsoft.signalr"

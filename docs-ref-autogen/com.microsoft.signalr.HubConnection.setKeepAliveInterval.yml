@@ -14,6 +14,7 @@ members:
     name: "keepAliveIntervalInMilliseconds"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setKeepAliveInterval(long keepAliveIntervalInMilliseconds)"
+  desc: "Sets the keep alive interval duration."
 type: "method"
 metadata: {}
 package: "com.microsoft.signalr"

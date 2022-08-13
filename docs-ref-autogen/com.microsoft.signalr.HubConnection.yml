@@ -5,7 +5,7 @@ name: "HubConnection"
 nameWithType: "HubConnection"
 summary: "A connection used to invoke hub methods on a SignalR Server."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -56,6 +56,7 @@ methods:
 - "com.microsoft.signalr.HubConnection.start()"
 - "com.microsoft.signalr.HubConnection.stop()"
 type: "class"
+desc: "A connection used to invoke hub methods on a SignalR Server."
 implements:
 - "<xref href=\"java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

@@ -4,9 +4,9 @@ fullName: "com.microsoft.signalr.StreamInvocationMessage"
 name: "StreamInvocationMessage"
 nameWithType: "StreamInvocationMessage"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.signalr.InvocationMessage\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.HubMessage?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.signalr.InvocationMessage?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.signalr.InvocationMessage.getArguments()"
 - "com.microsoft.signalr.InvocationMessage.getHeaders()"

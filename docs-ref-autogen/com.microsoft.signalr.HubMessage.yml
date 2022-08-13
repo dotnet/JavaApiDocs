@@ -5,7 +5,7 @@ name: "HubMessage"
 nameWithType: "HubMessage"
 summary: "A base class for hub messages."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -24,6 +24,7 @@ constructors:
 methods:
 - "com.microsoft.signalr.HubMessage.getMessageType()"
 type: "class"
+desc: "A base class for hub messages."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

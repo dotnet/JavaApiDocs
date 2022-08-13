@@ -14,6 +14,7 @@ members:
     name: "headers"
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public HttpHubConnectionBuilder withHeaders(Map<String,String> headers)"
+  desc: "Sets a collection of Headers for the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> to send with every Http request."
   returns:
     description: "This instance of the HttpHubConnectionBuilder."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "TypeReference<T>.getType()"
   summary: "Gets the referenced type."
   syntax: "public Type getType()"
+  desc: "Gets the referenced type."
   returns:
     description: "The Type encapsulated by this TypeReference"
     type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"

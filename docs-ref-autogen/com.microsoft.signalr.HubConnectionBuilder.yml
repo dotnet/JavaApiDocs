@@ -5,7 +5,7 @@ name: "HubConnectionBuilder"
 nameWithType: "HubConnectionBuilder"
 summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> instances."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -25,6 +25,7 @@ methods:
 - "com.microsoft.signalr.HubConnectionBuilder.build()"
 - "com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)"
 type: "class"
+desc: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> instances."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

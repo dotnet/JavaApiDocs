@@ -14,6 +14,7 @@ members:
     name: "message"
     type: "<xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ByteBuffer writeMessage(HubMessage message)"
+  desc: "Writes the specified <xref uid=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubMessage\"></xref> to a String."
   returns:
     description: "A ByteBuffer representation of the message."
     type: "<xref href=\"java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer\" data-throw-if-not-resolved=\"False\" />"

@@ -5,7 +5,7 @@ name: "TypeReference<T>"
 nameWithType: "TypeReference<T>"
 summary: "A utility for getting a Java Type from a literal generic Class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -26,6 +26,7 @@ methods:
 type: "class"
 typeParameters:
 - name: "T"
+desc: "A utility for getting a Java Type from a literal generic Class."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

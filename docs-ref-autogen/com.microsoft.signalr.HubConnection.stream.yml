@@ -20,6 +20,7 @@ members:
     name: "args"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public Observable<T> <T>stream(Class<T> returnType, String method, Object[] args)"
+  desc: "Invokes a streaming hub method on the server using the specified name and arguments."
   returns:
     description: "An observable that yields the streaming results from the server."
     type: "<xref href=\"io.reactivex.Observable?alt=io.reactivex.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -39,6 +40,7 @@ members:
     name: "args"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public Observable<T> <T>stream(Type returnType, String method, Object[] args)"
+  desc: "Invokes a streaming hub method on the server using the specified name and arguments."
   returns:
     description: "An observable that yields the streaming results from the server."
     type: "<xref href=\"io.reactivex.Observable?alt=io.reactivex.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -10,6 +10,7 @@ members:
   nameWithType: "HubConnection.getKeepAliveInterval()"
   summary: "Gets the keep alive interval."
   syntax: "public long getKeepAliveInterval()"
+  desc: "Gets the keep alive interval."
   returns:
     description: "The interval (specified in milliseconds) between keep alive messages."
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"

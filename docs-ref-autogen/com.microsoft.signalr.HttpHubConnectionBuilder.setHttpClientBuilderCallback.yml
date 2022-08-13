@@ -8,12 +8,13 @@ members:
   fullName: "com.microsoft.signalr.HttpHubConnectionBuilder.setHttpClientBuilderCallback(Action1<OkHttpClient.Builder> configureBuilder)"
   name: "setHttpClientBuilderCallback(Action1<OkHttpClient.Builder> configureBuilder)"
   nameWithType: "HttpHubConnectionBuilder.setHttpClientBuilderCallback(Action1<OkHttpClient.Builder> configureBuilder)"
-  summary: "Sets a method that will be called when constructing the HttpClient to allow customization such as certificate validation, proxies, and cookies. By default the client will have a cookie jar added and a read timeout for LongPolling."
+  summary: "Sets a method that will be called when constructing the HttpClient to allow customization such as certificate validation, proxies, and cookies."
   parameters:
   - description: "Callback for configuring the OkHttpClient.Builder."
     name: "configureBuilder"
     type: "<xref href=\"com.microsoft.signalr.Action1?alt=com.microsoft.signalr.Action1&text=Action1\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"okhttp3.OkHttpClient.Builder?alt=okhttp3.OkHttpClient.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public HttpHubConnectionBuilder setHttpClientBuilderCallback(Action1<OkHttpClient.Builder> configureBuilder)"
+  desc: "Sets a method that will be called when constructing the HttpClient to allow customization such as certificate validation, proxies, and cookies. By default the client will have a cookie jar added and a read timeout for LongPolling."
   returns:
     description: "This instance of the HttpHubConnectionBuilder."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"

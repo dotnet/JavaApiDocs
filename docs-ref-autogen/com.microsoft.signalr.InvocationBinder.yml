@@ -9,6 +9,7 @@ methods:
 - "com.microsoft.signalr.InvocationBinder.getParameterTypes(java.lang.String)"
 - "com.microsoft.signalr.InvocationBinder.getReturnType(java.lang.String)"
 type: "interface"
+desc: "An abstraction for passing around information about method signatures."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

@@ -14,6 +14,7 @@ members:
     name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void remove(String name)"
+  desc: "Removes all handlers associated with the method with the specified method name."
 type: "method"
 metadata: {}
 package: "com.microsoft.signalr"

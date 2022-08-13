@@ -9,9 +9,13 @@ methods:
 - "com.microsoft.signalr.Action3.invoke(T1,T2,T3)"
 type: "interface"
 typeParameters:
-- name: "T1"
-- name: "T2"
-- name: "T3"
+- description: "The type of the first parameter to the callback."
+  name: "T1"
+- description: "The type of the second parameter to the callback."
+  name: "T2"
+- description: "The type of the third parameter to the callback."
+  name: "T3"
+desc: "A callback that takes three parameters."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

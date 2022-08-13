@@ -11,6 +11,7 @@ methods:
 - "com.microsoft.signalr.HubProtocol.parseMessages(java.nio.ByteBuffer,com.microsoft.signalr.InvocationBinder)"
 - "com.microsoft.signalr.HubProtocol.writeMessage(com.microsoft.signalr.HubMessage)"
 type: "interface"
+desc: "A protocol abstraction for communicating with SignalR hubs."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

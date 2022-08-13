@@ -14,6 +14,7 @@ members:
     name: "serverTimeoutInMilliseconds"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setServerTimeout(long serverTimeoutInMilliseconds)"
+  desc: "Sets the server timeout interval for the connection."
 type: "method"
 metadata: {}
 package: "com.microsoft.signalr"

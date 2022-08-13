@@ -8,7 +8,7 @@ members:
   fullName: "com.microsoft.signalr.HubConnection.send(String method, Object[] args)"
   name: "send(String method, Object[] args)"
   nameWithType: "HubConnection.send(String method, Object[] args)"
-  summary: "Invokes a hub method on the server using the specified method name. Does not wait for a response from the receiver."
+  summary: "Invokes a hub method on the server using the specified method name."
   parameters:
   - description: "The name of the server method to invoke."
     name: "method"
@@ -17,6 +17,7 @@ members:
     name: "args"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void send(String method, Object[] args)"
+  desc: "Invokes a hub method on the server using the specified method name. Does not wait for a response from the receiver."
 type: "method"
 metadata: {}
 package: "com.microsoft.signalr"

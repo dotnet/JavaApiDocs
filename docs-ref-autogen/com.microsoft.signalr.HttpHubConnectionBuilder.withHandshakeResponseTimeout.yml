@@ -14,6 +14,7 @@ members:
     name: "timeoutInMilliseconds"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public HttpHubConnectionBuilder withHandshakeResponseTimeout(long timeoutInMilliseconds)"
+  desc: "Sets the duration the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> should wait for a Handshake Response from the server."
   returns:
     description: "This instance of the HttpHubConnectionBuilder."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"

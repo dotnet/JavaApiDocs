@@ -5,10 +5,10 @@ name: "HubException"
 nameWithType: "HubException"
 summary: "An exception thrown when the server fails to invoke a Hub method."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Throwable\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Exception\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.RuntimeException\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Throwable?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Exception?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.RuntimeException?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -39,6 +39,7 @@ constructors:
 - "com.microsoft.signalr.HubException.HubException(java.lang.String)"
 - "com.microsoft.signalr.HubException.HubException(java.lang.String,java.lang.Exception)"
 type: "class"
+desc: "An exception thrown when the server fails to invoke a Hub method."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

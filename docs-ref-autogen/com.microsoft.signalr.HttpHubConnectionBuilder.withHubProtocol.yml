@@ -14,6 +14,7 @@ members:
     name: "protocol"
     type: "<xref href=\"com.microsoft.signalr.HubProtocol?alt=com.microsoft.signalr.HubProtocol&text=HubProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public HttpHubConnectionBuilder withHubProtocol(HubProtocol protocol)"
+  desc: "Sets the <xref uid=\"com.microsoft.signalr.HubProtocol\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubProtocol\"></xref> to be used by the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
   returns:
     description: "This instance of the HttpHubConnectionBuilder."
     type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "HubConnection.stop()"
   summary: "Stops a connection to the server."
   syntax: "public Completable stop()"
+  desc: "Stops a connection to the server."
   returns:
     description: "A Completable that completes when the connection has been stopped."
     type: "<xref href=\"io.reactivex.Completable?alt=io.reactivex.Completable&text=Completable\" data-throw-if-not-resolved=\"False\" />"

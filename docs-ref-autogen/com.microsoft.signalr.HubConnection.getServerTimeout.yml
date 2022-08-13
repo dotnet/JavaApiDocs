@@ -10,6 +10,7 @@ members:
   nameWithType: "HubConnection.getServerTimeout()"
   summary: "Gets the server timeout duration."
   syntax: "public long getServerTimeout()"
+  desc: "Gets the server timeout duration."
   returns:
     description: "The server timeout duration (specified in milliseconds)."
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"

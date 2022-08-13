@@ -17,6 +17,7 @@ members:
     name: "binder"
     type: "<xref href=\"com.microsoft.signalr.InvocationBinder?alt=com.microsoft.signalr.InvocationBinder&text=InvocationBinder\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract List<HubMessage> parseMessages(ByteBuffer message, InvocationBinder binder)"
+  desc: "Creates a new list of <xref uid=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubMessage\"></xref>s."
   returns:
     description: "A list of <xref uid=\"com.microsoft.signalr.HubMessage\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubMessage\"></xref>s."
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />&gt;"

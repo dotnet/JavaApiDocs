@@ -5,7 +5,7 @@ name: "Subscription"
 nameWithType: "Subscription"
 summary: "Represents the registration of a handler for a client method."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -22,6 +22,7 @@ syntax: "public class Subscription"
 methods:
 - "com.microsoft.signalr.Subscription.unsubscribe()"
 type: "class"
+desc: "Represents the registration of a handler for a client method."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10
