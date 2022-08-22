@@ -1,0 +1,73 @@
+### YamlMime:TableOfContent
+- uid: com.microsoft.signalr
+  name: com.microsoft.signalr
+  items:
+  - uid: com.microsoft.signalr.Action
+    name: Action
+  - uid: com.microsoft.signalr.Action1
+    name: Action1
+  - uid: com.microsoft.signalr.Action2
+    name: Action2
+  - uid: com.microsoft.signalr.Action3
+    name: Action3
+  - uid: com.microsoft.signalr.Action4
+    name: Action4
+  - uid: com.microsoft.signalr.Action5
+    name: Action5
+  - uid: com.microsoft.signalr.Action6
+    name: Action6
+  - uid: com.microsoft.signalr.Action7
+    name: Action7
+  - uid: com.microsoft.signalr.Action8
+    name: Action8
+  - uid: com.microsoft.signalr.CancelInvocationMessage
+    name: CancelInvocationMessage
+  - uid: com.microsoft.signalr.CloseMessage
+    name: CloseMessage
+  - uid: com.microsoft.signalr.CompletionMessage
+    name: CompletionMessage
+  - uid: com.microsoft.signalr.HttpHubConnectionBuilder
+    name: HttpHubConnectionBuilder
+  - uid: com.microsoft.signalr.HubConnection
+    name: HubConnection
+  - uid: com.microsoft.signalr.HubConnectionBuilder
+    name: HubConnectionBuilder
+  - uid: com.microsoft.signalr.HubConnectionState
+    name: HubConnectionState
+  - uid: com.microsoft.signalr.HubException
+    name: HubException
+  - uid: com.microsoft.signalr.HubMessage
+    name: HubMessage
+  - uid: com.microsoft.signalr.HubMessageType
+    name: HubMessageType
+  - uid: com.microsoft.signalr.HubProtocol
+    name: HubProtocol
+  - uid: com.microsoft.signalr.InvocationBinder
+    name: InvocationBinder
+  - uid: com.microsoft.signalr.InvocationBindingFailureMessage
+    name: InvocationBindingFailureMessage
+  - uid: com.microsoft.signalr.InvocationMessage
+    name: InvocationMessage
+  - uid: com.microsoft.signalr.OnClosedCallback
+    name: OnClosedCallback
+  - uid: com.microsoft.signalr.PingMessage
+    name: PingMessage
+  - uid: com.microsoft.signalr.StreamBindingFailureMessage
+    name: StreamBindingFailureMessage
+  - uid: com.microsoft.signalr.StreamInvocationMessage
+    name: StreamInvocationMessage
+  - uid: com.microsoft.signalr.StreamItem
+    name: StreamItem
+  - uid: com.microsoft.signalr.Subscription
+    name: Subscription
+  - uid: com.microsoft.signalr.TransportEnum
+    name: TransportEnum
+  - uid: com.microsoft.signalr.TypeReference
+    name: TypeReference
+  - uid: com.microsoft.signalr.UserAgentHelper
+    name: UserAgentHelper
+- uid: com.microsoft.signalr.messagepack
+  name: com.microsoft.signalr.messagepack
+  items:
+  - uid: com.microsoft.signalr.messagepack.MessagePackHubProtocol
+    name: MessagePackHubProtocol

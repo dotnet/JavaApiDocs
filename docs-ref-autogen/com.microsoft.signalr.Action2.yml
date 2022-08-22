@@ -1,0 +1,30 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.Action2"
+fullName: "com.microsoft.signalr.Action2<T1,T2>"
+name: "Action2<T1,T2>"
+nameWithType: "Action2<T1,T2>"
+summary: "A callback that takes two parameters."
+syntax: "public interface Action2<T1,T2>"
+methods:
+- uid: "com.microsoft.signalr.Action2.invoke(T1,T2)"
+  fullName: "com.microsoft.signalr.Action2<T1,T2>.invoke(T1 param1, T2 param2)"
+  name: "invoke(T1 param1, T2 param2)"
+  nameWithType: "Action2<T1,T2>.invoke(T1 param1, T2 param2)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "param1"
+    type: "<xref href=\"T1?alt=T1&text=T1\" data-throw-if-not-resolved=\"False\" />"
+  - name: "param2"
+    type: "<xref href=\"T2?alt=T2&text=T2\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void invoke(T1 param1, T2 param2)"
+type: "interface"
+typeParameters:
+- description: "The type of the first parameter to the callback."
+  name: "T1"
+- description: "The type of the second parameter to the callback."
+  name: "T2"
+desc: "A callback that takes two parameters."
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

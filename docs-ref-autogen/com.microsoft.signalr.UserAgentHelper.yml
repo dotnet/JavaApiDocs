@@ -1,0 +1,69 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.UserAgentHelper"
+fullName: "com.microsoft.signalr.UserAgentHelper"
+name: "UserAgentHelper"
+nameWithType: "UserAgentHelper"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class UserAgentHelper"
+constructors:
+- uid: "com.microsoft.signalr.UserAgentHelper.UserAgentHelper()"
+  fullName: "com.microsoft.signalr.UserAgentHelper.UserAgentHelper()"
+  name: "UserAgentHelper()"
+  nameWithType: "UserAgentHelper.UserAgentHelper()"
+  syntax: "public UserAgentHelper()"
+methods:
+- uid: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+  fullName: "com.microsoft.signalr.UserAgentHelper.constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  name: "constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  nameWithType: "UserAgentHelper.constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "detailedVersion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "os"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "runtime"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "runtimeVersion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "vendor"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String constructUserAgentString(String detailedVersion, String os, String runtime, String runtimeVersion, String vendor)"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.UserAgentHelper.createUserAgentString()"
+  fullName: "com.microsoft.signalr.UserAgentHelper.createUserAgentString()"
+  name: "createUserAgentString()"
+  nameWithType: "UserAgentHelper.createUserAgentString()"
+  modifiers:
+  - "static"
+  syntax: "public static String createUserAgentString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.UserAgentHelper.getUserAgentName()"
+  fullName: "com.microsoft.signalr.UserAgentHelper.getUserAgentName()"
+  name: "getUserAgentName()"
+  nameWithType: "UserAgentHelper.getUserAgentName()"
+  modifiers:
+  - "static"
+  syntax: "public static String getUserAgentName()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

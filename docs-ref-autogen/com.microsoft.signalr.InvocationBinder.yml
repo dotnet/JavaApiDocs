@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.InvocationBinder"
+fullName: "com.microsoft.signalr.InvocationBinder"
+name: "InvocationBinder"
+nameWithType: "InvocationBinder"
+summary: "An abstraction for passing around information about method signatures."
+syntax: "public interface InvocationBinder"
+methods:
+- uid: "com.microsoft.signalr.InvocationBinder.getParameterTypes(java.lang.String)"
+  fullName: "com.microsoft.signalr.InvocationBinder.getParameterTypes(String methodName)"
+  name: "getParameterTypes(String methodName)"
+  nameWithType: "InvocationBinder.getParameterTypes(String methodName)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "methodName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract List<Type> getParameterTypes(String methodName)"
+  returns:
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.signalr.InvocationBinder.getReturnType(java.lang.String)"
+  fullName: "com.microsoft.signalr.InvocationBinder.getReturnType(String invocationId)"
+  name: "getReturnType(String invocationId)"
+  nameWithType: "InvocationBinder.getReturnType(String invocationId)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "invocationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Type getReturnType(String invocationId)"
+  returns:
+    type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An abstraction for passing around information about method signatures."
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

@@ -1,0 +1,66 @@
+### YamlMime:JavaEnum
+uid: "com.microsoft.signalr.HubConnectionState"
+fullName: "com.microsoft.signalr.HubConnectionState"
+name: "HubConnectionState"
+nameWithType: "HubConnectionState"
+summary: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum HubConnectionState extends Enum<HubConnectionState>"
+fields:
+- uid: "com.microsoft.signalr.HubConnectionState.CONNECTED"
+  fullName: "com.microsoft.signalr.HubConnectionState.CONNECTED"
+  name: "CONNECTED"
+  nameWithType: "HubConnectionState.CONNECTED"
+- uid: "com.microsoft.signalr.HubConnectionState.CONNECTING"
+  fullName: "com.microsoft.signalr.HubConnectionState.CONNECTING"
+  name: "CONNECTING"
+  nameWithType: "HubConnectionState.CONNECTING"
+- uid: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
+  fullName: "com.microsoft.signalr.HubConnectionState.DISCONNECTED"
+  name: "DISCONNECTED"
+  nameWithType: "HubConnectionState.DISCONNECTED"
+methods:
+- uid: "com.microsoft.signalr.HubConnectionState.valueOf(java.lang.String)"
+  fullName: "com.microsoft.signalr.HubConnectionState.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "HubConnectionState.valueOf(String name)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HubConnectionState valueOf(String name)"
+  returns:
+    type: "<xref href=\"com.microsoft.signalr.HubConnectionState?alt=com.microsoft.signalr.HubConnectionState&text=HubConnectionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.HubConnectionState.values()"
+  fullName: "com.microsoft.signalr.HubConnectionState.values()"
+  name: "values()"
+  nameWithType: "HubConnectionState.values()"
+  modifiers:
+  - "static"
+  syntax: "public static HubConnectionState[] values()"
+  returns:
+    type: "<xref href=\"com.microsoft.signalr.HubConnectionState?alt=com.microsoft.signalr.HubConnectionState&text=HubConnectionState\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Indicates the state of the <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10

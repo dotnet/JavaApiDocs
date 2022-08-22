@@ -1,0 +1,69 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol"
+fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol"
+name: "MessagePackHubProtocol"
+nameWithType: "MessagePackHubProtocol"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class MessagePackHubProtocol implements HubProtocol"
+constructors:
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol()"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol()"
+  name: "MessagePackHubProtocol()"
+  nameWithType: "MessagePackHubProtocol.MessagePackHubProtocol()"
+  syntax: "public MessagePackHubProtocol()"
+methods:
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.getName()"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.getName()"
+  name: "getName()"
+  nameWithType: "MessagePackHubProtocol.getName()"
+  syntax: "public String getName()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.getVersion()"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.getVersion()"
+  name: "getVersion()"
+  nameWithType: "MessagePackHubProtocol.getVersion()"
+  syntax: "public int getVersion()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.parseMessages(java.nio.ByteBuffer,com.microsoft.signalr.InvocationBinder)"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.parseMessages(ByteBuffer payload, InvocationBinder binder)"
+  name: "parseMessages(ByteBuffer payload, InvocationBinder binder)"
+  nameWithType: "MessagePackHubProtocol.parseMessages(ByteBuffer payload, InvocationBinder binder)"
+  parameters:
+  - name: "payload"
+    type: "<xref href=\"java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer\" data-throw-if-not-resolved=\"False\" />"
+  - name: "binder"
+    type: "<xref href=\"com.microsoft.signalr.InvocationBinder?alt=com.microsoft.signalr.InvocationBinder&text=InvocationBinder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public List<HubMessage> parseMessages(ByteBuffer payload, InvocationBinder binder)"
+  returns:
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.writeMessage(com.microsoft.signalr.HubMessage)"
+  fullName: "com.microsoft.signalr.messagepack.MessagePackHubProtocol.writeMessage(HubMessage hubMessage)"
+  name: "writeMessage(HubMessage hubMessage)"
+  nameWithType: "MessagePackHubProtocol.writeMessage(HubMessage hubMessage)"
+  parameters:
+  - name: "hubMessage"
+    type: "<xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ByteBuffer writeMessage(HubMessage hubMessage)"
+  returns:
+    type: "<xref href=\"java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+implements:
+- "<xref href=\"com.microsoft.signalr.HubProtocol?alt=com.microsoft.signalr.HubProtocol&text=HubProtocol\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.signalr.messagepack"
+artifact: com.microsoft.signalr.messagepack:signalr-messagepack:5.0.10

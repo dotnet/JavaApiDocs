@@ -1,0 +1,34 @@
+### YamlMime:JavaType
+uid: "com.microsoft.signalr.Subscription"
+fullName: "com.microsoft.signalr.Subscription"
+name: "Subscription"
+nameWithType: "Subscription"
+summary: "Represents the registration of a handler for a client method."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class Subscription"
+methods:
+- uid: "com.microsoft.signalr.Subscription.unsubscribe()"
+  fullName: "com.microsoft.signalr.Subscription.unsubscribe()"
+  name: "unsubscribe()"
+  nameWithType: "Subscription.unsubscribe()"
+  summary: "Removes the client method handler represented by this subscription."
+  syntax: "public void unsubscribe()"
+  desc: "Removes the client method handler represented by this subscription."
+type: "class"
+desc: "Represents the registration of a handler for a client method."
+metadata: {}
+package: "com.microsoft.signalr"
+artifact: com.microsoft.signalr:signalr:5.0.10
