@@ -6,8 +6,15 @@ nameWithType: "Action"
 summary: "A callback that takes no parameters."
 syntax: "public interface Action"
 methods:
-- "com.microsoft.signalr.Action.invoke()"
+- uid: "com.microsoft.signalr.Action.invoke()"
+  fullName: "com.microsoft.signalr.Action.invoke()"
+  name: "invoke()"
+  nameWithType: "Action.invoke()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void invoke()"
 type: "interface"
+desc: "A callback that takes no parameters."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

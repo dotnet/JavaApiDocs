@@ -5,8 +5,8 @@ name: "TransportEnum"
 nameWithType: "TransportEnum"
 summary: "Used to specify the transport the client will use."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -43,6 +43,8 @@ methods:
   fullName: "com.microsoft.signalr.TransportEnum.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "TransportEnum.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -53,9 +55,12 @@ methods:
   fullName: "com.microsoft.signalr.TransportEnum.values()"
   name: "values()"
   nameWithType: "TransportEnum.values()"
+  modifiers:
+  - "static"
   syntax: "public static TransportEnum[] values()"
   returns:
     type: "<xref href=\"com.microsoft.signalr.TransportEnum?alt=com.microsoft.signalr.TransportEnum&text=TransportEnum\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Used to specify the transport the client will use."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

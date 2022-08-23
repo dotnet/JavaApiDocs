@@ -1,0 +1,514 @@
+{
+  "redirections": [
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action1.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action2.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action3.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action4.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action5.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action5",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action6.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action6",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action7.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Action8.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Action8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CancelInvocationMessage.CancelInvocationMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CancelInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CancelInvocationMessage.getHeaders.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CancelInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CancelInvocationMessage.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CancelInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CancelInvocationMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CancelInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CloseMessage.CloseMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CloseMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CloseMessage.getAllowReconnect.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CloseMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CloseMessage.getError.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CloseMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CloseMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CloseMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.CompletionMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.getError.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.getHeaders.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.CompletionMessage.getResult.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.CompletionMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.HttpHubConnectionBuilder.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.build.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.setHttpClientBuilderCallback.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.shouldSkipNegotiate.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withAccessTokenProvider.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withHandshakeResponseTimeout.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withHeader.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withHeaders.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withHubProtocol.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HttpHubConnectionBuilder.withTransport.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HttpHubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.HubConnection.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.close.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.getConnectionId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.getConnectionState.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.getKeepAliveInterval.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.getServerTimeout.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.on.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.onClosed.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.remove.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.send.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.setBaseUrl.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.setKeepAliveInterval.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.setServerTimeout.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.start.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.stop.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnection.stream.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnectionBuilder.build.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubConnectionBuilder.create.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubConnectionBuilder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubException.HubException.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubException",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubMessage.HubMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubProtocol.getName.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubProtocol.getVersion.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubProtocol.parseMessages.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.HubProtocol.writeMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.HubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBinder.getParameterTypes.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBinder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBinder.getReturnType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBinder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBindingFailureMessage.InvocationBindingFailureMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBindingFailureMessage.getException.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBindingFailureMessage.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBindingFailureMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationBindingFailureMessage.getTarget.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.InvocationMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getArguments.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getHeaders.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getStreamIds.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.InvocationMessage.getTarget.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.InvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.OnClosedCallback.invoke.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.OnClosedCallback",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.PingMessage.PingMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.PingMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.PingMessage.getInstance.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.PingMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.PingMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.PingMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamBindingFailureMessage.StreamBindingFailureMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamBindingFailureMessage.getException.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamBindingFailureMessage.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamBindingFailureMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamBindingFailureMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamInvocationMessage.StreamInvocationMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamInvocationMessage.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamInvocationMessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamItem.StreamItem.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamItem",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamItem.getHeaders.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamItem",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamItem.getInvocationId.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamItem",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamItem.getItem.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamItem",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.StreamItem.getMessageType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.StreamItem",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Subscription.Subscription.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Subscription",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.Subscription.unsubscribe.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.Subscription",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.TypeReference.TypeReference.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.TypeReference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.TypeReference.getType.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.TypeReference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.UserAgentHelper.UserAgentHelper.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.UserAgentHelper",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.UserAgentHelper.constructUserAgentString.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.UserAgentHelper",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.UserAgentHelper.createUserAgentString.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.UserAgentHelper",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.UserAgentHelper.getUserAgentName.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.UserAgentHelper",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.messagepack.MessagePackHubProtocol.MessagePackHubProtocol.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.messagepack.MessagePackHubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.messagepack.MessagePackHubProtocol.getName.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.messagepack.MessagePackHubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.messagepack.MessagePackHubProtocol.getVersion.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.messagepack.MessagePackHubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.messagepack.MessagePackHubProtocol.parseMessages.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.messagepack.MessagePackHubProtocol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.signalr.messagepack.MessagePackHubProtocol.writeMessage.yml",
+      "redirect_url": "/java/api/com.microsoft.signalr.messagepack.MessagePackHubProtocol",
+      "redirect_document_id": false
+    }
+  ]
+}
