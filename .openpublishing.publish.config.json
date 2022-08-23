@@ -53,7 +53,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
@@ -77,5 +77,8 @@
   ],
   "docs_build_engine": {
     "name": "docfx_v3"
-  }
+  },
+  "redirection_files": [
+    ".openpublishing.redirection.member-page-movement.json"
+  ]
 }

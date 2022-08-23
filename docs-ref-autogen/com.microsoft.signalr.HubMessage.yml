@@ -5,7 +5,7 @@ name: "HubMessage"
 nameWithType: "HubMessage"
 summary: "A base class for hub messages."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,10 +20,23 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class HubMessage"
 constructors:
-- "com.microsoft.signalr.HubMessage.HubMessage()"
+- uid: "com.microsoft.signalr.HubMessage.HubMessage()"
+  fullName: "com.microsoft.signalr.HubMessage.HubMessage()"
+  name: "HubMessage()"
+  nameWithType: "HubMessage.HubMessage()"
+  syntax: "public HubMessage()"
 methods:
-- "com.microsoft.signalr.HubMessage.getMessageType()"
+- uid: "com.microsoft.signalr.HubMessage.getMessageType()"
+  fullName: "com.microsoft.signalr.HubMessage.getMessageType()"
+  name: "getMessageType()"
+  nameWithType: "HubMessage.getMessageType()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HubMessageType getMessageType()"
+  returns:
+    type: "<xref href=\"com.microsoft.signalr.HubMessageType?alt=com.microsoft.signalr.HubMessageType&text=HubMessageType\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "A base class for hub messages."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

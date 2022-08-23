@@ -5,7 +5,7 @@ name: "HubConnectionBuilder"
 nameWithType: "HubConnectionBuilder"
 summary: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> instances."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -20,11 +20,42 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class HubConnectionBuilder"
 constructors:
-- "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
+- uid: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
+  fullName: "com.microsoft.signalr.HubConnectionBuilder.HubConnectionBuilder()"
+  name: "HubConnectionBuilder()"
+  nameWithType: "HubConnectionBuilder.HubConnectionBuilder()"
+  syntax: "public HubConnectionBuilder()"
 methods:
-- "com.microsoft.signalr.HubConnectionBuilder.build()"
-- "com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)"
+- uid: "com.microsoft.signalr.HubConnectionBuilder.build()"
+  fullName: "com.microsoft.signalr.HubConnectionBuilder.build()"
+  name: "build()"
+  nameWithType: "HubConnectionBuilder.build()"
+  summary: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HubConnection build()"
+  desc: "Builds a new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
+  returns:
+    description: "A new instance of <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref>."
+    type: "<xref href=\"com.microsoft.signalr.HubConnection?alt=com.microsoft.signalr.HubConnection&text=HubConnection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.signalr.HubConnectionBuilder.create(java.lang.String)"
+  fullName: "com.microsoft.signalr.HubConnectionBuilder.create(String url)"
+  name: "create(String url)"
+  nameWithType: "HubConnectionBuilder.create(String url)"
+  summary: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The URL of the SignalR hub to connect to."
+    name: "url"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HttpHubConnectionBuilder create(String url)"
+  desc: "Creates a new instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
+  returns:
+    description: "An instance of <xref uid=\"com.microsoft.signalr.HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpHubConnectionBuilder\"></xref>."
+    type: "<xref href=\"com.microsoft.signalr.HttpHubConnectionBuilder?alt=com.microsoft.signalr.HttpHubConnectionBuilder&text=HttpHubConnectionBuilder\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "A builder for configuring <xref uid=\"com.microsoft.signalr.HubConnection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HubConnection\"></xref> instances."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

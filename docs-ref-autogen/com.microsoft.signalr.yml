@@ -38,6 +38,7 @@ interfaces:
 - "com.microsoft.signalr.HubProtocol"
 - "com.microsoft.signalr.InvocationBinder"
 - "com.microsoft.signalr.OnClosedCallback"
+desc: "This package contains the classes for SignalR Java client."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10

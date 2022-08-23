@@ -3,11 +3,21 @@ uid: "com.microsoft.signalr.OnClosedCallback"
 fullName: "com.microsoft.signalr.OnClosedCallback"
 name: "OnClosedCallback"
 nameWithType: "OnClosedCallback"
-summary: "A callback to create and register on a HubConnections OnClosed method."
+summary: "A callback to create and register on a Hub<wbr>Connections On<wbr>Closed method."
 syntax: "public interface OnClosedCallback"
 methods:
-- "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
+- uid: "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
+  fullName: "com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)"
+  name: "invoke(Exception exception)"
+  nameWithType: "OnClosedCallback.invoke(Exception exception)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "exception"
+    type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void invoke(Exception exception)"
 type: "interface"
+desc: "A callback to create and register on a HubConnections OnClosed method."
 metadata: {}
 package: "com.microsoft.signalr"
 artifact: com.microsoft.signalr:signalr:5.0.10
