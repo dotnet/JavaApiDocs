@@ -23,7 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public final class StreamItem extends HubMessage"
+syntax: "public final class **StreamItem**</br> extends <xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.signalr.StreamItem.StreamItem(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.Object)"
   fullName: "com.microsoft.signalr.StreamItem.StreamItem(Map<String,String> headers, String invocationId, Object item)"

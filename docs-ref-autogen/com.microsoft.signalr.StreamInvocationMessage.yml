@@ -29,7 +29,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public final class StreamInvocationMessage extends InvocationMessage"
+syntax: "public final class **StreamInvocationMessage**</br> extends <xref href=\"com.microsoft.signalr.InvocationMessage?alt=com.microsoft.signalr.InvocationMessage&text=InvocationMessage\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.signalr.StreamInvocationMessage.StreamInvocationMessage(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.String,java.lang.Object[],java.util.Collection<java.lang.String>)"
   fullName: "com.microsoft.signalr.StreamInvocationMessage.StreamInvocationMessage(Map<String,String> headers, String invocationId, String target, Object[] args, Collection<String> streamIds)"

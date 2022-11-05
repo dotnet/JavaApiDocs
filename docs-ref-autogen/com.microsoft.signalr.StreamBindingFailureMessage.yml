@@ -23,7 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class StreamBindingFailureMessage extends HubMessage"
+syntax: "public class **StreamBindingFailureMessage**</br> extends <xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.signalr.StreamBindingFailureMessage.StreamBindingFailureMessage(java.lang.String,java.lang.Exception)"
   fullName: "com.microsoft.signalr.StreamBindingFailureMessage.StreamBindingFailureMessage(String invocationId, Exception exception)"

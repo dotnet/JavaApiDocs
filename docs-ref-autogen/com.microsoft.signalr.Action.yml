@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action"
 name: "Action"
 nameWithType: "Action"
 summary: "A callback that takes no parameters."
-syntax: "public interface Action"
+syntax: "public interface **Action**"
 methods:
 - uid: "com.microsoft.signalr.Action.invoke()"
   fullName: "com.microsoft.signalr.Action.invoke()"

@@ -23,7 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class InvocationMessage extends HubMessage"
+syntax: "public class **InvocationMessage**</br> extends <xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.signalr.InvocationMessage.InvocationMessage(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.String,java.lang.Object[],java.util.Collection<java.lang.String>)"
   fullName: "com.microsoft.signalr.InvocationMessage.InvocationMessage(Map<String,String> headers, String invocationId, String target, Object[] args, Collection<String> streamIds)"

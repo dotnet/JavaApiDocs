@@ -23,7 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class InvocationBindingFailureMessage extends HubMessage"
+syntax: "public class **InvocationBindingFailureMessage**</br> extends <xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.signalr.InvocationBindingFailureMessage.InvocationBindingFailureMessage(java.lang.String,java.lang.String,java.lang.Exception)"
   fullName: "com.microsoft.signalr.InvocationBindingFailureMessage.InvocationBindingFailureMessage(String invocationId, String target, Exception exception)"

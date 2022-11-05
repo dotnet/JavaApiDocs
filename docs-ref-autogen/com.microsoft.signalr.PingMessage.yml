@@ -23,7 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class PingMessage extends HubMessage"
+syntax: "public class **PingMessage**</br> extends <xref href=\"com.microsoft.signalr.HubMessage?alt=com.microsoft.signalr.HubMessage&text=HubMessage\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.microsoft.signalr.PingMessage.getInstance()"
   fullName: "com.microsoft.signalr.PingMessage.getInstance()"
