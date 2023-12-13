@@ -87,7 +87,7 @@
     "globalMetadata": {
       "feedback_system": "Standard",
       "uhfHeaderId": "MSDocsHeader-AspNet",
-      "breadcrumb_path": "/java/signalRbreadcrumb/json.yml",
+      "breadcrumb_path": "/java/signalRbreadcrumb/toc.json",
       "ms.author":"riande"
     },
     "fileMetadata": {},
