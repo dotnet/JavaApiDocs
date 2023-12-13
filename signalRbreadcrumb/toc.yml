@@ -1,6 +1,12 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: .NET
+  tocHref: /java/
+  topicHref: /dotnet/index
   items:
-
+  - name: ASP.NET Core
+    tocHref: /java/
+    topicHref: /aspnet/core/index
+    items:
+    - name: JAVA API browser
+      tocHref: /java/
+      topicHref: /java/api/index
 
