@@ -31,7 +31,7 @@
       },
       {
         "files": [
-          "**/*.yml"
+          "**/toc.yml"
         ],
         "src": "signalRbreadcrumb",
         "dest": "signalRbreadcrumb",
