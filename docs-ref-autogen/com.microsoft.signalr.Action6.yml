@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>"
 name: "Action6<T1,T2,T3,T4,T5,T6>"
 nameWithType: "Action6<T1,T2,T3,T4,T5,T6>"
 summary: "A callback that takes six parameters."
-syntax: "public interface Action6<T1,T2,T3,T4,T5,T6>"
+syntax: "public interface **Action6<T1,T2,T3,T4,T5,T6>**"
 methods:
 - uid: "com.microsoft.signalr.Action6.invoke(T1,T2,T3,T4,T5,T6)"
   fullName: "com.microsoft.signalr.Action6<T1,T2,T3,T4,T5,T6>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6)"

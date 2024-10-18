@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action1<T1>"
 name: "Action1<T1>"
 nameWithType: "Action1<T1>"
 summary: "A callback that takes one parameter."
-syntax: "public interface Action1<T1>"
+syntax: "public interface **Action1<T1>**"
 methods:
 - uid: "com.microsoft.signalr.Action1.invoke(T1)"
   fullName: "com.microsoft.signalr.Action1<T1>.invoke(T1 param1)"
