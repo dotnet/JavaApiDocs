@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.InvocationBinder"
 name: "InvocationBinder"
 nameWithType: "InvocationBinder"
 summary: "An abstraction for passing around information about method signatures."
-syntax: "public interface InvocationBinder"
+syntax: "public interface **InvocationBinder**"
 methods:
 - uid: "com.microsoft.signalr.InvocationBinder.getParameterTypes(java.lang.String)"
   fullName: "com.microsoft.signalr.InvocationBinder.getParameterTypes(String methodName)"
