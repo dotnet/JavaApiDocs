@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
 name: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
 nameWithType: "Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
 summary: "A callback that takes eight parameters."
-syntax: "public interface Action8<T1,T2,T3,T4,T5,T6,T7,T8>"
+syntax: "public interface **Action8<T1,T2,T3,T4,T5,T6,T7,T8>**"
 methods:
 - uid: "com.microsoft.signalr.Action8.invoke(T1,T2,T3,T4,T5,T6,T7,T8)"
   fullName: "com.microsoft.signalr.Action8<T1,T2,T3,T4,T5,T6,T7,T8>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7, T8 param8)"

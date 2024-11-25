@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>"
 name: "Action7<T1,T2,T3,T4,T5,T6,T7>"
 nameWithType: "Action7<T1,T2,T3,T4,T5,T6,T7>"
 summary: "A callback that takes seven parameters."
-syntax: "public interface Action7<T1,T2,T3,T4,T5,T6,T7>"
+syntax: "public interface **Action7<T1,T2,T3,T4,T5,T6,T7>**"
 methods:
 - uid: "com.microsoft.signalr.Action7.invoke(T1,T2,T3,T4,T5,T6,T7)"
   fullName: "com.microsoft.signalr.Action7<T1,T2,T3,T4,T5,T6,T7>.invoke(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5, T6 param6, T7 param7)"
