@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action4<T1,T2,T3,T4>"
 name: "Action4<T1,T2,T3,T4>"
 nameWithType: "Action4<T1,T2,T3,T4>"
 summary: "A callback that takes four parameters."
-syntax: "public interface Action4<T1,T2,T3,T4>"
+syntax: "public interface **Action4<T1,T2,T3,T4>**"
 methods:
 - uid: "com.microsoft.signalr.Action4.invoke(T1,T2,T3,T4)"
   fullName: "com.microsoft.signalr.Action4<T1,T2,T3,T4>.invoke(T1 param1, T2 param2, T3 param3, T4 param4)"

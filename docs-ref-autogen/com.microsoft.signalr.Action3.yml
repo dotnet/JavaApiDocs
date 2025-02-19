@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action3<T1,T2,T3>"
 name: "Action3<T1,T2,T3>"
 nameWithType: "Action3<T1,T2,T3>"
 summary: "A callback that takes three parameters."
-syntax: "public interface Action3<T1,T2,T3>"
+syntax: "public interface **Action3<T1,T2,T3>**"
 methods:
 - uid: "com.microsoft.signalr.Action3.invoke(T1,T2,T3)"
   fullName: "com.microsoft.signalr.Action3<T1,T2,T3>.invoke(T1 param1, T2 param2, T3 param3)"

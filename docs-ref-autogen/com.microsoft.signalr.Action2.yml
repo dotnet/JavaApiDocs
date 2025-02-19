@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.Action2<T1,T2>"
 name: "Action2<T1,T2>"
 nameWithType: "Action2<T1,T2>"
 summary: "A callback that takes two parameters."
-syntax: "public interface Action2<T1,T2>"
+syntax: "public interface **Action2<T1,T2>**"
 methods:
 - uid: "com.microsoft.signalr.Action2.invoke(T1,T2)"
   fullName: "com.microsoft.signalr.Action2<T1,T2>.invoke(T1 param1, T2 param2)"
