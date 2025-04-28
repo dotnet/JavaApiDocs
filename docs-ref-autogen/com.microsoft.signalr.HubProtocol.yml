@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.HubProtocol"
 name: "HubProtocol"
 nameWithType: "HubProtocol"
 summary: "A protocol abstraction for communicating with SignalR hubs."
-syntax: "public interface HubProtocol"
+syntax: "public interface **HubProtocol**"
 methods:
 - uid: "com.microsoft.signalr.HubProtocol.getName()"
   fullName: "com.microsoft.signalr.HubProtocol.getName()"

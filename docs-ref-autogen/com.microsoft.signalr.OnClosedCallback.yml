@@ -4,7 +4,7 @@ fullName: "com.microsoft.signalr.OnClosedCallback"
 name: "OnClosedCallback"
 nameWithType: "OnClosedCallback"
 summary: "A callback to create and register on a Hub<wbr>Connections On<wbr>Closed method."
-syntax: "public interface OnClosedCallback"
+syntax: "public interface **OnClosedCallback**"
 methods:
 - uid: "com.microsoft.signalr.OnClosedCallback.invoke(java.lang.Exception)"
   fullName: "com.microsoft.signalr.OnClosedCallback.invoke(Exception exception)"
