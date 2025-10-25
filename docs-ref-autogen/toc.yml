@@ -4,70 +4,140 @@
   items:
   - uid: com.microsoft.signalr.Action
     name: Action
+    no-loc:
+    - Action
   - uid: com.microsoft.signalr.Action1
     name: Action1
+    no-loc:
+    - Action1
   - uid: com.microsoft.signalr.Action2
     name: Action2
+    no-loc:
+    - Action2
   - uid: com.microsoft.signalr.Action3
     name: Action3
+    no-loc:
+    - Action3
   - uid: com.microsoft.signalr.Action4
     name: Action4
+    no-loc:
+    - Action4
   - uid: com.microsoft.signalr.Action5
     name: Action5
+    no-loc:
+    - Action5
   - uid: com.microsoft.signalr.Action6
     name: Action6
+    no-loc:
+    - Action6
   - uid: com.microsoft.signalr.Action7
     name: Action7
+    no-loc:
+    - Action7
   - uid: com.microsoft.signalr.Action8
     name: Action8
+    no-loc:
+    - Action8
   - uid: com.microsoft.signalr.CancelInvocationMessage
     name: CancelInvocationMessage
+    no-loc:
+    - CancelInvocationMessage
   - uid: com.microsoft.signalr.CloseMessage
     name: CloseMessage
+    no-loc:
+    - CloseMessage
   - uid: com.microsoft.signalr.CompletionMessage
     name: CompletionMessage
+    no-loc:
+    - CompletionMessage
   - uid: com.microsoft.signalr.HttpHubConnectionBuilder
     name: HttpHubConnectionBuilder
+    no-loc:
+    - HttpHubConnectionBuilder
   - uid: com.microsoft.signalr.HubConnection
     name: HubConnection
+    no-loc:
+    - HubConnection
   - uid: com.microsoft.signalr.HubConnectionBuilder
     name: HubConnectionBuilder
+    no-loc:
+    - HubConnectionBuilder
   - uid: com.microsoft.signalr.HubConnectionState
     name: HubConnectionState
+    no-loc:
+    - HubConnectionState
   - uid: com.microsoft.signalr.HubException
     name: HubException
+    no-loc:
+    - HubException
   - uid: com.microsoft.signalr.HubMessage
     name: HubMessage
+    no-loc:
+    - HubMessage
   - uid: com.microsoft.signalr.HubMessageType
     name: HubMessageType
+    no-loc:
+    - HubMessageType
   - uid: com.microsoft.signalr.HubProtocol
     name: HubProtocol
+    no-loc:
+    - HubProtocol
   - uid: com.microsoft.signalr.InvocationBinder
     name: InvocationBinder
+    no-loc:
+    - InvocationBinder
   - uid: com.microsoft.signalr.InvocationBindingFailureMessage
     name: InvocationBindingFailureMessage
+    no-loc:
+    - InvocationBindingFailureMessage
   - uid: com.microsoft.signalr.InvocationMessage
     name: InvocationMessage
+    no-loc:
+    - InvocationMessage
   - uid: com.microsoft.signalr.OnClosedCallback
     name: OnClosedCallback
+    no-loc:
+    - OnClosedCallback
   - uid: com.microsoft.signalr.PingMessage
     name: PingMessage
+    no-loc:
+    - PingMessage
   - uid: com.microsoft.signalr.StreamBindingFailureMessage
     name: StreamBindingFailureMessage
+    no-loc:
+    - StreamBindingFailureMessage
   - uid: com.microsoft.signalr.StreamInvocationMessage
     name: StreamInvocationMessage
+    no-loc:
+    - StreamInvocationMessage
   - uid: com.microsoft.signalr.StreamItem
     name: StreamItem
+    no-loc:
+    - StreamItem
   - uid: com.microsoft.signalr.Subscription
     name: Subscription
+    no-loc:
+    - Subscription
   - uid: com.microsoft.signalr.TransportEnum
     name: TransportEnum
+    no-loc:
+    - TransportEnum
   - uid: com.microsoft.signalr.TypeReference
     name: TypeReference
+    no-loc:
+    - TypeReference
   - uid: com.microsoft.signalr.UserAgentHelper
     name: UserAgentHelper
+    no-loc:
+    - UserAgentHelper
+  no-loc:
+  - com.microsoft.signalr
 - uid: com.microsoft.signalr.messagepack
   name: com.microsoft.signalr.messagepack
   items:
   - uid: com.microsoft.signalr.messagepack.MessagePackHubProtocol
     name: MessagePackHubProtocol
+    no-loc:
+    - MessagePackHubProtocol
+  no-loc:
+  - com.microsoft.signalr.messagepack
